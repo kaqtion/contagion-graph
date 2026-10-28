@@ -1,0 +1,19 @@
+{
+ "ticker": "LITE",
+ "form": "10-K",
+ "filed_at": "2026-08-17",
+ "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
+ "accession": "0001628280-26-057358",
+ "cost_usd": 0.00067,
+ "relations": [
+  {
+   "subject": "Lumentum",
+   "relation": "competes_with",
+   "object": "Viavi Solutions, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Since our spin-off from JDSU (now Viavi Solutions, Inc., or Viavi), we have completed a number of acquisitions",
+   "verified": true
+  }
+ ]
+}

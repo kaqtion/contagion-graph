@@ -1,0 +1,46 @@
+{
+ "ticker": "APD",
+ "form": "10-K",
+ "filed_at": "2025-11-20",
+ "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296925000055/apd-20250930.htm",
+ "accession": "0000002969-25-000055",
+ "cost_usd": 0.00114,
+ "relations": [
+  {
+   "subject": "Air Products",
+   "relation": "competes_with",
+   "object": "Air Liquide S.A.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Each of the regional industrial gases segments competes against three global industrial gas companies: Air Liquide S.A., Linde plc, and Messer Group GmbH, as well as regional competitors.",
+   "verified": true
+  },
+  {
+   "subject": "Air Products",
+   "relation": "competes_with",
+   "object": "Linde plc",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Each of the regional industrial gases segments competes against three global industrial gas companies: Air Liquide S.A., Linde plc, and Messer Group GmbH, as well as regional competitors.",
+   "verified": true
+  },
+  {
+   "subject": "Air Products",
+   "relation": "competes_with",
+   "object": "Messer Group GmbH",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Each of the regional industrial gases segments competes against three global industrial gas companies: Air Liquide S.A., Linde plc, and Messer Group GmbH, as well as regional competitors.",
+   "verified": true
+  },
+  {
+   "subject": "Air Products",
+   "relation": "supplies_to",
+   "object": "Uzbekneftegaz JSC",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "Under the agreement, Air Products owns and operates the acquired facility and is supplying all offtake products to UNG under a 15 -year on-site contract, with UNG supplying the feedstock natural gas and utilities.",
+   "verified": true
+  }
+ ]
+}

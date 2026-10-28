@@ -1,0 +1,109 @@
+{
+ "ticker": "APTV",
+ "form": "10-K",
+ "filed_at": "2026-02-06",
+ "url": "https://www.sec.gov/Archives/edgar/data/1521332/000152133226000009/aptv-20251231.htm",
+ "accession": "0001521332-26-000009",
+ "cost_usd": 0.00129,
+ "relations": [
+  {
+   "subject": "Aptiv",
+   "relation": "competes_with",
+   "object": "Bosch Group",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Segment Competitors Advanced Safety and User Experience \u2022 Bosch Group \u2022 Aumovio Se \u2022 Denso Corporation \u2022 Gentex Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Aptiv",
+   "relation": "competes_with",
+   "object": "Aumovio Se",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Segment Competitors Advanced Safety and User Experience \u2022 Bosch Group \u2022 Aumovio Se \u2022 Denso Corporation \u2022 Gentex Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Aptiv",
+   "relation": "competes_with",
+   "object": "Denso Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Segment Competitors Advanced Safety and User Experience \u2022 Bosch Group \u2022 Aumovio Se \u2022 Denso Corporation \u2022 Gentex Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Aptiv",
+   "relation": "competes_with",
+   "object": "Gentex Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Segment Competitors Advanced Safety and User Experience \u2022 Bosch Group \u2022 Aumovio Se \u2022 Denso Corporation \u2022 Gentex Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Aptiv",
+   "relation": "competes_with",
+   "object": "Yazaki Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "\u2022 Yazaki Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Aptiv",
+   "relation": "supplies_to",
+   "object": "GM",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "As GM, Ford and Stellantis are among our largest customers, these labor strikes adversely impacted our financial condition, operating results",
+   "verified": true
+  },
+  {
+   "subject": "Aptiv",
+   "relation": "supplies_to",
+   "object": "Ford Motor Company",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "As GM, Ford and Stellantis are among our largest customers, these labor strikes adversely impacted our financial condition, operating results",
+   "verified": true
+  },
+  {
+   "subject": "Aptiv",
+   "relation": "supplies_to",
+   "object": "Stellantis N.V.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "As GM, Ford and Stellantis are among our largest customers, these labor strikes adversely impacted our financial condition, operating results",
+   "verified": true
+  },
+  {
+   "subject": "Aptiv",
+   "relation": "operates_in",
+   "object": "Europe",
+   "strength_tier": "major",
+   "revenue_pct": 32,
+   "quote": "in particular, the European economy, a region which accounted for approximately 32% of our net sales for the year ended December 31, 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Aptiv",
+   "relation": "depends_on",
+   "object": "copper",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The most significant raw materials we use to manufacture our products include copper and resins.",
+   "verified": true
+  },
+  {
+   "subject": "Aptiv",
+   "relation": "depends_on",
+   "object": "resins",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The most significant raw materials we use to manufacture our products include copper and resins.",
+   "verified": true
+  }
+ ]
+}

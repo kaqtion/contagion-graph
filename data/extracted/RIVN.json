@@ -1,0 +1,73 @@
+{
+ "ticker": "RIVN",
+ "form": "10-K",
+ "filed_at": "2026-02-12",
+ "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000008/rivn-20251231.htm",
+ "accession": "0001874178-26-000008",
+ "cost_usd": 0.0012,
+ "relations": [
+  {
+   "subject": "Rivian",
+   "relation": "supplies_to",
+   "object": "Amazon",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Under the EDV Agreement, we and Logistics agreed to collaborate to design and develop EDVs and/or certain component parts for use in Amazon\u2019s last mile delivery operations.",
+   "verified": true
+  },
+  {
+   "subject": "Rivian",
+   "relation": "supplies_to",
+   "object": "Volkswagen Group",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company recognized $ 73 million and $ 836 million for the years ended December 31, 2024 and 2025, respectively, of revenue for the combined performance obligation with Volkswagen Group, a related party of the Company.",
+   "verified": true
+  },
+  {
+   "subject": "Rivian",
+   "relation": "depends_on",
+   "object": "lithium",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Battery raw materials, including lithium, nickel, graphite, and cobalt, represent one of the most vulnerable parts of our supply chain.",
+   "verified": true
+  },
+  {
+   "subject": "Rivian",
+   "relation": "depends_on",
+   "object": "nickel",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Battery raw materials, including lithium, nickel, graphite, and cobalt, represent one of the most vulnerable parts of our supply chain.",
+   "verified": true
+  },
+  {
+   "subject": "Rivian",
+   "relation": "depends_on",
+   "object": "graphite",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Battery raw materials, including lithium, nickel, graphite, and cobalt, represent one of the most vulnerable parts of our supply chain.",
+   "verified": true
+  },
+  {
+   "subject": "Rivian",
+   "relation": "depends_on",
+   "object": "cobalt",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Battery raw materials, including lithium, nickel, graphite, and cobalt, represent one of the most vulnerable parts of our supply chain.",
+   "verified": true
+  },
+  {
+   "subject": "Rivian",
+   "relation": "depends_on",
+   "object": "rare earth minerals",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "magnet materials, particularly heavy rare earth minerals are currently required for multiple elements of our vehicles, are of limited supply geographically",
+   "verified": true
+  }
+ ]
+}

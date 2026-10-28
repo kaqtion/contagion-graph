@@ -1,0 +1,109 @@
+{
+ "ticker": "GNTX",
+ "form": "10-K",
+ "filed_at": "2026-02-24",
+ "url": "https://www.sec.gov/Archives/edgar/data/355811/000035581126000010/gntx-20251231.htm",
+ "accession": "0000355811-26-000010",
+ "cost_usd": 0.00163,
+ "relations": [
+  {
+   "subject": "Gentex",
+   "relation": "competes_with",
+   "object": "Magna International",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "include Magna International (\"Magna\"), Ficosa, Fudi Technology, Findream Technology, Ganxiang, Hefei Haoxiang, Kingband",
+   "verified": true
+  },
+  {
+   "subject": "Gentex",
+   "relation": "competes_with",
+   "object": "Magna Mirrors",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "another U.S. manufacturer, Magna Mirrors, a division of Magna, continues to compete for sales to domestic and foreign vehicle manufacturers and is supplying a number of domestic and foreign vehicle models with its versions of auto-dimming mirrors. As such, Magna may present a formidable competitive threat.",
+   "verified": true
+  },
+  {
+   "subject": "Gentex",
+   "relation": "supplies_to",
+   "object": "Magna Mirrors",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The Company also continues to sell automatic-dimming exterior mirror sub-assemblies to Magna Mirrors.",
+   "verified": true
+  },
+  {
+   "subject": "Gentex",
+   "relation": "competes_with",
+   "object": "Panasonic",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "at least one Japan manufacturer (Panasonic) sells and markets competitive FDM \u00ae type products in Japan.",
+   "verified": true
+  },
+  {
+   "subject": "Gentex",
+   "relation": "competes_with",
+   "object": "Denso",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Denso, LG, Continental, Lear, Bosch, and Forvia (Fauricia).",
+   "verified": true
+  },
+  {
+   "subject": "Gentex",
+   "relation": "competes_with",
+   "object": "Continental",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Denso, LG, Continental, Lear, Bosch, and Forvia (Fauricia).",
+   "verified": true
+  },
+  {
+   "subject": "Gentex",
+   "relation": "competes_with",
+   "object": "Bosch",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Denso, LG, Continental, Lear, Bosch, and Forvia (Fauricia).",
+   "verified": true
+  },
+  {
+   "subject": "Gentex",
+   "relation": "supplies_to",
+   "object": "Toyota Motor Company",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "three automotive customers which each account for 10% or more of our annual consolidated net sales in 2025 (including direct sales to OEM customers and sales through their Tier 1 suppliers): Toyota Motor Company, Volkswagen Group, and General Motors.",
+   "verified": true
+  },
+  {
+   "subject": "Gentex",
+   "relation": "supplies_to",
+   "object": "Volkswagen Group",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "three automotive customers which each account for 10% or more of our annual consolidated net sales in 2025 (including direct sales to OEM customers and sales through their Tier 1 suppliers): Toyota Motor Company, Volkswagen Group, and General Motors.",
+   "verified": true
+  },
+  {
+   "subject": "Gentex",
+   "relation": "supplies_to",
+   "object": "General Motors",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "three automotive customers which each account for 10% or more of our annual consolidated net sales in 2025 (including direct sales to OEM customers and sales through their Tier 1 suppliers): Toyota Motor Company, Volkswagen Group, and General Motors.",
+   "verified": true
+  },
+  {
+   "subject": "Gentex",
+   "relation": "operates_in",
+   "object": "United States",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "with the Company primarily manufacturing in the United States",
+   "verified": true
+  }
+ ]
+}

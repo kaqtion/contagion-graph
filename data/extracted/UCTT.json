@@ -1,0 +1,190 @@
+{
+ "ticker": "UCTT",
+ "form": "10-K",
+ "filed_at": "2026-02-23",
+ "url": "https://www.sec.gov/Archives/edgar/data/1275014/000162828026010744/uctt-20251226.htm",
+ "accession": "0001628280-26-010744",
+ "cost_usd": 0.00128,
+ "relations": [
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "supplies_to",
+   "object": "Applied Materials, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our two largest revenue customers in fiscal years 2025, 2024 and 2023 were Applied Materials, Inc. and Lam Research Corporation, each of which accounted for more than 10% of our total revenues in those three years.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "supplies_to",
+   "object": "Lam Research Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our two largest revenue customers in fiscal years 2025, 2024 and 2023 were Applied Materials, Inc. and Lam Research Corporation, each of which accounted for more than 10% of our total revenues in those three years.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "supplies_to",
+   "object": "ASML Holding NV",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Three customers\u2019 gross accounts receivable balances, Applied Materials, Inc., Lam Research Corporation and ASML Holding NV were individually greater than 10.0% of gross accounts receivable as of December 27, 2024",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Ichor Systems, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal competitors for gas delivery systems are Ichor Systems, Inc. and Fujikin Incorporated",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Fujikin Incorporated",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal competitors for gas delivery systems are Ichor Systems, Inc. and Fujikin Incorporated",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Foxsemicon Integrated Technology Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our principal competitors for other critical subsystems are Foxsemicon Integrated Technology Inc., Jabil, Inc., VDL ETG, Celestica Inc. and Benchmark Electronics, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Jabil, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our principal competitors for other critical subsystems are Foxsemicon Integrated Technology Inc., Jabil, Inc., VDL ETG, Celestica Inc. and Benchmark Electronics, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "VDL ETG",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our principal competitors for other critical subsystems are Foxsemicon Integrated Technology Inc., Jabil, Inc., VDL ETG, Celestica Inc. and Benchmark Electronics, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Celestica Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our principal competitors for other critical subsystems are Foxsemicon Integrated Technology Inc., Jabil, Inc., VDL ETG, Celestica Inc. and Benchmark Electronics, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Benchmark Electronics, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our principal competitors for other critical subsystems are Foxsemicon Integrated Technology Inc., Jabil, Inc., VDL ETG, Celestica Inc. and Benchmark Electronics, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Swagelok",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For our gas delivery component solutions our principal competitors are Swagelok, Parker Hannifin, Fujikin and Watlow.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Parker Hannifin",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For our gas delivery component solutions our principal competitors are Swagelok, Parker Hannifin, Fujikin and Watlow.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Watlow",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For our gas delivery component solutions our principal competitors are Swagelok, Parker Hannifin, Fujikin and Watlow.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "KoMiCo",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For our services, cleaning and coating offerings, our main competitors are KoMiCo, SHT, EnPro and Pentagon.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "SHT",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For our services, cleaning and coating offerings, our main competitors are KoMiCo, SHT, EnPro and Pentagon.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "EnPro",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For our services, cleaning and coating offerings, our main competitors are KoMiCo, SHT, EnPro and Pentagon.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Pentagon",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For our services, cleaning and coating offerings, our main competitors are KoMiCo, SHT, EnPro and Pentagon.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Balazs",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For analytical services our primary competitors are Balazs (an Air Liquide company), Eurofins and SCAS.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Eurofins",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For analytical services our primary competitors are Balazs (an Air Liquide company), Eurofins and SCAS.",
+   "verified": true
+  },
+  {
+   "subject": "Ultra Clean Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "SCAS",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For analytical services our primary competitors are Balazs (an Air Liquide company), Eurofins and SCAS.",
+   "verified": true
+  }
+ ]
+}

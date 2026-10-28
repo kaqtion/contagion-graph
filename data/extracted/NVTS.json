@@ -1,0 +1,154 @@
+{
+ "ticker": "NVTS",
+ "form": "10-K",
+ "filed_at": "2026-02-27",
+ "url": "https://www.sec.gov/Archives/edgar/data/1821769/000182176926000007/nvts-20251231.htm",
+ "accession": "0001821769-26-000007",
+ "cost_usd": 0.00166,
+ "relations": [
+  {
+   "subject": "Navitas",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Company Limited",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "Specifically, we have historically relied on Taiwan Semiconductor Manufacturing Company Limited (\u201cTSMC\u201d) as our sole supplier of gallium nitride (\u201cGaN\u201d) wafers, a key component in our product offerings.",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "buys_from",
+   "object": "GlobalFoundries",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our US based GaN fabrication partner is GlobalFoundries.",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "buys_from",
+   "object": "Powerchip Semiconductor Manufacturing Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "expanding our collaboration with Powerchip Semiconductor Manufacturing Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "buys_from",
+   "object": "X-Fab",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our SiC products are manufactured in the United States by X-Fab using",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "competes_with",
+   "object": "Infineon Technologies AG",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary GaN competitors include Infineon Technologies AG, Power Integrations, Inc., Texas Instruments Incorporated, Innoscience (Suzhou) Semiconductor Co., Ltd., Renesas Electronics Corp., and Efficient Power Conversion Corporation (EPC).",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "competes_with",
+   "object": "Power Integrations, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary GaN competitors include Infineon Technologies AG, Power Integrations, Inc., Texas Instruments Incorporated, Innoscience (Suzhou) Semiconductor Co., Ltd., Renesas Electronics Corp., and Efficient Power Conversion Corporation (EPC).",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "competes_with",
+   "object": "Texas Instruments Incorporated",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary GaN competitors include Infineon Technologies AG, Power Integrations, Inc., Texas Instruments Incorporated, Innoscience (Suzhou) Semiconductor Co., Ltd., Renesas Electronics Corp., and Efficient Power Conversion Corporation (EPC).",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "competes_with",
+   "object": "Innoscience (Suzhou) Semiconductor Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary GaN competitors include Infineon Technologies AG, Power Integrations, Inc., Texas Instruments Incorporated, Innoscience (Suzhou) Semiconductor Co., Ltd., Renesas Electronics Corp., and Efficient Power Conversion Corporation (EPC).",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "competes_with",
+   "object": "Renesas Electronics Corp.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary GaN competitors include Infineon Technologies AG, Power Integrations, Inc., Texas Instruments Incorporated, Innoscience (Suzhou) Semiconductor Co., Ltd., Renesas Electronics Corp., and Efficient Power Conversion Corporation (EPC).",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "competes_with",
+   "object": "Efficient Power Conversion Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary GaN competitors include Infineon Technologies AG, Power Integrations, Inc., Texas Instruments Incorporated, Innoscience (Suzhou) Semiconductor Co., Ltd., Renesas Electronics Corp., and Efficient Power Conversion Corporation (EPC).",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "competes_with",
+   "object": "Wolfspeed, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary SiC competitors include Infineon, Wolfspeed, Inc., ON Semiconductor Corporation, ROHM Co., Ltd., Qorvo, Inc., and STMicroelectronics International N.V.",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "competes_with",
+   "object": "ON Semiconductor Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary SiC competitors include Infineon, Wolfspeed, Inc., ON Semiconductor Corporation, ROHM Co., Ltd., Qorvo, Inc., and STMicroelectronics International N.V.",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "competes_with",
+   "object": "ROHM Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary SiC competitors include Infineon, Wolfspeed, Inc., ON Semiconductor Corporation, ROHM Co., Ltd., Qorvo, Inc., and STMicroelectronics International N.V.",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "competes_with",
+   "object": "Qorvo, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary SiC competitors include Infineon, Wolfspeed, Inc., ON Semiconductor Corporation, ROHM Co., Ltd., Qorvo, Inc., and STMicroelectronics International N.V.",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "competes_with",
+   "object": "STMicroelectronics International N.V.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary SiC competitors include Infineon, Wolfspeed, Inc., ON Semiconductor Corporation, ROHM Co., Ltd., Qorvo, Inc., and STMicroelectronics International N.V.",
+   "verified": true
+  },
+  {
+   "subject": "Navitas",
+   "relation": "depends_on",
+   "object": "Gallium",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Gallium, the primary material in our GaN products, is produced as a byproduct of aluminum refining (bauxite processing).",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "ticker": "ALGM",
+ "form": "10-K",
+ "filed_at": "2026-05-21",
+ "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526233537/algm-20260327.htm",
+ "accession": "0001193125-26-233537",
+ "cost_usd": 0.0014,
+ "relations": [
+  {
+   "subject": "Allegro",
+   "relation": "buys_from",
+   "object": "Polar Semiconductor, LLC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We also maintain manufacturing relationships with Polar Semiconductor, LLC (\u201cPolar\u201d) in North America and various internal and external assembly and test partners across Asia",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "buys_from",
+   "object": "UMC",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary fab partners currently include UMC, PSL, Tower and TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "buys_from",
+   "object": "PSL",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary fab partners currently include UMC, PSL, Tower and TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "buys_from",
+   "object": "Tower",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary fab partners currently include UMC, PSL, Tower and TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "buys_from",
+   "object": "TSMC",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary fab partners currently include UMC, PSL, Tower and TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "Sanken Electric Co., Ltd.",
+   "relation": "buys_from",
+   "object": "Allegro",
+   "strength_tier": "minor",
+   "revenue_pct": 0.6,
+   "quote": "For the fiscal year ended March 29, 2024, Sanken Electric Co., Ltd. (\u201cSanken\u201d) accounted for 0.6 % of total net sales.",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "operates_in",
+   "object": "Philippines",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our facility in the Philippines (\u201cAMPI\u201d) serves as our primary internal assembly and testing site.",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "depends_on",
+   "object": "samarium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing processes use raw materials, including silicon wafers, laminate substrates, lead frames, gold and copper wires, rare earth materials, including samarium used in our magnetic sensors, and molding compounds.",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "depends_on",
+   "object": "silicon wafers",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing processes use raw materials, including silicon wafers, laminate substrates, lead frames, gold and copper wires, rare earth materials, including samarium used in our magnetic sensors, and molding compounds.",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "depends_on",
+   "object": "gold",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing processes use raw materials, including silicon wafers, laminate substrates, lead frames, gold and copper wires, rare earth materials, including samarium used in our magnetic sensors, and molding compounds.",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "depends_on",
+   "object": "copper",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing processes use raw materials, including silicon wafers, laminate substrates, lead frames, gold and copper wires, rare earth materials, including samarium used in our magnetic sensors, and molding compounds.",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we expect to continue to strategically invest in expanding our operations in China, Europe, Japan and India in order to directly manage and service our customers in these markets",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "operates_in",
+   "object": "Europe",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we expect to continue to strategically invest in expanding our operations in China, Europe, Japan and India in order to directly manage and service our customers in these markets",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we expect to continue to strategically invest in expanding our operations in China, Europe, Japan and India in order to directly manage and service our customers in these markets",
+   "verified": true
+  },
+  {
+   "subject": "Allegro",
+   "relation": "operates_in",
+   "object": "India",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we expect to continue to strategically invest in expanding our operations in China, Europe, Japan and India in order to directly manage and service our customers in these markets",
+   "verified": true
+  }
+ ]
+}

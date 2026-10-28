@@ -1,0 +1,28 @@
+{
+ "ticker": "STM",
+ "form": "20-F",
+ "filed_at": "2026-02-26",
+ "url": "https://www.sec.gov/Archives/edgar/data/932787/000093278726000009/stm-20251231.htm",
+ "accession": "0000932787-26-000009",
+ "cost_usd": 0.00102,
+ "relations": [
+  {
+   "subject": "STMicroelectronics",
+   "relation": "supplies_to",
+   "object": "Apple",
+   "strength_tier": "major",
+   "revenue_pct": 17.7,
+   "quote": "In 2025 our largest customer, Apple, accounted for 17.7% of our total revenues.",
+   "verified": true
+  },
+  {
+   "subject": "STMicroelectronics",
+   "relation": "buys_from",
+   "object": "Sanan ST JV",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "Indeed the significant activities of Sanan ST JV involve or are conducted on behalf of the Company as the sole customer of the joint venture.",
+   "verified": true
+  }
+ ]
+}

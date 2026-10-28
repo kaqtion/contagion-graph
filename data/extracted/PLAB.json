@@ -1,0 +1,127 @@
+{
+ "ticker": "PLAB",
+ "form": "10-K",
+ "filed_at": "2025-12-17",
+ "url": "https://www.sec.gov/Archives/edgar/data/810136/000114036125045801/ef20057458_10k.htm",
+ "accession": "0001140361-25-045801",
+ "cost_usd": 0.00161,
+ "relations": [
+  {
+   "subject": "Photronics",
+   "relation": "competes_with",
+   "object": "Compugraphics International, Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Compugraphics International, Ltd., Dai Nippon Printing Co., Ltd (outside of Taiwan and China), Hoya Corporation, LG Innotek Co., Ltd., Shenzhen Newway Photomask Making Co., Ltd., Shenzhen Qingyi Photomask, Ltd., SK-Electronics Co., Ltd., Taiwan Mask Corporation, and Tekscend Photomask.",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "competes_with",
+   "object": "Dai Nippon Printing Co., Ltd",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Compugraphics International, Ltd., Dai Nippon Printing Co., Ltd (outside of Taiwan and China), Hoya Corporation, LG Innotek Co., Ltd., Shenzhen Newway Photomask Making Co., Ltd., Shenzhen Qingyi Photomask, Ltd., SK-Electronics Co., Ltd., Taiwan Mask Corporation, and Tekscend Photomask.",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "competes_with",
+   "object": "Hoya Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Compugraphics International, Ltd., Dai Nippon Printing Co., Ltd (outside of Taiwan and China), Hoya Corporation, LG Innotek Co., Ltd., Shenzhen Newway Photomask Making Co., Ltd., Shenzhen Qingyi Photomask, Ltd., SK-Electronics Co., Ltd., Taiwan Mask Corporation, and Tekscend Photomask.",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "competes_with",
+   "object": "LG Innotek Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Compugraphics International, Ltd., Dai Nippon Printing Co., Ltd (outside of Taiwan and China), Hoya Corporation, LG Innotek Co., Ltd., Shenzhen Newway Photomask Making Co., Ltd., Shenzhen Qingyi Photomask, Ltd., SK-Electronics Co., Ltd., Taiwan Mask Corporation, and Tekscend Photomask.",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "competes_with",
+   "object": "Shenzhen Newway Photomask Making Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Compugraphics International, Ltd., Dai Nippon Printing Co., Ltd (outside of Taiwan and China), Hoya Corporation, LG Innotek Co., Ltd., Shenzhen Newway Photomask Making Co., Ltd., Shenzhen Qingyi Photomask, Ltd., SK-Electronics Co., Ltd., Taiwan Mask Corporation, and Tekscend Photomask.",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "competes_with",
+   "object": "Shenzhen Qingyi Photomask, Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Compugraphics International, Ltd., Dai Nippon Printing Co., Ltd (outside of Taiwan and China), Hoya Corporation, LG Innotek Co., Ltd., Shenzhen Newway Photomask Making Co., Ltd., Shenzhen Qingyi Photomask, Ltd., SK-Electronics Co., Ltd., Taiwan Mask Corporation, and Tekscend Photomask.",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "competes_with",
+   "object": "SK-Electronics Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Compugraphics International, Ltd., Dai Nippon Printing Co., Ltd (outside of Taiwan and China), Hoya Corporation, LG Innotek Co., Ltd., Shenzhen Newway Photomask Making Co., Ltd., Shenzhen Qingyi Photomask, Ltd., SK-Electronics Co., Ltd., Taiwan Mask Corporation, and Tekscend Photomask.",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "competes_with",
+   "object": "Taiwan Mask Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Compugraphics International, Ltd., Dai Nippon Printing Co., Ltd (outside of Taiwan and China), Hoya Corporation, LG Innotek Co., Ltd., Shenzhen Newway Photomask Making Co., Ltd., Shenzhen Qingyi Photomask, Ltd., SK-Electronics Co., Ltd., Taiwan Mask Corporation, and Tekscend Photomask.",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "competes_with",
+   "object": "Tekscend Photomask",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Compugraphics International, Ltd., Dai Nippon Printing Co., Ltd (outside of Taiwan and China), Hoya Corporation, LG Innotek Co., Ltd., Shenzhen Newway Photomask Making Co., Ltd., Shenzhen Qingyi Photomask, Ltd., SK-Electronics Co., Ltd., Taiwan Mask Corporation, and Tekscend Photomask.",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We have eleven manufacturing facilities, which are located in Taiwan (3), China (2), South Korea (1), the United States (3), and Europe (2).",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We have eleven manufacturing facilities, which are located in Taiwan (3), China (2), South Korea (1), the United States (3), and Europe (2).",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "operates_in",
+   "object": "South Korea",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We have eleven manufacturing facilities, which are located in Taiwan (3), China (2), South Korea (1), the United States (3), and Europe (2).",
+   "verified": true
+  },
+  {
+   "subject": "Photronics",
+   "relation": "depends_on",
+   "object": "quartz",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Raw materials used by Photronics generally include: high precision quartz substrates (including large area substrates for FPD), which are used as photomask starting blanks and are primarily obtained from Japanese and South Korean suppliers",
+   "verified": true
+  }
+ ]
+}

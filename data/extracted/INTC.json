@@ -1,0 +1,154 @@
+{
+ "ticker": "INTC",
+ "form": "10-K",
+ "filed_at": "2026-01-23",
+ "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+ "accession": "0000050863-26-000011",
+ "cost_usd": 0.00105,
+ "relations": [
+  {
+   "subject": "Intel",
+   "relation": "depends_on",
+   "object": "ASML",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "ASML Holding N.V. (ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "buys_from",
+   "object": "ASML",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "In some cases, however, we are reliant upon sole-source providers, such as with the EUV lithography tools manufactured by ASML that are required for leading-edge process technologies",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "buys_from",
+   "object": "TSMC",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we have used third-party foundry manufacturing capacity, including at one of our key foundry competitors, TSMC, for various tiles or an entire product where advantageous for cost, performance, schedule or other considerations.",
+   "verified": false
+  },
+  {
+   "subject": "Intel",
+   "relation": "buys_from",
+   "object": "TSMC",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Some of our most advanced current and future products are or will be either exclusively manufactured by TSMC or reliant upon critical components, including various compute die, manufactured by TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "competes_with",
+   "object": "AMD",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "CCG's primary competitor is AMD, which like us designs processors based on the x86 architecture.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "competes_with",
+   "object": "TSMC",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitor in leading-edge semiconductor process technology is TSMC, which holds a leading position in manufacturing at scale for the most advanced nodes.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "competes_with",
+   "object": "Samsung",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We also compete directly with Samsung in this market.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "competes_with",
+   "object": "NVIDIA",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "providers of GPU systems such as NVIDIA, whose GPU systems have experienced the highest demand in the market",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "competes_with",
+   "object": "Apple",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "such as Apple with its M series products, Qualcomm with its Snapdragon products and MediaTek with its Kompanio products.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "competes_with",
+   "object": "Qualcomm",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Qualcomm with its Snapdragon products and MediaTek with its Kompanio products.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "competes_with",
+   "object": "MediaTek",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Qualcomm with its Snapdragon products and MediaTek with its Kompanio products.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "competes_with",
+   "object": "Broadcom",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We also compete with Broadcom in the custom ASICs development market.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "competes_with",
+   "object": "GlobalFoundries",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other Intel Foundry competitors include GlobalFoundries, UMC and SMIC, which primarily focus on mature process technologies.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "competes_with",
+   "object": "UMC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other Intel Foundry competitors include GlobalFoundries, UMC and SMIC, which primarily focus on mature process technologies.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "competes_with",
+   "object": "SMIC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other Intel Foundry competitors include GlobalFoundries, UMC and SMIC, which primarily focus on mature process technologies.",
+   "verified": true
+  },
+  {
+   "subject": "Intel",
+   "relation": "operates_in",
+   "object": "Ireland",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Ireland SCIP has rights to factory output of an Intel owned wafer fabrication plant in Ireland (Fab 34)",
+   "verified": true
+  }
+ ]
+}

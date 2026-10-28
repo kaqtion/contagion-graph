@@ -1,0 +1,19 @@
+{
+ "ticker": "SYNA",
+ "form": "10-K",
+ "filed_at": "2026-08-10",
+ "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000055/syna-20260627.htm",
+ "accession": "0000817720-26-000055",
+ "cost_usd": 0.00068,
+ "relations": [
+  {
+   "subject": "Synaptics",
+   "relation": "operates_in",
+   "object": "Asia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our third-party contract manufacturers and semiconductor fabricators are predominantly Asia-based organizations.",
+   "verified": true
+  }
+ ]
+}

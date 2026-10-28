@@ -1,0 +1,172 @@
+{
+ "ticker": "NVDA",
+ "form": "10-K",
+ "filed_at": "2026-02-25",
+ "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+ "accession": "0001045810-26-000021",
+ "cost_usd": 0.00321,
+ "relations": [
+  {
+   "subject": "NVIDIA",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Company Limited",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers.",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "buys_from",
+   "object": "Samsung Electronics Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers.",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "buys_from",
+   "object": "SK Hynix Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung.",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "buys_from",
+   "object": "Micron Technology, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung.",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "buys_from",
+   "object": "Hon Hai Precision Industry Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "buys_from",
+   "object": "Wistron Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "buys_from",
+   "object": "Fabrinet",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "competes_with",
+   "object": "Advanced Micro Devices, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "such as Advanced Micro Devices, Inc., or AMD, Huawei Technologies Co. Ltd., or Huawei, and Intel Corporation, or Intel;",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "competes_with",
+   "object": "Huawei Technologies Co. Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "such as Advanced Micro Devices, Inc., or AMD, Huawei Technologies Co. Ltd., or Huawei, and Intel Corporation, or Intel;",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "competes_with",
+   "object": "Intel Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "such as Advanced Micro Devices, Inc., or AMD, Huawei Technologies Co. Ltd., or Huawei, and Intel Corporation, or Intel;",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "competes_with",
+   "object": "Ambarella, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "such as Ambarella, Inc., AMD, Broadcom, Intel, Qualcomm Incorporated, Renesas Electronics Corporation, and Samsung",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "competes_with",
+   "object": "Qualcomm Incorporated",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "such as Ambarella, Inc., AMD, Broadcom, Intel, Qualcomm Incorporated, Renesas Electronics Corporation, and Samsung",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "competes_with",
+   "object": "Tesla, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "companies with internal teams designing SoC products for their own products and services, such as Tesla, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "competes_with",
+   "object": "Arista Networks",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "include such as AMD, Arista Networks, Broadcom, Cisco Systems, Inc., Hewlett Packard Enterprise Company",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "competes_with",
+   "object": "Cisco Systems, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "include such as AMD, Arista Networks, Broadcom, Cisco Systems, Inc., Hewlett Packard Enterprise Company",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "competes_with",
+   "object": "Hewlett Packard Enterprise Company",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "include such as AMD, Arista Networks, Broadcom, Cisco Systems, Inc., Hewlett Packard Enterprise Company",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "operates_in",
+   "object": "Asia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "While currently our supply chain is mainly concentrated in Asia, we are expanding into the U.S. and Latin America.",
+   "verified": true
+  },
+  {
+   "subject": "NVIDIA",
+   "relation": "operates_in",
+   "object": "Israel",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "other countries have restricted and may continue in the future to restrict business with the State of Israel, where we have engineering, sales support operations and manufacturing",
+   "verified": true
+  }
+ ]
+}

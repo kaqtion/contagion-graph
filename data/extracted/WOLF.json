@@ -1,0 +1,109 @@
+{
+ "ticker": "WOLF",
+ "form": "10-K",
+ "filed_at": "2026-08-20",
+ "url": "https://www.sec.gov/Archives/edgar/data/895419/000089541926000054/wolf-20260628.htm",
+ "accession": "0000895419-26-000054",
+ "cost_usd": 0.00109,
+ "relations": [
+  {
+   "subject": "Wolfspeed",
+   "relation": "competes_with",
+   "object": "SICC Co., LTD.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we have experienced increased competition from companies such as SICC Co., LTD., and TanKeBlue Semiconductor Co., Ltd in China.",
+   "verified": true
+  },
+  {
+   "subject": "Wolfspeed",
+   "relation": "competes_with",
+   "object": "TanKeBlue Semiconductor Co., Ltd",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we have experienced increased competition from companies such as SICC Co., LTD., and TanKeBlue Semiconductor Co., Ltd in China.",
+   "verified": true
+  },
+  {
+   "subject": "Wolfspeed",
+   "relation": "competes_with",
+   "object": "Infineon Technologies AG",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "compete with silicon carbide power semiconductor solutions offered by companies like Infineon Technologies AG, ON Semiconductor Corporation, Rohm Co. Ltd., ST Microelectronics N.V., Robert Bosch GmbH, and Silan Microelectronics Co. Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Wolfspeed",
+   "relation": "competes_with",
+   "object": "ON Semiconductor Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "compete with silicon carbide power semiconductor solutions offered by companies like Infineon Technologies AG, ON Semiconductor Corporation, Rohm Co. Ltd., ST Microelectronics N.V., Robert Bosch GmbH, and Silan Microelectronics Co. Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Wolfspeed",
+   "relation": "competes_with",
+   "object": "Rohm Co. Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "compete with silicon carbide power semiconductor solutions offered by companies like Infineon Technologies AG, ON Semiconductor Corporation, Rohm Co. Ltd., ST Microelectronics N.V., Robert Bosch GmbH, and Silan Microelectronics Co. Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Wolfspeed",
+   "relation": "competes_with",
+   "object": "ST Microelectronics N.V.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "compete with silicon carbide power semiconductor solutions offered by companies like Infineon Technologies AG, ON Semiconductor Corporation, Rohm Co. Ltd., ST Microelectronics N.V., Robert Bosch GmbH, and Silan Microelectronics Co. Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Wolfspeed",
+   "relation": "competes_with",
+   "object": "Robert Bosch GmbH",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "compete with silicon carbide power semiconductor solutions offered by companies like Infineon Technologies AG, ON Semiconductor Corporation, Rohm Co. Ltd., ST Microelectronics N.V., Robert Bosch GmbH, and Silan Microelectronics Co. Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Wolfspeed",
+   "relation": "competes_with",
+   "object": "Silan Microelectronics Co. Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "compete with silicon carbide power semiconductor solutions offered by companies like Infineon Technologies AG, ON Semiconductor Corporation, Rohm Co. Ltd., ST Microelectronics N.V., Robert Bosch GmbH, and Silan Microelectronics Co. Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Wolfspeed",
+   "relation": "supplies_to",
+   "object": "MACOM",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "MACOM will purchase Epi wafers from the Company from the RTP Fab Transfer Date until the fifth anniversary of the RTP Fab Transfer Date",
+   "verified": true
+  },
+  {
+   "subject": "Wolfspeed",
+   "relation": "supplies_to",
+   "object": "CreeLED, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "pursuant to which the Company supplied CreeLED with certain silicon carbide materials and fabrication services.",
+   "verified": true
+  },
+  {
+   "subject": "Wolfspeed",
+   "relation": "supplies_to",
+   "object": "SMART Global Holdings, Inc",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The Company terminated the Wafer Supply Agreement effective as of September 30, 2024.",
+   "verified": true
+  }
+ ]
+}

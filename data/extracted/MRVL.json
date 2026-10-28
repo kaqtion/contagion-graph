@@ -1,0 +1,118 @@
+{
+ "ticker": "MRVL",
+ "form": "10-K",
+ "filed_at": "2026-03-11",
+ "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
+ "accession": "0001835632-26-000011",
+ "cost_usd": 0.00094,
+ "relations": [
+  {
+   "subject": "Marvell",
+   "relation": "competes_with",
+   "object": "Advanced Micro Devices, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Companies that compete directly with our businesses include, but are not limited to, Advanced Micro Devices, Inc. (\u201cAMD\u201d), Alchip Technologies (\u201cAlchip\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "Marvell",
+   "relation": "competes_with",
+   "object": "Broadcom Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Broadcom Inc. (\u201cBroadcom\u201d), Cisco Systems, Inc. (\u201cCisco\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "Marvell",
+   "relation": "competes_with",
+   "object": "Cisco Systems, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Broadcom Inc. (\u201cBroadcom\u201d), Cisco Systems, Inc. (\u201cCisco\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "Marvell",
+   "relation": "competes_with",
+   "object": "Intel Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Credo Technology Group Holding Ltd, Intel Corporation, Global Unichip Corporation (\u201cGUC\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "Marvell",
+   "relation": "competes_with",
+   "object": "Nvidia Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Montage Technology, Nvidia Corporation, NXP Semiconductors N.V.",
+   "verified": true
+  },
+  {
+   "subject": "Marvell",
+   "relation": "competes_with",
+   "object": "Qualcomm Incorporated",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Phison Electronics Corporation, Qualcomm Incorporated (\u201cQualcomm\u201d), Rambus, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Marvell",
+   "relation": "competes_with",
+   "object": "MediaTek Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "MACOM Technology Solutions Holdings, Inc., MediaTek Inc., Microchip Technology Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Marvell",
+   "relation": "competes_with",
+   "object": "Semtech Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Realtek Semiconductor Corporation, Semtech Corporation, Silicon Motion Technology Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Marvell",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Company Limited",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Most of our products are manufactured by third-party foundries located in Taiwan",
+   "verified": true
+  },
+  {
+   "subject": "Marvell",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "a substantial amount of our revenue is derived from products manufactured in Taiwan",
+   "verified": true
+  },
+  {
+   "subject": "Marvell",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "other sources are located in China, Germany, South Korea, Singapore and the United States",
+   "verified": true
+  },
+  {
+   "subject": "Marvell",
+   "relation": "operates_in",
+   "object": "Asia",
+   "strength_tier": "major",
+   "revenue_pct": 77,
+   "quote": "Sales shipped to customers with operations in Asia represented approximately 77% and 75% of our net revenue in fiscal 2026 and 2025, respectively.",
+   "verified": true
+  }
+ ]
+}

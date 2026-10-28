@@ -1,0 +1,64 @@
+{
+ "ticker": "MPWR",
+ "form": "10-K",
+ "filed_at": "2026-02-27",
+ "url": "https://www.sec.gov/Archives/edgar/data/1280452/000143774926006113/mpwr20251231_10k.htm",
+ "accession": "0001437749-26-006113",
+ "cost_usd": 0.00115,
+ "relations": [
+  {
+   "subject": "Monolithic Power Systems, Inc.",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We currently contract with several suppliers to manufacture our wafers in foundries located in China, Taiwan, South Korea and Singapore.",
+   "verified": true
+  },
+  {
+   "subject": "Monolithic Power Systems, Inc.",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We currently contract with several suppliers to manufacture our wafers in foundries located in China, Taiwan, South Korea and Singapore.",
+   "verified": true
+  },
+  {
+   "subject": "Monolithic Power Systems, Inc.",
+   "relation": "operates_in",
+   "object": "South Korea",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We currently contract with several suppliers to manufacture our wafers in foundries located in China, Taiwan, South Korea and Singapore.",
+   "verified": true
+  },
+  {
+   "subject": "Monolithic Power Systems, Inc.",
+   "relation": "operates_in",
+   "object": "Singapore",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We currently contract with several suppliers to manufacture our wafers in foundries located in China, Taiwan, South Korea and Singapore.",
+   "verified": true
+  },
+  {
+   "subject": "Monolithic Power Systems, Inc.",
+   "relation": "operates_in",
+   "object": "Malaysia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Once our silicon wafers have been produced, they are shipped to facilities in China, Taiwan, Singapore, Malaysia and South Korea that we and our partners utilize for wafer sort",
+   "verified": true
+  },
+  {
+   "subject": "Monolithic Power Systems, Inc.",
+   "relation": "operates_in",
+   "object": "Asia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We have significant operations in Asia, which place us in frequent contact with individuals who may be considered \u201cforeign officials\u201d under the FCPA or other anti-corruption laws",
+   "verified": true
+  }
+ ]
+}

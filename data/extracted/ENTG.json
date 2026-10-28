@@ -1,0 +1,55 @@
+{
+ "ticker": "ENTG",
+ "form": "10-K",
+ "filed_at": "2026-02-11",
+ "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000012/entg-20251231.htm",
+ "accession": "0001101302-26-000012",
+ "cost_usd": 0.00111,
+ "relations": [
+  {
+   "subject": "Entegris",
+   "relation": "supplies_to",
+   "object": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+   "strength_tier": "major",
+   "revenue_pct": 16,
+   "quote": "Taiwan Semiconductor Manufacturing Company (TSMC) 16% 16% 11%",
+   "verified": true
+  },
+  {
+   "subject": "Entegris",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": 21,
+   "quote": "particularly with respect to semiconductor and other high technology exports to China, a market which represented approximately 21% of our sales in 2025",
+   "verified": true
+  },
+  {
+   "subject": "Entegris",
+   "relation": "depends_on",
+   "object": "petroleum coke",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "we rely on single, sole or limited source suppliers for certain raw materials that are critical to manufacturing our products, such as plastic polymers, filtration membranes, abrasive particles, petroleum coke and other materials.",
+   "verified": true
+  },
+  {
+   "subject": "Entegris",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Recent examples of this strategy include our new facilities in Kaohsiung Science Park (\u201cKSP\u201d) in Taiwan and in Colorado Springs as well as our new Korea Technology Center in South Korea.",
+   "verified": true
+  },
+  {
+   "subject": "Entegris",
+   "relation": "operates_in",
+   "object": "South Korea",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Recent examples of this strategy include our new facilities in Kaohsiung Science Park (\u201cKSP\u201d) in Taiwan and in Colorado Springs as well as our new Korea Technology Center in South Korea.",
+   "verified": true
+  }
+ ]
+}

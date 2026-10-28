@@ -1,0 +1,100 @@
+{
+ "ticker": "MOD",
+ "form": "10-K",
+ "filed_at": "2026-05-27",
+ "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm",
+ "accession": "0001104659-26-066795",
+ "cost_usd": 0.00143,
+ "relations": [
+  {
+   "subject": "Modine",
+   "relation": "supplies_to",
+   "object": "Carrier",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our top customers across both of our segments, listed alphabetically, include: Carrier; Caterpillar; Deere;",
+   "verified": true
+  },
+  {
+   "subject": "Modine",
+   "relation": "supplies_to",
+   "object": "Caterpillar",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our top customers across both of our segments, listed alphabetically, include: Carrier; Caterpillar; Deere;",
+   "verified": true
+  },
+  {
+   "subject": "Modine",
+   "relation": "supplies_to",
+   "object": "Deere",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our top customers across both of our segments, listed alphabetically, include: Carrier; Caterpillar; Deere;",
+   "verified": true
+  },
+  {
+   "subject": "Modine",
+   "relation": "supplies_to",
+   "object": "Stellantis",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Stellantis (including Chrysler, Fiat, PSA-Peugeot-Citroen, and VM Motori); Trane;",
+   "verified": true
+  },
+  {
+   "subject": "Modine",
+   "relation": "supplies_to",
+   "object": "Trane",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Stellantis (including Chrysler, Fiat, PSA-Peugeot-Citroen, and VM Motori); Trane;",
+   "verified": true
+  },
+  {
+   "subject": "Modine",
+   "relation": "supplies_to",
+   "object": "Volkswagen",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Volkswagen (including Audi, MAN, Porsche, Scania, and International); and Volvo (including Mack Trucks and Renault Trucks).",
+   "verified": true
+  },
+  {
+   "subject": "Modine",
+   "relation": "supplies_to",
+   "object": "Volvo",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Volkswagen (including Audi, MAN, Porsche, Scania, and International); and Volvo (including Mack Trucks and Renault Trucks).",
+   "verified": true
+  },
+  {
+   "subject": "Modine",
+   "relation": "depends_on",
+   "object": "aluminum",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We purchase aluminum, copper, steel and stainless steel (nickel) from several domestic and foreign suppliers.",
+   "verified": true
+  },
+  {
+   "subject": "Modine",
+   "relation": "depends_on",
+   "object": "copper",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We purchase aluminum, copper, steel and stainless steel (nickel) from several domestic and foreign suppliers.",
+   "verified": true
+  },
+  {
+   "subject": "Modine",
+   "relation": "operates_in",
+   "object": "Mexico",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Certain of our current manufacturing facilities in Mexico operate under the Mexican Maquiladora (IMMEX) program",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "ticker": "MP",
+ "form": "10-K",
+ "filed_at": "2026-02-26",
+ "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
+ "accession": "0001801368-26-000008",
+ "cost_usd": 0.00129,
+ "relations": [
+  {
+   "subject": "MP Materials",
+   "relation": "supplies_to",
+   "object": "General Motors",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "At Independence, with GM as a foundational customer, the Company is furthering vertical integration through downstream processing of REO into finished rare earth magnets and precursor products",
+   "verified": true
+  },
+  {
+   "subject": "MP Materials",
+   "relation": "supplies_to",
+   "object": "Apple Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In July 2025, the Company entered into a definitive, long-term supply agreement with Apple for the development, manufacture, and supply of magnets from the Company\u2019s Independence Facility",
+   "verified": true
+  },
+  {
+   "subject": "MP Materials",
+   "relation": "supplies_to",
+   "object": "Shenghe",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "Pursuant to the Shenghe Offtake Agreement, and subject to certain exclusions, Shenghe was obligated to purchase on a \u201ctake or pay\u201d basis the rare earth concentrate produced by the Company as the exclusive distributor in China",
+   "verified": true
+  },
+  {
+   "subject": "MP Materials",
+   "relation": "operates_in",
+   "object": "California",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "the Company owns and operates the Mountain Pass Rare Earth Mine and Processing Facility (\u201cMountain Pass\u201d) located near Mountain Pass, San Bernardino County, California",
+   "verified": true
+  },
+  {
+   "subject": "MP Materials",
+   "relation": "operates_in",
+   "object": "Texas",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Additionally, we own and operate a rare earth metal, alloy and magnet manufacturing facility in Fort Worth, Texas",
+   "verified": true
+  },
+  {
+   "subject": "MP Materials",
+   "relation": "produces",
+   "object": "NdPr oxide",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Through its midstream operations, the Company produces NdPr oxide and other separated rare earth products",
+   "verified": true
+  }
+ ]
+}

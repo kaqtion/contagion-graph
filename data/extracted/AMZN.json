@@ -1,0 +1,19 @@
+{
+ "ticker": "AMZN",
+ "form": "10-K",
+ "filed_at": "2026-02-06",
+ "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+ "accession": "0001018724-26-000004",
+ "cost_usd": 0.00067,
+ "relations": [
+  {
+   "subject": "Amazon",
+   "relation": "competes_with",
+   "object": "Anthropic",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We also have a commercial arrangement primarily for the provision of AWS cloud services, which includes the use of AWS chips.",
+   "verified": true
+  }
+ ]
+}

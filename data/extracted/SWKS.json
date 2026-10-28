@@ -1,0 +1,136 @@
+{
+ "ticker": "SWKS",
+ "form": "10-K",
+ "filed_at": "2025-11-07",
+ "url": "https://www.sec.gov/Archives/edgar/data/4127/000000412725000085/swks-20251003.htm",
+ "accession": "0000004127-25-000085",
+ "cost_usd": 0.00112,
+ "relations": [
+  {
+   "subject": "Skyworks",
+   "relation": "supplies_to",
+   "object": "Apple Inc.",
+   "strength_tier": "major",
+   "revenue_pct": 67,
+   "quote": "During fiscal 2025, fiscal 2024, and fiscal 2023, Apple, through sales to multiple distributors, contract manufacturers, and direct sales for multiple applications including smartphones, tablets, desktop, and notebook computers, watches and other devices, in the aggregate accounted for 67 %, 69 %, and 66 % of the Company\u2019s net revenue, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "supplies_to",
+   "object": "Amazon",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our key customers include Amazon, Apple Inc. (\u201cApple\u201d), Arcadyan, Arris, Bose, Ciena, Cisco, Ericsson",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "supplies_to",
+   "object": "Samsung",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our key customers include Amazon, Apple Inc. (\u201cApple\u201d), Arcadyan, Arris, Bose, Ciena, Cisco, Ericsson, Fibocom, Garmin, Gemalto (a Thales company), General Electric, Google, Honeywell, Itron, Lenovo, LG Electronics, Microsoft, Motorola, NETGEAR, Nokia, Northrop Grumman, OPPO, Rockwell Collins, Sagemcom, Samsung",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "competes_with",
+   "object": "Qorvo",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Analog Devices, Broadcom, Cirrus Logic, Murata Manufacturing, NXP Semiconductors, Qorvo, Qualcomm, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "competes_with",
+   "object": "Broadcom",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Analog Devices, Broadcom, Cirrus Logic, Murata Manufacturing, NXP Semiconductors, Qorvo, Qualcomm, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "competes_with",
+   "object": "Qualcomm",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Analog Devices, Broadcom, Cirrus Logic, Murata Manufacturing, NXP Semiconductors, Qorvo, Qualcomm, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "competes_with",
+   "object": "Murata Manufacturing",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Analog Devices, Broadcom, Cirrus Logic, Murata Manufacturing, NXP Semiconductors, Qorvo, Qualcomm, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "competes_with",
+   "object": "NXP Semiconductors",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Analog Devices, Broadcom, Cirrus Logic, Murata Manufacturing, NXP Semiconductors, Qorvo, Qualcomm, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "competes_with",
+   "object": "Texas Instruments",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Analog Devices, Broadcom, Cirrus Logic, Murata Manufacturing, NXP Semiconductors, Qorvo, Qualcomm, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "competes_with",
+   "object": "Analog Devices",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Analog Devices, Broadcom, Cirrus Logic, Murata Manufacturing, NXP Semiconductors, Qorvo, Qualcomm, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "competes_with",
+   "object": "Cirrus Logic",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include Analog Devices, Broadcom, Cirrus Logic, Murata Manufacturing, NXP Semiconductors, Qorvo, Qualcomm, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We also operate our own wafer processing facilities in Osaka, Japan, as well as packaging, assembly, and test facilities in Singapore and in Mexicali, Mexico.",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "operates_in",
+   "object": "Mexico",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We also operate our own wafer processing facilities in Osaka, Japan, as well as packaging, assembly, and test facilities in Singapore and in Mexicali, Mexico.",
+   "verified": true
+  },
+  {
+   "subject": "Skyworks",
+   "relation": "operates_in",
+   "object": "Singapore",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We also operate our own wafer processing facilities in Osaka, Japan, as well as packaging, assembly, and test facilities in Singapore and in Mexicali, Mexico.",
+   "verified": true
+  }
+ ]
+}

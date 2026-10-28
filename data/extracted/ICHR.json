@@ -1,0 +1,37 @@
+{
+ "ticker": "ICHR",
+ "form": "10-K",
+ "filed_at": "2026-02-20",
+ "url": "https://www.sec.gov/Archives/edgar/data/1652535/000165253526000012/ichr-20251226.htm",
+ "accession": "0001652535-26-000012",
+ "cost_usd": 0.00072,
+ "relations": [
+  {
+   "subject": "Ichor",
+   "relation": "supplies_to",
+   "object": "Lam Research",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "two customers with individual sales over 10%, Lam Research and Applied Materials, accounted for a combined 76% of total sales",
+   "verified": true
+  },
+  {
+   "subject": "Ichor",
+   "relation": "supplies_to",
+   "object": "Applied Materials",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "two customers with individual sales over 10%, Lam Research and Applied Materials, accounted for a combined 76% of total sales",
+   "verified": true
+  },
+  {
+   "subject": "Ichor",
+   "relation": "supplies_to",
+   "object": "ASML",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We have long standing relationships with top tier OEM customers, including Lam Research, Applied Materials, and ASML which were our largest customers by sales in 2025.",
+   "verified": true
+  }
+ ]
+}

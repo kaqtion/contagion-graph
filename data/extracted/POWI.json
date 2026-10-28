@@ -1,0 +1,136 @@
+{
+ "ticker": "POWI",
+ "form": "10-K",
+ "filed_at": "2026-02-06",
+ "url": "https://www.sec.gov/Archives/edgar/data/833640/000083364026000037/powi-20251231x10k.htm",
+ "accession": "0000833640-26-000037",
+ "cost_usd": 0.00116,
+ "relations": [
+  {
+   "subject": "Power Integrations",
+   "relation": "buys_from",
+   "object": "Lapis Semiconductor Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We contract with three foundries for the manufacture of the vast majority of our silicon wafers: (1) Lapis Semiconductor Co., Ltd., or Lapis, (formerly OKI Electric Industry), (2) Seiko Epson Corporation, or Epson and (3) X-FAB Semiconductor Foundries AG, or X-FAB.",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "buys_from",
+   "object": "Seiko Epson Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary supply arrangements for the production of wafers are with Epson, Lapis and X-FAB.",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "buys_from",
+   "object": "X-FAB Semiconductor Foundries AG",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary supply arrangements for the production of wafers are with Epson, Lapis and X-FAB.",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "competes_with",
+   "object": "STMicroelectronics",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competing alternatives to our high-voltage ICs for the power-supply market include monolithic and hybrid ICs from companies such as STMicroelectronics, Infineon Technologies and Sanken Electric Company",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "competes_with",
+   "object": "Infineon Technologies",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competing alternatives to our high-voltage ICs for the power-supply market include monolithic and hybrid ICs from companies such as STMicroelectronics, Infineon Technologies and Sanken Electric Company",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "competes_with",
+   "object": "Sanken Electric Company",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competing alternatives to our high-voltage ICs for the power-supply market include monolithic and hybrid ICs from companies such as STMicroelectronics, Infineon Technologies and Sanken Electric Company",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "competes_with",
+   "object": "NXP Semiconductors",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Such controller chips are produced by a large number of vendors, including those listed above as well as others including NXP Semiconductors, Texas Instruments, Diodes Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "competes_with",
+   "object": "Texas Instruments",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Such controller chips are produced by a large number of vendors, including those listed above as well as others including NXP Semiconductors, Texas Instruments, Diodes Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "competes_with",
+   "object": "Renesas Electronics",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Such controller chips are produced by a large number of vendors, including those listed above as well as others including NXP Semiconductors, Texas Instruments, Diodes Inc., On-Bright Electronics, MediaTek Inc., Renesas Electronics",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "competes_with",
+   "object": "Navitas Semiconductor",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competing suppliers of high-voltage GaN products include InnoScience, Infineon, Renesas, Texas Instruments, Navitas Semiconductor and others.",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "competes_with",
+   "object": "Mitsubishi Electric",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our gate-driver products compete with alternatives from such companies as Infineon, Mitsubishi Electric, Fuji Electric, Semikron and Hangzhou Firstack Technology Co.",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "competes_with",
+   "object": "Fuji Electric",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our gate-driver products compete with alternatives from such companies as Infineon, Mitsubishi Electric, Fuji Electric, Semikron and Hangzhou Firstack Technology Co.",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "competes_with",
+   "object": "Semikron",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our gate-driver products compete with alternatives from such companies as Infineon, Mitsubishi Electric, Fuji Electric, Semikron and Hangzhou Firstack Technology Co.",
+   "verified": true
+  },
+  {
+   "subject": "Power Integrations",
+   "relation": "competes_with",
+   "object": "ON Semiconductor",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our motor-driver ICs compete with power modules from such companies as ON Semiconductor, Infineon, STMicroelectronics, Mitsubishi and Sanken",
+   "verified": true
+  }
+ ]
+}

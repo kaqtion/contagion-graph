@@ -1,0 +1,118 @@
+{
+ "ticker": "LCID",
+ "form": "10-K",
+ "filed_at": "2026-02-24",
+ "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828026011053/lcid-20251231.htm",
+ "accession": "0001628280-26-011053",
+ "cost_usd": 0.00142,
+ "relations": [
+  {
+   "subject": "Lucid",
+   "relation": "competes_with",
+   "object": "Tesla",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "EV manufacturers with which we compete include Tesla, Rivian, an increasing number of U.S.-based and international entrants and traditional automotive manufacturers",
+   "verified": true
+  },
+  {
+   "subject": "Lucid",
+   "relation": "competes_with",
+   "object": "Rivian",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "EV manufacturers with which we compete include Tesla, Rivian, an increasing number of U.S.-based and international entrants and traditional automotive manufacturers",
+   "verified": true
+  },
+  {
+   "subject": "Lucid",
+   "relation": "supplies_to",
+   "object": "Aston Martin",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Aston Martin has also committed to an effective minimum spend with the Company on powertrain components of $ 225 million.",
+   "verified": true
+  },
+  {
+   "subject": "Lucid",
+   "relation": "operates_in",
+   "object": "Saudi Arabia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "as we progress in constructing our AMP-2 facility in Saudi Arabia, we will need to hire, retain, and train",
+   "verified": true
+  },
+  {
+   "subject": "Lucid",
+   "relation": "depends_on",
+   "object": "aluminum",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we use various materials in our business, including aluminum, steel, magnets, lithium, nickel, copper, cobalt, neodymium, terbium, praseodymium and manganese",
+   "verified": true
+  },
+  {
+   "subject": "Lucid",
+   "relation": "depends_on",
+   "object": "steel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we use various materials in our business, including aluminum, steel, magnets, lithium, nickel, copper, cobalt, neodymium, terbium, praseodymium and manganese",
+   "verified": true
+  },
+  {
+   "subject": "Lucid",
+   "relation": "depends_on",
+   "object": "magnets",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we use various materials in our business, including aluminum, steel, magnets, lithium, nickel, copper, cobalt, neodymium, terbium, praseodymium and manganese",
+   "verified": true
+  },
+  {
+   "subject": "Lucid",
+   "relation": "depends_on",
+   "object": "lithium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we use various materials in our business, including aluminum, steel, magnets, lithium, nickel, copper, cobalt, neodymium, terbium, praseodymium and manganese",
+   "verified": true
+  },
+  {
+   "subject": "Lucid",
+   "relation": "depends_on",
+   "object": "nickel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we use various materials in our business, including aluminum, steel, magnets, lithium, nickel, copper, cobalt, neodymium, terbium, praseodymium and manganese",
+   "verified": true
+  },
+  {
+   "subject": "Lucid",
+   "relation": "depends_on",
+   "object": "copper",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we use various materials in our business, including aluminum, steel, magnets, lithium, nickel, copper, cobalt, neodymium, terbium, praseodymium and manganese",
+   "verified": true
+  },
+  {
+   "subject": "Lucid",
+   "relation": "depends_on",
+   "object": "cobalt",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we use various materials in our business, including aluminum, steel, magnets, lithium, nickel, copper, cobalt, neodymium, terbium, praseodymium and manganese",
+   "verified": true
+  },
+  {
+   "subject": "Lucid",
+   "relation": "depends_on",
+   "object": "neodymium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we use various materials in our business, including aluminum, steel, magnets, lithium, nickel, copper, cobalt, neodymium, terbium, praseodymium and manganese",
+   "verified": true
+  }
+ ]
+}

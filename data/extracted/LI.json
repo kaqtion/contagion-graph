@@ -1,0 +1,73 @@
+{
+ "ticker": "LI",
+ "form": "20-F",
+ "filed_at": "2026-04-10",
+ "url": "https://www.sec.gov/Archives/edgar/data/1791706/000110465926041705/li-20251231x20f.htm",
+ "accession": "0001104659-26-041705",
+ "cost_usd": 0.0009,
+ "relations": [
+  {
+   "subject": "Li Auto",
+   "relation": "buys_from",
+   "object": "CATL",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "If any of our battery pack suppliers, in particular CATL which supplies a majority of our battery packs (including the specialized cells for our 5C super charging BEV models), becomes unable to meet our demand on acceptable terms, or at all, we may be required to switch to alternative suppliers.",
+   "verified": true
+  },
+  {
+   "subject": "Li Auto",
+   "relation": "depends_on",
+   "object": "NVIDIA",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our current high-end models rely on chips produced by NVIDIA to a great extent, and if the supply of NVIDIA chips were to be negatively affected by such geopolitical tensions",
+   "verified": true
+  },
+  {
+   "subject": "Li Auto",
+   "relation": "competes_with",
+   "object": "BYD",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we believe that BYD has a dominant market share in the NEV market, in particular for NEVs priced under RMB200,000 (US$28,600)",
+   "verified": true
+  },
+  {
+   "subject": "Li Auto",
+   "relation": "competes_with",
+   "object": "Tesla",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Tesla holds a dominant position in the segment for NEVs priced above RMB 200,000 (US$28,600)",
+   "verified": true
+  },
+  {
+   "subject": "Li Auto",
+   "relation": "competes_with",
+   "object": "Xiaomi",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "experienced entrants from the smart phone industry, such as Huawei\u2019s Harmony Intelligent Mobility Alliance (HIMA) and Xiaomi, are further intensifying the competitive landscape of the NEV market in China",
+   "verified": true
+  },
+  {
+   "subject": "Li Auto",
+   "relation": "competes_with",
+   "object": "Huawei\u2019s Harmony Intelligent Mobility Alliance (HIMA)",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "experienced entrants from the smart phone industry, such as Huawei\u2019s Harmony Intelligent Mobility Alliance (HIMA) and Xiaomi, are further intensifying the competitive landscape of the NEV market in China",
+   "verified": true
+  },
+  {
+   "subject": "Li Auto",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We conduct our operations in China through (i) our PRC subsidiaries and (ii) the VIEs, with which we have maintained contractual arrangements, and their subsidiaries.",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "ticker": "ONTO",
+ "form": "10-K",
+ "filed_at": "2026-02-24",
+ "url": "https://www.sec.gov/Archives/edgar/data/704532/000119312526066937/onto-20260103.htm",
+ "accession": "0001193125-26-066937",
+ "cost_usd": 0.00125,
+ "relations": [
+  {
+   "subject": "Onto Innovation",
+   "relation": "supplies_to",
+   "object": "Taiwan Semiconductor Manufacturing Company Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we derive substantial revenue from sales to semiconductor device foundries in Taiwan such as Taiwan Semiconductor Manufacturing Company Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Onto Innovation",
+   "relation": "supplies_to",
+   "object": "Samsung Electronics Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "from memory chip manufacturers in South Korea such as Samsung Electronics Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Onto Innovation",
+   "relation": "supplies_to",
+   "object": "Toshiba Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "from semiconductor device manufacturers in Japan such as Toshiba Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Onto Innovation",
+   "relation": "competes_with",
+   "object": "KLA Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our principal competitors are KLA Corporation (\u201cKLA\u201d) and Nova Ltd. (formerly Nova Measuring Instruments Ltd.) (\u201cNova\u201d) for thin film and critical dimension OCD metrology.",
+   "verified": true
+  },
+  {
+   "subject": "Onto Innovation",
+   "relation": "competes_with",
+   "object": "Nova Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our principal competitors are KLA Corporation (\u201cKLA\u201d) and Nova Ltd. (formerly Nova Measuring Instruments Ltd.) (\u201cNova\u201d) for thin film and critical dimension OCD metrology.",
+   "verified": true
+  },
+  {
+   "subject": "Onto Innovation",
+   "relation": "competes_with",
+   "object": "Camtek Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal competitors for advanced packaging inspection are KLA and Camtek Ltd. (\u201cCamtek\u201d).",
+   "verified": true
+  },
+  {
+   "subject": "Onto Innovation",
+   "relation": "competes_with",
+   "object": "Ushio, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our primary competitors are Ushio, Inc. (\u201cUshio\u201d) and Canon, Inc. (\u201cCanon\u201d).",
+   "verified": true
+  },
+  {
+   "subject": "Onto Innovation",
+   "relation": "competes_with",
+   "object": "Canon, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our primary competitors are Ushio, Inc. (\u201cUshio\u201d) and Canon, Inc. (\u201cCanon\u201d).",
+   "verified": true
+  },
+  {
+   "subject": "Onto Innovation",
+   "relation": "competes_with",
+   "object": "GigaVis Co. Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitor for inspection in the panel market is GigaVis Co. Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Onto Innovation",
+   "relation": "competes_with",
+   "object": "PDF Solutions, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The primary competitor for our software products is PDF Solutions, Inc. (\u201cPDF Solutions\u201d)",
+   "verified": true
+  }
+ ]
+}

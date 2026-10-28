@@ -1,0 +1,136 @@
+{
+ "ticker": "COHR",
+ "form": "10-K",
+ "filed_at": "2026-08-14",
+ "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm",
+ "accession": "0000820318-26-000020",
+ "cost_usd": 0.00151,
+ "relations": [
+  {
+   "subject": "Coherent",
+   "relation": "supplies_to",
+   "object": "NVIDIA",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "entered into a strategic multi-year supply agreement with NVIDIA for advanced lasers and optical networking products supporting next-generation AI infrastructure",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal non-U.S. production and R&D operations, in alphabetical order, are based in China, Finland, Germany, Malaysia, the Philippines, Singapore, South Korea, Sweden, Switzerland, the United Kingdom, and Vietnam.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "operates_in",
+   "object": "Finland",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal non-U.S. production and R&D operations, in alphabetical order, are based in China, Finland, Germany, Malaysia, the Philippines, Singapore, South Korea, Sweden, Switzerland, the United Kingdom, and Vietnam.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "operates_in",
+   "object": "Germany",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal non-U.S. production and R&D operations, in alphabetical order, are based in China, Finland, Germany, Malaysia, the Philippines, Singapore, South Korea, Sweden, Switzerland, the United Kingdom, and Vietnam.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "operates_in",
+   "object": "Malaysia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal non-U.S. production and R&D operations, in alphabetical order, are based in China, Finland, Germany, Malaysia, the Philippines, Singapore, South Korea, Sweden, Switzerland, the United Kingdom, and Vietnam.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "operates_in",
+   "object": "Philippines",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal non-U.S. production and R&D operations, in alphabetical order, are based in China, Finland, Germany, Malaysia, the Philippines, Singapore, South Korea, Sweden, Switzerland, the United Kingdom, and Vietnam.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "operates_in",
+   "object": "Singapore",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal non-U.S. production and R&D operations, in alphabetical order, are based in China, Finland, Germany, Malaysia, the Philippines, Singapore, South Korea, Sweden, Switzerland, the United Kingdom, and Vietnam.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "operates_in",
+   "object": "South Korea",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal non-U.S. production and R&D operations, in alphabetical order, are based in China, Finland, Germany, Malaysia, the Philippines, Singapore, South Korea, Sweden, Switzerland, the United Kingdom, and Vietnam.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "operates_in",
+   "object": "Sweden",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal non-U.S. production and R&D operations, in alphabetical order, are based in China, Finland, Germany, Malaysia, the Philippines, Singapore, South Korea, Sweden, Switzerland, the United Kingdom, and Vietnam.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "operates_in",
+   "object": "Switzerland",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal non-U.S. production and R&D operations, in alphabetical order, are based in China, Finland, Germany, Malaysia, the Philippines, Singapore, South Korea, Sweden, Switzerland, the United Kingdom, and Vietnam.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "operates_in",
+   "object": "United Kingdom",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal non-U.S. production and R&D operations, in alphabetical order, are based in China, Finland, Germany, Malaysia, the Philippines, Singapore, South Korea, Sweden, Switzerland, the United Kingdom, and Vietnam.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "operates_in",
+   "object": "Vietnam",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal non-U.S. production and R&D operations, in alphabetical order, are based in China, Finland, Germany, Malaysia, the Philippines, Singapore, South Korea, Sweden, Switzerland, the United Kingdom, and Vietnam.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "depends_on",
+   "object": "indium phosphide",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our manufacturing processes and those of our contract manufacturers rely on many materials, including precious and rare earth metals, indium phosphide (\u201cInP\u201d) and certain lasers and laser components that may be difficult to source, may only be available from a single or limited number of suppliers.",
+   "verified": true
+  },
+  {
+   "subject": "Coherent",
+   "relation": "depends_on",
+   "object": "rare earth materials",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We use rare-earth materials in some of our production processes.",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "AMBA",
+ "form": "10-K",
+ "filed_at": "2026-03-23",
+ "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526119321/amba-20260131.htm",
+ "accession": "0001193125-26-119321",
+ "cost_usd": 0.00205,
+ "relations": [
+  {
+   "subject": "Ambarella",
+   "relation": "supplies_to",
+   "object": "WT Microelectronics Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": 70,
+   "quote": "In fiscal year 2026, the customer representing 10% or more of revenue was WT Microelectronics Co., Ltd., formerly Wintech Microelectronics Co., Ltd., or WT, our non-exclusive sales representative and fulfillment partner in Asia other than Japan, which accounted for approximately 70% of total revenue.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "supplies_to",
+   "object": "Chicony Electronics Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "and to one ODM, Chicony Electronics Co., Ltd., or Chicony, which manufactures devices incorporating our solutions on behalf of multiple end-customers.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "buys_from",
+   "object": "Samsung Electronics Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Currently, the substantial majority of our SoCs are supplied by Samsung Electronics Corporation (Samsung) in facilities located in Austin, Texas and South Korea, from whom we have the option to purchase both fully-assembled and tested products as well as tested die in wafer form for assembly.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "buys_from",
+   "object": "Advanced Semiconductor Engineering, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In the case of purchases of tested die from Samsung, we contract the assembly to Advanced Semiconductor Engineering, Inc., or ASE.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "buys_from",
+   "object": "Sigurd Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Final testing of all of our products is handled by Sigurd Corporation or King Yuan Electronics Co., Ltd. under the supervision of our engineers.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "buys_from",
+   "object": "King Yuan Electronics Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Final testing of all of our products is handled by Sigurd Corporation or King Yuan Electronics Co., Ltd. under the supervision of our engineers.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "operates_in",
+   "object": "Asia",
+   "strength_tier": "major",
+   "revenue_pct": 88,
+   "quote": "Sales to customers in Asia accounted for approximately 88%, 85%, and 79% of our total revenue in the fiscal years ended January 31, 2026, 2025, and 2024, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "competes_with",
+   "object": "HiSilicon Technologies Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the IoT market, our primary competitors include HiSilicon Technologies Co., Ltd., or HiSilicon, which is owned by Huawei Technologies Co., Novatek Microelectronics Corp., or Novatek, NVIDIA Corporation, or NVIDIA, Qualcomm Incorporated, or Qualcomm, and SigmaStar Technology Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "competes_with",
+   "object": "Novatek Microelectronics Corp.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the IoT market, our primary competitors include HiSilicon Technologies Co., Ltd., or HiSilicon, which is owned by Huawei Technologies Co., Novatek Microelectronics Corp., or Novatek, NVIDIA Corporation, or NVIDIA, Qualcomm Incorporated, or Qualcomm, and SigmaStar Technology Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "competes_with",
+   "object": "NVIDIA Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the IoT market, our primary competitors include HiSilicon Technologies Co., Ltd., or HiSilicon, which is owned by Huawei Technologies Co., Novatek Microelectronics Corp., or Novatek, NVIDIA Corporation, or NVIDIA, Qualcomm Incorporated, or Qualcomm, and SigmaStar Technology Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "competes_with",
+   "object": "Qualcomm Incorporated",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the IoT market, our primary competitors include HiSilicon Technologies Co., Ltd., or HiSilicon, which is owned by Huawei Technologies Co., Novatek Microelectronics Corp., or Novatek, NVIDIA Corporation, or NVIDIA, Qualcomm Incorporated, or Qualcomm, and SigmaStar Technology Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "competes_with",
+   "object": "SigmaStar Technology Corp.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the IoT market, our primary competitors include HiSilicon Technologies Co., Ltd., or HiSilicon, which is owned by Huawei Technologies Co., Novatek Microelectronics Corp., or Novatek, NVIDIA Corporation, or NVIDIA, Qualcomm Incorporated, or Qualcomm, and SigmaStar Technology Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "competes_with",
+   "object": "Horizon Robotics Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In the automotive camera market, we compete against Horizon Robotics Inc., Mobileye, a subsidiary of Intel Corporation, Novatek, NVIDIA, Qualcomm, Renesas Electronics Corporation, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "competes_with",
+   "object": "Renesas Electronics Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In the automotive camera market, we compete against Horizon Robotics Inc., Mobileye, a subsidiary of Intel Corporation, Novatek, NVIDIA, Qualcomm, Renesas Electronics Corporation, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "competes_with",
+   "object": "Texas Instruments",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In the automotive camera market, we compete against Horizon Robotics Inc., Mobileye, a subsidiary of Intel Corporation, Novatek, NVIDIA, Qualcomm, Renesas Electronics Corporation, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Ambarella",
+   "relation": "depends_on",
+   "object": "silicon wafers",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Silicon wafers constitute a material portion of our product cost and if we are unable to purchase wafers at favorable prices, our results of operations and financial condition will be adversely affected.",
+   "verified": true
+  }
+ ]
+}

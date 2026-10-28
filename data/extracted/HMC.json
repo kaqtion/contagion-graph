@@ -1,0 +1,136 @@
+{
+ "ticker": "HMC",
+ "form": "20-F",
+ "filed_at": "2026-06-18",
+ "url": "https://www.sec.gov/Archives/edgar/data/715153/000119312526274991/d116494d20f.htm",
+ "accession": "0001193125-26-274991",
+ "cost_usd": 0.00153,
+ "relations": [
+  {
+   "subject": "Honda",
+   "relation": "depends_on",
+   "object": "steel plate",
+   "strength_tier": "major",
+   "revenue_pct": 44,
+   "quote": "The most important raw material purchased is steel plate, accounting for approximately 44% of Honda\u2019s total purchases of raw materials.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "depends_on",
+   "object": "aluminum",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The principal raw materials used by Honda are steel plate, aluminum, special steels, steel tubes, paints, plastics and zinc, which are purchased from several suppliers.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "depends_on",
+   "object": "zinc",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The principal raw materials used by Honda are steel plate, aluminum, special steels, steel tubes, paints, plastics and zinc, which are purchased from several suppliers.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Principal manufacturing facilities are located in Japan, the United States of America, Canada, Mexico, China, India, Indonesia, Malaysia, Thailand, Vietnam and Brazil.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "operates_in",
+   "object": "United States of America",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Principal manufacturing facilities are located in Japan, the United States of America, Canada, Mexico, China, India, Indonesia, Malaysia, Thailand, Vietnam and Brazil.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "operates_in",
+   "object": "Canada",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Principal manufacturing facilities are located in Japan, the United States of America, Canada, Mexico, China, India, Indonesia, Malaysia, Thailand, Vietnam and Brazil.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "operates_in",
+   "object": "Mexico",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Principal manufacturing facilities are located in Japan, the United States of America, Canada, Mexico, China, India, Indonesia, Malaysia, Thailand, Vietnam and Brazil.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Principal manufacturing facilities are located in Japan, the United States of America, Canada, Mexico, China, India, Indonesia, Malaysia, Thailand, Vietnam and Brazil.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "operates_in",
+   "object": "India",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Principal manufacturing facilities are located in Japan, the United States of America, Canada, Mexico, China, India, Indonesia, Malaysia, Thailand, Vietnam and Brazil.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "operates_in",
+   "object": "Indonesia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Principal manufacturing facilities are located in Japan, the United States of America, Canada, Mexico, China, India, Indonesia, Malaysia, Thailand, Vietnam and Brazil.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "operates_in",
+   "object": "Malaysia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Principal manufacturing facilities are located in Japan, the United States of America, Canada, Mexico, China, India, Indonesia, Malaysia, Thailand, Vietnam and Brazil.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "operates_in",
+   "object": "Thailand",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Principal manufacturing facilities are located in Japan, the United States of America, Canada, Mexico, China, India, Indonesia, Malaysia, Thailand, Vietnam and Brazil.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "operates_in",
+   "object": "Vietnam",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Principal manufacturing facilities are located in Japan, the United States of America, Canada, Mexico, China, India, Indonesia, Malaysia, Thailand, Vietnam and Brazil.",
+   "verified": true
+  },
+  {
+   "subject": "Honda",
+   "relation": "operates_in",
+   "object": "Brazil",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Principal manufacturing facilities are located in Japan, the United States of America, Canada, Mexico, China, India, Indonesia, Malaysia, Thailand, Vietnam and Brazil.",
+   "verified": true
+  }
+ ]
+}

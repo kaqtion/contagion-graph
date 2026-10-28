@@ -1,0 +1,307 @@
+{
+ "ticker": "VC",
+ "form": "10-K",
+ "filed_at": "2026-02-19",
+ "url": "https://www.sec.gov/Archives/edgar/data/1111335/000111133526000006/vc-20251231.htm",
+ "accession": "0001111335-26-000006",
+ "cost_usd": 0.00236,
+ "relations": [
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "BMW",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Ford",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Geely",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "General Motors",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Honda",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Jaguar/Land Rover",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Mahindra",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Mazda",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Mercedes-Benz",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Mitsubishi",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Nissan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Renault",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Stellantis",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Tata",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Toyota",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "supplies_to",
+   "object": "Volkswagen",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company's global automotive customers, including BMW, Ford, Geely, General Motors, Honda, Jaguar/Land Rover, Mahindra, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Renault, Stellantis, Tata, Toyota, and Volkswagen",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "competes_with",
+   "object": "Alpine Electronics",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's primary independent competitors include, but are not limited to, Alpine Electronics, Aptiv PLC, Aumoviad, Denso Corporation, Harman International Industries, Incorporated (a subsidiary of Samsung Electronics Co. Ltd.), Hitachi Ltd.,",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "competes_with",
+   "object": "Aptiv PLC",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's primary independent competitors include, but are not limited to, Alpine Electronics, Aptiv PLC, Aumoviad, Denso Corporation, Harman International Industries, Incorporated (a subsidiary of Samsung Electronics Co. Ltd.), Hitachi Ltd.,",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "competes_with",
+   "object": "Aumoviad",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's primary independent competitors include, but are not limited to, Alpine Electronics, Aptiv PLC, Aumoviad, Denso Corporation, Harman International Industries, Incorporated (a subsidiary of Samsung Electronics Co. Ltd.), Hitachi Ltd.,",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "competes_with",
+   "object": "Denso Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's primary independent competitors include, but are not limited to, Alpine Electronics, Aptiv PLC, Aumoviad, Denso Corporation, Harman International Industries, Incorporated (a subsidiary of Samsung Electronics Co. Ltd.), Hitachi Ltd.,",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "competes_with",
+   "object": "Harman International Industries, Incorporated",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's primary independent competitors include, but are not limited to, Alpine Electronics, Aptiv PLC, Aumoviad, Denso Corporation, Harman International Industries, Incorporated (a subsidiary of Samsung Electronics Co. Ltd.), Hitachi Ltd.,",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "competes_with",
+   "object": "Hitachi Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's primary independent competitors include, but are not limited to, Alpine Electronics, Aptiv PLC, Aumoviad, Denso Corporation, Harman International Industries, Incorporated (a subsidiary of Samsung Electronics Co. Ltd.), Hitachi Ltd.,",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "operates_in",
+   "object": "Brazil",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's manufacturing and engineering footprint is primarily located in Brazil, Bulgaria, China, India, Japan, Mexico, Portugal, Slovakia, Thailand, and Tunisia.",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "operates_in",
+   "object": "Bulgaria",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's manufacturing and engineering footprint is primarily located in Brazil, Bulgaria, China, India, Japan, Mexico, Portugal, Slovakia, Thailand, and Tunisia.",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's manufacturing and engineering footprint is primarily located in Brazil, Bulgaria, China, India, Japan, Mexico, Portugal, Slovakia, Thailand, and Tunisia.",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "operates_in",
+   "object": "India",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's manufacturing and engineering footprint is primarily located in Brazil, Bulgaria, China, India, Japan, Mexico, Portugal, Slovakia, Thailand, and Tunisia.",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's manufacturing and engineering footprint is primarily located in Brazil, Bulgaria, China, India, Japan, Mexico, Portugal, Slovakia, Thailand, and Tunisia.",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "operates_in",
+   "object": "Mexico",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's manufacturing and engineering footprint is primarily located in Brazil, Bulgaria, China, India, Japan, Mexico, Portugal, Slovakia, Thailand, and Tunisia.",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "operates_in",
+   "object": "Portugal",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's manufacturing and engineering footprint is primarily located in Brazil, Bulgaria, China, India, Japan, Mexico, Portugal, Slovakia, Thailand, and Tunisia.",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "operates_in",
+   "object": "Slovakia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's manufacturing and engineering footprint is primarily located in Brazil, Bulgaria, China, India, Japan, Mexico, Portugal, Slovakia, Thailand, and Tunisia.",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "operates_in",
+   "object": "Thailand",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's manufacturing and engineering footprint is primarily located in Brazil, Bulgaria, China, India, Japan, Mexico, Portugal, Slovakia, Thailand, and Tunisia.",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "operates_in",
+   "object": "Tunisia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's manufacturing and engineering footprint is primarily located in Brazil, Bulgaria, China, India, Japan, Mexico, Portugal, Slovakia, Thailand, and Tunisia.",
+   "verified": true
+  },
+  {
+   "subject": "Visteon Corporation",
+   "relation": "depends_on",
+   "object": "precious metals",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Raw materials used by the Company in the manufacture of its products include electronics components, resins, and precious metals.",
+   "verified": true
+  }
+ ]
+}

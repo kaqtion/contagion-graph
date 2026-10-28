@@ -1,0 +1,64 @@
+{
+ "ticker": "STLA",
+ "form": "20-F",
+ "filed_at": "2026-02-26",
+ "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548426000021/stellantis-20251231.htm",
+ "accession": "0001605484-26-000021",
+ "cost_usd": 0.00046,
+ "relations": [
+  {
+   "subject": "Stellantis",
+   "relation": "depends_on",
+   "object": "lithium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "battery materials (including lithium, manganese, nickel, graphite and cobalt).",
+   "verified": true
+  },
+  {
+   "subject": "Stellantis",
+   "relation": "depends_on",
+   "object": "nickel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "battery materials (including lithium, manganese, nickel, graphite and cobalt).",
+   "verified": true
+  },
+  {
+   "subject": "Stellantis",
+   "relation": "depends_on",
+   "object": "cobalt",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "battery materials (including lithium, manganese, nickel, graphite and cobalt).",
+   "verified": true
+  },
+  {
+   "subject": "Stellantis",
+   "relation": "depends_on",
+   "object": "palladium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "which include platinum, palladium and rhodium) and energy used in production.",
+   "verified": true
+  },
+  {
+   "subject": "Stellantis",
+   "relation": "depends_on",
+   "object": "rhodium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "which include platinum, palladium and rhodium) and energy used in production.",
+   "verified": true
+  },
+  {
+   "subject": "Stellantis",
+   "relation": "depends_on",
+   "object": "platinum",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "which include platinum, palladium and rhodium) and energy used in production.",
+   "verified": true
+  }
+ ]
+}

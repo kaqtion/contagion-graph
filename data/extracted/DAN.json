@@ -1,0 +1,91 @@
+{
+ "ticker": "DAN",
+ "form": "10-K",
+ "filed_at": "2026-02-27",
+ "url": "https://www.sec.gov/Archives/edgar/data/26780/000143774926006076/dan20251231_10k.htm",
+ "accession": "0001437749-26-006076",
+ "cost_usd": 0.00119,
+ "relations": [
+  {
+   "subject": "Dana",
+   "relation": "supplies_to",
+   "object": "Ford Motor Company",
+   "strength_tier": "major",
+   "revenue_pct": 32,
+   "quote": "As a percentage of total sales from operations, our sales to Ford were approximately 32% in 2025, 31% in 2024 and 28% in 2023.",
+   "verified": true
+  },
+  {
+   "subject": "Dana",
+   "relation": "supplies_to",
+   "object": "Stellantis N.V.",
+   "strength_tier": "major",
+   "revenue_pct": 13,
+   "quote": "Our sales to Stellantis (via a directed supply relationship) were approximately 13% in 2025, 10% in 2024 and 12% in 2023.",
+   "verified": true
+  },
+  {
+   "subject": "Dana",
+   "relation": "supplies_to",
+   "object": "Toyota Motor Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Toyota Motor Corporation, Volkswagen AG (including Traton SE), and PACCAR, Inc. were our third, fourth and fifth largest customers in 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Dana",
+   "relation": "supplies_to",
+   "object": "Volkswagen AG",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Toyota Motor Corporation, Volkswagen AG (including Traton SE), and PACCAR, Inc. were our third, fourth and fifth largest customers in 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Dana",
+   "relation": "supplies_to",
+   "object": "PACCAR, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Toyota Motor Corporation, Volkswagen AG (including Traton SE), and PACCAR, Inc. were our third, fourth and fifth largest customers in 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Dana",
+   "relation": "depends_on",
+   "object": "steel",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "the most important to us being those of various grades of steel, aluminum, copper, brass and rare earth materials.",
+   "verified": true
+  },
+  {
+   "subject": "Dana",
+   "relation": "depends_on",
+   "object": "aluminum",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "the most important to us being those of various grades of steel, aluminum, copper, brass and rare earth materials.",
+   "verified": true
+  },
+  {
+   "subject": "Dana",
+   "relation": "depends_on",
+   "object": "copper",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "the most important to us being those of various grades of steel, aluminum, copper, brass and rare earth materials.",
+   "verified": true
+  },
+  {
+   "subject": "Dana",
+   "relation": "depends_on",
+   "object": "rare earth materials",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "the most important to us being those of various grades of steel, aluminum, copper, brass and rare earth materials.",
+   "verified": true
+  }
+ ]
+}

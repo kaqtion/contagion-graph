@@ -1,0 +1,181 @@
+{
+ "ticker": "ON",
+ "form": "10-K",
+ "filed_at": "2026-02-09",
+ "url": "https://www.sec.gov/Archives/edgar/data/1097864/000109786426000006/on-20251231.htm",
+ "accession": "0001097864-26-000006",
+ "cost_usd": 0.00189,
+ "relations": [
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "Infineon Technologies AG",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "PSG\u2019s primary competitors include: Infineon Technologies AG (\"Infineon\"), STMicroelectronics N.V. (\"STMicroelectronics\"), Wolfspeed Inc., ROHM Semiconductor and Nexperia BV.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "STMicroelectronics N.V.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "PSG\u2019s primary competitors include: Infineon Technologies AG (\"Infineon\"), STMicroelectronics N.V. (\"STMicroelectronics\"), Wolfspeed Inc., ROHM Semiconductor and Nexperia BV.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "Wolfspeed Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "PSG\u2019s primary competitors include: Infineon Technologies AG (\"Infineon\"), STMicroelectronics N.V. (\"STMicroelectronics\"), Wolfspeed Inc., ROHM Semiconductor and Nexperia BV.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "ROHM Semiconductor",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "PSG\u2019s primary competitors include: Infineon Technologies AG (\"Infineon\"), STMicroelectronics N.V. (\"STMicroelectronics\"), Wolfspeed Inc., ROHM Semiconductor and Nexperia BV.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "Nexperia BV",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "PSG\u2019s primary competitors include: Infineon Technologies AG (\"Infineon\"), STMicroelectronics N.V. (\"STMicroelectronics\"), Wolfspeed Inc., ROHM Semiconductor and Nexperia BV.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "Texas Instruments Incorporated",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors for certain of AMG's products and solutions include: Texas Instruments Incorporated, Analog Devices, Inc., Infineon, STMicroelectronics, Renesas Electronics Corporation, Monolithic Power Systems Inc. and NXP Semiconductors N.V.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "Analog Devices, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors for certain of AMG's products and solutions include: Texas Instruments Incorporated, Analog Devices, Inc., Infineon, STMicroelectronics, Renesas Electronics Corporation, Monolithic Power Systems Inc. and NXP Semiconductors N.V.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "Renesas Electronics Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors for certain of AMG's products and solutions include: Texas Instruments Incorporated, Analog Devices, Inc., Infineon, STMicroelectronics, Renesas Electronics Corporation, Monolithic Power Systems Inc. and NXP Semiconductors N.V.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "Monolithic Power Systems Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors for certain of AMG's products and solutions include: Texas Instruments Incorporated, Analog Devices, Inc., Infineon, STMicroelectronics, Renesas Electronics Corporation, Monolithic Power Systems Inc. and NXP Semiconductors N.V.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "NXP Semiconductors N.V.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors for certain of AMG's products and solutions include: Texas Instruments Incorporated, Analog Devices, Inc., Infineon, STMicroelectronics, Renesas Electronics Corporation, Monolithic Power Systems Inc. and NXP Semiconductors N.V.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "Sony Semiconductor Manufacturing Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors for certain of ISG's products and solutions include: Sony Semiconductor Manufacturing Corporation, Samsung Electronics Co., Ltd., and Omnivision Technologies Inc.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "Samsung Electronics Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors for certain of ISG's products and solutions include: Sony Semiconductor Manufacturing Corporation, Samsung Electronics Co., Ltd., and Omnivision Technologies Inc.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "competes_with",
+   "object": "Omnivision Technologies Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors for certain of ISG's products and solutions include: Sony Semiconductor Manufacturing Corporation, Samsung Electronics Co., Ltd., and Omnivision Technologies Inc.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "buys_from",
+   "object": "Chemetco",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Chemetco, a defunct reclamation services supplier that operated in Hartford, Illinois at what is now a Superfund site, has performed reclamation services for the Company in the past.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "depends_on",
+   "object": "silicon wafers",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing processes use many raw materials, including silicon wafers, SiC wafers, laminate substrates, gold, copper, lead frames, mold compound, ceramic packages and various chemicals and gases.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "depends_on",
+   "object": "gold",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing processes use many raw materials, including silicon wafers, SiC wafers, laminate substrates, gold, copper, lead frames, mold compound, ceramic packages and various chemicals and gases.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "depends_on",
+   "object": "copper",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing processes use many raw materials, including silicon wafers, SiC wafers, laminate substrates, gold, copper, lead frames, mold compound, ceramic packages and various chemicals and gases.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We operate front-end wafer fabrication facilities in the United States, the Czech Republic, Japan, South Korea, and Malaysia and back-end assembly and test site facilities in Canada, China, Malaysia, the Philippines, Vietnam and the United States.",
+   "verified": true
+  },
+  {
+   "subject": "onsemi",
+   "relation": "operates_in",
+   "object": "Malaysia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We operate front-end wafer fabrication facilities in the United States, the Czech Republic, Japan, South Korea, and Malaysia and back-end assembly and test site facilities in Canada, China, Malaysia, the Philippines, Vietnam and the United States.",
+   "verified": true
+  }
+ ]
+}

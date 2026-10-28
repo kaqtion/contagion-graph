@@ -1,0 +1,118 @@
+{
+ "ticker": "ACMR",
+ "form": "10-K",
+ "filed_at": "2026-03-02",
+ "url": "https://www.sec.gov/Archives/edgar/data/1680062/000162828026013231/acmr-20251231.htm",
+ "accession": "0001628280-26-013231",
+ "cost_usd": 0.0016,
+ "relations": [
+  {
+   "subject": "ACM Research",
+   "relation": "buys_from",
+   "object": "Ninebell Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We rely on Ninebell Co., Ltd., or Ninebell, as the principal supplier of robotic delivery system subassemblies used in our semiconductor capital equipment;",
+   "verified": true
+  },
+  {
+   "subject": "ACM Research",
+   "relation": "buys_from",
+   "object": "Shengyi",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Shengyi is an equity investee of ACM Shanghai (note 11) and is one of the Company\u2019s component suppliers in mainland China.",
+   "verified": true
+  },
+  {
+   "subject": "ACM Research",
+   "relation": "competes_with",
+   "object": "Lam Research Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We consider our principal competitors to be those companies that provide wafer cleaning, electrical plating and furnace products to the global market, including Lam Research Corporation, NAURA Technology Group Co., Ltd., SCREEN Holdings Co., Ltd., SEMES Co. Ltd., Tokyo Electron Ltd. and Kokusai Semiconductor Equipment Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ACM Research",
+   "relation": "competes_with",
+   "object": "NAURA Technology Group Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We consider our principal competitors to be those companies that provide wafer cleaning, electrical plating and furnace products to the global market, including Lam Research Corporation, NAURA Technology Group Co., Ltd., SCREEN Holdings Co., Ltd., SEMES Co. Ltd., Tokyo Electron Ltd. and Kokusai Semiconductor Equipment Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ACM Research",
+   "relation": "competes_with",
+   "object": "SCREEN Holdings Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We consider our principal competitors to be those companies that provide wafer cleaning, electrical plating and furnace products to the global market, including Lam Research Corporation, NAURA Technology Group Co., Ltd., SCREEN Holdings Co., Ltd., SEMES Co. Ltd., Tokyo Electron Ltd. and Kokusai Semiconductor Equipment Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ACM Research",
+   "relation": "competes_with",
+   "object": "SEMES Co. Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We consider our principal competitors to be those companies that provide wafer cleaning, electrical plating and furnace products to the global market, including Lam Research Corporation, NAURA Technology Group Co., Ltd., SCREEN Holdings Co., Ltd., SEMES Co. Ltd., Tokyo Electron Ltd. and Kokusai Semiconductor Equipment Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ACM Research",
+   "relation": "competes_with",
+   "object": "Tokyo Electron Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We consider our principal competitors to be those companies that provide wafer cleaning, electrical plating and furnace products to the global market, including Lam Research Corporation, NAURA Technology Group Co., Ltd., SCREEN Holdings Co., Ltd., SEMES Co. Ltd., Tokyo Electron Ltd. and Kokusai Semiconductor Equipment Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ACM Research",
+   "relation": "competes_with",
+   "object": "Kokusai Semiconductor Equipment Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We consider our principal competitors to be those companies that provide wafer cleaning, electrical plating and furnace products to the global market, including Lam Research Corporation, NAURA Technology Group Co., Ltd., SCREEN Holdings Co., Ltd., SEMES Co. Ltd., Tokyo Electron Ltd. and Kokusai Semiconductor Equipment Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ACM Research",
+   "relation": "competes_with",
+   "object": "Applied Materials, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Principal competitors for our PECVD and Track products also include Lam Research Corporation, Applied Materials, Inc., and Suzhou Jingtuo Semiconductor Technology Co., Ltd .",
+   "verified": true
+  },
+  {
+   "subject": "ACM Research",
+   "relation": "competes_with",
+   "object": "Suzhou Jingtuo Semiconductor Technology Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Principal competitors for our PECVD and Track products also include Lam Research Corporation, Applied Materials, Inc., and Suzhou Jingtuo Semiconductor Technology Co., Ltd .",
+   "verified": true
+  },
+  {
+   "subject": "ACM Research",
+   "relation": "operates_in",
+   "object": "mainland China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We conduct a substantial majority of our product development, manufacturing, support and services in mainland China through ACM Shanghai.",
+   "verified": true
+  },
+  {
+   "subject": "ACM Research",
+   "relation": "operates_in",
+   "object": "Korea",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We perform, through a subsidiary of ACM Shanghai, additional product development and subsystem production in Korea,",
+   "verified": true
+  }
+ ]
+}

@@ -66,7 +66,7 @@ def build_user_message(filer_name: str, ticker: str, form: str, filed_at: str, p
 def request_params(user_message: str) -> dict:
     return {
         "model": config.MODEL_EXTRACT,
-        "max_tokens": 8000,
+        "max_tokens": 16000,
         "system": [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
         "messages": [{"role": "user", "content": user_message}],
         "output_config": {"effort": "low", "format": {"type": "json_schema", "schema": SCHEMA}},

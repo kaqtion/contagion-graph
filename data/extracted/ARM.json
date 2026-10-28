@@ -1,0 +1,37 @@
+{
+ "ticker": "ARM",
+ "form": "20-F",
+ "filed_at": "2026-05-26",
+ "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/arm-20260331.htm",
+ "accession": "0001973239-26-000097",
+ "cost_usd": 0.00098,
+ "relations": [
+  {
+   "subject": "Arm",
+   "relation": "supplies_to",
+   "object": "Arm China",
+   "strength_tier": "major",
+   "revenue_pct": 16,
+   "quote": "and our largest customer individually, Arm China, accounted for approximately 16%, 17% and 21% of our total revenue, respectively, during those fiscal years.",
+   "verified": true
+  },
+  {
+   "subject": "Arm",
+   "relation": "supplies_to",
+   "object": "SoftBank Group",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "A portion of our near-term revenue is dependent on commercial arrangements with SoftBank Group and/or its affiliates.",
+   "verified": true
+  },
+  {
+   "subject": "Arm",
+   "relation": "operates_in",
+   "object": "PRC",
+   "strength_tier": "major",
+   "revenue_pct": 18,
+   "quote": "For the fiscal years ended March 31, 2026, 2025 and 2024, revenues from the PRC accounted for approximately 18%, 19% and 22% of our total revenue",
+   "verified": true
+  }
+ ]
+}

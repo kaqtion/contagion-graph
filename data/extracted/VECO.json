@@ -1,0 +1,28 @@
+{
+ "ticker": "VECO",
+ "form": "10-K",
+ "filed_at": "2026-02-25",
+ "url": "https://www.sec.gov/Archives/edgar/data/103145/000110465926019711/veco-20251231x10k.htm",
+ "accession": "0001104659-26-019711",
+ "cost_usd": 0.00099,
+ "relations": [
+  {
+   "subject": "Veeco",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Included within the Rest of APAC region for the year ended December 31, 2025 were sales in Taiwan and Japan of $178.8 million and $69.0 million, respectively",
+   "verified": true
+  },
+  {
+   "subject": "Veeco",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Included within the Rest of APAC region for the year ended December 31, 2025 were sales in Taiwan and Japan of $178.8 million and $69.0 million, respectively",
+   "verified": true
+  }
+ ]
+}

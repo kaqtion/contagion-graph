@@ -1,0 +1,199 @@
+{
+ "ticker": "ALB",
+ "form": "10-K",
+ "filed_at": "2026-02-11",
+ "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000018/alb-20251231.htm",
+ "accession": "0000915913-26-000018",
+ "cost_usd": 0.00194,
+ "relations": [
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Sociedad Quimica y Minera de Chile S.A.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Major competitors in lithium compounds include Sociedad Quimica y Minera de Chile S.A., Sichuan Tianqi Lithium, Jiangxi Ganfeng Lithium, Rio Tinto plc, Pilbara Minerals, Tesla and a large number of additional Chinese companies.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Sichuan Tianqi Lithium",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Major competitors in lithium compounds include Sociedad Quimica y Minera de Chile S.A., Sichuan Tianqi Lithium, Jiangxi Ganfeng Lithium, Rio Tinto plc, Pilbara Minerals, Tesla and a large number of additional Chinese companies.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Jiangxi Ganfeng Lithium",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Major competitors in lithium compounds include Sociedad Quimica y Minera de Chile S.A., Sichuan Tianqi Lithium, Jiangxi Ganfeng Lithium, Rio Tinto plc, Pilbara Minerals, Tesla and a large number of additional Chinese companies.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Rio Tinto plc",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Major competitors in lithium compounds include Sociedad Quimica y Minera de Chile S.A., Sichuan Tianqi Lithium, Jiangxi Ganfeng Lithium, Rio Tinto plc, Pilbara Minerals, Tesla and a large number of additional Chinese companies.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Pilbara Minerals",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Major competitors in lithium compounds include Sociedad Quimica y Minera de Chile S.A., Sichuan Tianqi Lithium, Jiangxi Ganfeng Lithium, Rio Tinto plc, Pilbara Minerals, Tesla and a large number of additional Chinese companies.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Tesla",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Major competitors in lithium compounds include Sociedad Quimica y Minera de Chile S.A., Sichuan Tianqi Lithium, Jiangxi Ganfeng Lithium, Rio Tinto plc, Pilbara Minerals, Tesla and a large number of additional Chinese companies.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Lanxess AG",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our most significant competitors are Lanxess AG, Israel Chemicals Ltd and Rio Tinto, as well as producers in India and China.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Israel Chemicals Ltd",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our most significant competitors are Lanxess AG, Israel Chemicals Ltd and Rio Tinto, as well as producers in India and China.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Rio Tinto",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our most significant competitors are Lanxess AG, Israel Chemicals Ltd and Rio Tinto, as well as producers in India and China.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Shell Catalysts & Technologies",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors in the CFT catalysts market include Shell Catalysts & Technologies, Advanced Refining Technologies and Haldor Topsoe.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Advanced Refining Technologies",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors in the CFT catalysts market include Shell Catalysts & Technologies, Advanced Refining Technologies and Haldor Topsoe.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Haldor Topsoe",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors in the CFT catalysts market include Shell Catalysts & Technologies, Advanced Refining Technologies and Haldor Topsoe.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "W.R. Grace & Co.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors in the FCC catalysts market include W.R. Grace & Co. and BASF Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "BASF Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors in the FCC catalysts market include W.R. Grace & Co. and BASF Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Nouryon",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the PCS market, our major competitors include Nouryon, Lanxess AG and Arxada.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Lanxess AG",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the PCS market, our major competitors include Nouryon, Lanxess AG and Arxada.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "competes_with",
+   "object": "Arxada",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the PCS market, our major competitors include Nouryon, Lanxess AG and Arxada.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "buys_from",
+   "object": "Windfield",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We purchase lithium concentrate from Windfield, and our investment in the joint venture is reported as an unconsolidated equity investment on our balance sheet.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "operates_in",
+   "object": "Chile",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "(b) through solar evaporation of our ponds at the Salar de Atacama, in Chile, and in Silver Peak, Nevada.",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "operates_in",
+   "object": "Jordan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "through our 50% interest in Jordan Bromine Company Limited (\u201cJBC\u201d), a consolidated joint venture established in 1999 with operations in Safi, Jordan",
+   "verified": true
+  },
+  {
+   "subject": "Albemarle Corporation",
+   "relation": "depends_on",
+   "object": "chlorine",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our lithium and bromine businesses rely upon our continued ability to obtain key raw materials, such as chlorine or soda ash,",
+   "verified": true
+  }
+ ]
+}

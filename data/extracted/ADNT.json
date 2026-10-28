@@ -1,0 +1,118 @@
+{
+ "ticker": "ADNT",
+ "form": "10-K",
+ "filed_at": "2025-11-18",
+ "url": "https://www.sec.gov/Archives/edgar/data/1670541/000167054125000152/adnt-20250930.htm",
+ "accession": "0001670541-25-000152",
+ "cost_usd": 0.00104,
+ "relations": [
+  {
+   "subject": "Adient",
+   "relation": "supplies_to",
+   "object": "Ford Motor Company",
+   "strength_tier": "major",
+   "revenue_pct": 11,
+   "quote": "Ford Motor Company comprised 11 %, 12 % and 11 % of consolidated net sales in fiscal 2025, 2024 and 2023, respectively, across all segments.",
+   "verified": true
+  },
+  {
+   "subject": "Adient",
+   "relation": "supplies_to",
+   "object": "Volkswagen Group",
+   "strength_tier": "major",
+   "revenue_pct": 10,
+   "quote": "Volkswagen Group comprised 10 %, 13 % and 11 % of consolidated net sales in fiscal 2025, 2024 and 2023, respectively, primarily within the EMEA segment.",
+   "verified": true
+  },
+  {
+   "subject": "Adient",
+   "relation": "supplies_to",
+   "object": "Stellantis N.V.",
+   "strength_tier": "major",
+   "revenue_pct": 10,
+   "quote": "Stellantis N.V. comprised 10 % of consolidated net sales in fiscal 2025 and 2023 within the Americas and EMEA segments.",
+   "verified": true
+  },
+  {
+   "subject": "Adient",
+   "relation": "supplies_to",
+   "object": "BMW",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Adient has longstanding relationships with premier automotive manufacturers, including BMW, Mercedes-Benz Group, Ford Motor Company, General Motors Company",
+   "verified": false
+  },
+  {
+   "subject": "Adient",
+   "relation": "supplies_to",
+   "object": "General Motors Company",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Adient has longstanding relationships with premier automotive manufacturers, including BMW, Mercedes-Benz Group, Ford Motor Company, General Motors Company, Honda Motor Company",
+   "verified": false
+  },
+  {
+   "subject": "Adient",
+   "relation": "supplies_to",
+   "object": "Toyota Motor Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Nissan Motor Corporation, Renault Group, Stellantis N.V., Suzuki Motor Corporation, Toyota Motor Corporation, Volkswagen Group and Volvo Car Group.",
+   "verified": true
+  },
+  {
+   "subject": "Adient",
+   "relation": "competes_with",
+   "object": "Lear Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Independent suppliers that represent the principal competitors of Adient include Lear Corporation, Toyota Boshoku Corporation, Forvia SE, Magna International Inc. and Yanfeng Automotive Systems Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Adient",
+   "relation": "competes_with",
+   "object": "Toyota Boshoku Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Independent suppliers that represent the principal competitors of Adient include Lear Corporation, Toyota Boshoku Corporation, Forvia SE, Magna International Inc. and Yanfeng Automotive Systems Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Adient",
+   "relation": "competes_with",
+   "object": "Forvia SE",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Independent suppliers that represent the principal competitors of Adient include Lear Corporation, Toyota Boshoku Corporation, Forvia SE, Magna International Inc. and Yanfeng Automotive Systems Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Adient",
+   "relation": "competes_with",
+   "object": "Magna International Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Independent suppliers that represent the principal competitors of Adient include Lear Corporation, Toyota Boshoku Corporation, Forvia SE, Magna International Inc. and Yanfeng Automotive Systems Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Adient",
+   "relation": "competes_with",
+   "object": "Yanfeng Automotive Systems Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Independent suppliers that represent the principal competitors of Adient include Lear Corporation, Toyota Boshoku Corporation, Forvia SE, Magna International Inc. and Yanfeng Automotive Systems Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Adient",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Maintaining a strong position in the Chinese market is a key component of Adient's strategy.",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "ticker": "BWA",
+ "form": "10-K",
+ "filed_at": "2026-02-11",
+ "url": "https://www.sec.gov/Archives/edgar/data/908255/000090825526000011/bwa-20251231.htm",
+ "accession": "0000908255-26-000011",
+ "cost_usd": 0.00161,
+ "relations": [
+  {
+   "subject": "BorgWarner",
+   "relation": "supplies_to",
+   "object": "Volkswagen",
+   "strength_tier": "major",
+   "revenue_pct": 13,
+   "quote": "Our worldwide sales in 2025 to Volkswagen and Ford constituted approximately 13% and 12% of our 2025 consolidated net sales, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "supplies_to",
+   "object": "Ford",
+   "strength_tier": "major",
+   "revenue_pct": 12,
+   "quote": "Our worldwide sales in 2025 to Volkswagen and Ford constituted approximately 13% and 12% of our 2025 consolidated net sales, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "supplies_to",
+   "object": "Stellantis",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "All three of our primary North American customers, Ford, Stellantis, and General Motors, have major union contracts with the International Union, United Automobile, Aerospace and Agricultural Implement Workers of America (or \u201cUAW\u201d).",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "supplies_to",
+   "object": "General Motors",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "All three of our primary North American customers, Ford, Stellantis, and General Motors, have major union contracts with the International Union, United Automobile, Aerospace and Agricultural Implement Workers of America (or \u201cUAW\u201d).",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "competes_with",
+   "object": "Robert Bosch GmbH",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company\u2019s major non-OEM competitors are Robert Bosch GmbH, Denso Corporation, Garrett Motion, Hitachi, Ltd., Magna Powertrain (an operating unit of Magna International Inc.), Valeo, Schaeffler Group and Contemporary Amperex Technology Co., Limited.",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "competes_with",
+   "object": "Denso Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company\u2019s major non-OEM competitors are Robert Bosch GmbH, Denso Corporation, Garrett Motion, Hitachi, Ltd., Magna Powertrain (an operating unit of Magna International Inc.), Valeo, Schaeffler Group and Contemporary Amperex Technology Co., Limited.",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "competes_with",
+   "object": "Garrett Motion",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company\u2019s major non-OEM competitors are Robert Bosch GmbH, Denso Corporation, Garrett Motion, Hitachi, Ltd., Magna Powertrain (an operating unit of Magna International Inc.), Valeo, Schaeffler Group and Contemporary Amperex Technology Co., Limited.",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "competes_with",
+   "object": "Hitachi, Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company\u2019s major non-OEM competitors are Robert Bosch GmbH, Denso Corporation, Garrett Motion, Hitachi, Ltd., Magna Powertrain (an operating unit of Magna International Inc.), Valeo, Schaeffler Group and Contemporary Amperex Technology Co., Limited.",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "competes_with",
+   "object": "Magna Powertrain",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company\u2019s major non-OEM competitors are Robert Bosch GmbH, Denso Corporation, Garrett Motion, Hitachi, Ltd., Magna Powertrain (an operating unit of Magna International Inc.), Valeo, Schaeffler Group and Contemporary Amperex Technology Co., Limited.",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "competes_with",
+   "object": "Valeo",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company\u2019s major non-OEM competitors are Robert Bosch GmbH, Denso Corporation, Garrett Motion, Hitachi, Ltd., Magna Powertrain (an operating unit of Magna International Inc.), Valeo, Schaeffler Group and Contemporary Amperex Technology Co., Limited.",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "competes_with",
+   "object": "Schaeffler Group",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company\u2019s major non-OEM competitors are Robert Bosch GmbH, Denso Corporation, Garrett Motion, Hitachi, Ltd., Magna Powertrain (an operating unit of Magna International Inc.), Valeo, Schaeffler Group and Contemporary Amperex Technology Co., Limited.",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "competes_with",
+   "object": "Contemporary Amperex Technology Co., Limited",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company\u2019s major non-OEM competitors are Robert Bosch GmbH, Denso Corporation, Garrett Motion, Hitachi, Ltd., Magna Powertrain (an operating unit of Magna International Inc.), Valeo, Schaeffler Group and Contemporary Amperex Technology Co., Limited.",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "operates_in",
+   "object": "Europe",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company operates manufacturing facilities serving customers in Europe, the Americas and Asia",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "operates_in",
+   "object": "Americas",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company operates manufacturing facilities serving customers in Europe, the Americas and Asia",
+   "verified": true
+  },
+  {
+   "subject": "BorgWarner",
+   "relation": "operates_in",
+   "object": "Asia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company operates manufacturing facilities serving customers in Europe, the Americas and Asia",
+   "verified": true
+  }
+ ]
+}

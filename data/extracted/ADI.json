@@ -1,0 +1,37 @@
+{
+ "ticker": "ADI",
+ "form": "10-K",
+ "filed_at": "2025-11-25",
+ "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628125000153/adi-20251101.htm",
+ "accession": "0000006281-25-000153",
+ "cost_usd": 0.00074,
+ "relations": [
+  {
+   "subject": "Analog Devices",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently source more than half of our wafer requirements annually from third-party wafer fabrication foundries, such as Taiwan Semiconductor Manufacturing Company (TSMC) and others, and the remainder is sourced internally.",
+   "verified": true
+  },
+  {
+   "subject": "Analog Devices",
+   "relation": "depends_on",
+   "object": "silicon wafers",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The raw materials used to manufacture these devices include silicon wafers, processing chemicals (including liquefied gases), precious metals laminates, ceramic and plastic used for packaging.",
+   "verified": true
+  },
+  {
+   "subject": "Analog Devices",
+   "relation": "operates_in",
+   "object": "Malaysia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In addition, we operate an assembly, wafer sort and testing facility in Penang, Malaysia and wafer sort and test facilities in the Philippines and Thailand.",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "ticker": "IBM",
+ "form": "10-K",
+ "filed_at": "2026-02-24",
+ "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231.htm",
+ "accession": "0000051143-26-000010",
+ "cost_usd": 0.00097,
+ "relations": [
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Alphabet (Google)",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The principal competitors in this segment include: Alphabet (Google), Amazon, BMC, Broadcom, Microsoft, Oracle, Salesforce, SAP and Splunk, a CISCO Company.",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Amazon",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The principal competitors in this segment include: Alphabet (Google), Amazon, BMC, Broadcom, Microsoft, Oracle, Salesforce, SAP and Splunk, a CISCO Company.",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "BMC",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The principal competitors in this segment include: Alphabet (Google), Amazon, BMC, Broadcom, Microsoft, Oracle, Salesforce, SAP and Splunk, a CISCO Company.",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Broadcom",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The principal competitors in this segment include: Alphabet (Google), Amazon, BMC, Broadcom, Microsoft, Oracle, Salesforce, SAP and Splunk, a CISCO Company.",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Microsoft",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The principal competitors in this segment include: Alphabet (Google), Amazon, BMC, Broadcom, Microsoft, Oracle, Salesforce, SAP and Splunk, a CISCO Company.",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Oracle",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The principal competitors in this segment include: Alphabet (Google), Amazon, BMC, Broadcom, Microsoft, Oracle, Salesforce, SAP and Splunk, a CISCO Company.",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Salesforce",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The principal competitors in this segment include: Alphabet (Google), Amazon, BMC, Broadcom, Microsoft, Oracle, Salesforce, SAP and Splunk, a CISCO Company.",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "SAP",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The principal competitors in this segment include: Alphabet (Google), Amazon, BMC, Broadcom, Microsoft, Oracle, Salesforce, SAP and Splunk, a CISCO Company.",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Accenture",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include global firms such as Accenture, Capgemini, India-based service providers, management consulting firms",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Capgemini",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include global firms such as Accenture, Capgemini, India-based service providers, management consulting firms",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Dell Technologies",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include: Dell Technologies, Hewlett-Packard Enterprise (HPE), Intel, NetApp and Pure Storage",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Hewlett-Packard Enterprise (HPE)",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include: Dell Technologies, Hewlett-Packard Enterprise (HPE), Intel, NetApp and Pure Storage",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Intel",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include: Dell Technologies, Hewlett-Packard Enterprise (HPE), Intel, NetApp and Pure Storage",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "NetApp",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include: Dell Technologies, Hewlett-Packard Enterprise (HPE), Intel, NetApp and Pure Storage",
+   "verified": true
+  },
+  {
+   "subject": "International Business Machines (IBM)",
+   "relation": "competes_with",
+   "object": "Pure Storage",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include: Dell Technologies, Hewlett-Packard Enterprise (HPE), Intel, NetApp and Pure Storage",
+   "verified": true
+  }
+ ]
+}

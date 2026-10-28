@@ -1,0 +1,55 @@
+{
+ "ticker": "LIN",
+ "form": "10-K",
+ "filed_at": "2026-02-25",
+ "url": "https://www.sec.gov/Archives/edgar/data/1707925/000162828026011430/lin-20251231.htm",
+ "accession": "0001628280-26-011430",
+ "cost_usd": 0.00115,
+ "relations": [
+  {
+   "subject": "Linde plc",
+   "relation": "competes_with",
+   "object": "L'Air Liquide S.A.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in the industrial gases industry include global and regional companies such as L\u2019Air Liquide S.A., Air Products and Chemicals, Inc., Messer Group GmbH",
+   "verified": true
+  },
+  {
+   "subject": "Linde plc",
+   "relation": "competes_with",
+   "object": "Air Products and Chemicals, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in the industrial gases industry include global and regional companies such as L\u2019Air Liquide S.A., Air Products and Chemicals, Inc., Messer Group GmbH",
+   "verified": true
+  },
+  {
+   "subject": "Linde plc",
+   "relation": "competes_with",
+   "object": "Messer Group GmbH",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in the industrial gases industry include global and regional companies such as L\u2019Air Liquide S.A., Air Products and Chemicals, Inc., Messer Group GmbH",
+   "verified": true
+  },
+  {
+   "subject": "Linde plc",
+   "relation": "competes_with",
+   "object": "Mitsubishi Chemical Holdings Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Messer Group GmbH, Mitsubishi Chemical Holdings Corporation (through Taiyo Nippon Sanso Corporation) as well as an extensive number of small to medium size independent industrial gas companies",
+   "verified": true
+  },
+  {
+   "subject": "Linde plc",
+   "relation": "produces",
+   "object": "neon",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "As part of this process Linde also produces rare gases, such as krypton, neon, and xenon.",
+   "verified": true
+  }
+ ]
+}

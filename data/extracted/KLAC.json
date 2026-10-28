@@ -1,0 +1,55 @@
+{
+ "ticker": "KLAC",
+ "form": "10-K",
+ "filed_at": "2026-08-06",
+ "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm",
+ "accession": "0000319201-26-000027",
+ "cost_usd": 0.00081,
+ "relations": [
+  {
+   "subject": "KLA",
+   "relation": "competes_with",
+   "object": "Applied Materials, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Tech Corporation, Lasertec, Inc. and Onto Innovation, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "KLA",
+   "relation": "competes_with",
+   "object": "ASML Holding N.V.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Tech Corporation, Lasertec, Inc. and Onto Innovation, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "KLA",
+   "relation": "competes_with",
+   "object": "Hitachi High-Tech Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Tech Corporation, Lasertec, Inc. and Onto Innovation, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "KLA",
+   "relation": "competes_with",
+   "object": "Lasertec, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Tech Corporation, Lasertec, Inc. and Onto Innovation, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "KLA",
+   "relation": "competes_with",
+   "object": "Onto Innovation, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Tech Corporation, Lasertec, Inc. and Onto Innovation, Inc.",
+   "verified": true
+  }
+ ]
+}

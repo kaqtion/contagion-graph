@@ -1,0 +1,46 @@
+{
+ "ticker": "ASML",
+ "form": "20-F",
+ "filed_at": "2026-02-25",
+ "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm",
+ "accession": "0001628280-26-011378",
+ "cost_usd": 0.00087,
+ "relations": [
+  {
+   "subject": "ASML Holding",
+   "relation": "buys_from",
+   "object": "Carl Zeiss SMT GmbH",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "a limited partnership that owns Carl Zeiss SMT GmbH, our single supplier of optical columns.",
+   "verified": true
+  },
+  {
+   "subject": "ASML Holding",
+   "relation": "buys_from",
+   "object": "Carl Zeiss SMT GmbH",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography",
+   "verified": true
+  },
+  {
+   "subject": "Carl Zeiss SMT GmbH",
+   "relation": "supplies_to",
+   "object": "ASML Holding",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography",
+   "verified": true
+  },
+  {
+   "subject": "ASML Holding",
+   "relation": "competes_with",
+   "object": "KLA-Tencor Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "KLA-Tencor Corporation. These applications compete with our offerings, which is a significant part of our business.",
+   "verified": true
+  }
+ ]
+}

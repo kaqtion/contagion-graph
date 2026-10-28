@@ -1,0 +1,163 @@
+{
+ "ticker": "HPE",
+ "form": "10-K",
+ "filed_at": "2025-12-18",
+ "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+ "accession": "0001645590-25-000130",
+ "cost_usd": 0.00353,
+ "relations": [
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "buys_from",
+   "object": "Intel",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "our single-source suppliers (e.g., Intel and AMD as suppliers of certain x86 processors",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "buys_from",
+   "object": "AMD",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "our single-source suppliers (e.g., Intel and AMD as suppliers of certain x86 processors",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "buys_from",
+   "object": "Broadcom",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "Broadcom and others for industry standard Application-Specific Standard Product",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "buys_from",
+   "object": "NVIDIA",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "or NVIDIA for Graphics Processing Units)",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "Dell Technologies Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors in data center infrastructure are technology vendors, such as Dell Technologies Inc., Super Micro Computer, Inc., Cisco Systems, Inc., and Lenovo Group Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "Super Micro Computer, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors in data center infrastructure are technology vendors, such as Dell Technologies Inc., Super Micro Computer, Inc., Cisco Systems, Inc., and Lenovo Group Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "Cisco Systems, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors in data center infrastructure are technology vendors, such as Dell Technologies Inc., Super Micro Computer, Inc., Cisco Systems, Inc., and Lenovo Group Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "Lenovo Group Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors in data center infrastructure are technology vendors, such as Dell Technologies Inc., Super Micro Computer, Inc., Cisco Systems, Inc., and Lenovo Group Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "Broadcom",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are other infrastructure and cloud management software technology vendors, such as Broadcom, Cisco Systems Inc., Dell Technologies Inc., IBM, NetApp Inc., Nutanix, and Pure Storage",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "IBM",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are other infrastructure and cloud management software technology vendors, such as Broadcom, Cisco Systems Inc., Dell Technologies Inc., IBM, NetApp Inc., Nutanix, and Pure Storage",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "Cisco Systems, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are technology vendors, such as Cisco Systems, Inc., Arista Networks Inc, Nokia Corporation, Huawei Technologies Co. Ltd., Ciena Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "Arista Networks Inc",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are technology vendors, such as Cisco Systems, Inc., Arista Networks Inc, Nokia Corporation, Huawei Technologies Co. Ltd., Ciena Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "Nokia Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are technology vendors, such as Cisco Systems, Inc., Arista Networks Inc, Nokia Corporation, Huawei Technologies Co. Ltd., Ciena Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "Huawei Technologies Co. Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are technology vendors, such as Cisco Systems, Inc., Arista Networks Inc, Nokia Corporation, Huawei Technologies Co. Ltd., Ciena Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "Ciena Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are technology vendors, such as Cisco Systems, Inc., Arista Networks Inc, Nokia Corporation, Huawei Technologies Co. Ltd., Ciena Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "competes_with",
+   "object": "NVIDIA Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Ciena Corporation, NVIDIA Corporation, Extreme Networks, Inc., Palo Alto Networks, Fortinet, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Hewlett Packard Enterprise",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "concentrated in certain geographic locations, including the United States, Puerto Rico, Vietnam, Thailand, Costa Rica, Brazil, Czech Republic, Malaysia, Mexico, China",
+   "verified": true
+  }
+ ]
+}

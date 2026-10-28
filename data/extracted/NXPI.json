@@ -1,0 +1,163 @@
+{
+ "ticker": "NXPI",
+ "form": "10-K",
+ "filed_at": "2026-02-19",
+ "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000008/nxpi-20251231.htm",
+ "accession": "0001413447-26-000008",
+ "cost_usd": 0.00182,
+ "relations": [
+  {
+   "subject": "NXP",
+   "relation": "supplies_to",
+   "object": "Avnet",
+   "strength_tier": "major",
+   "revenue_pct": 23,
+   "quote": "Avnet accounted for 23% of our revenue in 2025 and 22% in 2024.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "buys_from",
+   "object": "VisionPower Semiconductor Manufacturing Company Pte. Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Furthermore, NXP has an agreed purchase commitment with VSMC that over the lifetime of the factory the minimal loading will be between 80% - 90%",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "competes_with",
+   "object": "Analog Devices Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Broadcom Inc., Infineon Technologies AG, Microchip Technology Inc., Qualcomm Inc., Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "competes_with",
+   "object": "Broadcom Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Broadcom Inc., Infineon Technologies AG, Microchip Technology Inc., Qualcomm Inc., Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "competes_with",
+   "object": "Infineon Technologies AG",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Broadcom Inc., Infineon Technologies AG, Microchip Technology Inc., Qualcomm Inc., Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "competes_with",
+   "object": "Microchip Technology Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Broadcom Inc., Infineon Technologies AG, Microchip Technology Inc., Qualcomm Inc., Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "competes_with",
+   "object": "Qualcomm Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Broadcom Inc., Infineon Technologies AG, Microchip Technology Inc., Qualcomm Inc., Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "competes_with",
+   "object": "Renesas Electronics Corp.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Broadcom Inc., Infineon Technologies AG, Microchip Technology Inc., Qualcomm Inc., Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "competes_with",
+   "object": "STMicroelectronics NV",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Broadcom Inc., Infineon Technologies AG, Microchip Technology Inc., Qualcomm Inc., Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "competes_with",
+   "object": "Texas Instruments Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Broadcom Inc., Infineon Technologies AG, Microchip Technology Inc., Qualcomm Inc., Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "operates_in",
+   "object": "United States",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "As of February 19, 2026, the Company operates owned manufacturing facilities primarily in the United States, Netherlands, Malaysia, China, Thailand and Taiwan, as well as in Singapore (SSMC) together with our joint venture partner TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "operates_in",
+   "object": "Netherlands",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "As of February 19, 2026, the Company operates owned manufacturing facilities primarily in the United States, Netherlands, Malaysia, China, Thailand and Taiwan, as well as in Singapore (SSMC) together with our joint venture partner TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "operates_in",
+   "object": "Malaysia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "As of February 19, 2026, the Company operates owned manufacturing facilities primarily in the United States, Netherlands, Malaysia, China, Thailand and Taiwan, as well as in Singapore (SSMC) together with our joint venture partner TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "As of February 19, 2026, the Company operates owned manufacturing facilities primarily in the United States, Netherlands, Malaysia, China, Thailand and Taiwan, as well as in Singapore (SSMC) together with our joint venture partner TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "operates_in",
+   "object": "Thailand",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "As of February 19, 2026, the Company operates owned manufacturing facilities primarily in the United States, Netherlands, Malaysia, China, Thailand and Taiwan, as well as in Singapore (SSMC) together with our joint venture partner TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "As of February 19, 2026, the Company operates owned manufacturing facilities primarily in the United States, Netherlands, Malaysia, China, Thailand and Taiwan, as well as in Singapore (SSMC) together with our joint venture partner TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "NXP",
+   "relation": "depends_on",
+   "object": "silicon wafers",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our most important raw materials are the raw, or substrate, silicon wafers we use to make our semiconductors.",
+   "verified": true
+  }
+ ]
+}

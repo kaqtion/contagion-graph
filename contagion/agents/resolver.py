@@ -13,7 +13,8 @@ from rapidfuzz import fuzz, process
 from ..db import Alias, Node, select, session
 
 _SUFFIXES = re.compile(
-    r"\b(incorporated|inc|corporation|corp|company|co|limited|ltd|plc|llc|lp|ag|se|nv|n v|sa|s a|"
+    r"\b(incorporated|inc|corporation|corp|company|co|limited|ltd|plc|llc|lp|ag|se|nv|n v|sa|s a|gmbh|kk|k k|"
+    r"ab|spa|s p a|sas|bv|b v|oyj|asa|pte|pvt|bhd|tbk|"
     r"holdings?|group|technologies|technology|the)\b"
 )
 GENERIC = {
@@ -94,8 +95,9 @@ class Match:
 class Resolver:
     def __init__(self) -> None:
         with session() as s:
-            nodes = s.scalars(select(Node).where(Node.kind == "company")).all()
-            aliases = s.scalars(select(Alias)).all()
+            # only the curated universe: external nodes from a previous load must never become match targets
+            nodes = s.scalars(select(Node).where(Node.kind == "company", Node.in_universe.is_(True))).all()
+            aliases = s.scalars(select(Alias).where(Alias.source != "external")).all()
         self.names = {n.id: n.name for n in nodes}
         self.tickers = {n.ticker.upper(): n.id for n in nodes if n.ticker}
         self.exact: dict[str, set[str]] = {}

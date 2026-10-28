@@ -1,0 +1,127 @@
+{
+ "ticker": "AOSL",
+ "form": "10-K",
+ "filed_at": "2026-08-27",
+ "url": "https://www.sec.gov/Archives/edgar/data/1387467/000162828026059261/aosl-20260630.htm",
+ "accession": "0001628280-26-059261",
+ "cost_usd": 0.00113,
+ "relations": [
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "competes_with",
+   "object": "Infineon Technologies AG",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors in power discretes include Infineon Technologies AG, ON Semiconductor Corp., STMicroelectronics N.V., Toshiba Corporation, Diodes Incorporated and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "competes_with",
+   "object": "ON Semiconductor Corp.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors in power discretes include Infineon Technologies AG, ON Semiconductor Corp., STMicroelectronics N.V., Toshiba Corporation, Diodes Incorporated and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "competes_with",
+   "object": "STMicroelectronics N.V.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors in power discretes include Infineon Technologies AG, ON Semiconductor Corp., STMicroelectronics N.V., Toshiba Corporation, Diodes Incorporated and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "competes_with",
+   "object": "Toshiba Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors in power discretes include Infineon Technologies AG, ON Semiconductor Corp., STMicroelectronics N.V., Toshiba Corporation, Diodes Incorporated and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "competes_with",
+   "object": "Diodes Incorporated",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors in power discretes include Infineon Technologies AG, ON Semiconductor Corp., STMicroelectronics N.V., Toshiba Corporation, Diodes Incorporated and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "competes_with",
+   "object": "Vishay Intertechnology, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors in power discretes include Infineon Technologies AG, ON Semiconductor Corp., STMicroelectronics N.V., Toshiba Corporation, Diodes Incorporated and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "competes_with",
+   "object": "Monolithic Power Systems, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors for our power ICs include Monolithic Power Systems, Inc., ON Semiconductor Corp., Richtek Technology Corp., Semtech Corporation, Texas Instruments Inc. and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "competes_with",
+   "object": "Richtek Technology Corp.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors for our power ICs include Monolithic Power Systems, Inc., ON Semiconductor Corp., Richtek Technology Corp., Semtech Corporation, Texas Instruments Inc. and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "competes_with",
+   "object": "Semtech Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors for our power ICs include Monolithic Power Systems, Inc., ON Semiconductor Corp., Richtek Technology Corp., Semtech Corporation, Texas Instruments Inc. and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "competes_with",
+   "object": "Texas Instruments Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitors for our power ICs include Monolithic Power Systems, Inc., ON Semiconductor Corp., Richtek Technology Corp., Semtech Corporation, Texas Instruments Inc. and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "buys_from",
+   "object": "JV Company",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "The JV Company supplies 12-inch wafers and provides assembly and testing services to AOS.",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "supplies_to",
+   "object": "WPG Holdings Limited",
+   "strength_tier": "major",
+   "revenue_pct": 53.0,
+   "quote": "Sales to WPG and Promate accounted for 53.0% and 19.3% of our revenue, respectively, for the fiscal year ended June 30, 2026",
+   "verified": true
+  },
+  {
+   "subject": "Alpha and Omega Semiconductor",
+   "relation": "supplies_to",
+   "object": "Promate Electronic Co. Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": 19.3,
+   "quote": "Sales to WPG and Promate accounted for 53.0% and 19.3% of our revenue, respectively, for the fiscal year ended June 30, 2026",
+   "verified": true
+  }
+ ]
+}

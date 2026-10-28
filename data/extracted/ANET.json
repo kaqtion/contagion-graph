@@ -1,0 +1,145 @@
+{
+ "ticker": "ANET",
+ "form": "10-K",
+ "filed_at": "2026-02-17",
+ "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm",
+ "accession": "0001596532-26-000013",
+ "cost_usd": 0.00102,
+ "relations": [
+  {
+   "subject": "Arista",
+   "relation": "buys_from",
+   "object": "Jabil Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary manufacturing partners are Jabil Inc., Sanmina Corporation and Foxconn Hon Hai.",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "buys_from",
+   "object": "Sanmina Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary manufacturing partners are Jabil Inc., Sanmina Corporation and Foxconn Hon Hai.",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "buys_from",
+   "object": "Foxconn Hon Hai",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary manufacturing partners are Jabil Inc., Sanmina Corporation and Foxconn Hon Hai.",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "buys_from",
+   "object": "Broadcom",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "we are primarily reliant upon our predominant merchant silicon vendor, Broadcom, for our switching chips.",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "competes_with",
+   "object": "Cisco",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "our Arista NDR offerings compete with other network security vendors including Cisco, Darktrace, and ExtraHop.",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "competes_with",
+   "object": "Darktrace",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "our Arista NDR offerings compete with other network security vendors including Cisco, Darktrace, and ExtraHop.",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "competes_with",
+   "object": "ExtraHop",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "our Arista NDR offerings compete with other network security vendors including Cisco, Darktrace, and ExtraHop.",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "competes_with",
+   "object": "Gigamon",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Arista DANZ Monitoring Fabric (\"DMF\") competes with Cisco, Gigamon, Keysight, Netscout and other network monitoring software providers.",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "competes_with",
+   "object": "Keysight",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Arista DANZ Monitoring Fabric (\"DMF\") competes with Cisco, Gigamon, Keysight, Netscout and other network monitoring software providers.",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "competes_with",
+   "object": "Netscout",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Arista DANZ Monitoring Fabric (\"DMF\") competes with Cisco, Gigamon, Keysight, Netscout and other network monitoring software providers.",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "competes_with",
+   "object": "Dell/EMC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "competition also coming from other large network equipment and system vendors, including Dell/EMC, Extreme Networks, Hewlett Packard Enterprise, Huawei, Nvidia",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "competes_with",
+   "object": "Extreme Networks",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "competition also coming from other large network equipment and system vendors, including Dell/EMC, Extreme Networks, Hewlett Packard Enterprise, Huawei, Nvidia",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "competes_with",
+   "object": "Hewlett Packard Enterprise",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "competition also coming from other large network equipment and system vendors, including Dell/EMC, Extreme Networks, Hewlett Packard Enterprise, Huawei, Nvidia",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "competes_with",
+   "object": "Huawei",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "competition also coming from other large network equipment and system vendors, including Dell/EMC, Extreme Networks, Hewlett Packard Enterprise, Huawei, Nvidia",
+   "verified": true
+  },
+  {
+   "subject": "Arista",
+   "relation": "competes_with",
+   "object": "Nvidia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "competition also coming from other large network equipment and system vendors, including Dell/EMC, Extreme Networks, Hewlett Packard Enterprise, Huawei, Nvidia",
+   "verified": true
+  }
+ ]
+}

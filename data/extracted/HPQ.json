@@ -1,0 +1,127 @@
+{
+ "ticker": "HPQ",
+ "form": "10-K",
+ "filed_at": "2025-12-10",
+ "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm",
+ "accession": "0000047217-25-000071",
+ "cost_usd": 0.00105,
+ "relations": [
+  {
+   "subject": "HP",
+   "relation": "competes_with",
+   "object": "Acer Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are Acer Inc., Apple Inc., ASUSTeK Computer Inc., Dell Inc., Huawei Technologies Co., Ltd., Lenovo Group Limited, Logitech International S.A., Microsoft Corporation, Samsung Electronics Co., Ltd., and Toshiba Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "competes_with",
+   "object": "Apple Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are Acer Inc., Apple Inc., ASUSTeK Computer Inc., Dell Inc., Huawei Technologies Co., Ltd., Lenovo Group Limited, Logitech International S.A., Microsoft Corporation, Samsung Electronics Co., Ltd., and Toshiba Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "competes_with",
+   "object": "Dell Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are Acer Inc., Apple Inc., ASUSTeK Computer Inc., Dell Inc., Huawei Technologies Co., Ltd., Lenovo Group Limited, Logitech International S.A., Microsoft Corporation, Samsung Electronics Co., Ltd., and Toshiba Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "competes_with",
+   "object": "Lenovo Group Limited",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are Acer Inc., Apple Inc., ASUSTeK Computer Inc., Dell Inc., Huawei Technologies Co., Ltd., Lenovo Group Limited, Logitech International S.A., Microsoft Corporation, Samsung Electronics Co., Ltd., and Toshiba Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "competes_with",
+   "object": "Canon Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors include Brother Industries, Ltd., Canon Inc., Pantum International Limited, Seiko Epson Corporation, The Ricoh Company Ltd., and Xerox Corporation Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "competes_with",
+   "object": "Seiko Epson Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors include Brother Industries, Ltd., Canon Inc., Pantum International Limited, Seiko Epson Corporation, The Ricoh Company Ltd., and Xerox Corporation Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "competes_with",
+   "object": "Xerox Corporation Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors include Brother Industries, Ltd., Canon Inc., Pantum International Limited, Seiko Epson Corporation, The Ricoh Company Ltd., and Xerox Corporation Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "buys_from",
+   "object": "Canon",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "For example, we rely on Canon for certain laser printer engines and laser toner cartridges and certain key suppliers for application specific integrated circuits (\u201cASICs\u201d).",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "buys_from",
+   "object": "Intel",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We also rely on Intel, AMD, and NVIDIA, or other suppliers to provide us with a sufficient supply of processors for the majority of our PCs and workstations.",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "buys_from",
+   "object": "AMD",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We also rely on Intel, AMD, and NVIDIA, or other suppliers to provide us with a sufficient supply of processors for the majority of our PCs and workstations.",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "buys_from",
+   "object": "NVIDIA",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We also rely on Intel, AMD, and NVIDIA, or other suppliers to provide us with a sufficient supply of processors for the majority of our PCs and workstations.",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "supplies_to",
+   "object": "TD Synnex Corp",
+   "strength_tier": "major",
+   "revenue_pct": 12,
+   "quote": "One customer, TD Synnex Corp, accounted for 12 % of HP\u2019s net revenue for fiscal year 2025.",
+   "verified": true
+  },
+  {
+   "subject": "HP",
+   "relation": "buys_from",
+   "object": "Canon",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "HP obtains a significant number of components from single source suppliers like Canon, due to technology, availability, price, quality or other considerations.",
+   "verified": true
+  }
+ ]
+}

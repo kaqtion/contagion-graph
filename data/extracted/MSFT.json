@@ -1,0 +1,19 @@
+{
+ "ticker": "MSFT",
+ "form": "10-K",
+ "filed_at": "2026-07-29",
+ "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+ "accession": "0001193125-26-323660",
+ "cost_usd": 0.00078,
+ "relations": [
+  {
+   "subject": "Microsoft",
+   "relation": "supplies_to",
+   "object": "OpenAI",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For fiscal year 2026, we recorded revenue from commercial arrangements with OpenAI, inclusive of revenue-sharing payments, of $ 24.1 billion",
+   "verified": true
+  }
+ ]
+}

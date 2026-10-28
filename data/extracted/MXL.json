@@ -1,0 +1,199 @@
+{
+ "ticker": "MXL",
+ "form": "10-K",
+ "filed_at": "2026-01-29",
+ "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000011/mxl-20251231.htm",
+ "accession": "0001288469-26-000011",
+ "cost_usd": 0.00173,
+ "relations": [
+  {
+   "subject": "MaxLinear",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our key foundry partners include Taiwan Semiconductor Manufacturing Corporation, or TSMC, in Taiwan, and United Microelectronics Corporation, or UMC, in Taiwan and Singapore.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "buys_from",
+   "object": "United Microelectronics Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our key foundry partners include Taiwan Semiconductor Manufacturing Corporation, or TSMC, in Taiwan, and United Microelectronics Corporation, or UMC, in Taiwan and Singapore.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "buys_from",
+   "object": "Intel Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Additionally, certain products are supplied to us by Intel Corporation, or Intel, on a turnkey basis.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "buys_from",
+   "object": "Advanced Semiconductor Engineering",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The majority of our assembly/packaging and test requirements are supported by the following independent subcontractors: Advanced Semiconductor Engineering, or ASE, Greatek Electronics, Inc., Signetics Corporation, SIGURD Microelectronics Corp., and Silicon Precision Industries.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "buys_from",
+   "object": "Greatek Electronics, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The majority of our assembly/packaging and test requirements are supported by the following independent subcontractors: Advanced Semiconductor Engineering, or ASE, Greatek Electronics, Inc., Signetics Corporation, SIGURD Microelectronics Corp., and Silicon Precision Industries.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "buys_from",
+   "object": "Signetics Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The majority of our assembly/packaging and test requirements are supported by the following independent subcontractors: Advanced Semiconductor Engineering, or ASE, Greatek Electronics, Inc., Signetics Corporation, SIGURD Microelectronics Corp., and Silicon Precision Industries.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "buys_from",
+   "object": "SIGURD Microelectronics Corp.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The majority of our assembly/packaging and test requirements are supported by the following independent subcontractors: Advanced Semiconductor Engineering, or ASE, Greatek Electronics, Inc., Signetics Corporation, SIGURD Microelectronics Corp., and Silicon Precision Industries.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "buys_from",
+   "object": "Silicon Precision Industries",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The majority of our assembly/packaging and test requirements are supported by the following independent subcontractors: Advanced Semiconductor Engineering, or ASE, Greatek Electronics, Inc., Signetics Corporation, SIGURD Microelectronics Corp., and Silicon Precision Industries.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "Broadcom, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "Qualcomm Incorporated",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "Realtek Semiconductor Corp.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "Skyworks Solutions, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "Credo Semiconductor Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "MediaTek, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "Marvell Technology Group Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "MACOM Technology Solutions Holdings, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "Texas Instruments Incorporated",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "Analog Devices, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "Renesas Electronics Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "Microchip Technology Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MaxLinear",
+   "relation": "competes_with",
+   "object": "Semtech Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary merchant semiconductor competitors include Broadcom, Inc., Qualcomm Incorporated, Realtek Semiconductor Corp., Skyworks Solutions, Inc., Credo Semiconductor Inc., MediaTek, Inc., Marvell Technology Group Ltd., MACOM Technology Solutions Holdings, Inc., Texas Instruments Incorporated, Analog Devices, Inc., Renesas Electronics Corporation, Microchip Technology Inc. and Semtech Corporation.",
+   "verified": true
+  }
+ ]
+}

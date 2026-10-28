@@ -1,0 +1,91 @@
+{
+ "ticker": "NVMI",
+ "form": "20-F",
+ "filed_at": "2026-02-17",
+ "url": "https://www.sec.gov/Archives/edgar/data/1109345/000117891326000504/zk2634307.htm",
+ "accession": "0001178913-26-000504",
+ "cost_usd": 0.00131,
+ "relations": [
+  {
+   "subject": "Nova",
+   "relation": "competes_with",
+   "object": "Onto Innovation Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We compete mainly with Onto Innovation Inc., and KLA Corp., which manufacture and sell CD, thin films and chemical metrology and process control systems.",
+   "verified": true
+  },
+  {
+   "subject": "Nova",
+   "relation": "competes_with",
+   "object": "KLA Corp.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We compete mainly with Onto Innovation Inc., and KLA Corp., which manufacture and sell CD, thin films and chemical metrology and process control systems.",
+   "verified": true
+  },
+  {
+   "subject": "Nova",
+   "relation": "competes_with",
+   "object": "ASML Holdings N.V.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In addition, we compete with process equipment manufacturers, such as ASML Holdings N.V., LAM Research, and Applied Materials Inc., which develop (or may acquire companies which develop) in-situ sensors and metrology products.",
+   "verified": true
+  },
+  {
+   "subject": "Nova",
+   "relation": "competes_with",
+   "object": "LAM Research",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In addition, we compete with process equipment manufacturers, such as ASML Holdings N.V., LAM Research, and Applied Materials Inc., which develop (or may acquire companies which develop) in-situ sensors and metrology products.",
+   "verified": true
+  },
+  {
+   "subject": "Nova",
+   "relation": "competes_with",
+   "object": "Applied Materials Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In addition, we compete with process equipment manufacturers, such as ASML Holdings N.V., LAM Research, and Applied Materials Inc., which develop (or may acquire companies which develop) in-situ sensors and metrology products.",
+   "verified": true
+  },
+  {
+   "subject": "Nova",
+   "relation": "competes_with",
+   "object": "Merck",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The recent acquisition of Sentronics and the expansion of our portfolio in the wafer level packaging and specialty markets, positions us in direct competition with companies such as Merck and Camtek.",
+   "verified": true
+  },
+  {
+   "subject": "Nova",
+   "relation": "competes_with",
+   "object": "Camtek",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The recent acquisition of Sentronics and the expansion of our portfolio in the wafer level packaging and specialty markets, positions us in direct competition with companies such as Merck and Camtek.",
+   "verified": true
+  },
+  {
+   "subject": "Nova",
+   "relation": "operates_in",
+   "object": "Israel",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we have two main manufacturing facility for our Optical CD and Raman technology-related product lines, which are located in Weizmann Science Park, Rehovot and Nes Ziona, Israel",
+   "verified": true
+  },
+  {
+   "subject": "Nova",
+   "relation": "operates_in",
+   "object": "Germany",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "one main manufacturing facility for our Chemical Metrology product lines, which is located in Bad Urach, Germany",
+   "verified": true
+  }
+ ]
+}

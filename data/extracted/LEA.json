@@ -1,0 +1,136 @@
+{
+ "ticker": "LEA",
+ "form": "10-K",
+ "filed_at": "2026-02-13",
+ "url": "https://www.sec.gov/Archives/edgar/data/842162/000084216226000011/lear-20251231.htm",
+ "accession": "0000842162-26-000011",
+ "cost_usd": 0.00119,
+ "relations": [
+  {
+   "subject": "Lear",
+   "relation": "supplies_to",
+   "object": "General Motors",
+   "strength_tier": "major",
+   "revenue_pct": 22,
+   "quote": "In 2025, General Motors, one of the largest automotive and light truck manufacturers in the world, accounted for 22% of our net sales.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "supplies_to",
+   "object": "Ford",
+   "strength_tier": "major",
+   "revenue_pct": 12,
+   "quote": "In addition, Ford accounted for 12%, Mercedes-Benz and Volkswagen each accounted for 10% and Stellantis accounted for 9% of our 2025 net sales.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "supplies_to",
+   "object": "Mercedes-Benz",
+   "strength_tier": "major",
+   "revenue_pct": 10,
+   "quote": "In addition, Ford accounted for 12%, Mercedes-Benz and Volkswagen each accounted for 10% and Stellantis accounted for 9% of our 2025 net sales.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "supplies_to",
+   "object": "Volkswagen",
+   "strength_tier": "major",
+   "revenue_pct": 10,
+   "quote": "In addition, Ford accounted for 12%, Mercedes-Benz and Volkswagen each accounted for 10% and Stellantis accounted for 9% of our 2025 net sales.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "supplies_to",
+   "object": "Stellantis",
+   "strength_tier": "major",
+   "revenue_pct": 9,
+   "quote": "In addition, Ford accounted for 12%, Mercedes-Benz and Volkswagen each accounted for 10% and Stellantis accounted for 9% of our 2025 net sales.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "competes_with",
+   "object": "Adient plc",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Key competitors in the Seating segment globally include Adient plc, Forvia SE, Magna International Inc., Ningbo Jifeng Auto Parts Co., Ltd. / Grammer AG, Toyota Boshoku Corporation, TS Tech Co., Ltd. and Yanfeng Automotive Systems Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "competes_with",
+   "object": "Forvia SE",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Key competitors in the Seating segment globally include Adient plc, Forvia SE, Magna International Inc., Ningbo Jifeng Auto Parts Co., Ltd. / Grammer AG, Toyota Boshoku Corporation, TS Tech Co., Ltd. and Yanfeng Automotive Systems Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "competes_with",
+   "object": "Magna International Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Key competitors in the Seating segment globally include Adient plc, Forvia SE, Magna International Inc., Ningbo Jifeng Auto Parts Co., Ltd. / Grammer AG, Toyota Boshoku Corporation, TS Tech Co., Ltd. and Yanfeng Automotive Systems Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "competes_with",
+   "object": "Toyota Boshoku Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Key competitors in the Seating segment globally include Adient plc, Forvia SE, Magna International Inc., Ningbo Jifeng Auto Parts Co., Ltd. / Grammer AG, Toyota Boshoku Corporation, TS Tech Co., Ltd. and Yanfeng Automotive Systems Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "competes_with",
+   "object": "Yanfeng Automotive Systems Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Key competitors in the Seating segment globally include Adient plc, Forvia SE, Magna International Inc., Ningbo Jifeng Auto Parts Co., Ltd. / Grammer AG, Toyota Boshoku Corporation, TS Tech Co., Ltd. and Yanfeng Automotive Systems Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "competes_with",
+   "object": "Aptiv PLC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Key competitors in electrical distribution and connection systems include Aptiv PLC, Leoni AG, Molex Incorporated (a subsidiary of Koch Industries Inc.), Sumitomo Corporation, TE Connectivity and Yazaki Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "competes_with",
+   "object": "Yazaki Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Key competitors in electrical distribution and connection systems include Aptiv PLC, Leoni AG, Molex Incorporated (a subsidiary of Koch Industries Inc.), Sumitomo Corporation, TE Connectivity and Yazaki Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "competes_with",
+   "object": "Robert Bosch GmbH",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Key competitors in electronic controllers include Aumovio SE, Aptiv PLC, Denso Corporation, Harman International Industries, Incorporated (a subsidiary of Samsung Electronics Co. Ltd.), Hella (a subsidiary of Forvia SE), Motherson Group, Robert Bosch GmbH, Valeo S.A. and Visteon Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Lear",
+   "relation": "competes_with",
+   "object": "Visteon Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Key competitors in electronic controllers include Aumovio SE, Aptiv PLC, Denso Corporation, Harman International Industries, Incorporated (a subsidiary of Samsung Electronics Co. Ltd.), Hella (a subsidiary of Forvia SE), Motherson Group, Robert Bosch GmbH, Valeo S.A. and Visteon Corporation.",
+   "verified": true
+  }
+ ]
+}

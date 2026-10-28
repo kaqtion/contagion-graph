@@ -1,0 +1,163 @@
+{
+ "ticker": "GT",
+ "form": "10-K",
+ "filed_at": "2026-02-10",
+ "url": "https://www.sec.gov/Archives/edgar/data/42582/000162828026006708/gt-20251231.htm",
+ "accession": "0001628280-26-006708",
+ "cost_usd": 0.00113,
+ "relations": [
+  {
+   "subject": "Goodyear",
+   "relation": "supplies_to",
+   "object": "Yokohama",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "a product supply agreement, pursuant to which we will supply to Yokohama certain OTR tires for an initial period of up to five years",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "supplies_to",
+   "object": "Sumitomo Rubber Industries, Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "(b) a transition offtake agreement, pursuant to which we will sell to SRI certain Dunlop-branded consumer tire products for a period of up to five years",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "supplies_to",
+   "object": "TireHub, LLC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "through the wholesale channel, including through TireHub, LLC (\"TireHub\"), our national wholesale tire distributor in the United States",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "competes_with",
+   "object": "Bridgestone",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we have two major competitors, Bridgestone (based in Japan) and Michelin (based in France)",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "competes_with",
+   "object": "Michelin",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we have two major competitors, Bridgestone (based in Japan) and Michelin (based in France)",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "competes_with",
+   "object": "Continental",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other significant competitors include Continental, Hankook, Kumho, Pirelli, Sumitomo, Toyo, Yokohama and various regional tire manufacturers.",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "competes_with",
+   "object": "Hankook",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other significant competitors include Continental, Hankook, Kumho, Pirelli, Sumitomo, Toyo, Yokohama and various regional tire manufacturers.",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "competes_with",
+   "object": "Kumho",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other significant competitors include Continental, Hankook, Kumho, Pirelli, Sumitomo, Toyo, Yokohama and various regional tire manufacturers.",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "competes_with",
+   "object": "Pirelli",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other significant competitors include Continental, Hankook, Kumho, Pirelli, Sumitomo, Toyo, Yokohama and various regional tire manufacturers.",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "competes_with",
+   "object": "Sumitomo",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other significant competitors include Continental, Hankook, Kumho, Pirelli, Sumitomo, Toyo, Yokohama and various regional tire manufacturers.",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "competes_with",
+   "object": "Toyo",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other significant competitors include Continental, Hankook, Kumho, Pirelli, Sumitomo, Toyo, Yokohama and various regional tire manufacturers.",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "competes_with",
+   "object": "Yokohama",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other significant competitors include Continental, Hankook, Kumho, Pirelli, Sumitomo, Toyo, Yokohama and various regional tire manufacturers.",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "operates_in",
+   "object": "Germany",
+   "strength_tier": "major",
+   "revenue_pct": 17,
+   "quote": "EMEA\u2019s results are highly dependent upon Germany, which accounted for 17% and 15% of EMEA\u2019s net sales in 2025 and 2024, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": 44,
+   "quote": "China accounted for 44% and 38% of Asia Pacific\u2019s net sales in 2025 and 2024, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "operates_in",
+   "object": "India",
+   "strength_tier": "major",
+   "revenue_pct": 21,
+   "quote": "India accounted for 21% and 17% of Asia Pacific\u2019s net sales for 2025 and 2024, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "depends_on",
+   "object": "natural rubber",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The principal raw materials used by Goodyear are synthetic and natural rubber.",
+   "verified": true
+  },
+  {
+   "subject": "Goodyear",
+   "relation": "depends_on",
+   "object": "synthetic rubber",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Synthetic rubber accounted for approximately 50% of all rubber consumed by us in 2025.",
+   "verified": true
+  }
+ ]
+}

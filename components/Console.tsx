@@ -166,7 +166,11 @@ export default function Console({ runId }: { runId?: string }) {
             />
             <div className="absolute top-3 left-3 max-w-[min(460px,calc(100%-24px))] pointer-events-none">
               {run.explanation ? (
-                <p className="pointer-events-auto text-[12.5px] leading-5 text-muted bg-bg/80 backdrop-blur border border-line rounded-md px-3 py-2 fade-up">
+                <p
+                  onClick={(e) => e.currentTarget.classList.toggle("line-clamp-3")}
+                  title="Click to expand or collapse"
+                  className="line-clamp-3 cursor-pointer pointer-events-auto text-[12.5px] leading-5 text-muted bg-bg/80 backdrop-blur border border-line rounded-md px-3 py-2 fade-up"
+                >
                   {run.explanation.summary}
                 </p>
               ) : explaining ? (

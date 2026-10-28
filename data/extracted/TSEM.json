@@ -1,0 +1,136 @@
+{
+ "ticker": "TSEM",
+ "form": "20-F",
+ "filed_at": "2026-04-30",
+ "url": "https://www.sec.gov/Archives/edgar/data/928876/000117891326002318/zk2635149.htm",
+ "accession": "0001178913-26-002318",
+ "cost_usd": 0.00185,
+ "relations": [
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "supplies_to",
+   "object": "NTCJ",
+   "strength_tier": "major",
+   "revenue_pct": 11,
+   "quote": "In 2025, 11% of our revenues were generated from NTCJ",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "buys_from",
+   "object": "Intel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In September 2023, Tower and Intel signed an agreement under which Intel undertook to build a capacity corridor at Tower\u2019s instruction, to enable Intel to manufacture wafers for Tower\u2019s customers at Intel\u2019s 300mm facility in New Mexico, U.S.",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "competes_with",
+   "object": "GlobalFoundries",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We compete most directly in the specialty segment with foundries such as GlobalFoundries (mainly in the RF space), Vanguard Semiconductor, DongBu, X-Fab, and Hua Hong Semiconductor.",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "competes_with",
+   "object": "Vanguard Semiconductor",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete most directly in the specialty segment with foundries such as GlobalFoundries (mainly in the RF space), Vanguard Semiconductor, DongBu, X-Fab, and Hua Hong Semiconductor.",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "competes_with",
+   "object": "DongBu",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete most directly in the specialty segment with foundries such as GlobalFoundries (mainly in the RF space), Vanguard Semiconductor, DongBu, X-Fab, and Hua Hong Semiconductor.",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "competes_with",
+   "object": "X-Fab",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete most directly in the specialty segment with foundries such as GlobalFoundries (mainly in the RF space), Vanguard Semiconductor, DongBu, X-Fab, and Hua Hong Semiconductor.",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "competes_with",
+   "object": "Hua Hong Semiconductor",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete most directly in the specialty segment with foundries such as GlobalFoundries (mainly in the RF space), Vanguard Semiconductor, DongBu, X-Fab, and Hua Hong Semiconductor.",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "competes_with",
+   "object": "Taiwan Semiconductor Manufacturing Corporation (TSMC)",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "such as Taiwan Semiconductor Manufacturing Corporation (TSMC), United Microelectronics Corporation (UMC), and Semiconductor Manufacturing International Corp. (SMIC).",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "competes_with",
+   "object": "United Microelectronics Corporation (UMC)",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "such as Taiwan Semiconductor Manufacturing Corporation (TSMC), United Microelectronics Corporation (UMC), and Semiconductor Manufacturing International Corp. (SMIC).",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "competes_with",
+   "object": "Semiconductor Manufacturing International Corp. (SMIC)",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "such as Taiwan Semiconductor Manufacturing Corporation (TSMC), United Microelectronics Corporation (UMC), and Semiconductor Manufacturing International Corp. (SMIC).",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "operates_in",
+   "object": "Israel",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "the Company owns a facility in Israel (200mm), two facilities in the U.S. (200mm), two in Japan through its 51% holding in TPSCo (200mm and 300mm) and shares a clean room and capacity in a 300mm facility in Italy with ST.",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "the Company owns a facility in Israel (200mm), two facilities in the U.S. (200mm), two in Japan through its 51% holding in TPSCo (200mm and 300mm) and shares a clean room and capacity in a 300mm facility in Italy with ST.",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "operates_in",
+   "object": "United States",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company owns a facility in Israel (200mm), two facilities in the U.S. (200mm), two in Japan through its 51% holding in TPSCo (200mm and 300mm) and shares a clean room and capacity in a 300mm facility in Italy with ST.",
+   "verified": true
+  },
+  {
+   "subject": "Tower Semiconductor Ltd.",
+   "relation": "operates_in",
+   "object": "Italy",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the Company owns a facility in Israel (200mm), two facilities in the U.S. (200mm), two in Japan through its 51% holding in TPSCo (200mm and 300mm) and shares a clean room and capacity in a 300mm facility in Italy with ST.",
+   "verified": true
+  }
+ ]
+}

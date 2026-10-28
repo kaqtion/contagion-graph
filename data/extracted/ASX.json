@@ -1,0 +1,118 @@
+{
+ "ticker": "ASX",
+ "form": "20-F",
+ "filed_at": "2026-04-01",
+ "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802d20f.htm",
+ "accession": "0001193125-26-135585",
+ "cost_usd": 0.00146,
+ "relations": [
+  {
+   "subject": "ASE",
+   "relation": "supplies_to",
+   "object": "Taiwan Semiconductor Manufacturing Company Limited",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "TSMC designates us as its non-exclusive preferred provider of packaging and testing services for semiconductors manufactured by TSMC.",
+   "verified": true
+  },
+  {
+   "subject": "ASE",
+   "relation": "buys_from",
+   "object": "Kinsus Interconnect Technology Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Raw materials such as IC substrates are prone to supply shortages since such materials are produced by a limited number of suppliers, such as Kinsus Interconnect Technology Corporation, Nan Ya Printed Circuit Board Corporation, and Unimicron Technology Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ASE",
+   "relation": "buys_from",
+   "object": "Nan Ya Printed Circuit Board Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Raw materials such as IC substrates are prone to supply shortages since such materials are produced by a limited number of suppliers, such as Kinsus Interconnect Technology Corporation, Nan Ya Printed Circuit Board Corporation, and Unimicron Technology Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ASE",
+   "relation": "buys_from",
+   "object": "Unimicron Technology Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Raw materials such as IC substrates are prone to supply shortages since such materials are produced by a limited number of suppliers, such as Kinsus Interconnect Technology Corporation, Nan Ya Printed Circuit Board Corporation, and Unimicron Technology Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ASE",
+   "relation": "buys_from",
+   "object": "All Ring Tech Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We purchase our packaging equipment from major international manufacturers, including All Ring Tech Co., Ltd., Marketech lnternational Corp., Grand Process Technology Corporation, Tokyo Electron Limited, and Lam Research Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ASE",
+   "relation": "buys_from",
+   "object": "Marketech lnternational Corp.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We purchase our packaging equipment from major international manufacturers, including All Ring Tech Co., Ltd., Marketech lnternational Corp., Grand Process Technology Corporation, Tokyo Electron Limited, and Lam Research Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ASE",
+   "relation": "buys_from",
+   "object": "Grand Process Technology Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We purchase our packaging equipment from major international manufacturers, including All Ring Tech Co., Ltd., Marketech lnternational Corp., Grand Process Technology Corporation, Tokyo Electron Limited, and Lam Research Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ASE",
+   "relation": "buys_from",
+   "object": "Tokyo Electron Limited",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We purchase our packaging equipment from major international manufacturers, including All Ring Tech Co., Ltd., Marketech lnternational Corp., Grand Process Technology Corporation, Tokyo Electron Limited, and Lam Research Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ASE",
+   "relation": "buys_from",
+   "object": "Lam Research Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We purchase our packaging equipment from major international manufacturers, including All Ring Tech Co., Ltd., Marketech lnternational Corp., Grand Process Technology Corporation, Tokyo Electron Limited, and Lam Research Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ASE",
+   "relation": "buys_from",
+   "object": "Teradyne, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We purchase testers from major international manufacturers, primarily Teradyne, Inc., Tokyo Electron Limited, and Advantest Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ASE",
+   "relation": "buys_from",
+   "object": "Advantest Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We purchase testers from major international manufacturers, primarily Teradyne, Inc., Tokyo Electron Limited, and Advantest Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "ASE",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We have significant packaging, testing, and EMS operations in Taiwan, currently one of the leading centers for outsourced semiconductor and electronics manufacturing in the world.",
+   "verified": true
+  }
+ ]
+}

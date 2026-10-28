@@ -1,0 +1,73 @@
+{
+ "ticker": "ALV",
+ "form": "10-K",
+ "filed_at": "2026-02-19",
+ "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526058162/alv-20251231.htm",
+ "accession": "0001193125-26-058162",
+ "cost_usd": 0.00083,
+ "relations": [
+  {
+   "subject": "Autoliv",
+   "relation": "competes_with",
+   "object": "Joyson Safety Systems",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We consider Joyson Safety Systems, a part of Ningbo Joyson Electronic Corp., and ZF LIFETEC, a part of ZF Friedrichshafen AG, to be global competitors to Autoliv.",
+   "verified": true
+  },
+  {
+   "subject": "Autoliv",
+   "relation": "competes_with",
+   "object": "ZF LIFETEC",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We consider Joyson Safety Systems, a part of Ningbo Joyson Electronic Corp., and ZF LIFETEC, a part of ZF Friedrichshafen AG, to be global competitors to Autoliv.",
+   "verified": true
+  },
+  {
+   "subject": "Autoliv",
+   "relation": "supplies_to",
+   "object": "Geely",
+   "strength_tier": "minor",
+   "revenue_pct": 2,
+   "quote": "with Geely representing more than 2% of the Company's consolidated net sales.",
+   "verified": true
+  },
+  {
+   "subject": "Autoliv",
+   "relation": "supplies_to",
+   "object": "Stellantis",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Globally, the Company's strongest growing customers from 2024 to 2025 were Stellantis, followed by Suzuki, Toyota and Chery .",
+   "verified": true
+  },
+  {
+   "subject": "Autoliv",
+   "relation": "supplies_to",
+   "object": "Toyota",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Globally, the Company's strongest growing customers from 2024 to 2025 were Stellantis, followed by Suzuki, Toyota and Chery .",
+   "verified": true
+  },
+  {
+   "subject": "Autoliv",
+   "relation": "supplies_to",
+   "object": "Suzuki",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Globally, the Company's strongest growing customers from 2024 to 2025 were Stellantis, followed by Suzuki, Toyota and Chery .",
+   "verified": true
+  },
+  {
+   "subject": "Autoliv",
+   "relation": "supplies_to",
+   "object": "Chery",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Globally, the Company's strongest growing customers from 2024 to 2025 were Stellantis, followed by Suzuki, Toyota and Chery .",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "ticker": "STX",
+ "form": "10-K",
+ "filed_at": "2026-08-04",
+ "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm",
+ "accession": "0001137789-26-000159",
+ "cost_usd": 0.00083,
+ "relations": [
+  {
+   "subject": "Seagate",
+   "relation": "competes_with",
+   "object": "Western Digital Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our global competitors include HDD manufacturers such as Western Digital Corporation and Toshiba Electronics Devices & Storage Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Seagate",
+   "relation": "competes_with",
+   "object": "Toshiba Electronics Devices & Storage Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our global competitors include HDD manufacturers such as Western Digital Corporation and Toshiba Electronics Devices & Storage Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Seagate",
+   "relation": "buys_from",
+   "object": "NHK Spring Co. Ltd.",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "against suppliers of HDD suspension assemblies, including NHK Spring Co. Ltd. (\"NHK\"), TDK Corporation (\"TDK\") and Hutchinson Technology Inc (\"HTI\")",
+   "verified": true
+  },
+  {
+   "subject": "Seagate",
+   "relation": "buys_from",
+   "object": "TDK Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "against suppliers of HDD suspension assemblies, including NHK Spring Co. Ltd. (\"NHK\"), TDK Corporation (\"TDK\") and Hutchinson Technology Inc (\"HTI\")",
+   "verified": true
+  },
+  {
+   "subject": "Seagate",
+   "relation": "buys_from",
+   "object": "Hutchinson Technology Inc",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "against suppliers of HDD suspension assemblies, including NHK Spring Co. Ltd. (\"NHK\"), TDK Corporation (\"TDK\") and Hutchinson Technology Inc (\"HTI\")",
+   "verified": true
+  }
+ ]
+}

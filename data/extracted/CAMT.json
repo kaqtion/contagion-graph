@@ -1,0 +1,28 @@
+{
+ "ticker": "CAMT",
+ "form": "20-F",
+ "filed_at": "2026-03-19",
+ "url": "https://www.sec.gov/Archives/edgar/data/1109138/000117891326001561/zk2634678.htm",
+ "accession": "0001178913-26-001561",
+ "cost_usd": 0.00095,
+ "relations": [
+  {
+   "subject": "Camtek",
+   "relation": "operates_in",
+   "object": "Asia Pacific",
+   "strength_tier": "major",
+   "revenue_pct": 91,
+   "quote": "In 2025, our sales in the Asia Pacific region (mainly China, Taiwan and South Korea) accounted for approximately 91% of our total revenues with sales to China being 49% of our total revenues.",
+   "verified": true
+  },
+  {
+   "subject": "Camtek",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": 49,
+   "quote": "In 2025, our sales in the Asia Pacific region (mainly China, Taiwan and South Korea) accounted for approximately 91% of our total revenues with sales to China being 49% of our total revenues.",
+   "verified": true
+  }
+ ]
+}

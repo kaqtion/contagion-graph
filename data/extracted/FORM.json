@@ -1,0 +1,181 @@
+{
+ "ticker": "FORM",
+ "form": "10-K",
+ "filed_at": "2026-02-20",
+ "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm",
+ "accession": "0001039399-26-000009",
+ "cost_usd": 0.00133,
+ "relations": [
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Japan Electronic Materials Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are Japan Electronic Materials Corporation, Korea Instrument Co., Ltd., Micronics Japan Co., Ltd., MPI Corporation, STAr Technologies, Inc., Max One, Technoprobe S.p.A, TSE Co., Ltd., among others.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Korea Instrument Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are Japan Electronic Materials Corporation, Korea Instrument Co., Ltd., Micronics Japan Co., Ltd., MPI Corporation, STAr Technologies, Inc., Max One, Technoprobe S.p.A, TSE Co., Ltd., among others.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Micronics Japan Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are Japan Electronic Materials Corporation, Korea Instrument Co., Ltd., Micronics Japan Co., Ltd., MPI Corporation, STAr Technologies, Inc., Max One, Technoprobe S.p.A, TSE Co., Ltd., among others.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "MPI Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are Japan Electronic Materials Corporation, Korea Instrument Co., Ltd., Micronics Japan Co., Ltd., MPI Corporation, STAr Technologies, Inc., Max One, Technoprobe S.p.A, TSE Co., Ltd., among others.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "STAr Technologies, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are Japan Electronic Materials Corporation, Korea Instrument Co., Ltd., Micronics Japan Co., Ltd., MPI Corporation, STAr Technologies, Inc., Max One, Technoprobe S.p.A, TSE Co., Ltd., among others.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Technoprobe S.p.A",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors are Japan Electronic Materials Corporation, Korea Instrument Co., Ltd., Micronics Japan Co., Ltd., MPI Corporation, STAr Technologies, Inc., Max One, Technoprobe S.p.A, TSE Co., Ltd., among others.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "GGB Industries Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors in the analytical probe market are GGB Industries Inc. and MPI Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Shenzhen Senmeixieer Technology Co., Ltd",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors in the probe station market are MPI Corporation, Shenzhen Senmeixieer Technology Co., Ltd (\u201cSemishare\u201d), STAr Technologies, Inc., Tokyo Electron Limited (\u201cTEL\u201d), and Wentworth Laboratories, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Tokyo Electron Limited",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors in the probe station market are MPI Corporation, Shenzhen Senmeixieer Technology Co., Ltd (\u201cSemishare\u201d), STAr Technologies, Inc., Tokyo Electron Limited (\u201cTEL\u201d), and Wentworth Laboratories, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Wentworth Laboratories, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors in the probe station market are MPI Corporation, Shenzhen Senmeixieer Technology Co., Ltd (\u201cSemishare\u201d), STAr Technologies, Inc., Tokyo Electron Limited (\u201cTEL\u201d), and Wentworth Laboratories, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "AEM Singapore Pte.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the market for thermal subsystems, we compete principally against AEM Singapore Pte., ERS Electronic GmbH, and Temptronic Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "ERS Electronic GmbH",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the market for thermal subsystems, we compete principally against AEM Singapore Pte., ERS Electronic GmbH, and Temptronic Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Temptronic Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the market for thermal subsystems, we compete principally against AEM Singapore Pte., ERS Electronic GmbH, and Temptronic Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Bluefors Oy",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the market for cryogenic systems, we compete principally against Bluefors Oy, Lake Shore Cryotronics, Inc, Maybell Quantum Industries Inc., Montana Instruments, and Quantum Design.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Lake Shore Cryotronics, Inc",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the market for cryogenic systems, we compete principally against Bluefors Oy, Lake Shore Cryotronics, Inc, Maybell Quantum Industries Inc., Montana Instruments, and Quantum Design.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Maybell Quantum Industries Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the market for cryogenic systems, we compete principally against Bluefors Oy, Lake Shore Cryotronics, Inc, Maybell Quantum Industries Inc., Montana Instruments, and Quantum Design.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Montana Instruments",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the market for cryogenic systems, we compete principally against Bluefors Oy, Lake Shore Cryotronics, Inc, Maybell Quantum Industries Inc., Montana Instruments, and Quantum Design.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "competes_with",
+   "object": "Quantum Design",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the market for cryogenic systems, we compete principally against Bluefors Oy, Lake Shore Cryotronics, Inc, Maybell Quantum Industries Inc., Montana Instruments, and Quantum Design.",
+   "verified": true
+  },
+  {
+   "subject": "FormFactor",
+   "relation": "buys_from",
+   "object": "FICT",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We engage in transactions with FICT, a related party and a supplier, in the normal course of business and at arm's length. Total related party purchases of inventory from FICT for the year ended December 27, 2025 was $ 10.3 million.",
+   "verified": true
+  }
+ ]
+}

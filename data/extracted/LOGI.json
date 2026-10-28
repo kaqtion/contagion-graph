@@ -1,0 +1,136 @@
+{
+ "ticker": "LOGI",
+ "form": "10-K",
+ "filed_at": "2026-05-21",
+ "url": "https://www.sec.gov/Archives/edgar/data/1032975/000103297526000021/logi-20260331.htm",
+ "accession": "0001032975-26-000021",
+ "cost_usd": 0.00169,
+ "relations": [
+  {
+   "subject": "Logitech",
+   "relation": "supplies_to",
+   "object": "Amazon Inc.",
+   "strength_tier": "major",
+   "revenue_pct": 18,
+   "quote": "In fiscal years 2026, 2025 and 2024, Amazon Inc. and its affiliated entities together accounted for 18% , 19% and 18% of our gross sales, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "supplies_to",
+   "object": "Ingram Micro Inc.",
+   "strength_tier": "major",
+   "revenue_pct": 14,
+   "quote": "In fiscal years 2026, 2025 and 2024, Ingram Micro Inc. and its affiliated entities together accounted for 14% , 14% and 13% of our gross sales, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "supplies_to",
+   "object": "TD Synnex",
+   "strength_tier": "major",
+   "revenue_pct": 12,
+   "quote": "TD Synnex and its affiliated entities together accounted for 12% , 12%, and 14% of our gross sales in fiscal years 2026, 2025, and 2024, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "competes_with",
+   "object": "Razer Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Gaming Competitors for our gaming products include Razer Inc. (\"Razer\"), Corsair Gaming, Inc., SteelSeries (owned by GN Store Nord A/S (\u201cGN\u201d)), Turtle Beach Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "competes_with",
+   "object": "Corsair Gaming, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Gaming Competitors for our gaming products include Razer Inc. (\"Razer\"), Corsair Gaming, Inc., SteelSeries (owned by GN Store Nord A/S (\u201cGN\u201d)), Turtle Beach Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "competes_with",
+   "object": "Cisco Systems, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors for video collaboration products include Cisco Systems, Inc. (\"Cisco\"), Poly (owned by HP), Jabra (owned by GN), AVer Information Inc., Neat, Yealink (Xiamen) Network Technology Co.Ltd, and Owl Labs, among others.",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "competes_with",
+   "object": "Apple Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Apple Inc. (\"Apple\"), Dell Technologies (\"Dell\"), HP, Lenovo Group Ltd. (\"Lenovo\"), Eweadn, Mchose, Keychron, Cherry, Amazon Basics and regional computer peripheral computer brands are the main competitors in our keyboard and combo product lines.",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "competes_with",
+   "object": "Bose Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors for Bluetooth wireless speakers include Bose Corporation (\"Bose\") and Harman International Industries, Inc (\"Harman\"), among others.",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "operates_in",
+   "object": "United States",
+   "strength_tier": "major",
+   "revenue_pct": 33,
+   "quote": "Revenue from sales to customers in the United States represented 33 %, 35 % and 36 % of sales in fiscal years 2026, 2025 and 2024, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "operates_in",
+   "object": "Germany",
+   "strength_tier": "major",
+   "revenue_pct": 12,
+   "quote": "Revenue from sales to customers in Germany represented 12 %, 12 % and 14 % of sales in fiscal years 2026 , 2025 and 2024, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": 12,
+   "quote": "Revenue from sales to customers in China represented 12 %, 10 % and 10 % of sales in fiscal years 2026, 2025 and 2024, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "operates_in",
+   "object": "Southeast Asia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "By locating our manufacturing primarily in China and Southeast Asia, we are reliant on third parties to get our products to distributors around the world.",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "depends_on",
+   "object": "rare earth elements",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Although these rare earth and other materials are generally available from multiple suppliers, China is a predominant producer of these materials.",
+   "verified": true
+  },
+  {
+   "subject": "Logitech",
+   "relation": "depends_on",
+   "object": "base metals",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we have experienced component shortages and extended lead times on semiconductors, such as memory chips, micro-controllers and optical sensors, and base metals used in our products.",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "ticker": "ALSN",
+ "form": "10-K",
+ "filed_at": "2026-02-24",
+ "url": "https://www.sec.gov/Archives/edgar/data/1411207/000119312526065627/alsn-20251231.htm",
+ "accession": "0001193125-26-065627",
+ "cost_usd": 0.00194,
+ "relations": [
+  {
+   "subject": "Allison Transmission",
+   "relation": "supplies_to",
+   "object": "Daimler AG",
+   "strength_tier": "major",
+   "revenue_pct": 18,
+   "quote": "Our top three customers, Daimler AG, PACCAR Inc. and Traton SE, accounted for approximately 18%, 11% and 10%, respectively, of our net sales during 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "supplies_to",
+   "object": "PACCAR Inc.",
+   "strength_tier": "major",
+   "revenue_pct": 11,
+   "quote": "Our top three customers, Daimler AG, PACCAR Inc. and Traton SE, accounted for approximately 18%, 11% and 10%, respectively, of our net sales during 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "supplies_to",
+   "object": "Traton SE",
+   "strength_tier": "major",
+   "revenue_pct": 10,
+   "quote": "Our top three customers, Daimler AG, PACCAR Inc. and Traton SE, accounted for approximately 18%, 11% and 10%, respectively, of our net sales during 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "competes_with",
+   "object": "Ford Motor Company",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "fully automatic transmissions manufactured by Ford Motor Company",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "competes_with",
+   "object": "ZF Friedrichshafen AG",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We also compete with independent manufacturers such as ZF.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "competes_with",
+   "object": "Caterpillar Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competition in this end market for 2025 included Caterpillar Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "competes_with",
+   "object": "Twin Disc, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major competitor in this end market for 2025 was Twin Disc.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "competes_with",
+   "object": "Komatsu Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "These vertically integrated competitors included Caterpillar, Komatsu Ltd. (\u201cKomatsu\u201d), and Volvo Group (\u201cVolvo\u201d).",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "competes_with",
+   "object": "Volvo Group",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "These vertically integrated competitors included Caterpillar, Komatsu Ltd. (\u201cKomatsu\u201d), and Volvo Group (\u201cVolvo\u201d).",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "competes_with",
+   "object": "QinetiQ Group plc",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Globally, we face competition primarily from QinetiQ Group plc, Renk AG/Renk America, SAPA S.p.A and ST Kinetics for the supply of tracked vehicle propulsion solutions.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "competes_with",
+   "object": "Renk AG",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Globally, we face competition primarily from QinetiQ Group plc, Renk AG/Renk America, SAPA S.p.A and ST Kinetics for the supply of tracked vehicle propulsion solutions.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "competes_with",
+   "object": "SAPA S.p.A",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Globally, we face competition primarily from QinetiQ Group plc, Renk AG/Renk America, SAPA S.p.A and ST Kinetics for the supply of tracked vehicle propulsion solutions.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "competes_with",
+   "object": "ST Kinetics",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Globally, we face competition primarily from QinetiQ Group plc, Renk AG/Renk America, SAPA S.p.A and ST Kinetics for the supply of tracked vehicle propulsion solutions.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "operates_in",
+   "object": "North America",
+   "strength_tier": "major",
+   "revenue_pct": 76,
+   "quote": "with approximately 76% of our revenues being generated in North America in 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "operates_in",
+   "object": "India",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we have established manufacturing facilities in India and Hungary.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "operates_in",
+   "object": "Hungary",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we have established manufacturing facilities in India and Hungary.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "depends_on",
+   "object": "aluminum",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our spending on aluminum and steel raw materials directly and indirectly through our purchase of these components constituted approximately 16% of our direct material and component costs in 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "depends_on",
+   "object": "steel",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our spending on aluminum and steel raw materials directly and indirectly through our purchase of these components constituted approximately 16% of our direct material and component costs in 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "depends_on",
+   "object": "nickel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our products contain various raw materials, including corrosion-resistant steel, non-ferrous metals such as aluminum and nickel, and precious metals such as platinum and palladium.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "depends_on",
+   "object": "platinum",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our products contain various raw materials, including corrosion-resistant steel, non-ferrous metals such as aluminum and nickel, and precious metals such as platinum and palladium.",
+   "verified": true
+  },
+  {
+   "subject": "Allison Transmission",
+   "relation": "depends_on",
+   "object": "palladium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our products contain various raw materials, including corrosion-resistant steel, non-ferrous metals such as aluminum and nickel, and precious metals such as platinum and palladium.",
+   "verified": true
+  }
+ ]
+}

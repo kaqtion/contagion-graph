@@ -1,0 +1,28 @@
+{
+ "ticker": "META",
+ "form": "10-K",
+ "filed_at": "2026-01-29",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+ "accession": "0001628280-26-003942",
+ "cost_usd": 0.00069,
+ "relations": [
+  {
+   "subject": "Meta",
+   "relation": "competes_with",
+   "object": "Apple",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For example, each of Apple and Google have integrated competitive products with iOS and Android, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Meta",
+   "relation": "competes_with",
+   "object": "Google",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For example, each of Apple and Google have integrated competitive products with iOS and Android, respectively.",
+   "verified": true
+  }
+ ]
+}

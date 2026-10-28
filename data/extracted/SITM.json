@@ -1,0 +1,226 @@
+{
+ "ticker": "SITM",
+ "form": "10-K",
+ "filed_at": "2026-02-11",
+ "url": "https://www.sec.gov/Archives/edgar/data/1451809/000145180926000012/sitm-20251231.htm",
+ "accession": "0001451809-26-000012",
+ "cost_usd": 0.00131,
+ "relations": [
+  {
+   "subject": "SiTime",
+   "relation": "supplies_to",
+   "object": "Apple Inc.",
+   "strength_tier": "major",
+   "revenue_pct": 17,
+   "quote": "Sales attributable to Apple, our largest end customer accounted for approximately 17%, 22%, and 21% of our revenue for the years ended December 31, 2025, 2024, and 2023, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "supplies_to",
+   "object": "Quantek Technology Corporation",
+   "strength_tier": "major",
+   "revenue_pct": 25,
+   "quote": "25% 24% 20% Quantek Technology Corporation * 13% 13% Sabre Technologies Pte. Ltd * * 10% * Revenue from this customer was below 10%.",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "supplies_to",
+   "object": "Sabre Technologies Pte. Ltd",
+   "strength_tier": "major",
+   "revenue_pct": 13,
+   "quote": "13% 13% Sabre Technologies Pte. Ltd * * 10% * Revenue from this customer was below 10%.",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "supplies_to",
+   "object": "Pernas Electronics Co. Ltd",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we believe that the majority of our products sold to Pernas Electronics Co. Ltd (\"Pernas\") and Quantek Technology Corporation (\"Quantek\") are in turn incorporated into products of Apple Inc.",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "buys_from",
+   "object": "Robert Bosch LLC",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "We currently have a ten-year supply agreement with Bosch for the fabrication of our MEMS wafers.",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Company Limited",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently rely on Bosch, TSMC, UMC, and Teledyne as our primary foundries and suppliers for our MEMS timing devices and analog circuits",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "buys_from",
+   "object": "United Microelectronics Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently rely on Bosch, TSMC, UMC, and Teledyne as our primary foundries and suppliers for our MEMS timing devices and analog circuits",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "buys_from",
+   "object": "Teledyne Digital Imaging Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently rely primarily on Bosch and Teledyne Digital Imaging Inc. (\"Teledyne\") for our MEMS fabrication",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "buys_from",
+   "object": "Advanced Semiconductor Engineering, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently primarily rely on ASE, Carsem, and UTAC for assembly and testing",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "buys_from",
+   "object": "Carsem (M) Sdn Bhd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently primarily rely on ASE, Carsem, and UTAC for assembly and testing",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "buys_from",
+   "object": "United Test and Assembly Center Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently primarily rely on ASE, Carsem, and UTAC for assembly and testing",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "buys_from",
+   "object": "Daishinku Corp.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "as well as Daishinku, UTAC, Hana Semiconductor (Ayutthaya) Co., Ltd, and ASE for ceramic packaging",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "buys_from",
+   "object": "Hana Semiconductor (Ayutthaya) Co., Ltd",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "as well as Daishinku, UTAC, Hana Semiconductor (Ayutthaya) Co., Ltd, and ASE for ceramic packaging",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "buys_from",
+   "object": "STATS ChipPAC Pte Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "and STATS ChipPAC Pte Ltd. in Singapore.",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "competes_with",
+   "object": "Abracon, LLC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Companies that we primarily compete with include, but are not limited to, Abracon, LLC, Daishinku Corp., Diodes Incorporated",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "competes_with",
+   "object": "Microchip Technology Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Companies that we primarily compete with include, but are not limited to, Abracon, LLC, Daishinku Corp., Diodes Incorporated, Kyocera Corporation, Microchip Technology Inc.",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "competes_with",
+   "object": "Texas Instruments Incorporated",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Seiko Epson Corporation, Skyworks Solutions, Inc., Texas Instruments Incorporated, and TXC Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "competes_with",
+   "object": "Renesas Electronics Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Rakon Limited, Renesas Electronics Corporation, Seiko Epson Corporation",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "competes_with",
+   "object": "Seiko Epson Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Renesas Electronics Corporation, Seiko Epson Corporation, Skyworks Solutions, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "competes_with",
+   "object": "Skyworks Solutions, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Seiko Epson Corporation, Skyworks Solutions, Inc., Texas Instruments Incorporated, and TXC Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "competes_with",
+   "object": "Murata Manufacturing Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Diodes Incorporated, Kyocera Corporation, Microchip Technology Inc., Murata Manufacturing Co., Ltd., Nihon Dempa Kogyo",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "competes_with",
+   "object": "Kyocera Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Diodes Incorporated, Kyocera Corporation, Microchip Technology Inc.",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "competes_with",
+   "object": "Diodes Incorporated",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Companies that we primarily compete with include, but are not limited to, Abracon, LLC, Daishinku Corp., Diodes Incorporated",
+   "verified": true
+  },
+  {
+   "subject": "SiTime",
+   "relation": "competes_with",
+   "object": "Rakon Limited",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Nihon Dempa Kogyo Co., Ltd., Rakon Limited, Renesas Electronics Corporation",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "ticker": "WDC",
+ "form": "10-K",
+ "filed_at": "2026-08-14",
+ "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
+ "accession": "0001628280-26-057139",
+ "cost_usd": 0.00096,
+ "relations": [
+  {
+   "subject": "Western Digital Corporation",
+   "relation": "competes_with",
+   "object": "Seagate Technology Holdings plc",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include HDD competitors such as Seagate Technology Holdings plc, and Toshiba Electronic Devices & Storage Corporation along with NAND flash suppliers that provide and enable alternative storage technologies, as well as storage systems and solutions providers.",
+   "verified": true
+  },
+  {
+   "subject": "Western Digital Corporation",
+   "relation": "competes_with",
+   "object": "Toshiba Electronic Devices & Storage Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include HDD competitors such as Seagate Technology Holdings plc, and Toshiba Electronic Devices & Storage Corporation along with NAND flash suppliers that provide and enable alternative storage technologies, as well as storage systems and solutions providers.",
+   "verified": true
+  },
+  {
+   "subject": "Western Digital Corporation",
+   "relation": "operates_in",
+   "object": "Asia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We conduct our operations primarily at large, high-volume, purpose-built facilities in California and throughout Asia.",
+   "verified": true
+  }
+ ]
+}

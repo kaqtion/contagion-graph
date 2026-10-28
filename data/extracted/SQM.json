@@ -1,0 +1,127 @@
+{
+ "ticker": "SQM",
+ "form": "20-F",
+ "filed_at": "2026-04-22",
+ "url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000023/sqm-20251231.htm",
+ "accession": "0000909037-26-000023",
+ "cost_usd": 0.00164,
+ "relations": [
+  {
+   "subject": "SQM",
+   "relation": "buys_from",
+   "object": "Corfo",
+   "strength_tier": "major",
+   "revenue_pct": 25,
+   "quote": "One supplier, Corfo, accounted for approximately 25% of this business line's cost of sales",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "supplies_to",
+   "object": "Fertilizantes Tepeyac",
+   "strength_tier": "major",
+   "revenue_pct": 11,
+   "quote": "One customer individually (Fertilizantes Tepeyac from Mexico) accounted for at least 11% of this segment's sales in 2025",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "competes_with",
+   "object": "Albemarle",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The main competitors in the lithium market with their estimated market share are: Albemarle (12%), Jiangxi Ganfeng Lithium Co (6%), Tianqi Lithium Corp. (5%) and Rio Tinto (4%).",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "competes_with",
+   "object": "Jiangxi Ganfeng Lithium Co",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The main competitors in the lithium market with their estimated market share are: Albemarle (12%), Jiangxi Ganfeng Lithium Co (6%), Tianqi Lithium Corp. (5%) and Rio Tinto (4%).",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "competes_with",
+   "object": "Tianqi Lithium Corp.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The main competitors in the lithium market with their estimated market share are: Albemarle (12%), Jiangxi Ganfeng Lithium Co (6%), Tianqi Lithium Corp. (5%) and Rio Tinto (4%).",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "competes_with",
+   "object": "Rio Tinto",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The main competitors in the lithium market with their estimated market share are: Albemarle (12%), Jiangxi Ganfeng Lithium Co (6%), Tianqi Lithium Corp. (5%) and Rio Tinto (4%).",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "competes_with",
+   "object": "S.C.M. Cosayach",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The other Chilean producers are S.C.M. Cosayach (Cosayach), controlled by the Chilean holding company Inverraz S.A.;",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "competes_with",
+   "object": "ACF Minera S.A.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "ACF Minera S.A., owned by the Chilean Urruticoechea family; Algorta Norte S.A., a joint venture between ACF Minera S.A. and Toyota Tsusho",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "competes_with",
+   "object": "Algorta Norte S.A.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Algorta Norte S.A., a joint venture between ACF Minera S.A. and Toyota Tsusho; and Atacama Minerals, which is owned by Chinese company Tewoo.",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "competes_with",
+   "object": "Atacama Minerals",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "and Atacama Minerals, which is owned by Chinese company Tewoo.",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "operates_in",
+   "object": "Chile",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The operations of SQM in the Salar de Atacama are located in the Antofagasta Region of Chile",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "operates_in",
+   "object": "Western Australia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Mount Holland project is located in the Forrestania Greenstone Belt (FGB) of the Archean Yilgarn Craton of Western Australia.",
+   "verified": true
+  },
+  {
+   "subject": "SQM",
+   "relation": "operates_in",
+   "object": "Asia",
+   "strength_tier": "major",
+   "revenue_pct": 95,
+   "quote": "During 2025, 95% of our sales of lithium were in Asia.",
+   "verified": true
+  }
+ ]
+}

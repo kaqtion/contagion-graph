@@ -1,0 +1,82 @@
+{
+ "ticker": "F",
+ "form": "10-K",
+ "filed_at": "2026-02-11",
+ "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+ "accession": "0000037996-26-000015",
+ "cost_usd": 0.00154,
+ "relations": [
+  {
+   "subject": "Ford Motor Company",
+   "relation": "buys_from",
+   "object": "Lio Ho Group",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "and Ford badged vehicles produced in Taiwan by Lio Ho Group.",
+   "verified": true
+  },
+  {
+   "subject": "Ford Motor Company",
+   "relation": "depends_on",
+   "object": "lithium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "These materials include base metals (e.g., steel and aluminum), precious metals (e.g., palladium), energy (e.g., natural gas), plastics/resins (e.g., polypropylene), battery raw materials (e.g., lithium, cobalt, nickel)",
+   "verified": true
+  },
+  {
+   "subject": "Ford Motor Company",
+   "relation": "depends_on",
+   "object": "cobalt",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "These materials include base metals (e.g., steel and aluminum), precious metals (e.g., palladium), energy (e.g., natural gas), plastics/resins (e.g., polypropylene), battery raw materials (e.g., lithium, cobalt, nickel)",
+   "verified": true
+  },
+  {
+   "subject": "Ford Motor Company",
+   "relation": "depends_on",
+   "object": "nickel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "These materials include base metals (e.g., steel and aluminum), precious metals (e.g., palladium), energy (e.g., natural gas), plastics/resins (e.g., polypropylene), battery raw materials (e.g., lithium, cobalt, nickel)",
+   "verified": true
+  },
+  {
+   "subject": "Ford Motor Company",
+   "relation": "depends_on",
+   "object": "aluminum",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "These materials include base metals (e.g., steel and aluminum), precious metals (e.g., palladium), energy (e.g., natural gas), plastics/resins (e.g., polypropylene), battery raw materials (e.g., lithium, cobalt, nickel)",
+   "verified": true
+  },
+  {
+   "subject": "Ford Motor Company",
+   "relation": "depends_on",
+   "object": "palladium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "These materials include base metals (e.g., steel and aluminum), precious metals (e.g., palladium), energy (e.g., natural gas), plastics/resins (e.g., polypropylene), battery raw materials (e.g., lithium, cobalt, nickel)",
+   "verified": true
+  },
+  {
+   "subject": "Ford Motor Company",
+   "relation": "operates_in",
+   "object": "North America",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Ford Pro operates in North America and Europe.",
+   "verified": true
+  },
+  {
+   "subject": "Ford Motor Company",
+   "relation": "operates_in",
+   "object": "Europe",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Ford Pro operates in North America and Europe.",
+   "verified": true
+  }
+ ]
+}

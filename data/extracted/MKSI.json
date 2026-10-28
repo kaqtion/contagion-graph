@@ -1,0 +1,343 @@
+{
+ "ticker": "MKSI",
+ "form": "10-K",
+ "filed_at": "2026-02-24",
+ "url": "https://www.sec.gov/Archives/edgar/data/1049502/000119312526066820/mksi-20251231.htm",
+ "accession": "0001193125-26-066820",
+ "cost_usd": 0.00233,
+ "relations": [
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Advanced Energy Industries, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For example, in VSD, Advanced Energy Industries, Inc. offers products that compete with our power solutions, plasma and reactive gas and sensing products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Inficon, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Inficon, Inc. offers products that compete with our pressure and vacuum control solutions products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Hitachi Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Hitachi Ltd., Horiba Ltd., Brooks Instrument and VAT, Inc. offer products that compete with our materials delivery solutions products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Horiba Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Hitachi Ltd., Horiba Ltd., Brooks Instrument and VAT, Inc. offer products that compete with our materials delivery solutions products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Brooks Instrument",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Hitachi Ltd., Horiba Ltd., Brooks Instrument and VAT, Inc. offer products that compete with our materials delivery solutions products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "VAT, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Hitachi Ltd., Horiba Ltd., Brooks Instrument and VAT, Inc. offer products that compete with our materials delivery solutions products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Trumpf Group",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In PSD, Trumpf Group, Lumentum Holdings Inc., IPG Photonics Corporation, EdgeWave GmbH and Amplitude Laser Group offer products that compete with our laser products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Lumentum Holdings Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In PSD, Trumpf Group, Lumentum Holdings Inc., IPG Photonics Corporation, EdgeWave GmbH and Amplitude Laser Group offer products that compete with our laser products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "IPG Photonics Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In PSD, Trumpf Group, Lumentum Holdings Inc., IPG Photonics Corporation, EdgeWave GmbH and Amplitude Laser Group offer products that compete with our laser products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "EdgeWave GmbH",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In PSD, Trumpf Group, Lumentum Holdings Inc., IPG Photonics Corporation, EdgeWave GmbH and Amplitude Laser Group offer products that compete with our laser products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Amplitude Laser Group",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In PSD, Trumpf Group, Lumentum Holdings Inc., IPG Photonics Corporation, EdgeWave GmbH and Amplitude Laser Group offer products that compete with our laser products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Coherent Corp.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Coherent Corp., Excelitas Technologies Corp., Jenoptik AG and Thorlabs, Inc. offer products that compete with our laser and photonics products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Excelitas Technologies Corp.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Coherent Corp., Excelitas Technologies Corp., Jenoptik AG and Thorlabs, Inc. offer products that compete with our laser and photonics products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Jenoptik AG",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Coherent Corp., Excelitas Technologies Corp., Jenoptik AG and Thorlabs, Inc. offer products that compete with our laser and photonics products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Thorlabs, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Coherent Corp., Excelitas Technologies Corp., Jenoptik AG and Thorlabs, Inc. offer products that compete with our laser and photonics products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Sigma Koki Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Sigma Koki Co., Ltd. and PI miCos GmbH offer products that compete with our photonics products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "PI miCos GmbH",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Sigma Koki Co., Ltd. and PI miCos GmbH offer products that compete with our photonics products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Via Mechanics, Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our laser-based systems for PCB manufacturing primarily compete with laser-based systems provided by Via Mechanics, Ltd., EO Technics Co., Ltd. and Mitsubishi Electric Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "EO Technics Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our laser-based systems for PCB manufacturing primarily compete with laser-based systems provided by Via Mechanics, Ltd., EO Technics Co., Ltd. and Mitsubishi Electric Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Mitsubishi Electric Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our laser-based systems for PCB manufacturing primarily compete with laser-based systems provided by Via Mechanics, Ltd., EO Technics Co., Ltd. and Mitsubishi Electric Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Element Solutions Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In MSD, Element Solutions Inc., Qnity Electronics, Inc., Uyemura, JCU International, Inc. and Okuno Chemical Industries Co., Ltd. offer products that compete with our chemistry products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Qnity Electronics, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In MSD, Element Solutions Inc., Qnity Electronics, Inc., Uyemura, JCU International, Inc. and Okuno Chemical Industries Co., Ltd. offer products that compete with our chemistry products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Uyemura",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In MSD, Element Solutions Inc., Qnity Electronics, Inc., Uyemura, JCU International, Inc. and Okuno Chemical Industries Co., Ltd. offer products that compete with our chemistry products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "JCU International, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In MSD, Element Solutions Inc., Qnity Electronics, Inc., Uyemura, JCU International, Inc. and Okuno Chemical Industries Co., Ltd. offer products that compete with our chemistry products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Okuno Chemical Industries Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In MSD, Element Solutions Inc., Qnity Electronics, Inc., Uyemura, JCU International, Inc. and Okuno Chemical Industries Co., Ltd. offer products that compete with our chemistry products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Schmid Group",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Schmid Group, Process Automation International Limited, Top Creation Machines Co., Ltd., Universal Circuit Board Equipment Co., Ltd., Almex Technologies Inc. and Manz Asia offer products that compete with our plating equipment products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Process Automation International Limited",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Schmid Group, Process Automation International Limited, Top Creation Machines Co., Ltd., Universal Circuit Board Equipment Co., Ltd., Almex Technologies Inc. and Manz Asia offer products that compete with our plating equipment products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Top Creation Machines Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Schmid Group, Process Automation International Limited, Top Creation Machines Co., Ltd., Universal Circuit Board Equipment Co., Ltd., Almex Technologies Inc. and Manz Asia offer products that compete with our plating equipment products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Universal Circuit Board Equipment Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Schmid Group, Process Automation International Limited, Top Creation Machines Co., Ltd., Universal Circuit Board Equipment Co., Ltd., Almex Technologies Inc. and Manz Asia offer products that compete with our plating equipment products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Almex Technologies Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Schmid Group, Process Automation International Limited, Top Creation Machines Co., Ltd., Universal Circuit Board Equipment Co., Ltd., Almex Technologies Inc. and Manz Asia offer products that compete with our plating equipment products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "competes_with",
+   "object": "Manz Asia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Schmid Group, Process Automation International Limited, Top Creation Machines Co., Ltd., Universal Circuit Board Equipment Co., Ltd., Almex Technologies Inc. and Manz Asia offer products that compete with our plating equipment products.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing facilities are located in Austria, Brazil, Canada, China, France, Germany, India, Israel, Italy, Japan, Malaysia, Mexico, Romania, Singapore, Slovenia, South Korea, Taiwan and the United States.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "operates_in",
+   "object": "Mexico",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing facilities are located in Austria, Brazil, Canada, China, France, Germany, India, Israel, Italy, Japan, Malaysia, Mexico, Romania, Singapore, Slovenia, South Korea, Taiwan and the United States.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "operates_in",
+   "object": "Malaysia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing facilities are located in Austria, Brazil, Canada, China, France, Germany, India, Israel, Italy, Japan, Malaysia, Mexico, Romania, Singapore, Slovenia, South Korea, Taiwan and the United States.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing facilities are located in Austria, Brazil, Canada, China, France, Germany, India, Israel, Italy, Japan, Malaysia, Mexico, Romania, Singapore, Slovenia, South Korea, Taiwan and the United States.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "operates_in",
+   "object": "United States",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our manufacturing facilities are located in Austria, Brazil, Canada, China, France, Germany, India, Israel, Italy, Japan, Malaysia, Mexico, Romania, Singapore, Slovenia, South Korea, Taiwan and the United States.",
+   "verified": true
+  },
+  {
+   "subject": "MKS Instruments",
+   "relation": "depends_on",
+   "object": "yttrium",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In April 2025, China implemented new export restrictions on certain rare earth minerals, including yttrium, which is a critical component used in the manufacturing of our lasers.",
+   "verified": true
+  }
+ ]
+}

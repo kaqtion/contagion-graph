@@ -1,0 +1,172 @@
+{
+ "ticker": "TER",
+ "form": "10-K",
+ "filed_at": "2026-02-19",
+ "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526059002/ter-20251231.htm",
+ "accession": "0001193125-26-059002",
+ "cost_usd": 0.00177,
+ "relations": [
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "Advantest Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in the Semiconductor Test segment include, among others, Advantest Corporation, SPEA S.p.A., and Cohu, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "SPEA S.p.A.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in the Semiconductor Test segment include, among others, Advantest Corporation, SPEA S.p.A., and Cohu, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "Cohu, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in the Semiconductor Test segment include, among others, Advantest Corporation, SPEA S.p.A., and Cohu, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "KUKA Robotics Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in our Robotics segment include manufacturers of traditional industrial robots such as KUKA Robotics Corporation, ABB, FANUC, Staubli and Yaskawa Electric Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "ABB",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in our Robotics segment include manufacturers of traditional industrial robots such as KUKA Robotics Corporation, ABB, FANUC, Staubli and Yaskawa Electric Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "FANUC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in our Robotics segment include manufacturers of traditional industrial robots such as KUKA Robotics Corporation, ABB, FANUC, Staubli and Yaskawa Electric Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "Staubli",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in our Robotics segment include manufacturers of traditional industrial robots such as KUKA Robotics Corporation, ABB, FANUC, Staubli and Yaskawa Electric Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "Yaskawa Electric Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in our Robotics segment include manufacturers of traditional industrial robots such as KUKA Robotics Corporation, ABB, FANUC, Staubli and Yaskawa Electric Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "Keysight Technologies",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in our Product Test operating segment include, among others, Keysight Technologies, Test Research, Inc., Rohde & Schwarz GmbH & Co. KG, Anritsu Company, National Instruments Corporation, Welzek and iTest.",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "Test Research, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in our Product Test operating segment include, among others, Keysight Technologies, Test Research, Inc., Rohde & Schwarz GmbH & Co. KG, Anritsu Company, National Instruments Corporation, Welzek and iTest.",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "Rohde & Schwarz GmbH & Co. KG",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in our Product Test operating segment include, among others, Keysight Technologies, Test Research, Inc., Rohde & Schwarz GmbH & Co. KG, Anritsu Company, National Instruments Corporation, Welzek and iTest.",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "Anritsu Company",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in our Product Test operating segment include, among others, Keysight Technologies, Test Research, Inc., Rohde & Schwarz GmbH & Co. KG, Anritsu Company, National Instruments Corporation, Welzek and iTest.",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "competes_with",
+   "object": "National Instruments Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Competitors in our Product Test operating segment include, among others, Keysight Technologies, Test Research, Inc., Rohde & Schwarz GmbH & Co. KG, Anritsu Company, National Instruments Corporation, Welzek and iTest.",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "buys_from",
+   "object": "Flex Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We depend on Flex Ltd. (\u201cFlex\u201d) to manufacture and test our FLEX and J750 family of products from its facility in Malaysia;",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "buys_from",
+   "object": "Plexus Corp.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Plexus Corp. (\u201cPlexus\u201d) to manufacture and test our FLEX and Magnum products from its facilities in Malaysia and Thailand and our ETS family of products from its facility in Malaysia;",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "buys_from",
+   "object": "SAM Meerkat",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "SAM Meerkat to manufacture and test our storage test family of products from its facilities in Malaysia and Thailand",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "operates_in",
+   "object": "Malaysia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "an increasing portion of our products and the products we purchase from our suppliers are sourced or manufactured in foreign locations, including Malaysia and Denmark",
+   "verified": true
+  },
+  {
+   "subject": "Teradyne",
+   "relation": "operates_in",
+   "object": "Denmark",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "an increasing portion of our products and the products we purchase from our suppliers are sourced or manufactured in foreign locations, including Malaysia and Denmark",
+   "verified": true
+  }
+ ]
+}

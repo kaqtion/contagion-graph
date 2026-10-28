@@ -1,0 +1,37 @@
+{
+ "ticker": "TM",
+ "form": "20-F",
+ "filed_at": "2026-06-10",
+ "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+ "accession": "0001193125-26-264811",
+ "cost_usd": 0.00125,
+ "relations": [
+  {
+   "subject": "Toyota Motor Corporation",
+   "relation": "supplies_to",
+   "object": "TOYOTA Mobility Tokyo Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "These products are sold through dealers such as TOYOTA Mobility Tokyo Inc. in Japan, and through dealers such as Toyota Motor Sales, U.S.A., Inc. overseas.",
+   "verified": true
+  },
+  {
+   "subject": "Toyota Motor Corporation",
+   "relation": "supplies_to",
+   "object": "Toyota Motor Sales, U.S.A., Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "These products are sold through dealers such as TOYOTA Mobility Tokyo Inc. in Japan, and through dealers such as Toyota Motor Sales, U.S.A., Inc. overseas.",
+   "verified": true
+  },
+  {
+   "subject": "Toyota Motor Corporation",
+   "relation": "operates_in",
+   "object": "U.S.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "TBMNC is Toyota\u2019s eleventh U.S. plant and the company\u2019s first and only battery plant outside of Japan.",
+   "verified": true
+  }
+ ]
+}

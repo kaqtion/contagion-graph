@@ -1,0 +1,46 @@
+{
+ "ticker": "TXN",
+ "form": "10-K",
+ "filed_at": "2026-02-06",
+ "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000059/txn-20251231.htm",
+ "accession": "0000097476-26-000059",
+ "cost_usd": 0.00074,
+ "relations": [
+  {
+   "subject": "Texas Instruments",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": 50,
+   "quote": "Revenue from end customers headquartered in China represented about 20% of our revenue in 2025, while revenue from products shipped into China represented about 50% of our revenue in 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Texas Instruments",
+   "relation": "operates_in",
+   "object": "Germany",
+   "strength_tier": "major",
+   "revenue_pct": 10,
+   "quote": "(a) Revenue from end customers headquartered in Germany was 10 %, 11 % and 13 % of total revenue in 2025, 2024 and 2023, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Texas Instruments",
+   "relation": "operates_in",
+   "object": "Texas",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In 2025, we continued qualifying and ramping production at our newest 300mm wafer fabs in Richardson and Sherman, Texas, and Lehi, Utah.",
+   "verified": true
+  },
+  {
+   "subject": "Texas Instruments",
+   "relation": "operates_in",
+   "object": "Utah",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In 2025, we continued qualifying and ramping production at our newest 300mm wafer fabs in Richardson and Sherman, Texas, and Lehi, Utah.",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "ticker": "SLAB",
+ "form": "10-K",
+ "filed_at": "2026-02-10",
+ "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000005/slab-20260103.htm",
+ "accession": "0001038074-26-000005",
+ "cost_usd": 0.00119,
+ "relations": [
+  {
+   "subject": "Silicon Labs",
+   "relation": "supplies_to",
+   "object": "Arrow Electronics",
+   "strength_tier": "major",
+   "revenue_pct": 28,
+   "quote": "Two of our distributors who sell to our customers, Arrow Electronics and Edom Technology, represented 28% and 21% of our revenues during fiscal 2025, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "supplies_to",
+   "object": "Edom Technology",
+   "strength_tier": "major",
+   "revenue_pct": 21,
+   "quote": "Two of our distributors who sell to our customers, Arrow Electronics and Edom Technology, represented 28% and 21% of our revenues during fiscal 2025, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Co. (\"TSMC\")",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently partner primarily with Taiwan Semiconductor Manufacturing Co. (\u201cTSMC\u201d) and Semiconductor Manufacturing International Corporation (\u201cSMIC\u201d) to manufacture the majority of our semiconductor wafers.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "buys_from",
+   "object": "Semiconductor Manufacturing International Corporation (\"SMIC\")",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently partner primarily with Taiwan Semiconductor Manufacturing Co. (\u201cTSMC\u201d) and Semiconductor Manufacturing International Corporation (\u201cSMIC\u201d) to manufacture the majority of our semiconductor wafers.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "Espressif",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "Infineon",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "MediaTek",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "Microchip",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "Nordic Semiconductor",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "NXP",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "Qualcomm",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "Renesas",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "STMicroelectronics",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "Synaptics",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "Telink",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  },
+  {
+   "subject": "Silicon Labs",
+   "relation": "competes_with",
+   "object": "Texas Instruments",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We compete with Espressif, Infineon, MediaTek, Microchip, Nordic Semiconductor, NXP, Qualcomm, Renesas, STMicroelectronics, Synaptics, Telink, Texas Instruments and others.",
+   "verified": true
+  }
+ ]
+}

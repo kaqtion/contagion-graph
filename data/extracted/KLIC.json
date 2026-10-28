@@ -1,0 +1,172 @@
+{
+ "ticker": "KLIC",
+ "form": "10-K",
+ "filed_at": "2025-11-20",
+ "url": "https://www.sec.gov/Archives/edgar/data/56978/000005697825000081/klic-20251004.htm",
+ "accession": "0000056978-25-000081",
+ "cost_usd": 0.00188,
+ "relations": [
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "ASM Pacific Technology",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major equipment competitors are ASM Pacific Technology, Hesse GmbH, Han's Laser Technology Co., Ltd., BE Semiconductor Industries N.V., Hanwha Precision Machinery Co., Ltd., Panasonic Holdings Corporation, Yamaha Robotics Holdings Co. Ltd., and Nordson Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "Hesse GmbH",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major equipment competitors are ASM Pacific Technology, Hesse GmbH, Han's Laser Technology Co., Ltd., BE Semiconductor Industries N.V., Hanwha Precision Machinery Co., Ltd., Panasonic Holdings Corporation, Yamaha Robotics Holdings Co. Ltd., and Nordson Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "Han's Laser Technology Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major equipment competitors are ASM Pacific Technology, Hesse GmbH, Han's Laser Technology Co., Ltd., BE Semiconductor Industries N.V., Hanwha Precision Machinery Co., Ltd., Panasonic Holdings Corporation, Yamaha Robotics Holdings Co. Ltd., and Nordson Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "BE Semiconductor Industries N.V.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major equipment competitors are ASM Pacific Technology, Hesse GmbH, Han's Laser Technology Co., Ltd., BE Semiconductor Industries N.V., Hanwha Precision Machinery Co., Ltd., Panasonic Holdings Corporation, Yamaha Robotics Holdings Co. Ltd., and Nordson Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "Hanwha Precision Machinery Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major equipment competitors are ASM Pacific Technology, Hesse GmbH, Han's Laser Technology Co., Ltd., BE Semiconductor Industries N.V., Hanwha Precision Machinery Co., Ltd., Panasonic Holdings Corporation, Yamaha Robotics Holdings Co. Ltd., and Nordson Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "Panasonic Holdings Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major equipment competitors are ASM Pacific Technology, Hesse GmbH, Han's Laser Technology Co., Ltd., BE Semiconductor Industries N.V., Hanwha Precision Machinery Co., Ltd., Panasonic Holdings Corporation, Yamaha Robotics Holdings Co. Ltd., and Nordson Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "Yamaha Robotics Holdings Co. Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major equipment competitors are ASM Pacific Technology, Hesse GmbH, Han's Laser Technology Co., Ltd., BE Semiconductor Industries N.V., Hanwha Precision Machinery Co., Ltd., Panasonic Holdings Corporation, Yamaha Robotics Holdings Co. Ltd., and Nordson Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "Nordson Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our major equipment competitors are ASM Pacific Technology, Hesse GmbH, Han's Laser Technology Co., Ltd., BE Semiconductor Industries N.V., Hanwha Precision Machinery Co., Ltd., Panasonic Holdings Corporation, Yamaha Robotics Holdings Co. Ltd., and Nordson Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "PECO Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our significant consumables competitors are PECO Co., Ltd., Disco Corporation, Small Precision Tools Co., Ltd. and Chaozhou Three-Circle (Group) Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "Disco Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our significant consumables competitors are PECO Co., Ltd., Disco Corporation, Small Precision Tools Co., Ltd. and Chaozhou Three-Circle (Group) Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "Small Precision Tools Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our significant consumables competitors are PECO Co., Ltd., Disco Corporation, Small Precision Tools Co., Ltd. and Chaozhou Three-Circle (Group) Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "competes_with",
+   "object": "Chaozhou Three-Circle (Group) Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our significant consumables competitors are PECO Co., Ltd., Disco Corporation, Small Precision Tools Co., Ltd. and Chaozhou Three-Circle (Group) Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": 53.5,
+   "quote": "Approximately 53.5% and 53.3% of our net revenue for fiscal 2025 and 2024, respectively, was for shipments to customers headquartered in China.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "operates_in",
+   "object": "Singapore",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently manufacture our ball, wedge, APAMA TM and APTURA TM bonders in Singapore, our dicing blades, capillaries and bonding wedges in China, our Hybrid and Electronic Assembly solutions in the Netherlands, our capillaries in Israel, and our advanced dispensing equipment in Taiwan.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently manufacture our ball, wedge, APAMA TM and APTURA TM bonders in Singapore, our dicing blades, capillaries and bonding wedges in China, our Hybrid and Electronic Assembly solutions in the Netherlands, our capillaries in Israel, and our advanced dispensing equipment in Taiwan.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "operates_in",
+   "object": "Netherlands",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently manufacture our ball, wedge, APAMA TM and APTURA TM bonders in Singapore, our dicing blades, capillaries and bonding wedges in China, our Hybrid and Electronic Assembly solutions in the Netherlands, our capillaries in Israel, and our advanced dispensing equipment in Taiwan.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "operates_in",
+   "object": "Israel",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently manufacture our ball, wedge, APAMA TM and APTURA TM bonders in Singapore, our dicing blades, capillaries and bonding wedges in China, our Hybrid and Electronic Assembly solutions in the Netherlands, our capillaries in Israel, and our advanced dispensing equipment in Taiwan.",
+   "verified": true
+  },
+  {
+   "subject": "Kulicke and Soffa",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We currently manufacture our ball, wedge, APAMA TM and APTURA TM bonders in Singapore, our dicing blades, capillaries and bonding wedges in China, our Hybrid and Electronic Assembly solutions in the Netherlands, our capillaries in Israel, and our advanced dispensing equipment in Taiwan.",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "ticker": "AMKR",
+ "form": "10-K",
+ "filed_at": "2026-02-20",
+ "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm",
+ "accession": "0001047127-26-000014",
+ "cost_usd": 0.00111,
+ "relations": [
+  {
+   "subject": "Amkor",
+   "relation": "supplies_to",
+   "object": "Apple",
+   "strength_tier": "major",
+   "revenue_pct": 29.8,
+   "quote": "Direct sales to Apple and Qualcomm accounted for 29.8% and 11.1% of our net sales, respectively, for the year ended December 31, 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Amkor",
+   "relation": "supplies_to",
+   "object": "Qualcomm",
+   "strength_tier": "major",
+   "revenue_pct": 11.1,
+   "quote": "Direct sales to Apple and Qualcomm accounted for 29.8% and 11.1% of our net sales, respectively, for the year ended December 31, 2025.",
+   "verified": true
+  },
+  {
+   "subject": "Amkor",
+   "relation": "competes_with",
+   "object": "ASE Technology",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We face competition from established packaging and test service providers primarily located in Asia, including ASE Technology, JCET Group and Powertech Technology.",
+   "verified": true
+  },
+  {
+   "subject": "Amkor",
+   "relation": "competes_with",
+   "object": "JCET Group",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We face competition from established packaging and test service providers primarily located in Asia, including ASE Technology, JCET Group and Powertech Technology.",
+   "verified": true
+  },
+  {
+   "subject": "Amkor",
+   "relation": "competes_with",
+   "object": "Powertech Technology",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We face competition from established packaging and test service providers primarily located in Asia, including ASE Technology, JCET Group and Powertech Technology.",
+   "verified": true
+  },
+  {
+   "subject": "Amkor",
+   "relation": "operates_in",
+   "object": "Vietnam",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In addition, we continue to scale production in our Vietnam facility, which opened in 2024, further increasing our capacity and operational flexibility in Asia.",
+   "verified": true
+  },
+  {
+   "subject": "Amkor",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For example, in April 2016, our Kumamoto factory was damaged by earthquakes in Japan.",
+   "verified": true
+  },
+  {
+   "subject": "Amkor",
+   "relation": "depends_on",
+   "object": "gold",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We are a large buyer of gold and other commodity materials, including substrates and copper.",
+   "verified": true
+  },
+  {
+   "subject": "Amkor",
+   "relation": "depends_on",
+   "object": "copper",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We are a large buyer of gold and other commodity materials, including substrates and copper.",
+   "verified": true
+  }
+ ]
+}

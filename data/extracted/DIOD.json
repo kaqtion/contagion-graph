@@ -1,0 +1,91 @@
+{
+ "ticker": "DIOD",
+ "form": "10-K",
+ "filed_at": "2026-02-10",
+ "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526044918/diod-20251231.htm",
+ "accession": "0001193125-26-044918",
+ "cost_usd": 0.00102,
+ "relations": [
+  {
+   "subject": "Diodes Incorporated",
+   "relation": "competes_with",
+   "object": "Infineon Technologies A.G.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Some of our current major competitors are Infineon Technologies A.G., Epson, Kyrocera, Nexperia, NXP Semiconductors N.V., ON Semiconductor Corporation, Renesas Electronics Corporation, Texas Instruments, and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Diodes Incorporated",
+   "relation": "competes_with",
+   "object": "NXP Semiconductors N.V.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Some of our current major competitors are Infineon Technologies A.G., Epson, Kyrocera, Nexperia, NXP Semiconductors N.V., ON Semiconductor Corporation, Renesas Electronics Corporation, Texas Instruments, and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Diodes Incorporated",
+   "relation": "competes_with",
+   "object": "ON Semiconductor Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Some of our current major competitors are Infineon Technologies A.G., Epson, Kyrocera, Nexperia, NXP Semiconductors N.V., ON Semiconductor Corporation, Renesas Electronics Corporation, Texas Instruments, and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Diodes Incorporated",
+   "relation": "competes_with",
+   "object": "Renesas Electronics Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Some of our current major competitors are Infineon Technologies A.G., Epson, Kyrocera, Nexperia, NXP Semiconductors N.V., ON Semiconductor Corporation, Renesas Electronics Corporation, Texas Instruments, and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Diodes Incorporated",
+   "relation": "competes_with",
+   "object": "Texas Instruments",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Some of our current major competitors are Infineon Technologies A.G., Epson, Kyrocera, Nexperia, NXP Semiconductors N.V., ON Semiconductor Corporation, Renesas Electronics Corporation, Texas Instruments, and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Diodes Incorporated",
+   "relation": "competes_with",
+   "object": "Vishay Intertechnology, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Some of our current major competitors are Infineon Technologies A.G., Epson, Kyrocera, Nexperia, NXP Semiconductors N.V., ON Semiconductor Corporation, Renesas Electronics Corporation, Texas Instruments, and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Diodes Incorporated",
+   "relation": "competes_with",
+   "object": "Nexperia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Some of our current major competitors are Infineon Technologies A.G., Epson, Kyrocera, Nexperia, NXP Semiconductors N.V., ON Semiconductor Corporation, Renesas Electronics Corporation, Texas Instruments, and Vishay Intertechnology, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Diodes Incorporated",
+   "relation": "buys_from",
+   "object": "Texas Instruments",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In 2019, we acquired from Texas Instruments a 200mm wafer fabrication facility and operations located in Greenock, Scotland (\u201cGFAB\u201d).",
+   "verified": true
+  },
+  {
+   "subject": "Diodes Incorporated",
+   "relation": "buys_from",
+   "object": "onsemi",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In June 2022, the Company completed the acquisition of onsemi\u2019s wafer fabrication facility and operations located in South Portland, Maine (\u201cSPFAB\u201d).",
+   "verified": true
+  }
+ ]
+}

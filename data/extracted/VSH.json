@@ -1,0 +1,82 @@
+{
+ "ticker": "VSH",
+ "form": "10-K",
+ "filed_at": "2026-02-13",
+ "url": "https://www.sec.gov/Archives/edgar/data/103730/000010373026000019/form10k.htm",
+ "accession": "0000103730-26-000019",
+ "cost_usd": 0.00123,
+ "relations": [
+  {
+   "subject": "Vishay Intertechnology, Inc.",
+   "relation": "depends_on",
+   "object": "gold",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Many of the metals used in the manufacture of the Company\u2019s products, including gold, copper, and palladium, are traded on active markets and can be subject to significant price volatility.",
+   "verified": true
+  },
+  {
+   "subject": "Vishay Intertechnology, Inc.",
+   "relation": "depends_on",
+   "object": "copper",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Many of the metals used in the manufacture of the Company\u2019s products, including gold, copper, and palladium, are traded on active markets and can be subject to significant price volatility.",
+   "verified": true
+  },
+  {
+   "subject": "Vishay Intertechnology, Inc.",
+   "relation": "depends_on",
+   "object": "palladium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Many of the metals used in the manufacture of the Company\u2019s products, including gold, copper, and palladium, are traded on active markets and can be subject to significant price volatility.",
+   "verified": true
+  },
+  {
+   "subject": "Vishay Intertechnology, Inc.",
+   "relation": "operates_in",
+   "object": "United Kingdom",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In 2024, we acquired Nexperia's wafer fabrication facility and operations located in Newport, South Wales, U.K.",
+   "verified": true
+  },
+  {
+   "subject": "Vishay Intertechnology, Inc.",
+   "relation": "operates_in",
+   "object": "Germany",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "building a 12-inch wafer fab in Itzehoe, Germany adjacent to our existing 8-inch wafer fab",
+   "verified": true
+  },
+  {
+   "subject": "Vishay Intertechnology, Inc.",
+   "relation": "operates_in",
+   "object": "Mexico",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "a resistor manufacturing expansion in Mexico",
+   "verified": true
+  },
+  {
+   "subject": "Vishay Intertechnology, Inc.",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "expanded diode manufacturing in Taiwan and Turin, Italy",
+   "verified": true
+  },
+  {
+   "subject": "Vishay Intertechnology, Inc.",
+   "relation": "operates_in",
+   "object": "Italy",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "expanded diode manufacturing in Taiwan and Turin, Italy",
+   "verified": true
+  }
+ ]
+}

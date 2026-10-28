@@ -1,0 +1,118 @@
+{
+ "ticker": "LRCX",
+ "form": "10-K",
+ "filed_at": "2026-08-07",
+ "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+ "accession": "0000707549-26-000037",
+ "cost_usd": 0.00104,
+ "relations": [
+  {
+   "subject": "Lam Research",
+   "relation": "competes_with",
+   "object": "Applied Materials, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitor in the dielectric and metals deposition market is Applied Materials, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Lam Research",
+   "relation": "competes_with",
+   "object": "ASM International",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For ALD and PECVD, we also compete against ASM International and Wonik IPS.",
+   "verified": true
+  },
+  {
+   "subject": "Lam Research",
+   "relation": "competes_with",
+   "object": "Wonik IPS",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For ALD and PECVD, we also compete against ASM International and Wonik IPS.",
+   "verified": true
+  },
+  {
+   "subject": "Lam Research",
+   "relation": "competes_with",
+   "object": "Hitachi, Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In the etch market, our primary competitors are Applied Materials, Inc.; Hitachi, Ltd.; and Tokyo Electron, Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Lam Research",
+   "relation": "competes_with",
+   "object": "Tokyo Electron, Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the etch market, our primary competitors are Applied Materials, Inc.; Hitachi, Ltd.; and Tokyo Electron, Ltd., and our primary competitors in the wet clean market are Screen Holding Co., Ltd.; Semes Co., Ltd.; and Tokyo Electron, Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Lam Research",
+   "relation": "competes_with",
+   "object": "Screen Holding Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our primary competitors in the wet clean market are Screen Holding Co., Ltd.; Semes Co., Ltd.; and Tokyo Electron, Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Lam Research",
+   "relation": "competes_with",
+   "object": "Semes Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our primary competitors in the wet clean market are Screen Holding Co., Ltd.; Semes Co., Ltd.; and Tokyo Electron, Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Lam Research",
+   "relation": "supplies_to",
+   "object": "Micron Technology, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": 16,
+   "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+   "verified": true
+  },
+  {
+   "subject": "Lam Research",
+   "relation": "supplies_to",
+   "object": "Samsung Electronics Company, Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+   "verified": true
+  },
+  {
+   "subject": "Lam Research",
+   "relation": "supplies_to",
+   "object": "SK hynix Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+   "verified": true
+  },
+  {
+   "subject": "Lam Research",
+   "relation": "supplies_to",
+   "object": "Taiwan Semiconductor Manufacturing Company",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+   "verified": true
+  },
+  {
+   "subject": "Lam Research",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": 34,
+   "quote": "Revenue in China, which includes global customers and domestic Chinese customers with manufacturing facilities in China, represented approximately 34%, 34%, and 42% of our total revenue for fiscal years 2026, 2025, and 2024, respectively.",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "ticker": "ALAB",
+ "form": "10-K",
+ "filed_at": "2026-02-20",
+ "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000010/alab-20251231.htm",
+ "accession": "0001736297-26-000010",
+ "cost_usd": 0.00131,
+ "relations": [
+  {
+   "subject": "Astera Labs",
+   "relation": "competes_with",
+   "object": "Broadcom, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include Broadcom, Inc., Credo Technology Group Holding Ltd., Marvell Technology, Inc., Microchip Technology Inc., Montage Technology, Parade Technologies, Ltd., and Rambus, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Astera Labs",
+   "relation": "competes_with",
+   "object": "Credo Technology Group Holding Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include Broadcom, Inc., Credo Technology Group Holding Ltd., Marvell Technology, Inc., Microchip Technology Inc., Montage Technology, Parade Technologies, Ltd., and Rambus, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Astera Labs",
+   "relation": "competes_with",
+   "object": "Marvell Technology, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include Broadcom, Inc., Credo Technology Group Holding Ltd., Marvell Technology, Inc., Microchip Technology Inc., Montage Technology, Parade Technologies, Ltd., and Rambus, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Astera Labs",
+   "relation": "competes_with",
+   "object": "Microchip Technology Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include Broadcom, Inc., Credo Technology Group Holding Ltd., Marvell Technology, Inc., Microchip Technology Inc., Montage Technology, Parade Technologies, Ltd., and Rambus, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Astera Labs",
+   "relation": "competes_with",
+   "object": "Montage Technology",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include Broadcom, Inc., Credo Technology Group Holding Ltd., Marvell Technology, Inc., Microchip Technology Inc., Montage Technology, Parade Technologies, Ltd., and Rambus, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Astera Labs",
+   "relation": "competes_with",
+   "object": "Parade Technologies, Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include Broadcom, Inc., Credo Technology Group Holding Ltd., Marvell Technology, Inc., Microchip Technology Inc., Montage Technology, Parade Technologies, Ltd., and Rambus, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Astera Labs",
+   "relation": "competes_with",
+   "object": "Rambus, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our principal competitors include Broadcom, Inc., Credo Technology Group Holding Ltd., Marvell Technology, Inc., Microchip Technology Inc., Montage Technology, Parade Technologies, Ltd., and Rambus, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Astera Labs",
+   "relation": "buys_from",
+   "object": "TSMC",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "For example, the foundry used by our primary manufacturer, TSMC, as well as our primary distributor, is located in Taiwan.",
+   "verified": true
+  },
+  {
+   "subject": "Astera Labs",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "As of December 31, 2025, 20 % and 73 % of the Company\u2019s property and equipment was located in the United States and Taiwan, respectively.",
+   "verified": true
+  }
+ ]
+}

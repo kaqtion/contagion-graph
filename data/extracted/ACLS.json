@@ -1,0 +1,82 @@
+{
+ "ticker": "ACLS",
+ "form": "10-K",
+ "filed_at": "2026-02-26",
+ "url": "https://www.sec.gov/Archives/edgar/data/1113232/000110465926020461/acls-20251231x10k.htm",
+ "accession": "0001104659-26-020461",
+ "cost_usd": 0.00093,
+ "relations": [
+  {
+   "subject": "Axcelis",
+   "relation": "competes_with",
+   "object": "Applied Materials, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the market for ion implantation systems, we mainly compete against Applied Materials, Inc. (\u201cApplied Materials\u201d).",
+   "verified": true
+  },
+  {
+   "subject": "Axcelis",
+   "relation": "competes_with",
+   "object": "Sumitomo Heavy Industries Ion Technology Co. Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other implantation equipment manufacturers we compete with include Sumitomo Heavy Industries Ion Technology Co. Ltd. and Nissin Ion Equipment Co., Ltd in Japan",
+   "verified": true
+  },
+  {
+   "subject": "Axcelis",
+   "relation": "competes_with",
+   "object": "Nissin Ion Equipment Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other implantation equipment manufacturers we compete with include Sumitomo Heavy Industries Ion Technology Co. Ltd. and Nissin Ion Equipment Co., Ltd in Japan",
+   "verified": true
+  },
+  {
+   "subject": "Axcelis",
+   "relation": "competes_with",
+   "object": "Advanced Ion Beam Technology, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Advanced Ion Beam Technology, Inc. in Taiwan, as well as Kingstone Semiconductor and CETC Electronics Equipment Group Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Axcelis",
+   "relation": "competes_with",
+   "object": "Kingstone Semiconductor",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "as well as Kingstone Semiconductor and CETC Electronics Equipment Group Co., Ltd. in the People\u2019s Republic of China.",
+   "verified": true
+  },
+  {
+   "subject": "Axcelis",
+   "relation": "competes_with",
+   "object": "CETC Electronics Equipment Group Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "as well as Kingstone Semiconductor and CETC Electronics Equipment Group Co., Ltd. in the People\u2019s Republic of China.",
+   "verified": true
+  },
+  {
+   "subject": "Axcelis",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "a country that has represented a significant portion of our sales in recent years.",
+   "verified": true
+  },
+  {
+   "subject": "Axcelis",
+   "relation": "supplies_to",
+   "object": "Semiconductor Manufacturing International Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "One of our major Chinese customers, Semiconductor Manufacturing International Corporation (\u201cSMIC\u201d), is on the U.S. Entity List",
+   "verified": true
+  }
+ ]
+}

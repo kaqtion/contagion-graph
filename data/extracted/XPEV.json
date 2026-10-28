@@ -1,0 +1,64 @@
+{
+ "ticker": "XPEV",
+ "form": "20-F",
+ "filed_at": "2026-04-16",
+ "url": "https://www.sec.gov/Archives/edgar/data/1810997/000119312526157849/d36361d20f.htm",
+ "accession": "0001193125-26-157849",
+ "cost_usd": 0.00118,
+ "relations": [
+  {
+   "subject": "XPeng",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We conduct our operations in China (i) primarily through our PRC subsidiaries, and (ii) to a much lesser extent, the Group VIEs.",
+   "verified": true
+  },
+  {
+   "subject": "XPeng",
+   "relation": "operates_in",
+   "object": "United States",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We have been conducting a portion of our research and development on ADAS in the United States, and we are required to comply with the U.S. laws and regulations on export controls",
+   "verified": true
+  },
+  {
+   "subject": "XPeng",
+   "relation": "competes_with",
+   "object": "Tesla",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "As a result, foreign EV competitors could build wholly-owned facilities in China without the need for a domestic joint venture partner. For example, Tesla has constructed the Tesla Giga Shanghai factory in Shanghai without a joint venture partner.",
+   "verified": true
+  },
+  {
+   "subject": "XPeng",
+   "relation": "supplies_to",
+   "object": "Volkswagen Group",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The jointly developed E/E Architecture is expected to equip Volkswagen brand electric vehicles produced in China from 2026.",
+   "verified": true
+  },
+  {
+   "subject": "XPeng",
+   "relation": "depends_on",
+   "object": "steel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We use various components and raw materials in our business, such as steel and aluminum, as well as lithium battery cells, millimeter-wave radar, or mmWave radar, and semiconductors.",
+   "verified": true
+  },
+  {
+   "subject": "XPeng",
+   "relation": "depends_on",
+   "object": "aluminum",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We use various components and raw materials in our business, such as steel and aluminum, as well as lithium battery cells, millimeter-wave radar, or mmWave radar, and semiconductors.",
+   "verified": true
+  }
+ ]
+}

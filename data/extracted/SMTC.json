@@ -1,0 +1,55 @@
+{
+ "ticker": "SMTC",
+ "form": "10-K",
+ "filed_at": "2026-03-23",
+ "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000005/smtc-20260125.htm",
+ "accession": "0000088941-26-000005",
+ "cost_usd": 0.00106,
+ "relations": [
+  {
+   "subject": "Semtech",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": 47,
+   "quote": "Net sales to customers located in China (including Hong Kong) comprised 47% of our net sales in fiscal year 2026.",
+   "verified": true
+  },
+  {
+   "subject": "Semtech",
+   "relation": "operates_in",
+   "object": "United States",
+   "strength_tier": "major",
+   "revenue_pct": 18,
+   "quote": "In fiscal years 2026, 2025 and 2024, net sales in the U.S. represented 18%, 21% and 24% of our net sales .",
+   "verified": true
+  },
+  {
+   "subject": "Semtech",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "minor",
+   "revenue_pct": 6,
+   "quote": "Net sales to customers located in Taiwan comprised 6% of our net sales in fiscal year 2026.",
+   "verified": true
+  },
+  {
+   "subject": "Semtech",
+   "relation": "depends_on",
+   "object": "rare earth elements",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Certain of our products rely on rare earth elements for their manufacturing, of which a significant majority are sourced from China.",
+   "verified": true
+  },
+  {
+   "subject": "Semtech",
+   "relation": "depends_on",
+   "object": "gold",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We are subject to risk from fluctuating market prices of certain commodity raw materials, particularly gold, that are incorporated into our end products or used by our suppliers to process our end products.",
+   "verified": true
+  }
+ ]
+}

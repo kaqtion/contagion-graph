@@ -1,0 +1,64 @@
+{
+ "ticker": "AMAT",
+ "form": "10-K",
+ "filed_at": "2025-12-12",
+ "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
+ "accession": "0001628280-25-056742",
+ "cost_usd": 0.00101,
+ "relations": [
+  {
+   "subject": "Applied Materials, Inc.",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our customer base is geographically concentrated, particularly in China, Taiwan and Korea",
+   "verified": true
+  },
+  {
+   "subject": "Applied Materials, Inc.",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our customer base is geographically concentrated, particularly in China, Taiwan and Korea",
+   "verified": true
+  },
+  {
+   "subject": "Applied Materials, Inc.",
+   "relation": "operates_in",
+   "object": "Korea",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our customer base is geographically concentrated, particularly in China, Taiwan and Korea",
+   "verified": true
+  },
+  {
+   "subject": "Applied Materials, Inc.",
+   "relation": "operates_in",
+   "object": "Singapore",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We utilize a distributed manufacturing model under which manufacturing and supply chain activities are conducted in various countries, including United States, Singapore, Japan, China, Korea, Taiwan, Israel and other countries in Asia and Europe.",
+   "verified": true
+  },
+  {
+   "subject": "Applied Materials, Inc.",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We utilize a distributed manufacturing model under which manufacturing and supply chain activities are conducted in various countries, including United States, Singapore, Japan, China, Korea, Taiwan, Israel and other countries in Asia and Europe.",
+   "verified": true
+  },
+  {
+   "subject": "Applied Materials, Inc.",
+   "relation": "operates_in",
+   "object": "Israel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We utilize a distributed manufacturing model under which manufacturing and supply chain activities are conducted in various countries, including United States, Singapore, Japan, China, Korea, Taiwan, Israel and other countries in Asia and Europe.",
+   "verified": true
+  }
+ ]
+}

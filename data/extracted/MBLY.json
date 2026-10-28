@@ -1,0 +1,163 @@
+{
+ "ticker": "MBLY",
+ "form": "10-K",
+ "filed_at": "2026-02-12",
+ "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926014300/mbly-20251227x10k.htm",
+ "accession": "0001104659-26-014300",
+ "cost_usd": 0.00117,
+ "relations": [
+  {
+   "subject": "Mobileye",
+   "relation": "buys_from",
+   "object": "STMicroelectronics",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "We currently purchase all of our EyeQ\u2122 SoCs from STMicroelectronics.",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "buys_from",
+   "object": "Quanta Computer",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we are substantially reliant on timely shipments of EyeQ\u2122 SoCs from STMicroelectronics (or other suppliers) and ECUs from Quanta Computer (or other suppliers) to fulfill customer orders",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "buys_from",
+   "object": "Amazon Web Services",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we currently depend on Amazon Web Services for cloud services in connection with our REM\u2122 mapping system, Roadbook\u2122, and AMaaS solutions including the Moovit platform",
+   "verified": true
+  },
+  {
+   "subject": "STMicroelectronics",
+   "relation": "buys_from",
+   "object": "TSMC",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "STMicroelectronics depends on TSMC as its subcontractor to manufacture our EyeQ\u2122 SoCs, particularly our EyeQ\u21225 and EyeQ\u2122 6 SoCs",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "supplies_to",
+   "object": "ZF",
+   "strength_tier": "major",
+   "revenue_pct": 30,
+   "quote": "In 2025, our three largest Tier 1 customers, which were ZF, Valeo, and Aptiv, accounted for 30%, 17%, and 15%, respectively, of our revenue",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "supplies_to",
+   "object": "Valeo",
+   "strength_tier": "major",
+   "revenue_pct": 17,
+   "quote": "In 2025, our three largest Tier 1 customers, which were ZF, Valeo, and Aptiv, accounted for 30%, 17%, and 15%, respectively, of our revenue",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "supplies_to",
+   "object": "Aptiv",
+   "strength_tier": "major",
+   "revenue_pct": 15,
+   "quote": "In 2025, our three largest Tier 1 customers, which were ZF, Valeo, and Aptiv, accounted for 30%, 17%, and 15%, respectively, of our revenue",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "competes_with",
+   "object": "Bosch",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Tier 1 automotive supplier competitors include Bosch, Continental, and Denso.",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "competes_with",
+   "object": "Continental",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Tier 1 automotive supplier competitors include Bosch, Continental, and Denso.",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "competes_with",
+   "object": "Denso",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Tier 1 automotive supplier competitors include Bosch, Continental, and Denso.",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "competes_with",
+   "object": "Ambarella",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our silicon provider competitors include Ambarella, Advanced Micro Devices, Arriver / Qualcomm, Black Sesame Technologies, Horizon Robotics, Huawei, NVIDIA, NXP, Renesas Electronics, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "competes_with",
+   "object": "Advanced Micro Devices",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our silicon provider competitors include Ambarella, Advanced Micro Devices, Arriver / Qualcomm, Black Sesame Technologies, Horizon Robotics, Huawei, NVIDIA, NXP, Renesas Electronics, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "competes_with",
+   "object": "Qualcomm",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our silicon provider competitors include Ambarella, Advanced Micro Devices, Arriver / Qualcomm, Black Sesame Technologies, Horizon Robotics, Huawei, NVIDIA, NXP, Renesas Electronics, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "competes_with",
+   "object": "NVIDIA",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our silicon provider competitors include Ambarella, Advanced Micro Devices, Arriver / Qualcomm, Black Sesame Technologies, Horizon Robotics, Huawei, NVIDIA, NXP, Renesas Electronics, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "competes_with",
+   "object": "Texas Instruments",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our silicon provider competitors include Ambarella, Advanced Micro Devices, Arriver / Qualcomm, Black Sesame Technologies, Horizon Robotics, Huawei, NVIDIA, NXP, Renesas Electronics, and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "competes_with",
+   "object": "Tesla",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "with Tesla and Mercedes-Benz being examples of automakers taking that approach today",
+   "verified": true
+  },
+  {
+   "subject": "Mobileye",
+   "relation": "competes_with",
+   "object": "Mercedes-Benz",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "with Tesla and Mercedes-Benz being examples of automakers taking that approach today",
+   "verified": true
+  }
+ ]
+}

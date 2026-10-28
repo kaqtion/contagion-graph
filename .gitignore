@@ -51,3 +51,5 @@ data/filings/
 data/fetch_log.txt
 data/sec_company_tickers.json
 .neon
+data/collect_log.txt
+data/extract_batch.json

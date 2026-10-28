@@ -1,0 +1,46 @@
+{
+ "ticker": "MCHP",
+ "form": "10-K",
+ "filed_at": "2026-05-21",
+ "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000016/mchp-20260331.htm",
+ "accession": "0000827054-26-000016",
+ "cost_usd": 0.00111,
+ "relations": [
+  {
+   "subject": "Microchip",
+   "relation": "supplies_to",
+   "object": "Arrow Electronics",
+   "strength_tier": "major",
+   "revenue_pct": 12,
+   "quote": "With the exception of Arrow Electronics, our largest distributor, which made up 12% and 10% of our net sales, in fiscal 2026 and in fiscal 2025, respectively, no distributor or direct customer accounted for more than 10% of our net sales.",
+   "verified": true
+  },
+  {
+   "subject": "Microchip",
+   "relation": "buys_from",
+   "object": "SMIC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Some of our products are manufactured at SMIC, and some of our suppliers buy products manufactured at YMTC.",
+   "verified": true
+  },
+  {
+   "subject": "Microchip",
+   "relation": "operates_in",
+   "object": "Thailand",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company's operations outside the U.S. consist of product assembly and final test facilities in Thailand",
+   "verified": true
+  },
+  {
+   "subject": "Microchip",
+   "relation": "operates_in",
+   "object": "Philippines",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "and a reduction in headcount at its manufacturing facilities in Oregon, Colorado Springs and the Philippines.",
+   "verified": true
+  }
+ ]
+}

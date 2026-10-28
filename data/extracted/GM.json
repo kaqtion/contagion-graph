@@ -1,0 +1,82 @@
+{
+ "ticker": "GM",
+ "form": "10-K",
+ "filed_at": "2026-01-27",
+ "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm",
+ "accession": "0001467858-26-000013",
+ "cost_usd": 0.0012,
+ "relations": [
+  {
+   "subject": "General Motors",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our business in China subjects us to unique operational, competitive, regulatory, and economic risks.",
+   "verified": true
+  },
+  {
+   "subject": "General Motors",
+   "relation": "depends_on",
+   "object": "steel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The raw materials primarily include steel, aluminum, resins, copper, lead, and precious metals.",
+   "verified": true
+  },
+  {
+   "subject": "General Motors",
+   "relation": "depends_on",
+   "object": "aluminum",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The raw materials primarily include steel, aluminum, resins, copper, lead, and precious metals.",
+   "verified": true
+  },
+  {
+   "subject": "General Motors",
+   "relation": "depends_on",
+   "object": "copper",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The raw materials primarily include steel, aluminum, resins, copper, lead, and precious metals.",
+   "verified": true
+  },
+  {
+   "subject": "General Motors",
+   "relation": "depends_on",
+   "object": "lithium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "elevated cost, or reduced availability, of critical materials for our EV propulsion systems, including lithium, nickel, cobalt, and certain rare earth metals, may lead to higher production costs for our EVs",
+   "verified": true
+  },
+  {
+   "subject": "General Motors",
+   "relation": "depends_on",
+   "object": "nickel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "elevated cost, or reduced availability, of critical materials for our EV propulsion systems, including lithium, nickel, cobalt, and certain rare earth metals, may lead to higher production costs for our EVs",
+   "verified": true
+  },
+  {
+   "subject": "General Motors",
+   "relation": "depends_on",
+   "object": "cobalt",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "elevated cost, or reduced availability, of critical materials for our EV propulsion systems, including lithium, nickel, cobalt, and certain rare earth metals, may lead to higher production costs for our EVs",
+   "verified": true
+  },
+  {
+   "subject": "General Motors",
+   "relation": "depends_on",
+   "object": "rare earth metals",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "elevated cost, or reduced availability, of critical materials for our EV propulsion systems, including lithium, nickel, cobalt, and certain rare earth metals, may lead to higher production costs for our EVs",
+   "verified": true
+  }
+ ]
+}

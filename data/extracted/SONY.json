@@ -1,0 +1,46 @@
+{
+ "ticker": "SONY",
+ "form": "20-F",
+ "filed_at": "2026-06-18",
+ "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+ "accession": "0001193125-26-274893",
+ "cost_usd": 0.00118,
+ "relations": [
+  {
+   "subject": "Sony",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Company Limited",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "SSS and Taiwan Semiconductor Manufacturing Company Limited (\u201cTSMC\u201d) entered into a non-binding memorandum of understanding to pursue a strategic partnership for the development and manufacturing of next-generation image sensors.",
+   "verified": true
+  },
+  {
+   "subject": "Sony",
+   "relation": "depends_on",
+   "object": "copper",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Regarding raw materials, the market price of resin, sheet steel and copper, which are widely used in mechanical parts, electronic parts and components, may also fluctuate",
+   "verified": true
+  },
+  {
+   "subject": "Sony",
+   "relation": "depends_on",
+   "object": "resin",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Regarding raw materials, the market price of resin, sheet steel and copper, which are widely used in mechanical parts, electronic parts and components, may also fluctuate",
+   "verified": true
+  },
+  {
+   "subject": "Sony",
+   "relation": "depends_on",
+   "object": "sheet steel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Regarding raw materials, the market price of resin, sheet steel and copper, which are widely used in mechanical parts, electronic parts and components, may also fluctuate",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "ticker": "AMD",
+ "form": "10-K",
+ "filed_at": "2026-02-04",
+ "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+ "accession": "0000002488-26-000018",
+ "cost_usd": 0.00183,
+ "relations": [
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Intel Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the Data Center segment, we compete primarily against Intel Corporation (Intel) and Nvidia Corporation (Nvidia with our CPU, GPU DPU and AI NIC server products.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Nvidia Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In the Data Center segment, we compete primarily against Intel Corporation (Intel) and Nvidia Corporation (Nvidia with our CPU, GPU DPU and AI NIC server products.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Altera",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In addition, we compete against Altera with our FPGA and adaptive SoC server products.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Altera",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We expect continued competition from our primary FPGA competitors such as Altera, Lattice Semiconductor Corporation and Microsemi Corporation, and from ASSP vendors such as Broadcom Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Lattice Semiconductor Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We expect continued competition from our primary FPGA competitors such as Altera, Lattice Semiconductor Corporation and Microsemi Corporation, and from ASSP vendors such as Broadcom Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Microsemi Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We expect continued competition from our primary FPGA competitors such as Altera, Lattice Semiconductor Corporation and Microsemi Corporation, and from ASSP vendors such as Broadcom Corporation",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Intel Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Intel is our main competitor for embedded CPUs.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Broadcom Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "and from ASSP vendors such as Broadcom Corporation, Marvell Technology Group, Ltd., Analog Devices, Texas Instruments Incorporated, NXP Semiconductors N.V., Qualcomm Incorporated and NVIDIA.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Marvell Technology Group, Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "and from ASSP vendors such as Broadcom Corporation, Marvell Technology Group, Ltd., Analog Devices, Texas Instruments Incorporated, NXP Semiconductors N.V., Qualcomm Incorporated and NVIDIA.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Analog Devices",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "and from ASSP vendors such as Broadcom Corporation, Marvell Technology Group, Ltd., Analog Devices, Texas Instruments Incorporated, NXP Semiconductors N.V., Qualcomm Incorporated and NVIDIA.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Texas Instruments Incorporated",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "and from ASSP vendors such as Broadcom Corporation, Marvell Technology Group, Ltd., Analog Devices, Texas Instruments Incorporated, NXP Semiconductors N.V., Qualcomm Incorporated and NVIDIA.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "NXP Semiconductors N.V.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "and from ASSP vendors such as Broadcom Corporation, Marvell Technology Group, Ltd., Analog Devices, Texas Instruments Incorporated, NXP Semiconductors N.V., Qualcomm Incorporated and NVIDIA.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "competes_with",
+   "object": "Qualcomm Incorporated",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "and from ASSP vendors such as Broadcom Corporation, Marvell Technology Group, Ltd., Analog Devices, Texas Instruments Incorporated, NXP Semiconductors N.V., Qualcomm Incorporated and NVIDIA.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Company Limited",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "buys_from",
+   "object": "GLOBALFOUNDRIES Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "buys_from",
+   "object": "United Microelectronics Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We also utilize TSMC, United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd. for our integrated circuits (IC) in the form of programmable logic devices.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "buys_from",
+   "object": "Samsung Electronics Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We also utilize TSMC, United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd. for our integrated circuits (IC) in the form of programmable logic devices.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "buys_from",
+   "object": "Tongfu Microelectronics Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We are party to two ATMP joint ventures (collectively, the ATMP JVs) with Tongfu Microelectronics Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "buys_from",
+   "object": "Siliconware Precision Industries Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The ATMP JVs, Siliconware Precision Industries Ltd. (SPIL) and King Yuan Electronics Company (KYEC) provide ATMP services for our products.",
+   "verified": true
+  },
+  {
+   "subject": "Advanced Micro Devices (AMD)",
+   "relation": "buys_from",
+   "object": "King Yuan Electronics Company",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The ATMP JVs, Siliconware Precision Industries Ltd. (SPIL) and King Yuan Electronics Company (KYEC) provide ATMP services for our products.",
+   "verified": true
+  }
+ ]
+}

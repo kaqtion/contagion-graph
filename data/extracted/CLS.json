@@ -1,0 +1,199 @@
+{
+ "ticker": "CLS",
+ "form": "10-K",
+ "filed_at": "2026-02-27",
+ "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000011/cls-20251231.htm",
+ "accession": "0001030894-26-000011",
+ "cost_usd": 0.00158,
+ "relations": [
+  {
+   "subject": "Celestica",
+   "relation": "supplies_to",
+   "object": "Amazon Fulfillment Services, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our CCS segment customers include Amazon Fulfillment Services, Inc., Meta Platforms, Inc., Google Inc., Ciena Corporation, Dell Technologies, Hewlett-Packard Enterprise, and IBM Corporation, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "supplies_to",
+   "object": "Meta Platforms, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our CCS segment customers include Amazon Fulfillment Services, Inc., Meta Platforms, Inc., Google Inc., Ciena Corporation, Dell Technologies, Hewlett-Packard Enterprise, and IBM Corporation, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "supplies_to",
+   "object": "Google Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our CCS segment customers include Amazon Fulfillment Services, Inc., Meta Platforms, Inc., Google Inc., Ciena Corporation, Dell Technologies, Hewlett-Packard Enterprise, and IBM Corporation, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "supplies_to",
+   "object": "Ciena Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our CCS segment customers include Amazon Fulfillment Services, Inc., Meta Platforms, Inc., Google Inc., Ciena Corporation, Dell Technologies, Hewlett-Packard Enterprise, and IBM Corporation, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "supplies_to",
+   "object": "Dell Technologies",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our CCS segment customers include Amazon Fulfillment Services, Inc., Meta Platforms, Inc., Google Inc., Ciena Corporation, Dell Technologies, Hewlett-Packard Enterprise, and IBM Corporation, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "supplies_to",
+   "object": "Hewlett-Packard Enterprise",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our CCS segment customers include Amazon Fulfillment Services, Inc., Meta Platforms, Inc., Google Inc., Ciena Corporation, Dell Technologies, Hewlett-Packard Enterprise, and IBM Corporation, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "supplies_to",
+   "object": "IBM Corporation, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our CCS segment customers include Amazon Fulfillment Services, Inc., Meta Platforms, Inc., Google Inc., Ciena Corporation, Dell Technologies, Hewlett-Packard Enterprise, and IBM Corporation, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "supplies_to",
+   "object": "Applied Materials, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our ATS segment customers include Applied Materials, Inc., LAM Research and Honeywell Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "supplies_to",
+   "object": "LAM Research",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our ATS segment customers include Applied Materials, Inc., LAM Research and Honeywell Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "supplies_to",
+   "object": "Honeywell Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our ATS segment customers include Applied Materials, Inc., LAM Research and Honeywell Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "competes_with",
+   "object": "Benchmark Electronics, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors in the EMS industry include Benchmark Electronics, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd., Jabil Inc., Plexus Corp., and Sanmina Corporation, as well as smaller EMS companies",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "competes_with",
+   "object": "Flex Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors in the EMS industry include Benchmark Electronics, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd., Jabil Inc., Plexus Corp., and Sanmina Corporation, as well as smaller EMS companies",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "competes_with",
+   "object": "Hon Hai Precision Industry Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors in the EMS industry include Benchmark Electronics, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd., Jabil Inc., Plexus Corp., and Sanmina Corporation, as well as smaller EMS companies",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "competes_with",
+   "object": "Jabil Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors in the EMS industry include Benchmark Electronics, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd., Jabil Inc., Plexus Corp., and Sanmina Corporation, as well as smaller EMS companies",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "competes_with",
+   "object": "Plexus Corp.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors in the EMS industry include Benchmark Electronics, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd., Jabil Inc., Plexus Corp., and Sanmina Corporation, as well as smaller EMS companies",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "competes_with",
+   "object": "Sanmina Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors in the EMS industry include Benchmark Electronics, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd., Jabil Inc., Plexus Corp., and Sanmina Corporation, as well as smaller EMS companies",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "competes_with",
+   "object": "Quanta Computer Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our ODM competitors provide product design capabilities and manufacturing services and include Quanta Computer Inc., Wiwynn Corporation, and Accton Technology Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "competes_with",
+   "object": "Wiwynn Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our ODM competitors provide product design capabilities and manufacturing services and include Quanta Computer Inc., Wiwynn Corporation, and Accton Technology Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "competes_with",
+   "object": "Accton Technology Corp.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our ODM competitors provide product design capabilities and manufacturing services and include Quanta Computer Inc., Wiwynn Corporation, and Accton Technology Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "competes_with",
+   "object": "Arista Networks, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In some markets, particularly in data center switching, we also face competition from OEMs (including Arista Networks, Inc., Cisco Systems, Inc. and others)",
+   "verified": true
+  },
+  {
+   "subject": "Celestica",
+   "relation": "competes_with",
+   "object": "Cisco Systems, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In some markets, particularly in data center switching, we also face competition from OEMs (including Arista Networks, Inc., Cisco Systems, Inc. and others)",
+   "verified": true
+  }
+ ]
+}

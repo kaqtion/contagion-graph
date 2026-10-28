@@ -1,0 +1,46 @@
+{
+ "ticker": "JBL",
+ "form": "10-K",
+ "filed_at": "2026-10-23",
+ "url": "https://www.sec.gov/Archives/edgar/data/898293/000162828026067038/jbl-20260831.htm",
+ "accession": "0001628280-26-067038",
+ "cost_usd": 0.00096,
+ "relations": [
+  {
+   "subject": "Jabil",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "In particular, a significant portion of our manufacturing, design, support and storage operations are conducted in our facilities in China, and revenues associated with our China operations are important to our success.",
+   "verified": true
+  },
+  {
+   "subject": "Jabil",
+   "relation": "depends_on",
+   "object": "palladium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "some sub-tier suppliers providing raw materials such as palladium, neon gas, and high-grade aluminum are partially dependent on supply from the regions that may be impacted by the conflict.",
+   "verified": true
+  },
+  {
+   "subject": "Jabil",
+   "relation": "depends_on",
+   "object": "neon gas",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "some sub-tier suppliers providing raw materials such as palladium, neon gas, and high-grade aluminum are partially dependent on supply from the regions that may be impacted by the conflict.",
+   "verified": true
+  },
+  {
+   "subject": "Jabil",
+   "relation": "depends_on",
+   "object": "aluminum",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "some sub-tier suppliers providing raw materials such as palladium, neon gas, and high-grade aluminum are partially dependent on supply from the regions that may be impacted by the conflict.",
+   "verified": true
+  }
+ ]
+}

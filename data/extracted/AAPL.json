@@ -1,0 +1,73 @@
+{
+ "ticker": "AAPL",
+ "form": "10-K",
+ "filed_at": "2025-10-31",
+ "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+ "accession": "0000320193-25-000079",
+ "cost_usd": 0.00108,
+ "relations": [
+  {
+   "subject": "Apple Inc.",
+   "relation": "operates_in",
+   "object": "China mainland",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam",
+   "verified": true
+  },
+  {
+   "subject": "Apple Inc.",
+   "relation": "operates_in",
+   "object": "India",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam",
+   "verified": true
+  },
+  {
+   "subject": "Apple Inc.",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam",
+   "verified": true
+  },
+  {
+   "subject": "Apple Inc.",
+   "relation": "operates_in",
+   "object": "South Korea",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam",
+   "verified": true
+  },
+  {
+   "subject": "Apple Inc.",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam",
+   "verified": true
+  },
+  {
+   "subject": "Apple Inc.",
+   "relation": "operates_in",
+   "object": "Vietnam",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam",
+   "verified": true
+  },
+  {
+   "subject": "Apple Inc.",
+   "relation": "depends_on",
+   "object": "rare earths",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Restrictions on international trade can increase the cost or limit the availability of the Company\u2019s products and the components and rare earths and other raw materials that go into them.",
+   "verified": true
+  }
+ ]
+}

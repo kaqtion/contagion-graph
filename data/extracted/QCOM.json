@@ -1,0 +1,172 @@
+{
+ "ticker": "QCOM",
+ "form": "10-K",
+ "filed_at": "2025-11-05",
+ "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
+ "accession": "0000804328-25-000085",
+ "cost_usd": 0.00127,
+ "relations": [
+  {
+   "subject": "Qualcomm",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The primary foundry suppliers for our various digital, analog/mixed-signal, RF and PM integrated circuits include Taiwan Semiconductor Manufacturing Company (TSMC), Samsung Electronics and Global Foundries.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "buys_from",
+   "object": "Samsung Electronics",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The primary foundry suppliers for our various digital, analog/mixed-signal, RF and PM integrated circuits include Taiwan Semiconductor Manufacturing Company (TSMC), Samsung Electronics and Global Foundries.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "buys_from",
+   "object": "Global Foundries",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The primary foundry suppliers for our various digital, analog/mixed-signal, RF and PM integrated circuits include Taiwan Semiconductor Manufacturing Company (TSMC), Samsung Electronics and Global Foundries.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "buys_from",
+   "object": "Advanced Semiconductor Engineering",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary semiconductor assembly and test suppliers are Advanced Semiconductor Engineering, Amkor Technology, Siliconware Precision Industries and STATSChipPAC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "buys_from",
+   "object": "Amkor Technology",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary semiconductor assembly and test suppliers are Advanced Semiconductor Engineering, Amkor Technology, Siliconware Precision Industries and STATSChipPAC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "buys_from",
+   "object": "Siliconware Precision Industries",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary semiconductor assembly and test suppliers are Advanced Semiconductor Engineering, Amkor Technology, Siliconware Precision Industries and STATSChipPAC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "buys_from",
+   "object": "STATSChipPAC",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary semiconductor assembly and test suppliers are Advanced Semiconductor Engineering, Amkor Technology, Siliconware Precision Industries and STATSChipPAC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "competes_with",
+   "object": "Broadcom",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "competes_with",
+   "object": "HiSilicon",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "competes_with",
+   "object": "MediaTek",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "competes_with",
+   "object": "Mobileye",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "competes_with",
+   "object": "Nvidia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "competes_with",
+   "object": "NXP Semiconductors",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "competes_with",
+   "object": "Qorvo",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "competes_with",
+   "object": "Samsung",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "competes_with",
+   "object": "Skyworks",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "competes_with",
+   "object": "Texas Instruments",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC.",
+   "verified": true
+  },
+  {
+   "subject": "Qualcomm",
+   "relation": "competes_with",
+   "object": "UNISOC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC.",
+   "verified": true
+  }
+ ]
+}

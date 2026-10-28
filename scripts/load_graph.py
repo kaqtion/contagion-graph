@@ -137,9 +137,16 @@ def main() -> None:
                 if s.get(Node, row["src"]) is None or s.get(Node, dst) is None:
                     print(f"curated edge skipped (unknown node): {row}")
                     continue
-                if (row["src"], dst, rel) in edges or (rel == "competes_with" and tuple(sorted((row["src"], dst))) + (rel,) in edges):
-                    continue  # filing evidence wins over curation
                 strength = config.TIER_WEIGHTS[row["tier"]]
+                key = tuple(sorted((row["src"], dst))) + (rel,) if rel == "competes_with" else (row["src"], dst, rel)
+                if key in edges:
+                    # the filing quote proves the link; curation may still know it is stronger than "listed among
+                    # several" (e.g. TSMC for Nvidia), so keep the quote and take the stronger tier, labelled as curated
+                    e = edges[key]
+                    if strength > e.strength:
+                        e.strength, e.tier, e.strength_source, e.note = strength, row["tier"], "curated", row["note"]
+                        stats["tier_raised_by_curation"] += 1
+                    continue
                 upsert_edge(row["src"], dst, rel, strength, row["tier"], None, "curated", "curated",
                             date.fromisoformat(row["as_of"]), note=row["note"])
                 stats["curated"] += 1

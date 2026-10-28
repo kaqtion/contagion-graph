@@ -1,0 +1,91 @@
+{
+ "ticker": "SANM",
+ "form": "10-K",
+ "filed_at": "2025-11-13",
+ "url": "https://www.sec.gov/Archives/edgar/data/897723/000089772325000042/sanm-20250927.htm",
+ "accession": "0000897723-25-000042",
+ "cost_usd": 0.00133,
+ "relations": [
+  {
+   "subject": "Sanmina",
+   "relation": "competes_with",
+   "object": "Benchmark Electronics, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include major global EMS providers, including Benchmark Electronics, Inc., Celestica, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd. (Foxconn), Jabil Inc. and Plexus Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Sanmina",
+   "relation": "competes_with",
+   "object": "Celestica, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include major global EMS providers, including Benchmark Electronics, Inc., Celestica, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd. (Foxconn), Jabil Inc. and Plexus Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Sanmina",
+   "relation": "competes_with",
+   "object": "Flex Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include major global EMS providers, including Benchmark Electronics, Inc., Celestica, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd. (Foxconn), Jabil Inc. and Plexus Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Sanmina",
+   "relation": "competes_with",
+   "object": "Hon Hai Precision Industry Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include major global EMS providers, including Benchmark Electronics, Inc., Celestica, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd. (Foxconn), Jabil Inc. and Plexus Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Sanmina",
+   "relation": "competes_with",
+   "object": "Jabil Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include major global EMS providers, including Benchmark Electronics, Inc., Celestica, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd. (Foxconn), Jabil Inc. and Plexus Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Sanmina",
+   "relation": "competes_with",
+   "object": "Plexus Corp.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors include major global EMS providers, including Benchmark Electronics, Inc., Celestica, Inc., Flex Ltd., Hon Hai Precision Industry Co., Ltd. (Foxconn), Jabil Inc. and Plexus Corp.",
+   "verified": true
+  },
+  {
+   "subject": "Sanmina",
+   "relation": "supplies_to",
+   "object": "ZT Systems",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "The Company also entered into a Manufacturing Services Agreement with ZT Systems on October 27, 2025 with an initial term of five years.",
+   "verified": true
+  },
+  {
+   "subject": "Sanmina",
+   "relation": "supplies_to",
+   "object": "Dialight plc",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In December 2019, the Company sued a former customer, Dialight plc (\u201cDialight\u201d), in the United States District Court for the Southern District of New York",
+   "verified": true
+  },
+  {
+   "subject": "Sanmina",
+   "relation": "operates_in",
+   "object": "India",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Sanmina SCI Technology India Private Limited, our existing Indian manufacturing entity",
+   "verified": true
+  }
+ ]
+}

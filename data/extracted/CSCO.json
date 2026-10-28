@@ -1,0 +1,172 @@
+{
+ "ticker": "CSCO",
+ "form": "10-K",
+ "filed_at": "2026-09-02",
+ "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+ "accession": "0000858877-26-000132",
+ "cost_usd": 0.00113,
+ "relations": [
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Amazon Web Services LLC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors (in each case relative to only some of our products or services) include: Amazon Web Services LLC; Arista Networks, Inc.; Broadcom Inc.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Arista Networks, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors (in each case relative to only some of our products or services) include: Amazon Web Services LLC; Arista Networks, Inc.; Broadcom Inc.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Broadcom Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our competitors (in each case relative to only some of our products or services) include: Amazon Web Services LLC; Arista Networks, Inc.; Broadcom Inc.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Ciena Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Ciena Corporation; CrowdStrike Holdings, Inc.; Datadog Inc.; Dell Technologies Inc.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "CrowdStrike Holdings, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Ciena Corporation; CrowdStrike Holdings, Inc.; Datadog Inc.; Dell Technologies Inc.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Datadog Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Ciena Corporation; CrowdStrike Holdings, Inc.; Datadog Inc.; Dell Technologies Inc.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Dell Technologies Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Ciena Corporation; CrowdStrike Holdings, Inc.; Datadog Inc.; Dell Technologies Inc.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Dynatrace Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Dynatrace Inc.; Fortinet, Inc.; Hewlett-Packard Enterprise Company; Huawei Technologies Co., Ltd.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Fortinet, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Dynatrace Inc.; Fortinet, Inc.; Hewlett-Packard Enterprise Company; Huawei Technologies Co., Ltd.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Hewlett-Packard Enterprise Company",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Dynatrace Inc.; Fortinet, Inc.; Hewlett-Packard Enterprise Company; Huawei Technologies Co., Ltd.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Huawei Technologies Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Dynatrace Inc.; Fortinet, Inc.; Hewlett-Packard Enterprise Company; Huawei Technologies Co., Ltd.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Microsoft Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Microsoft Corporation; Nokia Corporation; Nvidia Corporation; Palo Alto Networks, Inc.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Nokia Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Microsoft Corporation; Nokia Corporation; Nvidia Corporation; Palo Alto Networks, Inc.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Nvidia Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Microsoft Corporation; Nokia Corporation; Nvidia Corporation; Palo Alto Networks, Inc.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Palo Alto Networks, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Microsoft Corporation; Nokia Corporation; Nvidia Corporation; Palo Alto Networks, Inc.;",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "RingCentral, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "RingCentral, Inc.; Zoom Video Communications, Inc.; and Zscaler, Inc.; among others.",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Zoom Video Communications, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "RingCentral, Inc.; Zoom Video Communications, Inc.; and Zscaler, Inc.; among others.",
+   "verified": true
+  },
+  {
+   "subject": "Cisco",
+   "relation": "competes_with",
+   "object": "Zscaler, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "RingCentral, Inc.; Zoom Video Communications, Inc.; and Zscaler, Inc.; among others.",
+   "verified": true
+  }
+ ]
+}

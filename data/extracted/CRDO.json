@@ -1,0 +1,100 @@
+{
+ "ticker": "CRDO",
+ "form": "10-K",
+ "filed_at": "2026-06-15",
+ "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026043303/crdo-20260502.htm",
+ "accession": "0001628280-26-043303",
+ "cost_usd": 0.00122,
+ "relations": [
+  {
+   "subject": "Credo",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Company Limited",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "The Company currently outsources all of its integrated circuit manufacturing to Taiwan Semiconductor Manufacturing Company Limited with the remaining assembly and testing processes",
+   "verified": true
+  },
+  {
+   "subject": "Credo",
+   "relation": "buys_from",
+   "object": "Amkor Technology Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Amkor Technology Inc. (Amkor) and Advanced Semiconductor Engineering, Inc. (ASE) for packaging our IC products",
+   "verified": true
+  },
+  {
+   "subject": "Credo",
+   "relation": "buys_from",
+   "object": "Advanced Semiconductor Engineering, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Amkor Technology Inc. (Amkor) and Advanced Semiconductor Engineering, Inc. (ASE) for packaging our IC products",
+   "verified": true
+  },
+  {
+   "subject": "Credo",
+   "relation": "buys_from",
+   "object": "King Yuan Electronics Company",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "King Yuan Electronics Company (KYEC) and Sigurd Microelectronics Corp. (Sigurd) for testing our IC products",
+   "verified": true
+  },
+  {
+   "subject": "Credo",
+   "relation": "buys_from",
+   "object": "Sigurd Microelectronics Corp.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "King Yuan Electronics Company (KYEC) and Sigurd Microelectronics Corp. (Sigurd) for testing our IC products",
+   "verified": true
+  },
+  {
+   "subject": "Credo",
+   "relation": "buys_from",
+   "object": "BizLink Technology, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "BizLink Technology, Inc. (BizLink) for manufacturing our AEC products",
+   "verified": true
+  },
+  {
+   "subject": "Credo",
+   "relation": "competes_with",
+   "object": "Broadcom Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal competitors with respect to our products include Broadcom Ltd., Marvell Technology, Inc. (Marvell) and Astera Labs, Inc. (Astera)",
+   "verified": true
+  },
+  {
+   "subject": "Credo",
+   "relation": "competes_with",
+   "object": "Marvell Technology, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal competitors with respect to our products include Broadcom Ltd., Marvell Technology, Inc. (Marvell) and Astera Labs, Inc. (Astera)",
+   "verified": true
+  },
+  {
+   "subject": "Credo",
+   "relation": "competes_with",
+   "object": "Astera Labs, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal competitors with respect to our products include Broadcom Ltd., Marvell Technology, Inc. (Marvell) and Astera Labs, Inc. (Astera)",
+   "verified": true
+  },
+  {
+   "subject": "Credo",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "U.S. laws may be different in significant respects from the laws of the PRC or Taiwan, where we have significant operations",
+   "verified": true
+  }
+ ]
+}

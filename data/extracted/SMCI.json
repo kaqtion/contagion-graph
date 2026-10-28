@@ -1,0 +1,64 @@
+{
+ "ticker": "SMCI",
+ "form": "10-K",
+ "filed_at": "2026-08-31",
+ "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/smci-20260630.htm",
+ "accession": "0001375365-26-000022",
+ "cost_usd": 0.00106,
+ "relations": [
+  {
+   "subject": "Supermicro",
+   "relation": "buys_from",
+   "object": "Ablecom Technology, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We work with Ablecom, one of our key contract manufacturers and a related party, for our chassis and certain other components.",
+   "verified": true
+  },
+  {
+   "subject": "Supermicro",
+   "relation": "buys_from",
+   "object": "Compuware Technology, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We also outsource a significant part of the manufacturing of certain components, particularly power supplies, to Compuware, also a related party.",
+   "verified": true
+  },
+  {
+   "subject": "Supermicro",
+   "relation": "supplies_to",
+   "object": "Compuware Technology, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Compuware also serves as a non-exclusive authorized distributor of our products and, from time to time, as our sales representative.",
+   "verified": true
+  },
+  {
+   "subject": "Supermicro",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Global assembly, test and quality control of our servers are performed at our manufacturing facilities in San Jose, California, Taiwan, the Netherlands, and Malaysia.",
+   "verified": true
+  },
+  {
+   "subject": "Supermicro",
+   "relation": "operates_in",
+   "object": "Netherlands",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Global assembly, test and quality control of our servers are performed at our manufacturing facilities in San Jose, California, Taiwan, the Netherlands, and Malaysia.",
+   "verified": true
+  },
+  {
+   "subject": "Supermicro",
+   "relation": "operates_in",
+   "object": "Malaysia",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Global assembly, test and quality control of our servers are performed at our manufacturing facilities in San Jose, California, Taiwan, the Netherlands, and Malaysia.",
+   "verified": true
+  }
+ ]
+}

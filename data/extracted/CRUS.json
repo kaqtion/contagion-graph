@@ -1,0 +1,127 @@
+{
+ "ticker": "CRUS",
+ "form": "10-K",
+ "filed_at": "2026-05-21",
+ "url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000018/crus-20260328.htm",
+ "accession": "0000772406-26-000018",
+ "cost_usd": 0.00183,
+ "relations": [
+  {
+   "subject": "Cirrus Logic",
+   "relation": "supplies_to",
+   "object": "Apple Inc.",
+   "strength_tier": "major",
+   "revenue_pct": 91,
+   "quote": "For fiscal years 2026, 2025, and 2024, we had one end customer, Apple Inc., who purchased through multiple contract manufacturers and represented approximately 91 percent, 89 percent, and 87 percent, of the Company\u2019s total net sales, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Company, Limited",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "the substantial majority of our semiconductor wafers are manufactured by TSMC at fabs in Taiwan, and GlobalFoundries in Singapore and Germany.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "buys_from",
+   "object": "GLOBALFOUNDRIES Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "the substantial majority of our semiconductor wafers are manufactured by TSMC at fabs in Taiwan, and GlobalFoundries in Singapore and Germany.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "buys_from",
+   "object": "Advanced Semiconductor Engineering, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company\u2019s primary assembly and test houses include Advanced Semiconductor Engineering, Inc., Amkor Technology, Inc., STATS ChipPAC Pte. Ltd., SFA Semicon Co., Ltd., and Siliconware Precision Industries Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "buys_from",
+   "object": "Amkor Technology, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The Company\u2019s primary assembly and test houses include Advanced Semiconductor Engineering, Inc., Amkor Technology, Inc., STATS ChipPAC Pte. Ltd., SFA Semicon Co., Ltd., and Siliconware Precision Industries Co., Ltd.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "competes_with",
+   "object": "AKM Semiconductor Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors include, but are not limited to, AKM Semiconductor Inc., Analog Devices Inc., QUALCOMM Incorporated, Realtek Semiconductor Corporation, Renesas Electronics Corporation, Shanghai Awinic Technology Co., Ltd., Shenzhen Goodix Technology Co, Ltd., Skyworks Solutions Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "competes_with",
+   "object": "Analog Devices Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors include, but are not limited to, AKM Semiconductor Inc., Analog Devices Inc., QUALCOMM Incorporated, Realtek Semiconductor Corporation, Renesas Electronics Corporation, Shanghai Awinic Technology Co., Ltd., Shenzhen Goodix Technology Co, Ltd., Skyworks Solutions Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "competes_with",
+   "object": "QUALCOMM Incorporated",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors include, but are not limited to, AKM Semiconductor Inc., Analog Devices Inc., QUALCOMM Incorporated, Realtek Semiconductor Corporation, Renesas Electronics Corporation, Shanghai Awinic Technology Co., Ltd., Shenzhen Goodix Technology Co, Ltd., Skyworks Solutions Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "competes_with",
+   "object": "Realtek Semiconductor Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors include, but are not limited to, AKM Semiconductor Inc., Analog Devices Inc., QUALCOMM Incorporated, Realtek Semiconductor Corporation, Renesas Electronics Corporation, Shanghai Awinic Technology Co., Ltd., Shenzhen Goodix Technology Co, Ltd., Skyworks Solutions Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "competes_with",
+   "object": "Renesas Electronics Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors include, but are not limited to, AKM Semiconductor Inc., Analog Devices Inc., QUALCOMM Incorporated, Realtek Semiconductor Corporation, Renesas Electronics Corporation, Shanghai Awinic Technology Co., Ltd., Shenzhen Goodix Technology Co, Ltd., Skyworks Solutions Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "competes_with",
+   "object": "Shanghai Awinic Technology Co., Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors include, but are not limited to, AKM Semiconductor Inc., Analog Devices Inc., QUALCOMM Incorporated, Realtek Semiconductor Corporation, Renesas Electronics Corporation, Shanghai Awinic Technology Co., Ltd., Shenzhen Goodix Technology Co, Ltd., Skyworks Solutions Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "competes_with",
+   "object": "Shenzhen Goodix Technology Co, Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors include, but are not limited to, AKM Semiconductor Inc., Analog Devices Inc., QUALCOMM Incorporated, Realtek Semiconductor Corporation, Renesas Electronics Corporation, Shanghai Awinic Technology Co., Ltd., Shenzhen Goodix Technology Co, Ltd., Skyworks Solutions Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Cirrus Logic",
+   "relation": "competes_with",
+   "object": "Skyworks Solutions Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our primary competitors include, but are not limited to, AKM Semiconductor Inc., Analog Devices Inc., QUALCOMM Incorporated, Realtek Semiconductor Corporation, Renesas Electronics Corporation, Shanghai Awinic Technology Co., Ltd., Shenzhen Goodix Technology Co, Ltd., Skyworks Solutions Inc.",
+   "verified": true
+  }
+ ]
+}

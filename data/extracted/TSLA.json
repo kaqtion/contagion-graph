@@ -1,0 +1,64 @@
+{
+ "ticker": "TSLA",
+ "form": "10-K",
+ "filed_at": "2026-01-29",
+ "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+ "accession": "0001628280-26-003952",
+ "cost_usd": 0.00114,
+ "relations": [
+  {
+   "subject": "Tesla",
+   "relation": "buys_from",
+   "object": "Panasonic",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Currently, we rely on suppliers such as Panasonic and Contemporary Amperex Technology Co. Limited (CATL) for these cells.",
+   "verified": true
+  },
+  {
+   "subject": "Tesla",
+   "relation": "buys_from",
+   "object": "Contemporary Amperex Technology Co. Limited (CATL)",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Currently, we rely on suppliers such as Panasonic and Contemporary Amperex Technology Co. Limited (CATL) for these cells.",
+   "verified": true
+  },
+  {
+   "subject": "Tesla",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our operations in such jurisdictions, particularly as a company based in the U.S., with additional manufacturing operations in China and Europe, create risks",
+   "verified": true
+  },
+  {
+   "subject": "Tesla",
+   "relation": "operates_in",
+   "object": "Europe",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our operations in such jurisdictions, particularly as a company based in the U.S., with additional manufacturing operations in China and Europe, create risks",
+   "verified": true
+  },
+  {
+   "subject": "Tesla",
+   "relation": "depends_on",
+   "object": "lithium",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the cost and mass production of battery cells, whether manufactured by our suppliers or by us, depends in part upon the prices and availability of raw materials such as lithium, nickel and/or other metals.",
+   "verified": true
+  },
+  {
+   "subject": "Tesla",
+   "relation": "depends_on",
+   "object": "nickel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "the cost and mass production of battery cells, whether manufactured by our suppliers or by us, depends in part upon the prices and availability of raw materials such as lithium, nickel and/or other metals.",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "ticker": "TSM",
+ "form": "20-F",
+ "filed_at": "2026-04-16",
+ "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+ "accession": "0001628280-26-025362",
+ "cost_usd": 0.00123,
+ "relations": [
+  {
+   "subject": "TSMC",
+   "relation": "buys_from",
+   "object": "Xintec",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Xintec, Inc. (\u201cXintec\u201d). In January 2007, we acquired a 51.2% equity interest in Xintec, a supplier of wafer level packaging service, to support our CMOS image sensor manufacturing business. In March 2015, Xintec listed its shares on",
+   "verified": true
+  },
+  {
+   "subject": "TSMC",
+   "relation": "buys_from",
+   "object": "SSMC",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "SSMC\u2019s business is exclusively dedicated to the manufacturing of wafers for us, our subsidiaries, NXP and its subsidiaries.",
+   "verified": true
+  },
+  {
+   "subject": "TSMC",
+   "relation": "supplies_to",
+   "object": "GUC",
+   "strength_tier": "minor",
+   "revenue_pct": 0.8,
+   "quote": "In 2025 , we had total sales of NT $31,094 million (US $991 million) to GUC, representing 0.8% of our total revenue.",
+   "verified": true
+  },
+  {
+   "subject": "TSMC",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "JASM. In December 2021, we established JASM (of which the manufacturing entity is Fab 23) in Kumamoto, Japan, which is expected to be primarily engaged in the manufacture and sale of integrated circuits.",
+   "verified": true
+  },
+  {
+   "subject": "TSMC",
+   "relation": "operates_in",
+   "object": "Germany",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "ESMC. In June 2023, we established ESMC in Dresden, Germany, which is expected to be primarily engaged in the manufacturing and sale of integrated circuits.",
+   "verified": true
+  },
+  {
+   "subject": "TSMC",
+   "relation": "depends_on",
+   "object": "silicon wafer",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The most important raw material used in our production is silicon wafer, which is the basic raw material from which integrated circuits are made.",
+   "verified": true
+  }
+ ]
+}

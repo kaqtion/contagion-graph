@@ -1,0 +1,163 @@
+{
+ "ticker": "MTSI",
+ "form": "10-K",
+ "filed_at": "2025-11-14",
+ "url": "https://www.sec.gov/Archives/edgar/data/1493594/000149359425000054/mtsi-20251003.htm",
+ "accession": "0001493594-25-000054",
+ "cost_usd": 0.00128,
+ "relations": [
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Analog Devices, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We primarily compete with Analog Devices, Inc. (\u201cADI\u201d), Broadcom Inc. (\u201cBroadcom\u201d), Credo Technology Group Holding Ltd. (\u201cCredo\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Broadcom Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We primarily compete with Analog Devices, Inc. (\u201cADI\u201d), Broadcom Inc. (\u201cBroadcom\u201d), Credo Technology Group Holding Ltd. (\u201cCredo\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Credo Technology Group Holding Ltd.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We primarily compete with Analog Devices, Inc. (\u201cADI\u201d), Broadcom Inc. (\u201cBroadcom\u201d), Credo Technology Group Holding Ltd. (\u201cCredo\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Marvell Technology Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Marvell Technology Inc. (\u201cMarvell\u201d), MaxLinear Inc. (\u201cMaxLinear\u201d), Microchip Technology Incorporated (\u201cMicrochip\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "MaxLinear Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Marvell Technology Inc. (\u201cMarvell\u201d), MaxLinear Inc. (\u201cMaxLinear\u201d), Microchip Technology Incorporated (\u201cMicrochip\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Microchip Technology Incorporated",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Marvell Technology Inc. (\u201cMarvell\u201d), MaxLinear Inc. (\u201cMaxLinear\u201d), Microchip Technology Incorporated (\u201cMicrochip\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "NXP Semiconductors N.V.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "NXP Semiconductors N.V. (\u201cNXP\u201d), Qorvo, Inc. (\u201cQorvo\u201d), Semtech Corporation (\u201cSemtech\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Qorvo, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "NXP Semiconductors N.V. (\u201cNXP\u201d), Qorvo, Inc. (\u201cQorvo\u201d), Semtech Corporation (\u201cSemtech\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Semtech Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "NXP Semiconductors N.V. (\u201cNXP\u201d), Qorvo, Inc. (\u201cQorvo\u201d), Semtech Corporation (\u201cSemtech\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Skyworks Solutions, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Semtech Corporation (\u201cSemtech\u201d), Skyworks Solutions, Inc. (\u201cSkyworks\u201d) and Sumitomo Electric Device Innovations, Inc. (\u201cSumitomo\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "competes_with",
+   "object": "Sumitomo Electric Device Innovations, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Semtech Corporation (\u201cSemtech\u201d), Skyworks Solutions, Inc. (\u201cSkyworks\u201d) and Sumitomo Electric Device Innovations, Inc. (\u201cSumitomo\u201d)",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": 28.4,
+   "quote": "fiscal year 2025 sales to customers in China and the Asia Pacific region accounted for 28.4% and 11.5% of total fiscal year 2025 sales, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "operates_in",
+   "object": "France",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We operate semiconductor fabrication facilities at our Lowell, Massachusetts headquarters, and in our Research Triangle Park, (\u201cRTP\u201d), North Carolina, Ann Arbor, Michigan, and Limeil-Br\u00e9vannes, France locations.",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "buys_from",
+   "object": "Wolfspeed, Inc.",
+   "strength_tier": "sole",
+   "revenue_pct": null,
+   "quote": "Prior to the RTP Fab Transfer, the Seller continued to operate the facility and supply wafer product and other fabrication services to us pursuant to various agreements",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "supplies_to",
+   "object": "Empower RF Systems, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we sold $ 0.4 million of commercial product to Empower RF Systems, Inc., a MACOM customer, and an affiliate of one of our directors.",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "supplies_to",
+   "object": "Mission Microwave Technologies, LLC",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we sold $ 0.2 million of commercial products to Mission Microwave Technologies, LLC (\u201cMission\u201d), a MACOM customer",
+   "verified": true
+  },
+  {
+   "subject": "MACOM Technology Solutions Holdings, Inc.",
+   "relation": "buys_from",
+   "object": "Gallium Semiconductor",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "we purchased $ 0.3 million of machinery and equipment from Gallium Semiconductor, an affiliate of former director Susan Ocampo.",
+   "verified": true
+  }
+ ]
+}

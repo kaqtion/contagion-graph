@@ -1,0 +1,73 @@
+{
+ "ticker": "NIO",
+ "form": "20-F",
+ "filed_at": "2026-04-10",
+ "url": "https://www.sec.gov/Archives/edgar/data/1736541/000110465926041765/nio-20251231x20f.htm",
+ "accession": "0001104659-26-041765",
+ "cost_usd": 0.00156,
+ "relations": [
+  {
+   "subject": "NIO Inc",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We conduct our operations in China (i) primarily through our PRC subsidiaries, and (ii) to a much lesser extent, through the VIEs",
+   "verified": true
+  },
+  {
+   "subject": "NIO Inc",
+   "relation": "supplies_to",
+   "object": "Wuhan Weineng Battery Asset Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For each user under the BaaS model, we sell a battery to Wuhan Weineng Battery Asset Co., Ltd., or the Battery Asset Company, and the user subscribes for the usage of the battery",
+   "verified": true
+  },
+  {
+   "subject": "NIO Inc",
+   "relation": "supplies_to",
+   "object": "Chongqing Chuangyuan Zhihang Technology Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In 2023, 2024 and 2025, we sold long-lived assets and raw materials to our affiliates, including Chongqing Chuangyuan Zhihang Technology Co., Ltd., Kunshan Siwopu Intelligent Equipment Co., Ltd., VTA Technology Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NIO Inc",
+   "relation": "supplies_to",
+   "object": "Kunshan Siwopu Intelligent Equipment Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In 2023, 2024 and 2025, we sold long-lived assets and raw materials to our affiliates, including Chongqing Chuangyuan Zhihang Technology Co., Ltd., Kunshan Siwopu Intelligent Equipment Co., Ltd., VTA Technology Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NIO Inc",
+   "relation": "supplies_to",
+   "object": "VTA Technology Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "In 2023, 2024 and 2025, we sold long-lived assets and raw materials to our affiliates, including Chongqing Chuangyuan Zhihang Technology Co., Ltd., Kunshan Siwopu Intelligent Equipment Co., Ltd., VTA Technology Inc.",
+   "verified": true
+  },
+  {
+   "subject": "NIO Inc",
+   "relation": "supplies_to",
+   "object": "Blue Horizon Limited",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Blue Horizon Limited and its subsidiaries, and Wuhan Weineng Battery Assets Co., Ltd. and its subsidiaries, and recognized a total revenue from sales of long-lived assets and raw materials",
+   "verified": true
+  },
+  {
+   "subject": "NIO Inc",
+   "relation": "supplies_to",
+   "object": "Wuhan Weineng Battery Assets Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Blue Horizon Limited and its subsidiaries, and Wuhan Weineng Battery Assets Co., Ltd. and its subsidiaries, and recognized a total revenue from sales of long-lived assets and raw materials",
+   "verified": true
+  }
+ ]
+}

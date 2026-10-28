@@ -1,0 +1,163 @@
+{
+ "ticker": "QS",
+ "form": "10-K",
+ "filed_at": "2026-02-25",
+ "url": "https://www.sec.gov/Archives/edgar/data/1811414/000119312526071556/qs-20251231.htm",
+ "accession": "0001193125-26-071556",
+ "cost_usd": 0.00158,
+ "relations": [
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "Panasonic Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Major companies now supplying batteries for the EV industry include Panasonic Corporation, Samsung SDI, Contemporary Amperex Technology Co. Limited, LG Energy Solutions, BYD Co. Limited, SK Innovation Co. Limited and E-One Moli Energy Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "Samsung SDI",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Major companies now supplying batteries for the EV industry include Panasonic Corporation, Samsung SDI, Contemporary Amperex Technology Co. Limited, LG Energy Solutions, BYD Co. Limited, SK Innovation Co. Limited and E-One Moli Energy Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "Contemporary Amperex Technology Co. Limited",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Major companies now supplying batteries for the EV industry include Panasonic Corporation, Samsung SDI, Contemporary Amperex Technology Co. Limited, LG Energy Solutions, BYD Co. Limited, SK Innovation Co. Limited and E-One Moli Energy Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "LG Energy Solutions",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Major companies now supplying batteries for the EV industry include Panasonic Corporation, Samsung SDI, Contemporary Amperex Technology Co. Limited, LG Energy Solutions, BYD Co. Limited, SK Innovation Co. Limited and E-One Moli Energy Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "BYD Co. Limited",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Major companies now supplying batteries for the EV industry include Panasonic Corporation, Samsung SDI, Contemporary Amperex Technology Co. Limited, LG Energy Solutions, BYD Co. Limited, SK Innovation Co. Limited and E-One Moli Energy Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "SK Innovation Co. Limited",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Major companies now supplying batteries for the EV industry include Panasonic Corporation, Samsung SDI, Contemporary Amperex Technology Co. Limited, LG Energy Solutions, BYD Co. Limited, SK Innovation Co. Limited and E-One Moli Energy Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "E-One Moli Energy Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Major companies now supplying batteries for the EV industry include Panasonic Corporation, Samsung SDI, Contemporary Amperex Technology Co. Limited, LG Energy Solutions, BYD Co. Limited, SK Innovation Co. Limited and E-One Moli Energy Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "Tesla, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For example, Tesla, Inc. is building multiple battery gigafactories and potentially could supply batteries to other automotive OEMs, and Toyota Motors and a Japanese consortium have a multi-year initiative pursuing solid-state batteries.",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "Toyota Motors",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For example, Tesla, Inc. is building multiple battery gigafactories and potentially could supply batteries to other automotive OEMs, and Toyota Motors and a Japanese consortium have a multi-year initiative pursuing solid-state batteries.",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "SES",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "A number of development-stage companies such as SES, Solid Power, Factorial, ION, Sakuu, ONE, Enovix, and Sila Nanotechnologies are also seeking to improve conventional lithium-ion batteries",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "Solid Power",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "A number of development-stage companies such as SES, Solid Power, Factorial, ION, Sakuu, ONE, Enovix, and Sila Nanotechnologies are also seeking to improve conventional lithium-ion batteries",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "Factorial",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "A number of development-stage companies such as SES, Solid Power, Factorial, ION, Sakuu, ONE, Enovix, and Sila Nanotechnologies are also seeking to improve conventional lithium-ion batteries",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "ION",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "A number of development-stage companies such as SES, Solid Power, Factorial, ION, Sakuu, ONE, Enovix, and Sila Nanotechnologies are also seeking to improve conventional lithium-ion batteries",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "Sakuu",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "A number of development-stage companies such as SES, Solid Power, Factorial, ION, Sakuu, ONE, Enovix, and Sila Nanotechnologies are also seeking to improve conventional lithium-ion batteries",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "ONE",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "A number of development-stage companies such as SES, Solid Power, Factorial, ION, Sakuu, ONE, Enovix, and Sila Nanotechnologies are also seeking to improve conventional lithium-ion batteries",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "Enovix",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "A number of development-stage companies such as SES, Solid Power, Factorial, ION, Sakuu, ONE, Enovix, and Sila Nanotechnologies are also seeking to improve conventional lithium-ion batteries",
+   "verified": true
+  },
+  {
+   "subject": "QuantumScape",
+   "relation": "competes_with",
+   "object": "Sila Nanotechnologies",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "A number of development-stage companies such as SES, Solid Power, Factorial, ION, Sakuu, ONE, Enovix, and Sila Nanotechnologies are also seeking to improve conventional lithium-ion batteries",
+   "verified": true
+  }
+ ]
+}

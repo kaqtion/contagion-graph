@@ -1,0 +1,127 @@
+{
+ "ticker": "UMC",
+ "form": "20-F",
+ "filed_at": "2026-04-30",
+ "url": "https://www.sec.gov/Archives/edgar/data/1033767/000119312526193757/d91630d20f.htm",
+ "accession": "0001193125-26-193757",
+ "cost_usd": 0.00149,
+ "relations": [
+  {
+   "subject": "UMC",
+   "relation": "supplies_to",
+   "object": "MediaTek",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our customers include industry leaders such as MediaTek, Realtek, Novatek and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "supplies_to",
+   "object": "Realtek",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our customers include industry leaders such as MediaTek, Realtek, Novatek and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "supplies_to",
+   "object": "Novatek",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our customers include industry leaders such as MediaTek, Realtek, Novatek and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "supplies_to",
+   "object": "Texas Instruments",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Our customers include industry leaders such as MediaTek, Realtek, Novatek and Texas Instruments.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "buys_from",
+   "object": "Shin-Etsu Handotai Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we purchased a majority of our silicon wafers from Shin-Etsu Handotai Corporation, or Shin-Etsu, GlobalWafers, Sumco Group (including Sumco Corporation and Formosa Sumco Technology Corporation) and Soitec.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "buys_from",
+   "object": "GlobalWafers",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we purchased a majority of our silicon wafers from Shin-Etsu Handotai Corporation, or Shin-Etsu, GlobalWafers, Sumco Group (including Sumco Corporation and Formosa Sumco Technology Corporation) and Soitec.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "buys_from",
+   "object": "Sumco Group",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we purchased a majority of our silicon wafers from Shin-Etsu Handotai Corporation, or Shin-Etsu, GlobalWafers, Sumco Group (including Sumco Corporation and Formosa Sumco Technology Corporation) and Soitec.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "buys_from",
+   "object": "Soitec",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we purchased a majority of our silicon wafers from Shin-Etsu Handotai Corporation, or Shin-Etsu, GlobalWafers, Sumco Group (including Sumco Corporation and Formosa Sumco Technology Corporation) and Soitec.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "depends_on",
+   "object": "silicon wafers",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The most important raw material used in our production processes is silicon wafer, which is the basic raw material from which integrated circuits are made.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "operates_in",
+   "object": "Taiwan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Our principal executive offices and most of our assets and operations are located in Taiwan.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "operates_in",
+   "object": "China",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The fabs in China are named Fab 8N and Fab 12X, located in Suzhou and Xiamen, respectively.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "operates_in",
+   "object": "Singapore",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The fab in Singapore is named Fab 12i.",
+   "verified": true
+  },
+  {
+   "subject": "UMC",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The fab in Japan is named Fab 12M located in Mie.",
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "ticker": "ORCL",
+ "form": "10-K",
+ "filed_at": "2026-06-22",
+ "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+ "accession": "0001193125-26-277521",
+ "cost_usd": 0.0017,
+ "relations": [
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "Adobe Systems Incorporated",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Adobe Systems Incorporated, Alphabet Inc., Amazon.com, Inc., Cisco Systems, Inc., Intel Corporation, International Business Machines Corporation, Microsoft Corporation, Salesforce, Inc. and SAP SE, as well as other companies like Hewlett-Packard Enterprise and Workday, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "Alphabet Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Adobe Systems Incorporated, Alphabet Inc., Amazon.com, Inc., Cisco Systems, Inc., Intel Corporation, International Business Machines Corporation, Microsoft Corporation, Salesforce, Inc. and SAP SE, as well as other companies like Hewlett-Packard Enterprise and Workday, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "Amazon.com, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Adobe Systems Incorporated, Alphabet Inc., Amazon.com, Inc., Cisco Systems, Inc., Intel Corporation, International Business Machines Corporation, Microsoft Corporation, Salesforce, Inc. and SAP SE, as well as other companies like Hewlett-Packard Enterprise and Workday, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "Cisco Systems, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Adobe Systems Incorporated, Alphabet Inc., Amazon.com, Inc., Cisco Systems, Inc., Intel Corporation, International Business Machines Corporation, Microsoft Corporation, Salesforce, Inc. and SAP SE, as well as other companies like Hewlett-Packard Enterprise and Workday, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "Intel Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Adobe Systems Incorporated, Alphabet Inc., Amazon.com, Inc., Cisco Systems, Inc., Intel Corporation, International Business Machines Corporation, Microsoft Corporation, Salesforce, Inc. and SAP SE, as well as other companies like Hewlett-Packard Enterprise and Workday, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "International Business Machines Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Adobe Systems Incorporated, Alphabet Inc., Amazon.com, Inc., Cisco Systems, Inc., Intel Corporation, International Business Machines Corporation, Microsoft Corporation, Salesforce, Inc. and SAP SE, as well as other companies like Hewlett-Packard Enterprise and Workday, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "Microsoft Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Adobe Systems Incorporated, Alphabet Inc., Amazon.com, Inc., Cisco Systems, Inc., Intel Corporation, International Business Machines Corporation, Microsoft Corporation, Salesforce, Inc. and SAP SE, as well as other companies like Hewlett-Packard Enterprise and Workday, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "Salesforce, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Adobe Systems Incorporated, Alphabet Inc., Amazon.com, Inc., Cisco Systems, Inc., Intel Corporation, International Business Machines Corporation, Microsoft Corporation, Salesforce, Inc. and SAP SE, as well as other companies like Hewlett-Packard Enterprise and Workday, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "SAP SE",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Adobe Systems Incorporated, Alphabet Inc., Amazon.com, Inc., Cisco Systems, Inc., Intel Corporation, International Business Machines Corporation, Microsoft Corporation, Salesforce, Inc. and SAP SE, as well as other companies like Hewlett-Packard Enterprise and Workday, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "Hewlett-Packard Enterprise",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Adobe Systems Incorporated, Alphabet Inc., Amazon.com, Inc., Cisco Systems, Inc., Intel Corporation, International Business Machines Corporation, Microsoft Corporation, Salesforce, Inc. and SAP SE, as well as other companies like Hewlett-Packard Enterprise and Workday, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "Workday, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "including Adobe Systems Incorporated, Alphabet Inc., Amazon.com, Inc., Cisco Systems, Inc., Intel Corporation, International Business Machines Corporation, Microsoft Corporation, Salesforce, Inc. and SAP SE, as well as other companies like Hewlett-Packard Enterprise and Workday, Inc.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "Allscripts Healthcare Solutions, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For example, following our acquisition of Cerner Corporation, we also face competition from large healthcare IT providers such as Allscripts Healthcare Solutions, Inc., Arcadia Solutions, athenahealth, Inc., Epic Systems Corporation and InterSystems Corporation, among others.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "athenahealth, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For example, following our acquisition of Cerner Corporation, we also face competition from large healthcare IT providers such as Allscripts Healthcare Solutions, Inc., Arcadia Solutions, athenahealth, Inc., Epic Systems Corporation and InterSystems Corporation, among others.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "Epic Systems Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For example, following our acquisition of Cerner Corporation, we also face competition from large healthcare IT providers such as Allscripts Healthcare Solutions, Inc., Arcadia Solutions, athenahealth, Inc., Epic Systems Corporation and InterSystems Corporation, among others.",
+   "verified": true
+  },
+  {
+   "subject": "Oracle",
+   "relation": "competes_with",
+   "object": "InterSystems Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "For example, following our acquisition of Cerner Corporation, we also face competition from large healthcare IT providers such as Allscripts Healthcare Solutions, Inc., Arcadia Solutions, athenahealth, Inc., Epic Systems Corporation and InterSystems Corporation, among others.",
+   "verified": true
+  }
+ ]
+}

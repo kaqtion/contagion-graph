@@ -1,0 +1,100 @@
+{
+ "ticker": "COHU",
+ "form": "10-K",
+ "filed_at": "2026-02-17",
+ "url": "https://www.sec.gov/Archives/edgar/data/21535/000143774926004339/cohu20251227_10k.htm",
+ "accession": "0001437749-26-004339",
+ "cost_usd": 0.00093,
+ "relations": [
+  {
+   "subject": "Cohu",
+   "relation": "competes_with",
+   "object": "Advantest",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Cohu\u2019s primary competitors include established global players in semiconductor test and inspection, such as Advantest, Teradyne, Hon Precision, KLA, and other Asia-based manufacturers.",
+   "verified": true
+  },
+  {
+   "subject": "Cohu",
+   "relation": "competes_with",
+   "object": "Teradyne",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Cohu\u2019s primary competitors include established global players in semiconductor test and inspection, such as Advantest, Teradyne, Hon Precision, KLA, and other Asia-based manufacturers.",
+   "verified": true
+  },
+  {
+   "subject": "Cohu",
+   "relation": "competes_with",
+   "object": "Hon Precision",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Cohu\u2019s primary competitors include established global players in semiconductor test and inspection, such as Advantest, Teradyne, Hon Precision, KLA, and other Asia-based manufacturers.",
+   "verified": true
+  },
+  {
+   "subject": "Cohu",
+   "relation": "competes_with",
+   "object": "KLA",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Cohu\u2019s primary competitors include established global players in semiconductor test and inspection, such as Advantest, Teradyne, Hon Precision, KLA, and other Asia-based manufacturers.",
+   "verified": true
+  },
+  {
+   "subject": "Cohu",
+   "relation": "buys_from",
+   "object": "Jabil",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "we depend upon Jabil to manufacture most of our semiconductor test systems from its facility located in Malaysia.",
+   "verified": true
+  },
+  {
+   "subject": "Cohu",
+   "relation": "operates_in",
+   "object": "Malaysia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our manufacturing operations are primarily located in Singapore, Malaysia, the Philippines, Japan, and the U.S.",
+   "verified": true
+  },
+  {
+   "subject": "Cohu",
+   "relation": "operates_in",
+   "object": "Singapore",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our manufacturing operations are primarily located in Singapore, Malaysia, the Philippines, Japan, and the U.S.",
+   "verified": true
+  },
+  {
+   "subject": "Cohu",
+   "relation": "operates_in",
+   "object": "Philippines",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "our manufacturing operations are primarily located in Singapore, Malaysia, the Philippines, Japan, and the U.S.",
+   "verified": true
+  },
+  {
+   "subject": "Cohu",
+   "relation": "operates_in",
+   "object": "Japan",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "our manufacturing operations are primarily located in Singapore, Malaysia, the Philippines, Japan, and the U.S.",
+   "verified": true
+  },
+  {
+   "subject": "Cohu",
+   "relation": "operates_in",
+   "object": "Asia",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "The majority of our sales are made to destinations in Asia.",
+   "verified": true
+  }
+ ]
+}

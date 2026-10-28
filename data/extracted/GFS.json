@@ -1,0 +1,118 @@
+{
+ "ticker": "GFS",
+ "form": "20-F",
+ "filed_at": "2026-02-27",
+ "url": "https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/gfs-20251231.htm",
+ "accession": "0001709048-26-000022",
+ "cost_usd": 0.00115,
+ "relations": [
+  {
+   "subject": "GlobalFoundries",
+   "relation": "buys_from",
+   "object": "Soitec S.A.",
+   "strength_tier": "sole",
+   "revenue_pct": 71,
+   "quote": "If we are unable to obtain 300mm SOI wafers from Soitec S.A. (\u201cSoitec\u201d), our primary supplier, for any reason, we expect that it would take us an extended period to find a replacement supplier on commercially acceptable terms. In 2025, Soitec accounted for approximately 71% of our SOI wafer spend.",
+   "verified": true
+  },
+  {
+   "subject": "GlobalFoundries",
+   "relation": "competes_with",
+   "object": "Taiwan Semiconductor Manufacturing Company, Limited",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Key competitors include Taiwan Semiconductor Manufacturing Company, Limited (\u201cTSMC\u201d), United Microelectronics Corporation (\u201cUMC\u201d) and Semiconductor Manufacturing International Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "GlobalFoundries",
+   "relation": "competes_with",
+   "object": "United Microelectronics Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Key competitors include Taiwan Semiconductor Manufacturing Company, Limited (\u201cTSMC\u201d), United Microelectronics Corporation (\u201cUMC\u201d) and Semiconductor Manufacturing International Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "GlobalFoundries",
+   "relation": "competes_with",
+   "object": "Semiconductor Manufacturing International Corporation",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "Key competitors include Taiwan Semiconductor Manufacturing Company, Limited (\u201cTSMC\u201d), United Microelectronics Corporation (\u201cUMC\u201d) and Semiconductor Manufacturing International Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "GlobalFoundries",
+   "relation": "competes_with",
+   "object": "Texas Instruments, Inc.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We also compete with the foundry operation services of some IDMs, such as Texas Instruments, Inc. (\u201cTexas Instruments\u201d), Samsung Electronics Co., Ltd. (\u201cSamsung\u201d) and, more recently, Intel.",
+   "verified": true
+  },
+  {
+   "subject": "GlobalFoundries",
+   "relation": "competes_with",
+   "object": "Samsung Electronics Co., Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We also compete with the foundry operation services of some IDMs, such as Texas Instruments, Inc. (\u201cTexas Instruments\u201d), Samsung Electronics Co., Ltd. (\u201cSamsung\u201d) and, more recently, Intel.",
+   "verified": true
+  },
+  {
+   "subject": "GlobalFoundries",
+   "relation": "competes_with",
+   "object": "Intel",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We also compete with the foundry operation services of some IDMs, such as Texas Instruments, Inc. (\u201cTexas Instruments\u201d), Samsung Electronics Co., Ltd. (\u201cSamsung\u201d) and, more recently, Intel.",
+   "verified": true
+  },
+  {
+   "subject": "GlobalFoundries",
+   "relation": "competes_with",
+   "object": "HuaHong Group",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other smaller dedicated foundry competitors include HuaHong Group, X-FAB Silicon Foundries, Tower Semiconductor Ltd., Vanguard International Semiconductor Corporation, and Powerchip Semiconductor Manufacturing Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "GlobalFoundries",
+   "relation": "competes_with",
+   "object": "X-FAB Silicon Foundries",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other smaller dedicated foundry competitors include HuaHong Group, X-FAB Silicon Foundries, Tower Semiconductor Ltd., Vanguard International Semiconductor Corporation, and Powerchip Semiconductor Manufacturing Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "GlobalFoundries",
+   "relation": "competes_with",
+   "object": "Tower Semiconductor Ltd.",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other smaller dedicated foundry competitors include HuaHong Group, X-FAB Silicon Foundries, Tower Semiconductor Ltd., Vanguard International Semiconductor Corporation, and Powerchip Semiconductor Manufacturing Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "GlobalFoundries",
+   "relation": "competes_with",
+   "object": "Vanguard International Semiconductor Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other smaller dedicated foundry competitors include HuaHong Group, X-FAB Silicon Foundries, Tower Semiconductor Ltd., Vanguard International Semiconductor Corporation, and Powerchip Semiconductor Manufacturing Corporation.",
+   "verified": true
+  },
+  {
+   "subject": "GlobalFoundries",
+   "relation": "competes_with",
+   "object": "Powerchip Semiconductor Manufacturing Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Other smaller dedicated foundry competitors include HuaHong Group, X-FAB Silicon Foundries, Tower Semiconductor Ltd., Vanguard International Semiconductor Corporation, and Powerchip Semiconductor Manufacturing Corporation.",
+   "verified": true
+  }
+ ]
+}

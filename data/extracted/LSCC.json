@@ -1,0 +1,73 @@
+{
+ "ticker": "LSCC",
+ "form": "10-K",
+ "filed_at": "2026-02-13",
+ "url": "https://www.sec.gov/Archives/edgar/data/855658/000143774926004100/lscc20260103_10k.htm",
+ "accession": "0001437749-26-004100",
+ "cost_usd": 0.00126,
+ "relations": [
+  {
+   "subject": "Lattice",
+   "relation": "buys_from",
+   "object": "United Microelectronics Corporation",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Lattice partners with United Microelectronics Corporation (\"UMC\") and its subsidiary United Semiconductor Japan Corporation (\"USJC\") to manufacture our products",
+   "verified": true
+  },
+  {
+   "subject": "Lattice",
+   "relation": "buys_from",
+   "object": "Samsung Semiconductor",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We partner with Samsung Semiconductor (\"Samsung\") to develop and manufacture the first low-power FPGA on 28nm FD-SOI technology, which is used in our Nexus platform of FPGA products.",
+   "verified": true
+  },
+  {
+   "subject": "Lattice",
+   "relation": "buys_from",
+   "object": "Taiwan Semiconductor Manufacturing Company Limited",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We partner with Taiwan Semiconductor Manufacturing Company (\"TSMC\") to develop and manufacture on 16nm technology, which is used in our Avant and Nexus 2 platforms of FPGA products",
+   "verified": true
+  },
+  {
+   "subject": "Lattice",
+   "relation": "buys_from",
+   "object": "Seiko Epson",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "We partner with Seiko Epson (\"Epson\") to manufacture our 500nm, 350nm, 250nm and 180nm products.",
+   "verified": true
+  },
+  {
+   "subject": "Lattice",
+   "relation": "buys_from",
+   "object": "Advanced Semiconductor Engineering, Inc.",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "with our primary supplier being Advanced Semiconductor Engineering, Inc. (\"ASE\")",
+   "verified": true
+  },
+  {
+   "subject": "Lattice",
+   "relation": "buys_from",
+   "object": "Amkor Technology",
+   "strength_tier": "major",
+   "revenue_pct": null,
+   "quote": "We have qualified two major assembly partners, ASE and Amkor Technology (\"Amkor\") and are second sourced where volume and customer requirements make it necessary.",
+   "verified": true
+  },
+  {
+   "subject": "Lattice",
+   "relation": "buys_from",
+   "object": "King Yuan Electronics Company",
+   "strength_tier": "minor",
+   "revenue_pct": null,
+   "quote": "Wafer sort testing is primarily performed by ASE in Taiwan and Malaysia, and by our second source King Yuan Electronics Company (\u201cKYEC\u201d) in Taiwan.",
+   "verified": true
+  }
+ ]
+}
