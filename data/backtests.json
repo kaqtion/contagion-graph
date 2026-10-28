@@ -1,0 +1,4390 @@
+[
+ {
+  "key": "renesas-2021",
+  "date": "2021-03-19",
+  "headline": "Fire at Renesas Naka fab halts automotive chip production",
+  "event": {
+   "event_type": "supply_disruption",
+   "polarity": "negative",
+   "severity": 4,
+   "expected_duration": "months",
+   "origin_companies": [
+    "Renesas Electronics"
+   ],
+   "regions": [
+    "Japan"
+   ],
+   "commodities": [],
+   "summary": ""
+  },
+  "origins": [
+   "Renesas Electronics"
+  ],
+  "methods": [
+   {
+    "method": "Contagion graph",
+    "n": 5,
+    "mean_car": -0.0331,
+    "hit_rate": 1.0
+   },
+   {
+    "method": "Same-sector peers",
+    "n": 27,
+    "mean_car": -0.0311,
+    "hit_rate": 0.778
+   },
+   {
+    "method": "Whole universe",
+    "n": 102,
+    "mean_car": -0.0286,
+    "hit_rate": 0.735
+   }
+  ],
+  "spearman_reached": 0.466,
+  "n_reached": 8,
+  "points": [
+   {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "impact": 0.0,
+    "car1": -0.0026,
+    "car5": 0.0018,
+    "car10": -0.0062
+   },
+   {
+    "ticker": "ACLS",
+    "name": "Axcelis",
+    "impact": 0.0,
+    "car1": -0.0033,
+    "car5": -0.0403,
+    "car10": 0.2043
+   },
+   {
+    "ticker": "ACMR",
+    "name": "ACM Research",
+    "impact": 0.0,
+    "car1": 0.0151,
+    "car5": -0.0606,
+    "car10": -0.0206
+   },
+   {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "impact": 0.0,
+    "car1": 0.0183,
+    "car5": 0.0043,
+    "car10": 0.0465
+   },
+   {
+    "ticker": "ADNT",
+    "name": "Adient",
+    "impact": 0.0,
+    "car1": -0.0321,
+    "car5": -0.114,
+    "car10": -0.0502
+   },
+   {
+    "ticker": "AEHR",
+    "name": "Aehr Test Systems",
+    "impact": 0.0,
+    "car1": 0.0252,
+    "car5": -0.0765,
+    "car10": -0.0267
+   },
+   {
+    "ticker": "ALB",
+    "name": "Albemarle",
+    "impact": 0.0,
+    "car1": -0.0048,
+    "car5": -0.0223,
+    "car10": -0.0383
+   },
+   {
+    "ticker": "ALSN",
+    "name": "Allison Transmission",
+    "impact": 0.0,
+    "car1": -0.0056,
+    "car5": -0.0557,
+    "car10": -0.0711
+   },
+   {
+    "ticker": "ALV",
+    "name": "Autoliv",
+    "impact": 0.0,
+    "car1": -0.0158,
+    "car5": -0.0602,
+    "car10": -0.0387
+   },
+   {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "impact": 0.0,
+    "car1": 0.0069,
+    "car5": 0.0489,
+    "car10": 0.2117
+   },
+   {
+    "ticker": "AMBA",
+    "name": "Ambarella",
+    "impact": 0.0,
+    "car1": 0.012,
+    "car5": -0.0774,
+    "car10": -0.0262
+   },
+   {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices",
+    "impact": 0.0,
+    "car1": 0.0139,
+    "car5": -0.023,
+    "car10": 0.0113
+   },
+   {
+    "ticker": "AMKR",
+    "name": "Amkor",
+    "impact": 0.0,
+    "car1": 0.0391,
+    "car5": -0.042,
+    "car10": 0.0361
+   },
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "impact": 0.0,
+    "car1": 0.0174,
+    "car5": 0.0073,
+    "car10": 0.0173
+   },
+   {
+    "ticker": "ANET",
+    "name": "Arista",
+    "impact": 0.0,
+    "car1": 0.0069,
+    "car5": 0.0302,
+    "car10": 0.0587
+   },
+   {
+    "ticker": "AOSL",
+    "name": "Alpha and Omega Semiconductor",
+    "impact": 0.0,
+    "car1": 0.0182,
+    "car5": -0.0998,
+    "car10": -0.0214
+   },
+   {
+    "ticker": "APD",
+    "name": "Air Products",
+    "impact": 0.0,
+    "car1": 0.0255,
+    "car5": 0.0319,
+    "car10": 0.038
+   },
+   {
+    "ticker": "APTV",
+    "name": "Aptiv",
+    "impact": 0.0,
+    "car1": -0.018,
+    "car5": -0.0405,
+    "car10": -0.0815
+   },
+   {
+    "ticker": "ASML",
+    "name": "ASML Holding",
+    "impact": 0.0,
+    "car1": 0.0171,
+    "car5": 0.0844,
+    "car10": 0.1549
+   },
+   {
+    "ticker": "ASX",
+    "name": "ASE",
+    "impact": 0.0,
+    "car1": 0.0339,
+    "car5": -0.0134,
+    "car10": 0.036
+   },
+   {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "impact": 0.0,
+    "car1": 0.0321,
+    "car5": 0.0038,
+    "car10": 0.0068
+   },
+   {
+    "ticker": "BWA",
+    "name": "BorgWarner",
+    "impact": 0.0,
+    "car1": 0.0197,
+    "car5": -0.0913,
+    "car10": -0.0653
+   },
+   {
+    "ticker": "CAMT",
+    "name": "Camtek",
+    "impact": 0.0,
+    "car1": 0.0019,
+    "car5": -0.022,
+    "car10": 0.1171
+   },
+   {
+    "ticker": "CLS",
+    "name": "Celestica",
+    "impact": 0.0,
+    "car1": 0.003,
+    "car5": -0.0399,
+    "car10": -0.0008
+   },
+   {
+    "ticker": "COHU",
+    "name": "Cohu",
+    "impact": 0.0,
+    "car1": 0.0094,
+    "car5": -0.092,
+    "car10": 0.0276
+   },
+   {
+    "ticker": "CRUS",
+    "name": "Cirrus Logic",
+    "impact": 0.0,
+    "car1": 0.0151,
+    "car5": 0.0008,
+    "car10": 0.0967
+   },
+   {
+    "ticker": "CSCO",
+    "name": "Cisco",
+    "impact": 0.0,
+    "car1": 0.0055,
+    "car5": 0.0363,
+    "car10": 0.0385
+   },
+   {
+    "ticker": "DAN",
+    "name": "Dana",
+    "impact": 0.0,
+    "car1": -0.0095,
+    "car5": -0.0886,
+    "car10": -0.0665
+   },
+   {
+    "ticker": "DELL",
+    "name": "Dell",
+    "impact": 0.0,
+    "car1": -0.0036,
+    "car5": -0.0228,
+    "car10": -0.0157
+   },
+   {
+    "ticker": "DIOD",
+    "name": "Diodes",
+    "impact": 0.0,
+    "car1": 0.0472,
+    "car5": -0.0814,
+    "car10": -0.0551
+   },
+   {
+    "ticker": "ENTG",
+    "name": "Entegris",
+    "impact": 0.0,
+    "car1": 0.0143,
+    "car5": 0.0223,
+    "car10": 0.1552
+   },
+   {
+    "ticker": "F",
+    "name": "Ford",
+    "impact": -0.036,
+    "car1": 0.0291,
+    "car5": -0.0123,
+    "car10": -0.0523
+   },
+   {
+    "ticker": "FCX",
+    "name": "Freeport",
+    "impact": 0.0,
+    "car1": -0.0103,
+    "car5": -0.1204,
+    "car10": -0.0735
+   },
+   {
+    "ticker": "FLEX",
+    "name": "Flex",
+    "impact": 0.0,
+    "car1": 0.0065,
+    "car5": -0.0045,
+    "car10": 0.0297
+   },
+   {
+    "ticker": "FORM",
+    "name": "FormFactor",
+    "impact": 0.0,
+    "car1": -0.0074,
+    "car5": -0.0343,
+    "car10": 0.1017
+   },
+   {
+    "ticker": "GM",
+    "name": "General Motors",
+    "impact": -0.036,
+    "car1": 0.0111,
+    "car5": -0.0438,
+    "car10": -0.0515
+   },
+   {
+    "ticker": "GNTX",
+    "name": "Gentex",
+    "impact": 0.0,
+    "car1": -0.0139,
+    "car5": -0.0408,
+    "car10": -0.0297
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "impact": 0.0,
+    "car1": 0.0046,
+    "car5": 0.0068,
+    "car10": 0.027
+   },
+   {
+    "ticker": "GT",
+    "name": "Goodyear",
+    "impact": 0.0,
+    "car1": -0.0125,
+    "car5": -0.0331,
+    "car10": -0.033
+   },
+   {
+    "ticker": "HMC",
+    "name": "Honda",
+    "impact": -0.312,
+    "car1": 0.0396,
+    "car5": -0.0131,
+    "car10": -0.0342
+   },
+   {
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "impact": 0.0,
+    "car1": -0.0174,
+    "car5": -0.0141,
+    "car10": -0.019
+   },
+   {
+    "ticker": "HPQ",
+    "name": "HP",
+    "impact": 0.0,
+    "car1": -0.0057,
+    "car5": -0.0126,
+    "car10": 0.0307
+   },
+   {
+    "ticker": "IBM",
+    "name": "International Business Machines",
+    "impact": 0.0,
+    "car1": -0.0071,
+    "car5": 0.0244,
+    "car10": -0.0023
+   },
+   {
+    "ticker": "ICHR",
+    "name": "Ichor",
+    "impact": 0.0,
+    "car1": 0.0088,
+    "car5": 0.003,
+    "car10": 0.2399
+   },
+   {
+    "ticker": "INTC",
+    "name": "Intel",
+    "impact": 0.0,
+    "car1": 0.0023,
+    "car5": -0.0255,
+    "car10": -0.0138
+   },
+   {
+    "ticker": "JBL",
+    "name": "Jabil",
+    "impact": 0.0,
+    "car1": 0.0245,
+    "car5": -0.0065,
+    "car10": 0.0344
+   },
+   {
+    "ticker": "KLAC",
+    "name": "KLA",
+    "impact": 0.0,
+    "car1": 0.0162,
+    "car5": 0.0382,
+    "car10": 0.1761
+   },
+   {
+    "ticker": "KLIC",
+    "name": "Kulicke and Soffa",
+    "impact": 0.0,
+    "car1": -0.0127,
+    "car5": -0.1024,
+    "car10": 0.0121
+   },
+   {
+    "ticker": "LCID",
+    "name": "Lucid",
+    "impact": 0.0,
+    "car1": 0.0011,
+    "car5": -0.1054,
+    "car10": -0.1427
+   },
+   {
+    "ticker": "LEA",
+    "name": "Lear",
+    "impact": 0.0,
+    "car1": -0.0247,
+    "car5": -0.0756,
+    "car10": -0.0706
+   },
+   {
+    "ticker": "LI",
+    "name": "Li Auto",
+    "impact": 0.0,
+    "car1": 0.0505,
+    "car5": -0.061,
+    "car10": -0.0191
+   },
+   {
+    "ticker": "LIN",
+    "name": "Linde",
+    "impact": 0.0,
+    "car1": 0.0064,
+    "car5": 0.0217,
+    "car10": 0.0216
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "impact": 0.0,
+    "car1": -0.0144,
+    "car5": 0.0109,
+    "car10": 0.0634
+   },
+   {
+    "ticker": "LOGI",
+    "name": "Logitech",
+    "impact": 0.0,
+    "car1": 0.0137,
+    "car5": 0.0201,
+    "car10": 0.0494
+   },
+   {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "impact": 0.0,
+    "car1": 0.0077,
+    "car5": 0.0177,
+    "car10": 0.159
+   },
+   {
+    "ticker": "LSCC",
+    "name": "Lattice",
+    "impact": 0.0,
+    "car1": 0.0125,
+    "car5": -0.0342,
+    "car10": 0.0797
+   },
+   {
+    "ticker": "MCHP",
+    "name": "Microchip",
+    "impact": 0.24,
+    "car1": 0.0333,
+    "car5": 0.0128,
+    "car10": 0.0742
+   },
+   {
+    "ticker": "META",
+    "name": "Meta",
+    "impact": 0.0,
+    "car1": 0.0431,
+    "car5": 0.0017,
+    "car10": 0.0453
+   },
+   {
+    "ticker": "MGA",
+    "name": "Magna",
+    "impact": 0.0,
+    "car1": 0.0088,
+    "car5": -0.0477,
+    "car10": -0.0443
+   },
+   {
+    "ticker": "MKSI",
+    "name": "MKS Instruments",
+    "impact": 0.0,
+    "car1": 0.0048,
+    "car5": -0.0026,
+    "car10": 0.1137
+   },
+   {
+    "ticker": "MOD",
+    "name": "Modine",
+    "impact": 0.0,
+    "car1": 0.0165,
+    "car5": -0.0419,
+    "car10": -0.0667
+   },
+   {
+    "ticker": "MP",
+    "name": "MP Materials",
+    "impact": 0.0,
+    "car1": 0.1374,
+    "car5": -0.1046,
+    "car10": -0.1588
+   },
+   {
+    "ticker": "MRVL",
+    "name": "Marvell",
+    "impact": 0.0,
+    "car1": 0.0337,
+    "car5": -0.0163,
+    "car10": 0.0636
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "impact": 0.0,
+    "car1": 0.0002,
+    "car5": 0.0083,
+    "car10": 0.0237
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron",
+    "impact": 0.0,
+    "car1": 0.0095,
+    "car5": -0.0625,
+    "car10": 0.0022
+   },
+   {
+    "ticker": "MXL",
+    "name": "MaxLinear",
+    "impact": 0.0,
+    "car1": 0.0143,
+    "car5": -0.111,
+    "car10": -0.0184
+   },
+   {
+    "ticker": "NIO",
+    "name": "NIO Inc",
+    "impact": 0.0,
+    "car1": 0.0432,
+    "car5": -0.0874,
+    "car10": -0.074
+   },
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "impact": 0.0,
+    "car1": 0.0115,
+    "car5": -0.0134,
+    "car10": 0.0589
+   },
+   {
+    "ticker": "NVMI",
+    "name": "Nova",
+    "impact": 0.0,
+    "car1": 0.0127,
+    "car5": -0.0,
+    "car10": 0.1032
+   },
+   {
+    "ticker": "NXPI",
+    "name": "NXP",
+    "impact": 0.48,
+    "car1": 0.0192,
+    "car5": -0.0354,
+    "car10": 0.0211
+   },
+   {
+    "ticker": "ON",
+    "name": "onsemi",
+    "impact": 0.0,
+    "car1": 0.0261,
+    "car5": -0.023,
+    "car10": 0.0691
+   },
+   {
+    "ticker": "ONTO",
+    "name": "Onto Innovation",
+    "impact": 0.0,
+    "car1": 0.0,
+    "car5": -0.0184,
+    "car10": 0.1323
+   },
+   {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "impact": 0.0,
+    "car1": -0.0053,
+    "car5": 0.0296,
+    "car10": 0.0493
+   },
+   {
+    "ticker": "PLAB",
+    "name": "Photronics",
+    "impact": 0.0,
+    "car1": 0.022,
+    "car5": 0.003,
+    "car10": 0.068
+   },
+   {
+    "ticker": "POWI",
+    "name": "Power Integrations",
+    "impact": 0.0,
+    "car1": 0.0269,
+    "car5": -0.0183,
+    "car10": 0.0368
+   },
+   {
+    "ticker": "QCOM",
+    "name": "Qualcomm",
+    "impact": 0.0,
+    "car1": 0.0116,
+    "car5": -0.0178,
+    "car10": 0.0353
+   },
+   {
+    "ticker": "QS",
+    "name": "QuantumScape",
+    "impact": 0.0,
+    "car1": 0.0435,
+    "car5": -0.1914,
+    "car10": -0.1613
+   },
+   {
+    "ticker": "RACE",
+    "name": "Ferrari",
+    "impact": 0.0,
+    "car1": 0.0142,
+    "car5": 0.0491,
+    "car10": 0.0421
+   },
+   {
+    "ticker": "RMBS",
+    "name": "Rambus",
+    "impact": 0.0,
+    "car1": -0.0114,
+    "car5": -0.0677,
+    "car10": -0.033
+   },
+   {
+    "ticker": "SANM",
+    "name": "Sanmina",
+    "impact": 0.0,
+    "car1": -0.013,
+    "car5": -0.0261,
+    "car10": -0.0152
+   },
+   {
+    "ticker": "SITM",
+    "name": "SiTime",
+    "impact": 0.0,
+    "car1": 0.0351,
+    "car5": -0.0075,
+    "car10": 0.0307
+   },
+   {
+    "ticker": "SLAB",
+    "name": "Silicon Labs",
+    "impact": 0.0,
+    "car1": 0.0111,
+    "car5": -0.036,
+    "car10": 0.0129
+   },
+   {
+    "ticker": "SMCI",
+    "name": "Supermicro",
+    "impact": 0.0,
+    "car1": 0.0102,
+    "car5": -0.0293,
+    "car10": 0.0092
+   },
+   {
+    "ticker": "SMTC",
+    "name": "Semtech",
+    "impact": 0.0,
+    "car1": 0.0561,
+    "car5": -0.0521,
+    "car10": 0.0108
+   },
+   {
+    "ticker": "SONY",
+    "name": "Sony",
+    "impact": 0.0,
+    "car1": 0.0011,
+    "car5": -0.0242,
+    "car10": -0.0096
+   },
+   {
+    "ticker": "SQM",
+    "name": "Sociedad Quimica y Minera",
+    "impact": 0.0,
+    "car1": 0.0158,
+    "car5": -0.021,
+    "car10": -0.0176
+   },
+   {
+    "ticker": "STLA",
+    "name": "Stellantis",
+    "impact": -0.036,
+    "car1": -0.0268,
+    "car5": -0.0554,
+    "car10": -0.041
+   },
+   {
+    "ticker": "STM",
+    "name": "STMicroelectronics",
+    "impact": 0.48,
+    "car1": 0.0434,
+    "car5": 0.0434,
+    "car10": 0.079
+   },
+   {
+    "ticker": "STX",
+    "name": "Seagate",
+    "impact": 0.0,
+    "car1": 0.0121,
+    "car5": -0.002,
+    "car10": 0.0453
+   },
+   {
+    "ticker": "SWKS",
+    "name": "Skyworks",
+    "impact": 0.0,
+    "car1": 0.0081,
+    "car5": -0.0134,
+    "car10": 0.0478
+   },
+   {
+    "ticker": "SYNA",
+    "name": "Synaptics",
+    "impact": 0.0,
+    "car1": 0.0141,
+    "car5": -0.0709,
+    "car10": -0.0261
+   },
+   {
+    "ticker": "TER",
+    "name": "Teradyne",
+    "impact": 0.0,
+    "car1": 0.0245,
+    "car5": -0.0043,
+    "car10": 0.1196
+   },
+   {
+    "ticker": "TM",
+    "name": "Toyota",
+    "impact": -0.624,
+    "car1": 0.0074,
+    "car5": -0.0408,
+    "car10": -0.0335
+   },
+   {
+    "ticker": "TSEM",
+    "name": "Tower Semiconductor",
+    "impact": 0.0,
+    "car1": 0.0043,
+    "car5": -0.0497,
+    "car10": -0.0301
+   },
+   {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "impact": 0.0,
+    "car1": 0.0045,
+    "car5": -0.0183,
+    "car10": -0.0135
+   },
+   {
+    "ticker": "TSM",
+    "name": "TSMC",
+    "impact": 0.0,
+    "car1": -0.0057,
+    "car5": -0.0341,
+    "car10": 0.0633
+   },
+   {
+    "ticker": "UMC",
+    "name": "United Microelectronics",
+    "impact": 0.0,
+    "car1": 0.0006,
+    "car5": 0.0341,
+    "car10": 0.0971
+   },
+   {
+    "ticker": "VC",
+    "name": "Visteon",
+    "impact": 0.0,
+    "car1": 0.0105,
+    "car5": -0.0704,
+    "car10": -0.0674
+   },
+   {
+    "ticker": "VECO",
+    "name": "Veeco",
+    "impact": 0.0,
+    "car1": 0.0061,
+    "car5": -0.0286,
+    "car10": -0.0035
+   },
+   {
+    "ticker": "VSH",
+    "name": "Vishay",
+    "impact": 0.0,
+    "car1": 0.0031,
+    "car5": -0.0303,
+    "car10": -0.0066
+   },
+   {
+    "ticker": "WDC",
+    "name": "Western Digital",
+    "impact": 0.0,
+    "car1": 0.0222,
+    "car5": -0.0727,
+    "car10": 0.0051
+   },
+   {
+    "ticker": "XPEV",
+    "name": "XPeng",
+    "impact": 0.0,
+    "car1": 0.0727,
+    "car5": -0.0693,
+    "car10": 0.029
+   }
+  ],
+  "horizon": "car5"
+ },
+ {
+  "key": "texas-freeze-2021",
+  "date": "2021-02-16",
+  "headline": "Texas winter storm shuts Samsung, NXP and Infineon fabs in Austin",
+  "event": {
+   "event_type": "supply_disruption",
+   "polarity": "negative",
+   "severity": 3,
+   "expected_duration": "weeks",
+   "origin_companies": [
+    "Samsung",
+    "NXP",
+    "Infineon"
+   ],
+   "regions": [
+    "United States"
+   ],
+   "commodities": [],
+   "summary": ""
+  },
+  "origins": [
+   "Samsung Electronics",
+   "NXP",
+   "Infineon Technologies"
+  ],
+  "methods": [
+   {
+    "method": "Contagion graph",
+    "n": 14,
+    "mean_car": -0.0111,
+    "hit_rate": 0.643
+   },
+   {
+    "method": "Same-sector peers",
+    "n": 33,
+    "mean_car": -0.0113,
+    "hit_rate": 0.697
+   },
+   {
+    "method": "Whole universe",
+    "n": 108,
+    "mean_car": -0.0012,
+    "hit_rate": 0.574
+   }
+  ],
+  "spearman_reached": 0.286,
+  "n_reached": 16,
+  "points": [
+   {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "impact": -0.18,
+    "car1": -0.0152,
+    "car5": -0.0549,
+    "car10": -0.0482
+   },
+   {
+    "ticker": "ACLS",
+    "name": "Axcelis",
+    "impact": 0.0,
+    "car1": 0.0182,
+    "car5": -0.0043,
+    "car10": 0.0065
+   },
+   {
+    "ticker": "ACMR",
+    "name": "ACM Research",
+    "impact": 0.0,
+    "car1": 0.036,
+    "car5": -0.1576,
+    "car10": -0.1959
+   },
+   {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "impact": 0.0,
+    "car1": -0.0009,
+    "car5": 0.0047,
+    "car10": -0.0016
+   },
+   {
+    "ticker": "ADNT",
+    "name": "Adient",
+    "impact": 0.0,
+    "car1": -0.0002,
+    "car5": 0.0192,
+    "car10": 0.0189
+   },
+   {
+    "ticker": "AEHR",
+    "name": "Aehr Test Systems",
+    "impact": 0.0,
+    "car1": 0.0424,
+    "car5": 0.0015,
+    "car10": -0.005
+   },
+   {
+    "ticker": "ALB",
+    "name": "Albemarle",
+    "impact": 0.0,
+    "car1": -0.014,
+    "car5": -0.0352,
+    "car10": -0.0632
+   },
+   {
+    "ticker": "ALGM",
+    "name": "Allegro",
+    "impact": 0.0,
+    "car1": 0.0038,
+    "car5": -0.0166,
+    "car10": -0.0985
+   },
+   {
+    "ticker": "ALSN",
+    "name": "Allison Transmission",
+    "impact": 0.0,
+    "car1": 0.0023,
+    "car5": -0.0947,
+    "car10": -0.0416
+   },
+   {
+    "ticker": "ALV",
+    "name": "Autoliv",
+    "impact": 0.0,
+    "car1": -0.0036,
+    "car5": 0.0016,
+    "car10": -0.0075
+   },
+   {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "impact": 0.0,
+    "car1": 0.015,
+    "car5": 0.0017,
+    "car10": 0.0573
+   },
+   {
+    "ticker": "AMBA",
+    "name": "Ambarella",
+    "impact": 0.0,
+    "car1": 0.0324,
+    "car5": -0.0082,
+    "car10": -0.0357
+   },
+   {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices",
+    "impact": 0.0,
+    "car1": -0.0238,
+    "car5": -0.0753,
+    "car10": -0.0709
+   },
+   {
+    "ticker": "AMKR",
+    "name": "Amkor",
+    "impact": 0.0,
+    "car1": 0.0318,
+    "car5": -0.0035,
+    "car10": 0.0302
+   },
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "impact": -0.054,
+    "car1": -0.0018,
+    "car5": -0.0153,
+    "car10": -0.0323
+   },
+   {
+    "ticker": "ANET",
+    "name": "Arista",
+    "impact": 0.0,
+    "car1": -0.0135,
+    "car5": -0.0821,
+    "car10": -0.1016
+   },
+   {
+    "ticker": "AOSL",
+    "name": "Alpha and Omega Semiconductor",
+    "impact": 0.0,
+    "car1": -0.0209,
+    "car5": -0.0464,
+    "car10": -0.0546
+   },
+   {
+    "ticker": "APD",
+    "name": "Air Products",
+    "impact": 0.0,
+    "car1": 0.0016,
+    "car5": 0.0332,
+    "car10": 0.0102
+   },
+   {
+    "ticker": "APTV",
+    "name": "Aptiv",
+    "impact": 0.0,
+    "car1": -0.0068,
+    "car5": 0.0188,
+    "car10": -0.002
+   },
+   {
+    "ticker": "ASML",
+    "name": "ASML Holding",
+    "impact": 0.0,
+    "car1": 0.0095,
+    "car5": -0.0183,
+    "car10": -0.0164
+   },
+   {
+    "ticker": "ASX",
+    "name": "ASE",
+    "impact": 0.0,
+    "car1": -0.0049,
+    "car5": -0.071,
+    "car10": -0.104
+   },
+   {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "impact": 0.0,
+    "car1": 0.0066,
+    "car5": -0.0062,
+    "car10": 0.0145
+   },
+   {
+    "ticker": "BWA",
+    "name": "BorgWarner",
+    "impact": 0.0,
+    "car1": 0.0435,
+    "car5": 0.0774,
+    "car10": 0.089
+   },
+   {
+    "ticker": "CAMT",
+    "name": "Camtek",
+    "impact": 0.0,
+    "car1": 0.0122,
+    "car5": 0.0015,
+    "car10": 0.0316
+   },
+   {
+    "ticker": "CLS",
+    "name": "Celestica",
+    "impact": 0.0,
+    "car1": 0.0112,
+    "car5": -0.0075,
+    "car10": -0.022
+   },
+   {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "impact": 0.0,
+    "car1": 0.0234,
+    "car5": -0.013,
+    "car10": -0.0268
+   },
+   {
+    "ticker": "COHU",
+    "name": "Cohu",
+    "impact": 0.0,
+    "car1": -0.0183,
+    "car5": -0.0927,
+    "car10": -0.0824
+   },
+   {
+    "ticker": "CRUS",
+    "name": "Cirrus Logic",
+    "impact": 0.0,
+    "car1": 0.0018,
+    "car5": -0.0265,
+    "car10": -0.06
+   },
+   {
+    "ticker": "CSCO",
+    "name": "Cisco",
+    "impact": 0.0,
+    "car1": -0.0156,
+    "car5": -0.025,
+    "car10": -0.0212
+   },
+   {
+    "ticker": "DAN",
+    "name": "Dana",
+    "impact": 0.0,
+    "car1": 0.0143,
+    "car5": 0.0582,
+    "car10": 0.1009
+   },
+   {
+    "ticker": "DELL",
+    "name": "Dell",
+    "impact": -0.054,
+    "car1": -0.0068,
+    "car5": 0.0233,
+    "car10": 0.0458
+   },
+   {
+    "ticker": "DIOD",
+    "name": "Diodes",
+    "impact": 0.0,
+    "car1": -0.0035,
+    "car5": 0.0227,
+    "car10": 0.0054
+   },
+   {
+    "ticker": "ENTG",
+    "name": "Entegris",
+    "impact": 0.0,
+    "car1": 0.0393,
+    "car5": 0.0242,
+    "car10": 0.0695
+   },
+   {
+    "ticker": "F",
+    "name": "Ford",
+    "impact": -0.108,
+    "car1": 0.0087,
+    "car5": 0.0361,
+    "car10": 0.0541
+   },
+   {
+    "ticker": "FCX",
+    "name": "Freeport",
+    "impact": 0.0,
+    "car1": 0.0543,
+    "car5": 0.2336,
+    "car10": 0.1253
+   },
+   {
+    "ticker": "FLEX",
+    "name": "Flex",
+    "impact": 0.0,
+    "car1": 0.0162,
+    "car5": -0.0394,
+    "car10": -0.0198
+   },
+   {
+    "ticker": "FORM",
+    "name": "FormFactor",
+    "impact": 0.0,
+    "car1": 0.0112,
+    "car5": -0.0442,
+    "car10": -0.0321
+   },
+   {
+    "ticker": "GM",
+    "name": "General Motors",
+    "impact": -0.108,
+    "car1": -0.0017,
+    "car5": -0.0159,
+    "car10": -0.012
+   },
+   {
+    "ticker": "GNTX",
+    "name": "Gentex",
+    "impact": 0.0,
+    "car1": 0.0003,
+    "car5": 0.014,
+    "car10": 0.0196
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "impact": -0.054,
+    "car1": 0.0083,
+    "car5": -0.0052,
+    "car10": -0.0043
+   },
+   {
+    "ticker": "GT",
+    "name": "Goodyear",
+    "impact": 0.0,
+    "car1": 0.0101,
+    "car5": 0.2097,
+    "car10": 0.2409
+   },
+   {
+    "ticker": "HMC",
+    "name": "Honda",
+    "impact": 0.0,
+    "car1": -0.0053,
+    "car5": -0.0293,
+    "car10": -0.0155
+   },
+   {
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "impact": -0.054,
+    "car1": -0.0047,
+    "car5": 0.0205,
+    "car10": 0.0231
+   },
+   {
+    "ticker": "HPQ",
+    "name": "HP",
+    "impact": 0.0,
+    "car1": -0.0111,
+    "car5": 0.0008,
+    "car10": 0.0838
+   },
+   {
+    "ticker": "IBM",
+    "name": "International Business Machines",
+    "impact": 0.0,
+    "car1": -0.0052,
+    "car5": 0.0148,
+    "car10": 0.0073
+   },
+   {
+    "ticker": "ICHR",
+    "name": "Ichor",
+    "impact": 0.0,
+    "car1": 0.0258,
+    "car5": 0.0242,
+    "car10": 0.0653
+   },
+   {
+    "ticker": "INTC",
+    "name": "Intel",
+    "impact": 0.0,
+    "car1": 0.0115,
+    "car5": -0.0035,
+    "car10": 0.0251
+   },
+   {
+    "ticker": "JBL",
+    "name": "Jabil",
+    "impact": 0.0,
+    "car1": 0.0172,
+    "car5": 0.0004,
+    "car10": 0.0179
+   },
+   {
+    "ticker": "KLAC",
+    "name": "KLA",
+    "impact": 0.0,
+    "car1": 0.0171,
+    "car5": -0.0303,
+    "car10": -0.0071
+   },
+   {
+    "ticker": "KLIC",
+    "name": "Kulicke and Soffa",
+    "impact": 0.0,
+    "car1": 0.053,
+    "car5": -0.0208,
+    "car10": 0.0814
+   },
+   {
+    "ticker": "LCID",
+    "name": "Lucid",
+    "impact": 0.0,
+    "car1": 0.319,
+    "car5": 0.4493,
+    "car10": -0.2261
+   },
+   {
+    "ticker": "LEA",
+    "name": "Lear",
+    "impact": 0.0,
+    "car1": 0.0185,
+    "car5": 0.0775,
+    "car10": 0.0735
+   },
+   {
+    "ticker": "LI",
+    "name": "Li Auto",
+    "impact": 0.0,
+    "car1": -0.0447,
+    "car5": -0.1116,
+    "car10": -0.1803
+   },
+   {
+    "ticker": "LIN",
+    "name": "Linde",
+    "impact": 0.0,
+    "car1": -0.0092,
+    "car5": 0.0079,
+    "car10": 0.0031
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "impact": 0.0,
+    "car1": 0.0038,
+    "car5": -0.0278,
+    "car10": -0.0216
+   },
+   {
+    "ticker": "LOGI",
+    "name": "Logitech",
+    "impact": 0.0,
+    "car1": -0.0015,
+    "car5": -0.0327,
+    "car10": -0.0859
+   },
+   {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "impact": 0.0,
+    "car1": 0.0105,
+    "car5": -0.017,
+    "car10": 0.0294
+   },
+   {
+    "ticker": "LSCC",
+    "name": "Lattice",
+    "impact": 0.0,
+    "car1": 0.0048,
+    "car5": -0.0239,
+    "car10": 0.0664
+   },
+   {
+    "ticker": "MCHP",
+    "name": "Microchip",
+    "impact": 0.0,
+    "car1": 0.0177,
+    "car5": -0.0106,
+    "car10": 0.0012
+   },
+   {
+    "ticker": "META",
+    "name": "Meta",
+    "impact": -0.054,
+    "car1": 0.0137,
+    "car5": -0.0233,
+    "car10": -0.0129
+   },
+   {
+    "ticker": "MGA",
+    "name": "Magna",
+    "impact": 0.0,
+    "car1": 0.0079,
+    "car5": 0.1279,
+    "car10": 0.1107
+   },
+   {
+    "ticker": "MKSI",
+    "name": "MKS Instruments",
+    "impact": 0.0,
+    "car1": 0.0294,
+    "car5": 0.0112,
+    "car10": 0.035
+   },
+   {
+    "ticker": "MOD",
+    "name": "Modine",
+    "impact": 0.0,
+    "car1": 0.0053,
+    "car5": 0.0772,
+    "car10": 0.0664
+   },
+   {
+    "ticker": "MP",
+    "name": "MP Materials",
+    "impact": 0.0,
+    "car1": 0.1566,
+    "car5": 0.1748,
+    "car10": 0.3181
+   },
+   {
+    "ticker": "MPWR",
+    "name": "Monolithic Power",
+    "impact": 0.0,
+    "car1": 0.0062,
+    "car5": -0.0201,
+    "car10": 0.0159
+   },
+   {
+    "ticker": "MRVL",
+    "name": "Marvell",
+    "impact": 0.0,
+    "car1": -0.0155,
+    "car5": -0.0624,
+    "car10": -0.0721
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "impact": -0.054,
+    "car1": -0.0044,
+    "car5": -0.0263,
+    "car10": -0.0228
+   },
+   {
+    "ticker": "MTSI",
+    "name": "MACOM",
+    "impact": 0.0,
+    "car1": 0.0012,
+    "car5": -0.0234,
+    "car10": 0.0255
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron",
+    "impact": 0.36,
+    "car1": -0.0022,
+    "car5": -0.0054,
+    "car10": 0.0845
+   },
+   {
+    "ticker": "MXL",
+    "name": "MaxLinear",
+    "impact": 0.0,
+    "car1": 0.0321,
+    "car5": 0.1189,
+    "car10": 0.1159
+   },
+   {
+    "ticker": "NIO",
+    "name": "NIO Inc",
+    "impact": 0.0,
+    "car1": -0.0095,
+    "car5": -0.1389,
+    "car10": -0.1608
+   },
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "impact": -0.18,
+    "car1": 0.0255,
+    "car5": -0.0262,
+    "car10": -0.067
+   },
+   {
+    "ticker": "NVMI",
+    "name": "Nova",
+    "impact": 0.0,
+    "car1": 0.008,
+    "car5": -0.0131,
+    "car10": 0.076
+   },
+   {
+    "ticker": "ON",
+    "name": "onsemi",
+    "impact": 0.0,
+    "car1": 0.0149,
+    "car5": -0.0058,
+    "car10": 0.032
+   },
+   {
+    "ticker": "ONTO",
+    "name": "Onto Innovation",
+    "impact": 0.0,
+    "car1": 0.0361,
+    "car5": 0.0449,
+    "car10": 0.0668
+   },
+   {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "impact": -0.054,
+    "car1": -0.014,
+    "car5": 0.036,
+    "car10": 0.0568
+   },
+   {
+    "ticker": "PLAB",
+    "name": "Photronics",
+    "impact": 0.0,
+    "car1": -0.0142,
+    "car5": -0.0053,
+    "car10": -0.0751
+   },
+   {
+    "ticker": "POWI",
+    "name": "Power Integrations",
+    "impact": 0.0,
+    "car1": -0.0133,
+    "car5": 0.0166,
+    "car10": -0.0038
+   },
+   {
+    "ticker": "QCOM",
+    "name": "Qualcomm",
+    "impact": 0.0,
+    "car1": -0.0047,
+    "car5": -0.0433,
+    "car10": -0.0496
+   },
+   {
+    "ticker": "QS",
+    "name": "QuantumScape",
+    "impact": 0.0,
+    "car1": -0.0723,
+    "car5": 0.1995,
+    "car10": 0.0636
+   },
+   {
+    "ticker": "RACE",
+    "name": "Ferrari",
+    "impact": 0.0,
+    "car1": -0.0156,
+    "car5": -0.0277,
+    "car10": -0.0295
+   },
+   {
+    "ticker": "RMBS",
+    "name": "Rambus",
+    "impact": 0.0,
+    "car1": 0.0013,
+    "car5": 0.0019,
+    "car10": -0.0014
+   },
+   {
+    "ticker": "SANM",
+    "name": "Sanmina",
+    "impact": 0.0,
+    "car1": 0.004,
+    "car5": 0.016,
+    "car10": 0.0556
+   },
+   {
+    "ticker": "SITM",
+    "name": "SiTime",
+    "impact": 0.0,
+    "car1": 0.0308,
+    "car5": -0.2175,
+    "car10": -0.2957
+   },
+   {
+    "ticker": "SLAB",
+    "name": "Silicon Labs",
+    "impact": 0.0,
+    "car1": -0.003,
+    "car5": 0.0646,
+    "car10": 0.0581
+   },
+   {
+    "ticker": "SMCI",
+    "name": "Supermicro",
+    "impact": -0.081,
+    "car1": 0.0002,
+    "car5": 0.009,
+    "car10": 0.0804
+   },
+   {
+    "ticker": "SMTC",
+    "name": "Semtech",
+    "impact": 0.0,
+    "car1": 0.0023,
+    "car5": -0.0133,
+    "car10": -0.024
+   },
+   {
+    "ticker": "SONY",
+    "name": "Sony",
+    "impact": 0.0,
+    "car1": 0.0135,
+    "car5": 0.0121,
+    "car10": -0.0402
+   },
+   {
+    "ticker": "SQM",
+    "name": "Sociedad Quimica y Minera",
+    "impact": 0.0,
+    "car1": 0.0148,
+    "car5": 0.0379,
+    "car10": -0.0247
+   },
+   {
+    "ticker": "STLA",
+    "name": "Stellantis",
+    "impact": -0.108,
+    "car1": 0.0089,
+    "car5": -0.0024,
+    "car10": 0.0498
+   },
+   {
+    "ticker": "STM",
+    "name": "STMicroelectronics",
+    "impact": 0.0,
+    "car1": -0.0064,
+    "car5": -0.0364,
+    "car10": -0.1009
+   },
+   {
+    "ticker": "STX",
+    "name": "Seagate",
+    "impact": 0.0,
+    "car1": -0.0159,
+    "car5": 0.0319,
+    "car10": 0.03
+   },
+   {
+    "ticker": "SWKS",
+    "name": "Skyworks",
+    "impact": 0.0,
+    "car1": 0.0254,
+    "car5": -0.0151,
+    "car10": -0.0082
+   },
+   {
+    "ticker": "SYNA",
+    "name": "Synaptics",
+    "impact": 0.0,
+    "car1": 0.0344,
+    "car5": 0.0286,
+    "car10": 0.0661
+   },
+   {
+    "ticker": "TER",
+    "name": "Teradyne",
+    "impact": 0.0,
+    "car1": 0.0095,
+    "car5": -0.0554,
+    "car10": -0.0506
+   },
+   {
+    "ticker": "TM",
+    "name": "Toyota",
+    "impact": 0.0,
+    "car1": -0.0241,
+    "car5": -0.0359,
+    "car10": -0.0617
+   },
+   {
+    "ticker": "TSEM",
+    "name": "Tower Semiconductor",
+    "impact": 0.0,
+    "car1": 0.0091,
+    "car5": -0.0395,
+    "car10": -0.0617
+   },
+   {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "impact": -0.18,
+    "car1": -0.0235,
+    "car5": -0.1102,
+    "car10": -0.1119
+   },
+   {
+    "ticker": "TSM",
+    "name": "TSMC",
+    "impact": 0.36,
+    "car1": 0.0153,
+    "car5": -0.0182,
+    "car10": -0.0569
+   },
+   {
+    "ticker": "TXN",
+    "name": "Texas Instruments",
+    "impact": 0.0,
+    "car1": 0.0071,
+    "car5": -0.0222,
+    "car10": -0.0032
+   },
+   {
+    "ticker": "UCTT",
+    "name": "Ultra Clean",
+    "impact": 0.0,
+    "car1": 0.0667,
+    "car5": 0.0189,
+    "car10": 0.0605
+   },
+   {
+    "ticker": "UMC",
+    "name": "United Microelectronics",
+    "impact": 0.0,
+    "car1": -0.0075,
+    "car5": -0.0664,
+    "car10": -0.059
+   },
+   {
+    "ticker": "VC",
+    "name": "Visteon",
+    "impact": 0.0,
+    "car1": -0.0021,
+    "car5": -0.0962,
+    "car10": -0.0582
+   },
+   {
+    "ticker": "VECO",
+    "name": "Veeco",
+    "impact": 0.0,
+    "car1": -0.0086,
+    "car5": 0.0052,
+    "car10": 0.0277
+   },
+   {
+    "ticker": "VSH",
+    "name": "Vishay",
+    "impact": 0.0,
+    "car1": -0.0004,
+    "car5": 0.038,
+    "car10": 0.0536
+   },
+   {
+    "ticker": "WDC",
+    "name": "Western Digital",
+    "impact": 0.0,
+    "car1": 0.0175,
+    "car5": 0.0492,
+    "car10": 0.1091
+   },
+   {
+    "ticker": "XPEV",
+    "name": "XPeng",
+    "impact": 0.0,
+    "car1": -0.0392,
+    "car5": -0.1753,
+    "car10": -0.2351
+   }
+  ],
+  "horizon": "car5"
+ },
+ {
+  "key": "tohoku-2011",
+  "date": "2011-03-11",
+  "headline": "Magnitude 9 earthquake and tsunami hit northeast Japan",
+  "event": {
+   "event_type": "regional_disaster",
+   "polarity": "negative",
+   "severity": 5,
+   "expected_duration": "months",
+   "origin_companies": [],
+   "regions": [
+    "Japan"
+   ],
+   "commodities": [],
+   "summary": ""
+  },
+  "origins": [
+   "Japan"
+  ],
+  "methods": [
+   {
+    "method": "Contagion graph",
+    "n": 11,
+    "mean_car": -0.0206,
+    "hit_rate": 0.818
+   },
+   {
+    "method": "Same-sector peers",
+    "n": 3,
+    "mean_car": -0.0141,
+    "hit_rate": 1.0
+   },
+   {
+    "method": "Whole universe",
+    "n": 86,
+    "mean_car": -0.0153,
+    "hit_rate": 0.651
+   }
+  ],
+  "spearman_reached": -0.023,
+  "n_reached": 11,
+  "points": [
+   {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "impact": -0.243,
+    "car1": 0.0084,
+    "car5": -0.0186,
+    "car10": -0.0167
+   },
+   {
+    "ticker": "ACLS",
+    "name": "Axcelis",
+    "impact": 0.0,
+    "car1": -0.0148,
+    "car5": -0.1104,
+    "car10": 0.008
+   },
+   {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "impact": 0.0,
+    "car1": -0.0009,
+    "car5": 0.0013,
+    "car10": 0.0194
+   },
+   {
+    "ticker": "AEHR",
+    "name": "Aehr Test Systems",
+    "impact": 0.0,
+    "car1": 0.0414,
+    "car5": -0.1723,
+    "car10": 0.0414
+   },
+   {
+    "ticker": "ALB",
+    "name": "Albemarle",
+    "impact": 0.0,
+    "car1": -0.0035,
+    "car5": 0.0001,
+    "car10": 0.0221
+   },
+   {
+    "ticker": "ALV",
+    "name": "Autoliv",
+    "impact": 0.0,
+    "car1": -0.0084,
+    "car5": -0.0257,
+    "car10": -0.016
+   },
+   {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "impact": 0.0,
+    "car1": -0.0043,
+    "car5": 0.0074,
+    "car10": 0.0203
+   },
+   {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices",
+    "impact": -0.162,
+    "car1": 0.0204,
+    "car5": 0.003,
+    "car10": 0.0369
+   },
+   {
+    "ticker": "AMKR",
+    "name": "Amkor",
+    "impact": 0.0,
+    "car1": -0.001,
+    "car5": -0.0181,
+    "car10": 0.0344
+   },
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "impact": 0.0,
+    "car1": 0.0047,
+    "car5": -0.015,
+    "car10": 0.0181
+   },
+   {
+    "ticker": "AOSL",
+    "name": "Alpha and Omega Semiconductor",
+    "impact": 0.0,
+    "car1": 0.0011,
+    "car5": 0.0521,
+    "car10": 0.0299
+   },
+   {
+    "ticker": "APD",
+    "name": "Air Products",
+    "impact": 0.0,
+    "car1": -0.0169,
+    "car5": -0.0027,
+    "car10": 0.0103
+   },
+   {
+    "ticker": "ASML",
+    "name": "ASML Holding",
+    "impact": 0.0,
+    "car1": 0.0029,
+    "car5": 0.0207,
+    "car10": 0.0431
+   },
+   {
+    "ticker": "ASX",
+    "name": "ASE",
+    "impact": 0.0,
+    "car1": 0.0288,
+    "car5": 0.0086,
+    "car10": 0.0653
+   },
+   {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "impact": -0.162,
+    "car1": 0.0002,
+    "car5": -0.036,
+    "car10": -0.0072
+   },
+   {
+    "ticker": "BWA",
+    "name": "BorgWarner",
+    "impact": 0.0,
+    "car1": -0.0305,
+    "car5": -0.0204,
+    "car10": -0.0216
+   },
+   {
+    "ticker": "CAMT",
+    "name": "Camtek",
+    "impact": 0.0,
+    "car1": -0.0148,
+    "car5": -0.044,
+    "car10": -0.0013
+   },
+   {
+    "ticker": "CLS",
+    "name": "Celestica",
+    "impact": 0.0,
+    "car1": 0.0013,
+    "car5": -0.0258,
+    "car10": -0.0181
+   },
+   {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "impact": 0.0,
+    "car1": 0.0169,
+    "car5": 0.0007,
+    "car10": 0.0883
+   },
+   {
+    "ticker": "COHU",
+    "name": "Cohu",
+    "impact": 0.0,
+    "car1": -0.0299,
+    "car5": -0.0639,
+    "car10": -0.0048
+   },
+   {
+    "ticker": "CRUS",
+    "name": "Cirrus Logic",
+    "impact": 0.0,
+    "car1": -0.0187,
+    "car5": -0.0216,
+    "car10": -0.0315
+   },
+   {
+    "ticker": "CSCO",
+    "name": "Cisco",
+    "impact": 0.0,
+    "car1": -0.0053,
+    "car5": -0.0353,
+    "car10": -0.043
+   },
+   {
+    "ticker": "DAN",
+    "name": "Dana",
+    "impact": 0.0,
+    "car1": 0.0017,
+    "car5": -0.0432,
+    "car10": -0.0216
+   },
+   {
+    "ticker": "DIOD",
+    "name": "Diodes",
+    "impact": 0.0,
+    "car1": -0.0048,
+    "car5": 0.128,
+    "car10": 0.1494
+   },
+   {
+    "ticker": "ENTG",
+    "name": "Entegris",
+    "impact": 0.0,
+    "car1": -0.0082,
+    "car5": -0.0147,
+    "car10": 0.0858
+   },
+   {
+    "ticker": "F",
+    "name": "Ford",
+    "impact": 0.0,
+    "car1": 0.0144,
+    "car5": 0.0303,
+    "car10": 0.0579
+   },
+   {
+    "ticker": "FCX",
+    "name": "Freeport",
+    "impact": 0.0,
+    "car1": 0.0284,
+    "car5": 0.1042,
+    "car10": 0.1253
+   },
+   {
+    "ticker": "FLEX",
+    "name": "Flex",
+    "impact": 0.0,
+    "car1": 0.012,
+    "car5": -0.0163,
+    "car10": -0.0185
+   },
+   {
+    "ticker": "FORM",
+    "name": "FormFactor",
+    "impact": 0.0,
+    "car1": -0.0104,
+    "car5": 0.0023,
+    "car10": 0.2247
+   },
+   {
+    "ticker": "GM",
+    "name": "General Motors",
+    "impact": 0.0,
+    "car1": 0.0093,
+    "car5": 0.0167,
+    "car10": -0.0127
+   },
+   {
+    "ticker": "GNTX",
+    "name": "Gentex",
+    "impact": 0.0,
+    "car1": -0.0151,
+    "car5": -0.0107,
+    "car10": 0.0182
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "impact": 0.0,
+    "car1": -0.0131,
+    "car5": -0.0166,
+    "car10": -0.0004
+   },
+   {
+    "ticker": "GT",
+    "name": "Goodyear",
+    "impact": 0.0,
+    "car1": 0.0593,
+    "car5": 0.051,
+    "car10": 0.0623
+   },
+   {
+    "ticker": "HMC",
+    "name": "Honda",
+    "impact": -0.207,
+    "car1": -0.0312,
+    "car5": -0.0298,
+    "car10": -0.0788
+   },
+   {
+    "ticker": "HPQ",
+    "name": "HP",
+    "impact": 0.0,
+    "car1": -0.0009,
+    "car5": 0.0168,
+    "car10": 0.0293
+   },
+   {
+    "ticker": "IBM",
+    "name": "International Business Machines",
+    "impact": 0.0,
+    "car1": -0.0044,
+    "car5": -0.0323,
+    "car10": -0.024
+   },
+   {
+    "ticker": "INTC",
+    "name": "Intel",
+    "impact": -0.081,
+    "car1": -0.0031,
+    "car5": -0.0267,
+    "car10": -0.0315
+   },
+   {
+    "ticker": "JBL",
+    "name": "Jabil",
+    "impact": 0.0,
+    "car1": 0.0059,
+    "car5": -0.0541,
+    "car10": 0.0476
+   },
+   {
+    "ticker": "KLAC",
+    "name": "KLA",
+    "impact": 0.0,
+    "car1": 0.0009,
+    "car5": 0.0025,
+    "car10": 0.0193
+   },
+   {
+    "ticker": "KLIC",
+    "name": "Kulicke and Soffa",
+    "impact": 0.0,
+    "car1": -0.0023,
+    "car5": -0.0162,
+    "car10": 0.0459
+   },
+   {
+    "ticker": "LEA",
+    "name": "Lear",
+    "impact": 0.0,
+    "car1": -0.0143,
+    "car5": -0.0606,
+    "car10": -0.053
+   },
+   {
+    "ticker": "LIN",
+    "name": "Linde",
+    "impact": 0.0,
+    "car1": 0.0069,
+    "car5": 0.0144,
+    "car10": 0.0183
+   },
+   {
+    "ticker": "LOGI",
+    "name": "Logitech",
+    "impact": 0.0,
+    "car1": -0.0043,
+    "car5": -0.032,
+    "car10": -0.035
+   },
+   {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "impact": 0.0,
+    "car1": -0.0002,
+    "car5": 0.008,
+    "car10": 0.0411
+   },
+   {
+    "ticker": "LSCC",
+    "name": "Lattice",
+    "impact": 0.0,
+    "car1": 0.0128,
+    "car5": -0.0152,
+    "car10": -0.0282
+   },
+   {
+    "ticker": "MCHP",
+    "name": "Microchip",
+    "impact": 0.0,
+    "car1": 0.0013,
+    "car5": 0.0195,
+    "car10": 0.057
+   },
+   {
+    "ticker": "MGA",
+    "name": "Magna",
+    "impact": 0.0,
+    "car1": -0.0131,
+    "car5": 0.0143,
+    "car10": -0.013
+   },
+   {
+    "ticker": "MKSI",
+    "name": "MKS Instruments",
+    "impact": 0.0,
+    "car1": -0.0228,
+    "car5": 0.0002,
+    "car10": 0.0698
+   },
+   {
+    "ticker": "MOD",
+    "name": "Modine",
+    "impact": 0.0,
+    "car1": -0.0048,
+    "car5": -0.0287,
+    "car10": 0.0636
+   },
+   {
+    "ticker": "MPWR",
+    "name": "Monolithic Power",
+    "impact": 0.0,
+    "car1": 0.0062,
+    "car5": -0.0262,
+    "car10": 0.0145
+   },
+   {
+    "ticker": "MRVL",
+    "name": "Marvell",
+    "impact": -0.162,
+    "car1": -0.0177,
+    "car5": -0.0104,
+    "car10": 0.0179
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "impact": 0.0,
+    "car1": 0.0037,
+    "car5": -0.0087,
+    "car10": 0.004
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron",
+    "impact": 0.0,
+    "car1": 0.0243,
+    "car5": 0.0443,
+    "car10": 0.1463
+   },
+   {
+    "ticker": "MXL",
+    "name": "MaxLinear",
+    "impact": 0.0,
+    "car1": -0.0069,
+    "car5": -0.1049,
+    "car10": -0.1466
+   },
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "impact": -0.243,
+    "car1": 0.0003,
+    "car5": 0.0127,
+    "car10": 0.0613
+   },
+   {
+    "ticker": "NVMI",
+    "name": "Nova",
+    "impact": 0.0,
+    "car1": 0.0093,
+    "car5": -0.0088,
+    "car10": 0.0543
+   },
+   {
+    "ticker": "NXPI",
+    "name": "NXP",
+    "impact": 0.0,
+    "car1": 0.0289,
+    "car5": 0.0323,
+    "car10": 0.0558
+   },
+   {
+    "ticker": "ON",
+    "name": "onsemi",
+    "impact": 0.0,
+    "car1": 0.0019,
+    "car5": -0.0291,
+    "car10": -0.0353
+   },
+   {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "impact": 0.0,
+    "car1": -0.0035,
+    "car5": -0.0232,
+    "car10": -0.0011
+   },
+   {
+    "ticker": "PLAB",
+    "name": "Photronics",
+    "impact": 0.0,
+    "car1": -0.015,
+    "car5": -0.0373,
+    "car10": -0.0744
+   },
+   {
+    "ticker": "POWI",
+    "name": "Power Integrations",
+    "impact": 0.0,
+    "car1": 0.0079,
+    "car5": -0.002,
+    "car10": 0.018
+   },
+   {
+    "ticker": "QCOM",
+    "name": "Qualcomm",
+    "impact": -0.162,
+    "car1": -0.0149,
+    "car5": -0.0157,
+    "car10": -0.0177
+   },
+   {
+    "ticker": "RMBS",
+    "name": "Rambus",
+    "impact": 0.0,
+    "car1": -0.0074,
+    "car5": 0.0109,
+    "car10": 0.0079
+   },
+   {
+    "ticker": "SANM",
+    "name": "Sanmina",
+    "impact": 0.0,
+    "car1": -0.0098,
+    "car5": -0.2318,
+    "car10": -0.2625
+   },
+   {
+    "ticker": "SLAB",
+    "name": "Silicon Labs",
+    "impact": 0.0,
+    "car1": 0.0021,
+    "car5": -0.0124,
+    "car10": -0.0245
+   },
+   {
+    "ticker": "SMCI",
+    "name": "Supermicro",
+    "impact": 0.0,
+    "car1": -0.021,
+    "car5": -0.0268,
+    "car10": 0.0217
+   },
+   {
+    "ticker": "SMTC",
+    "name": "Semtech",
+    "impact": 0.0,
+    "car1": -0.0153,
+    "car5": -0.0547,
+    "car10": -0.0414
+   },
+   {
+    "ticker": "SONY",
+    "name": "Sony",
+    "impact": 0.0,
+    "car1": -0.0306,
+    "car5": -0.0674,
+    "car10": -0.0666
+   },
+   {
+    "ticker": "SQM",
+    "name": "Sociedad Quimica y Minera",
+    "impact": 0.0,
+    "car1": 0.0019,
+    "car5": 0.0076,
+    "car10": 0.0256
+   },
+   {
+    "ticker": "STLA",
+    "name": "Stellantis",
+    "impact": 0.0,
+    "car1": -0.0191,
+    "car5": -0.0569,
+    "car10": -0.0748
+   },
+   {
+    "ticker": "STM",
+    "name": "STMicroelectronics",
+    "impact": 0.0,
+    "car1": 0.0051,
+    "car5": -0.0298,
+    "car10": -0.0085
+   },
+   {
+    "ticker": "STX",
+    "name": "Seagate",
+    "impact": 0.0,
+    "car1": -0.0025,
+    "car5": -0.0025,
+    "car10": 0.0409
+   },
+   {
+    "ticker": "SWKS",
+    "name": "Skyworks",
+    "impact": 0.0,
+    "car1": -0.0006,
+    "car5": -0.0373,
+    "car10": -0.0042
+   },
+   {
+    "ticker": "SYNA",
+    "name": "Synaptics",
+    "impact": 0.0,
+    "car1": -0.0123,
+    "car5": -0.0278,
+    "car10": -0.0495
+   },
+   {
+    "ticker": "TER",
+    "name": "Teradyne",
+    "impact": 0.0,
+    "car1": -0.0057,
+    "car5": 0.0173,
+    "car10": 0.0536
+   },
+   {
+    "ticker": "TM",
+    "name": "Toyota",
+    "impact": -0.414,
+    "car1": -0.0283,
+    "car5": -0.0463,
+    "car10": -0.0841
+   },
+   {
+    "ticker": "TSEM",
+    "name": "Tower Semiconductor",
+    "impact": 0.0,
+    "car1": -0.0147,
+    "car5": -0.0074,
+    "car10": 0.0117
+   },
+   {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "impact": -0.09,
+    "car1": -0.0044,
+    "car5": -0.0339,
+    "car10": -0.0817
+   },
+   {
+    "ticker": "TSM",
+    "name": "TSMC",
+    "impact": -0.54,
+    "car1": 0.0013,
+    "car5": -0.0252,
+    "car10": 0.0023
+   },
+   {
+    "ticker": "TXN",
+    "name": "Texas Instruments",
+    "impact": 0.0,
+    "car1": -0.0028,
+    "car5": -0.0184,
+    "car10": 0.006
+   },
+   {
+    "ticker": "UCTT",
+    "name": "Ultra Clean",
+    "impact": 0.0,
+    "car1": -0.0059,
+    "car5": -0.0622,
+    "car10": 0.0331
+   },
+   {
+    "ticker": "UMC",
+    "name": "United Microelectronics",
+    "impact": 0.0,
+    "car1": 0.0115,
+    "car5": -0.0097,
+    "car10": -0.0044
+   },
+   {
+    "ticker": "VC",
+    "name": "Visteon",
+    "impact": 0.0,
+    "car1": 0.0519,
+    "car5": 0.0387,
+    "car10": -0.0041
+   },
+   {
+    "ticker": "VECO",
+    "name": "Veeco",
+    "impact": 0.0,
+    "car1": -0.0112,
+    "car5": 0.0474,
+    "car10": 0.0451
+   },
+   {
+    "ticker": "VSH",
+    "name": "Vishay",
+    "impact": 0.0,
+    "car1": -0.0052,
+    "car5": 0.0001,
+    "car10": 0.0308
+   },
+   {
+    "ticker": "WDC",
+    "name": "Western Digital",
+    "impact": 0.0,
+    "car1": -0.0046,
+    "car5": -0.0037,
+    "car10": 0.0398
+   }
+  ],
+  "horizon": "car5"
+ },
+ {
+  "key": "export-controls-2022",
+  "date": "2022-10-10",
+  "headline": "US imposes sweeping export controls on chips and chipmaking tools for China",
+  "event": {
+   "event_type": "sanctions_trade",
+   "polarity": "negative",
+   "severity": 4,
+   "expected_duration": "permanent",
+   "origin_companies": [],
+   "regions": [
+    "China"
+   ],
+   "commodities": [],
+   "summary": ""
+  },
+  "origins": [
+   "China"
+  ],
+  "methods": [
+   {
+    "method": "Contagion graph",
+    "n": 3,
+    "mean_car": -0.0403,
+    "hit_rate": 0.667
+   },
+   {
+    "method": "Same-sector peers",
+    "n": 9,
+    "mean_car": -0.0114,
+    "hit_rate": 0.333
+   },
+   {
+    "method": "Whole universe",
+    "n": 111,
+    "mean_car": -0.0515,
+    "hit_rate": 0.784
+   }
+  ],
+  "spearman_reached": null,
+  "n_reached": 3,
+  "points": [
+   {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "impact": -0.288,
+    "car1": 0.01,
+    "car5": 0.002,
+    "car10": 0.0196
+   },
+   {
+    "ticker": "ACLS",
+    "name": "Axcelis",
+    "impact": 0.0,
+    "car1": -0.0277,
+    "car5": -0.1444,
+    "car10": -0.131
+   },
+   {
+    "ticker": "ACMR",
+    "name": "ACM Research",
+    "impact": 0.0,
+    "car1": -0.2574,
+    "car5": -0.337,
+    "car10": -0.5203
+   },
+   {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "impact": 0.0,
+    "car1": -0.0201,
+    "car5": -0.0423,
+    "car10": -0.0202
+   },
+   {
+    "ticker": "ADNT",
+    "name": "Adient",
+    "impact": 0.0,
+    "car1": -0.0228,
+    "car5": 0.0156,
+    "car10": 0.0811
+   },
+   {
+    "ticker": "AEHR",
+    "name": "Aehr Test Systems",
+    "impact": 0.0,
+    "car1": -0.0273,
+    "car5": -0.1266,
+    "car10": 0.1795
+   },
+   {
+    "ticker": "ALB",
+    "name": "Albemarle",
+    "impact": 0.0,
+    "car1": 0.0281,
+    "car5": -0.1144,
+    "car10": -0.0409
+   },
+   {
+    "ticker": "ALGM",
+    "name": "Allegro",
+    "impact": 0.0,
+    "car1": -0.0231,
+    "car5": -0.1113,
+    "car10": -0.0849
+   },
+   {
+    "ticker": "ALSN",
+    "name": "Allison Transmission",
+    "impact": 0.0,
+    "car1": 0.0119,
+    "car5": 0.0387,
+    "car10": 0.0374
+   },
+   {
+    "ticker": "ALV",
+    "name": "Autoliv",
+    "impact": 0.0,
+    "car1": -0.0094,
+    "car5": -0.0077,
+    "car10": 0.0201
+   },
+   {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "impact": 0.0,
+    "car1": -0.0336,
+    "car5": -0.08,
+    "car10": -0.0339
+   },
+   {
+    "ticker": "AMBA",
+    "name": "Ambarella",
+    "impact": 0.0,
+    "car1": -0.0351,
+    "car5": -0.1455,
+    "car10": -0.1123
+   },
+   {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices",
+    "impact": 0.0,
+    "car1": -0.0031,
+    "car5": -0.0286,
+    "car10": -0.0252
+   },
+   {
+    "ticker": "AMKR",
+    "name": "Amkor",
+    "impact": 0.0,
+    "car1": -0.0242,
+    "car5": -0.0243,
+    "car10": 0.0503
+   },
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "impact": 0.0,
+    "car1": -0.0001,
+    "car5": -0.0526,
+    "car10": 0.0099
+   },
+   {
+    "ticker": "ANET",
+    "name": "Arista",
+    "impact": 0.0,
+    "car1": -0.0519,
+    "car5": -0.1236,
+    "car10": -0.0823
+   },
+   {
+    "ticker": "AOSL",
+    "name": "Alpha and Omega Semiconductor",
+    "impact": 0.0,
+    "car1": -0.0074,
+    "car5": -0.0275,
+    "car10": 0.014
+   },
+   {
+    "ticker": "APD",
+    "name": "Air Products",
+    "impact": 0.0,
+    "car1": 0.0106,
+    "car5": 0.0176,
+    "car10": 0.0095
+   },
+   {
+    "ticker": "APTV",
+    "name": "Aptiv",
+    "impact": 0.0,
+    "car1": -0.0134,
+    "car5": -0.0304,
+    "car10": -0.01
+   },
+   {
+    "ticker": "ASML",
+    "name": "ASML Holding",
+    "impact": 0.0,
+    "car1": -0.0209,
+    "car5": -0.1127,
+    "car10": 0.0327
+   },
+   {
+    "ticker": "ASX",
+    "name": "ASE",
+    "impact": 0.0,
+    "car1": -0.0174,
+    "car5": -0.0589,
+    "car10": -0.0548
+   },
+   {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "impact": 0.0,
+    "car1": -0.0418,
+    "car5": -0.0583,
+    "car10": -0.055
+   },
+   {
+    "ticker": "BWA",
+    "name": "BorgWarner",
+    "impact": 0.0,
+    "car1": -0.0147,
+    "car5": 0.0026,
+    "car10": -0.0037
+   },
+   {
+    "ticker": "CAMT",
+    "name": "Camtek",
+    "impact": 0.0,
+    "car1": 0.0019,
+    "car5": 0.0054,
+    "car10": 0.002
+   },
+   {
+    "ticker": "CLS",
+    "name": "Celestica",
+    "impact": 0.0,
+    "car1": -0.0213,
+    "car5": -0.0258,
+    "car10": -0.0028
+   },
+   {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "impact": 0.0,
+    "car1": -0.0534,
+    "car5": -0.1503,
+    "car10": -0.1571
+   },
+   {
+    "ticker": "COHU",
+    "name": "Cohu",
+    "impact": 0.0,
+    "car1": -0.008,
+    "car5": -0.0491,
+    "car10": 0.0195
+   },
+   {
+    "ticker": "CRDO",
+    "name": "Credo",
+    "impact": 0.0,
+    "car1": -0.0515,
+    "car5": -0.0176,
+    "car10": 0.0247
+   },
+   {
+    "ticker": "CRUS",
+    "name": "Cirrus Logic",
+    "impact": 0.0,
+    "car1": -0.0165,
+    "car5": -0.0373,
+    "car10": -0.036
+   },
+   {
+    "ticker": "CSCO",
+    "name": "Cisco",
+    "impact": 0.0,
+    "car1": -0.0018,
+    "car5": 0.0125,
+    "car10": 0.0311
+   },
+   {
+    "ticker": "DAN",
+    "name": "Dana",
+    "impact": 0.0,
+    "car1": -0.0068,
+    "car5": -0.0115,
+    "car10": 0.0053
+   },
+   {
+    "ticker": "DIOD",
+    "name": "Diodes",
+    "impact": 0.0,
+    "car1": -0.0082,
+    "car5": -0.0205,
+    "car10": -0.0028
+   },
+   {
+    "ticker": "ENTG",
+    "name": "Entegris",
+    "impact": 0.0,
+    "car1": -0.0137,
+    "car5": -0.0874,
+    "car10": -0.0909
+   },
+   {
+    "ticker": "F",
+    "name": "Ford",
+    "impact": 0.0,
+    "car1": -0.0612,
+    "car5": -0.0292,
+    "car10": -0.0325
+   },
+   {
+    "ticker": "FCX",
+    "name": "Freeport",
+    "impact": 0.0,
+    "car1": 0.0183,
+    "car5": -0.026,
+    "car10": 0.0805
+   },
+   {
+    "ticker": "FLEX",
+    "name": "Flex",
+    "impact": 0.0,
+    "car1": -0.0127,
+    "car5": -0.0343,
+    "car10": -0.0187
+   },
+   {
+    "ticker": "FORM",
+    "name": "FormFactor",
+    "impact": 0.0,
+    "car1": 0.0095,
+    "car5": -0.0727,
+    "car10": -0.0577
+   },
+   {
+    "ticker": "GFS",
+    "name": "GlobalFoundries",
+    "impact": 0.0,
+    "car1": -0.0211,
+    "car5": -0.039,
+    "car10": 0.0578
+   },
+   {
+    "ticker": "GM",
+    "name": "General Motors",
+    "impact": 0.0,
+    "car1": -0.0319,
+    "car5": -0.0075,
+    "car10": 0.0093
+   },
+   {
+    "ticker": "GNTX",
+    "name": "Gentex",
+    "impact": 0.0,
+    "car1": 0.0047,
+    "car5": -0.0031,
+    "car10": -0.028
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "impact": 0.0,
+    "car1": -0.0007,
+    "car5": -0.0073,
+    "car10": -0.0069
+   },
+   {
+    "ticker": "GT",
+    "name": "Goodyear",
+    "impact": 0.0,
+    "car1": 0.0031,
+    "car5": 0.0052,
+    "car10": 0.0062
+   },
+   {
+    "ticker": "HMC",
+    "name": "Honda",
+    "impact": 0.0,
+    "car1": -0.0031,
+    "car5": 0.0012,
+    "car10": -0.0456
+   },
+   {
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "impact": 0.0,
+    "car1": -0.0052,
+    "car5": 0.0247,
+    "car10": 0.0494
+   },
+   {
+    "ticker": "HPQ",
+    "name": "HP",
+    "impact": 0.0,
+    "car1": 0.0056,
+    "car5": 0.0302,
+    "car10": 0.0382
+   },
+   {
+    "ticker": "IBM",
+    "name": "International Business Machines",
+    "impact": 0.0,
+    "car1": -0.0014,
+    "car5": 0.0245,
+    "car10": 0.0616
+   },
+   {
+    "ticker": "ICHR",
+    "name": "Ichor",
+    "impact": 0.0,
+    "car1": -0.0275,
+    "car5": -0.1118,
+    "car10": -0.117
+   },
+   {
+    "ticker": "INTC",
+    "name": "Intel",
+    "impact": 0.0,
+    "car1": -0.0126,
+    "car5": 0.0216,
+    "car10": 0.0169
+   },
+   {
+    "ticker": "JBL",
+    "name": "Jabil",
+    "impact": 0.0,
+    "car1": -0.0068,
+    "car5": -0.007,
+    "car10": 0.0072
+   },
+   {
+    "ticker": "KLAC",
+    "name": "KLA",
+    "impact": 0.0,
+    "car1": -0.0395,
+    "car5": -0.1464,
+    "car10": -0.1066
+   },
+   {
+    "ticker": "KLIC",
+    "name": "Kulicke and Soffa",
+    "impact": 0.0,
+    "car1": -0.0137,
+    "car5": -0.0651,
+    "car10": -0.041
+   },
+   {
+    "ticker": "LCID",
+    "name": "Lucid",
+    "impact": 0.0,
+    "car1": -0.0448,
+    "car5": -0.083,
+    "car10": -0.0211
+   },
+   {
+    "ticker": "LEA",
+    "name": "Lear",
+    "impact": 0.0,
+    "car1": -0.0107,
+    "car5": -0.0072,
+    "car10": 0.0036
+   },
+   {
+    "ticker": "LI",
+    "name": "Li Auto",
+    "impact": 0.0,
+    "car1": -0.0215,
+    "car5": -0.0292,
+    "car10": -0.1237
+   },
+   {
+    "ticker": "LIN",
+    "name": "Linde",
+    "impact": 0.0,
+    "car1": 0.0026,
+    "car5": 0.0221,
+    "car10": 0.0236
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "impact": 0.0,
+    "car1": -0.0005,
+    "car5": -0.0821,
+    "car10": -0.0427
+   },
+   {
+    "ticker": "LOGI",
+    "name": "Logitech",
+    "impact": 0.0,
+    "car1": 0.014,
+    "car5": 0.0147,
+    "car10": -0.0181
+   },
+   {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "impact": 0.0,
+    "car1": -0.0567,
+    "car5": -0.1456,
+    "car10": -0.0465
+   },
+   {
+    "ticker": "LSCC",
+    "name": "Lattice",
+    "impact": 0.0,
+    "car1": -0.0319,
+    "car5": -0.1021,
+    "car10": -0.067
+   },
+   {
+    "ticker": "MCHP",
+    "name": "Microchip",
+    "impact": 0.0,
+    "car1": -0.0329,
+    "car5": -0.0878,
+    "car10": -0.0626
+   },
+   {
+    "ticker": "META",
+    "name": "Meta",
+    "impact": 0.0,
+    "car1": 0.0102,
+    "car5": -0.0359,
+    "car10": -0.0575
+   },
+   {
+    "ticker": "MGA",
+    "name": "Magna",
+    "impact": 0.0,
+    "car1": -0.0101,
+    "car5": 0.0241,
+    "car10": 0.0365
+   },
+   {
+    "ticker": "MKSI",
+    "name": "MKS Instruments",
+    "impact": 0.0,
+    "car1": -0.01,
+    "car5": -0.085,
+    "car10": -0.0757
+   },
+   {
+    "ticker": "MOD",
+    "name": "Modine",
+    "impact": 0.0,
+    "car1": 0.0197,
+    "car5": 0.0588,
+    "car10": 0.1233
+   },
+   {
+    "ticker": "MP",
+    "name": "MP Materials",
+    "impact": 0.0,
+    "car1": 0.0292,
+    "car5": -0.0677,
+    "car10": -0.0085
+   },
+   {
+    "ticker": "MPWR",
+    "name": "Monolithic Power",
+    "impact": 0.0,
+    "car1": -0.0427,
+    "car5": -0.133,
+    "car10": -0.1138
+   },
+   {
+    "ticker": "MRVL",
+    "name": "Marvell",
+    "impact": 0.0,
+    "car1": -0.0408,
+    "car5": -0.1119,
+    "car10": -0.0981
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "impact": 0.0,
+    "car1": -0.0137,
+    "car5": -0.01,
+    "car10": 0.0019
+   },
+   {
+    "ticker": "MTSI",
+    "name": "MACOM",
+    "impact": 0.0,
+    "car1": -0.0338,
+    "car5": -0.0938,
+    "car10": -0.0614
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron",
+    "impact": 0.0,
+    "car1": -0.0213,
+    "car5": 0.0106,
+    "car10": 0.0276
+   },
+   {
+    "ticker": "MXL",
+    "name": "MaxLinear",
+    "impact": 0.0,
+    "car1": -0.0268,
+    "car5": -0.1085,
+    "car10": -0.1141
+   },
+   {
+    "ticker": "NIO",
+    "name": "NIO Inc",
+    "impact": 0.0,
+    "car1": -0.0272,
+    "car5": -0.1319,
+    "car10": -0.217
+   },
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "impact": -0.072,
+    "car1": -0.026,
+    "car5": -0.0561,
+    "car10": 0.0006
+   },
+   {
+    "ticker": "NVMI",
+    "name": "Nova",
+    "impact": 0.0,
+    "car1": -0.0277,
+    "car5": -0.1289,
+    "car10": -0.1421
+   },
+   {
+    "ticker": "NVTS",
+    "name": "Navitas",
+    "impact": 0.0,
+    "car1": -0.1081,
+    "car5": -0.1428,
+    "car10": -0.1598
+   },
+   {
+    "ticker": "NXPI",
+    "name": "NXP",
+    "impact": 0.0,
+    "car1": -0.0204,
+    "car5": -0.0758,
+    "car10": -0.0745
+   },
+   {
+    "ticker": "ON",
+    "name": "onsemi",
+    "impact": 0.0,
+    "car1": -0.0371,
+    "car5": -0.0947,
+    "car10": -0.0186
+   },
+   {
+    "ticker": "ONTO",
+    "name": "Onto Innovation",
+    "impact": 0.0,
+    "car1": -0.0231,
+    "car5": -0.1219,
+    "car10": -0.1053
+   },
+   {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "impact": 0.0,
+    "car1": -0.0037,
+    "car5": 0.0356,
+    "car10": 0.1229
+   },
+   {
+    "ticker": "PLAB",
+    "name": "Photronics",
+    "impact": 0.0,
+    "car1": -0.013,
+    "car5": -0.0483,
+    "car10": -0.0169
+   },
+   {
+    "ticker": "POWI",
+    "name": "Power Integrations",
+    "impact": 0.0,
+    "car1": -0.0184,
+    "car5": -0.0257,
+    "car10": -0.0351
+   },
+   {
+    "ticker": "QCOM",
+    "name": "Qualcomm",
+    "impact": 0.0,
+    "car1": -0.0446,
+    "car5": -0.0764,
+    "car10": -0.0745
+   },
+   {
+    "ticker": "QS",
+    "name": "QuantumScape",
+    "impact": 0.0,
+    "car1": -0.0434,
+    "car5": -0.07,
+    "car10": -0.0708
+   },
+   {
+    "ticker": "RACE",
+    "name": "Ferrari",
+    "impact": 0.0,
+    "car1": -0.008,
+    "car5": -0.0094,
+    "car10": -0.0135
+   },
+   {
+    "ticker": "RIVN",
+    "name": "Rivian",
+    "impact": 0.0,
+    "car1": -0.0651,
+    "car5": -0.1401,
+    "car10": -0.0915
+   },
+   {
+    "ticker": "RMBS",
+    "name": "Rambus",
+    "impact": 0.0,
+    "car1": -0.0227,
+    "car5": -0.041,
+    "car10": 0.0096
+   },
+   {
+    "ticker": "SANM",
+    "name": "Sanmina",
+    "impact": 0.0,
+    "car1": 0.0052,
+    "car5": 0.0249,
+    "car10": 0.0814
+   },
+   {
+    "ticker": "SITM",
+    "name": "SiTime",
+    "impact": 0.0,
+    "car1": -0.0299,
+    "car5": -0.1051,
+    "car10": -0.0645
+   },
+   {
+    "ticker": "SLAB",
+    "name": "Silicon Labs",
+    "impact": 0.0,
+    "car1": -0.0074,
+    "car5": -0.0761,
+    "car10": -0.0399
+   },
+   {
+    "ticker": "SMCI",
+    "name": "Supermicro",
+    "impact": 0.0,
+    "car1": -0.0378,
+    "car5": -0.0691,
+    "car10": 0.0633
+   },
+   {
+    "ticker": "SMTC",
+    "name": "Semtech",
+    "impact": 0.0,
+    "car1": 0.0194,
+    "car5": -0.0438,
+    "car10": -0.0519
+   },
+   {
+    "ticker": "SONY",
+    "name": "Sony",
+    "impact": 0.0,
+    "car1": -0.0043,
+    "car5": -0.0186,
+    "car10": -0.0523
+   },
+   {
+    "ticker": "SQM",
+    "name": "Sociedad Quimica y Minera",
+    "impact": 0.0,
+    "car1": 0.028,
+    "car5": -0.0681,
+    "car10": 0.0131
+   },
+   {
+    "ticker": "STLA",
+    "name": "Stellantis",
+    "impact": 0.0,
+    "car1": 0.0018,
+    "car5": 0.0285,
+    "car10": 0.0613
+   },
+   {
+    "ticker": "STM",
+    "name": "STMicroelectronics",
+    "impact": 0.0,
+    "car1": -0.0092,
+    "car5": -0.0503,
+    "car10": -0.0137
+   },
+   {
+    "ticker": "STX",
+    "name": "Seagate",
+    "impact": 0.0,
+    "car1": -0.0208,
+    "car5": -0.0258,
+    "car10": 0.0046
+   },
+   {
+    "ticker": "SWKS",
+    "name": "Skyworks",
+    "impact": 0.0,
+    "car1": -0.03,
+    "car5": -0.061,
+    "car10": -0.0668
+   },
+   {
+    "ticker": "SYNA",
+    "name": "Synaptics",
+    "impact": 0.0,
+    "car1": -0.008,
+    "car5": -0.0975,
+    "car10": -0.1002
+   },
+   {
+    "ticker": "TER",
+    "name": "Teradyne",
+    "impact": 0.0,
+    "car1": -0.0081,
+    "car5": -0.0628,
+    "car10": -0.0325
+   },
+   {
+    "ticker": "TM",
+    "name": "Toyota",
+    "impact": 0.0,
+    "car1": 0.0003,
+    "car5": 0.0014,
+    "car10": -0.0471
+   },
+   {
+    "ticker": "TSEM",
+    "name": "Tower Semiconductor",
+    "impact": 0.0,
+    "car1": -0.0158,
+    "car5": -0.0248,
+    "car10": -0.065
+   },
+   {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "impact": -0.144,
+    "car1": 0.0071,
+    "car5": -0.0668,
+    "car10": -0.0704
+   },
+   {
+    "ticker": "TSM",
+    "name": "TSMC",
+    "impact": 0.0,
+    "car1": -0.0255,
+    "car5": -0.0694,
+    "car10": -0.1177
+   },
+   {
+    "ticker": "TXN",
+    "name": "Texas Instruments",
+    "impact": 0.0,
+    "car1": -0.008,
+    "car5": -0.0545,
+    "car10": -0.0289
+   },
+   {
+    "ticker": "UCTT",
+    "name": "Ultra Clean",
+    "impact": 0.0,
+    "car1": -0.0176,
+    "car5": -0.0916,
+    "car10": -0.0339
+   },
+   {
+    "ticker": "UMC",
+    "name": "United Microelectronics",
+    "impact": 0.0,
+    "car1": -0.02,
+    "car5": 0.0194,
+    "car10": 0.046
+   },
+   {
+    "ticker": "VC",
+    "name": "Visteon",
+    "impact": 0.0,
+    "car1": -0.0076,
+    "car5": 0.0064,
+    "car10": 0.0317
+   },
+   {
+    "ticker": "VECO",
+    "name": "Veeco",
+    "impact": 0.0,
+    "car1": -0.0068,
+    "car5": -0.0687,
+    "car10": -0.0429
+   },
+   {
+    "ticker": "VSH",
+    "name": "Vishay",
+    "impact": 0.0,
+    "car1": -0.0167,
+    "car5": -0.0117,
+    "car10": 0.0472
+   },
+   {
+    "ticker": "WDC",
+    "name": "Western Digital",
+    "impact": 0.0,
+    "car1": -0.0226,
+    "car5": -0.0423,
+    "car10": -0.0563
+   },
+   {
+    "ticker": "XPEV",
+    "name": "XPeng",
+    "impact": 0.0,
+    "car1": -0.0278,
+    "car5": -0.1385,
+    "car10": -0.2097
+   }
+  ],
+  "horizon": "car5"
+ },
+ {
+  "key": "hualien-2024",
+  "date": "2024-04-03",
+  "headline": "Magnitude 7.4 earthquake in Taiwan briefly halts TSMC fabs",
+  "event": {
+   "event_type": "regional_disaster",
+   "polarity": "negative",
+   "severity": 3,
+   "expected_duration": "days",
+   "origin_companies": [
+    "TSMC"
+   ],
+   "regions": [
+    "Taiwan"
+   ],
+   "commodities": [],
+   "summary": ""
+  },
+  "origins": [
+   "TSMC",
+   "Taiwan"
+  ],
+  "methods": [
+   {
+    "method": "Contagion graph",
+    "n": 15,
+    "mean_car": -0.0009,
+    "hit_rate": 0.4
+   },
+   {
+    "method": "Same-sector peers",
+    "n": 3,
+    "mean_car": 0.0244,
+    "hit_rate": 0.0
+   },
+   {
+    "method": "Whole universe",
+    "n": 113,
+    "mean_car": 0.0173,
+    "hit_rate": 0.283
+   }
+  ],
+  "spearman_reached": 0.181,
+  "n_reached": 18,
+  "points": [
+   {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "impact": -0.54,
+    "car1": 0.0037,
+    "car5": 0.004,
+    "car10": 0.0327
+   },
+   {
+    "ticker": "ACLS",
+    "name": "Axcelis",
+    "impact": 0.0,
+    "car1": -0.0115,
+    "car5": 0.0057,
+    "car10": -0.0062
+   },
+   {
+    "ticker": "ACMR",
+    "name": "ACM Research",
+    "impact": 0.0,
+    "car1": 0.0229,
+    "car5": -0.0245,
+    "car10": -0.0243
+   },
+   {
+    "ticker": "ADI",
+    "name": "Analog Devices",
+    "impact": 0.0,
+    "car1": 0.0014,
+    "car5": 0.0465,
+    "car10": 0.0108
+   },
+   {
+    "ticker": "ADNT",
+    "name": "Adient",
+    "impact": 0.0,
+    "car1": 0.0078,
+    "car5": 0.0064,
+    "car10": -0.0627
+   },
+   {
+    "ticker": "AEHR",
+    "name": "Aehr Test Systems",
+    "impact": 0.0,
+    "car1": -0.0255,
+    "car5": -0.0102,
+    "car10": 0.0043
+   },
+   {
+    "ticker": "ALAB",
+    "name": "Astera Labs",
+    "impact": 0.0,
+    "car1": -0.0417,
+    "car5": -0.0541,
+    "car10": 0.0615
+   },
+   {
+    "ticker": "ALB",
+    "name": "Albemarle",
+    "impact": 0.0,
+    "car1": 0.0178,
+    "car5": 0.0203,
+    "car10": -0.0683
+   },
+   {
+    "ticker": "ALGM",
+    "name": "Allegro",
+    "impact": 0.0,
+    "car1": 0.0012,
+    "car5": 0.0879,
+    "car10": 0.0809
+   },
+   {
+    "ticker": "ALSN",
+    "name": "Allison Transmission",
+    "impact": 0.0,
+    "car1": 0.0082,
+    "car5": 0.0062,
+    "car10": 0.015
+   },
+   {
+    "ticker": "ALV",
+    "name": "Autoliv",
+    "impact": 0.0,
+    "car1": 0.0014,
+    "car5": 0.019,
+    "car10": 0.0076
+   },
+   {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "impact": 0.0,
+    "car1": 0.0051,
+    "car5": 0.0199,
+    "car10": 0.0459
+   },
+   {
+    "ticker": "AMBA",
+    "name": "Ambarella",
+    "impact": 0.0,
+    "car1": 0.0128,
+    "car5": 0.0246,
+    "car10": -0.062
+   },
+   {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices",
+    "impact": -0.36,
+    "car1": 0.0105,
+    "car5": -0.0452,
+    "car10": -0.0558
+   },
+   {
+    "ticker": "AMKR",
+    "name": "Amkor",
+    "impact": 0.0,
+    "car1": 0.0102,
+    "car5": 0.0885,
+    "car10": 0.0369
+   },
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "impact": -0.1944,
+    "car1": 0.0084,
+    "car5": 0.0266,
+    "car10": 0.0441
+   },
+   {
+    "ticker": "ANET",
+    "name": "Arista",
+    "impact": 0.0,
+    "car1": 0.0262,
+    "car5": 0.0125,
+    "car10": -0.0671
+   },
+   {
+    "ticker": "AOSL",
+    "name": "Alpha and Omega Semiconductor",
+    "impact": 0.0,
+    "car1": 0.0481,
+    "car5": 0.0648,
+    "car10": 0.0111
+   },
+   {
+    "ticker": "APD",
+    "name": "Air Products",
+    "impact": 0.0,
+    "car1": -0.0021,
+    "car5": -0.0017,
+    "car10": -0.0209
+   },
+   {
+    "ticker": "APTV",
+    "name": "Aptiv",
+    "impact": 0.0,
+    "car1": 0.0042,
+    "car5": 0.022,
+    "car10": -0.0381
+   },
+   {
+    "ticker": "ARM",
+    "name": "Arm",
+    "impact": 0.0,
+    "car1": 0.0072,
+    "car5": 0.0194,
+    "car10": 0.0129
+   },
+   {
+    "ticker": "ASML",
+    "name": "ASML Holding",
+    "impact": 0.0,
+    "car1": 0.0129,
+    "car5": 0.023,
+    "car10": 0.0401
+   },
+   {
+    "ticker": "ASX",
+    "name": "ASE",
+    "impact": -0.36,
+    "car1": 0.0182,
+    "car5": 0.0212,
+    "car10": 0.0185
+   },
+   {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "impact": -0.36,
+    "car1": 0.0172,
+    "car5": -0.0044,
+    "car10": 0.0223
+   },
+   {
+    "ticker": "BWA",
+    "name": "BorgWarner",
+    "impact": 0.0,
+    "car1": 0.0006,
+    "car5": 0.0241,
+    "car10": -0.0367
+   },
+   {
+    "ticker": "CAMT",
+    "name": "Camtek",
+    "impact": 0.0,
+    "car1": 0.0115,
+    "car5": -0.0111,
+    "car10": 0.0618
+   },
+   {
+    "ticker": "CLS",
+    "name": "Celestica",
+    "impact": 0.0,
+    "car1": 0.0492,
+    "car5": 0.0023,
+    "car10": 0.0041
+   },
+   {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "impact": 0.0,
+    "car1": 0.0081,
+    "car5": -0.025,
+    "car10": -0.0698
+   },
+   {
+    "ticker": "COHU",
+    "name": "Cohu",
+    "impact": 0.0,
+    "car1": 0.0116,
+    "car5": 0.0198,
+    "car10": -0.0295
+   },
+   {
+    "ticker": "CRDO",
+    "name": "Credo",
+    "impact": 0.0,
+    "car1": 0.0166,
+    "car5": -0.0331,
+    "car10": -0.0916
+   },
+   {
+    "ticker": "CRUS",
+    "name": "Cirrus Logic",
+    "impact": 0.0,
+    "car1": -0.0016,
+    "car5": 0.0194,
+    "car10": -0.0347
+   },
+   {
+    "ticker": "CSCO",
+    "name": "Cisco",
+    "impact": 0.0,
+    "car1": -0.0056,
+    "car5": 0.0205,
+    "car10": 0.0083
+   },
+   {
+    "ticker": "DAN",
+    "name": "Dana",
+    "impact": 0.0,
+    "car1": 0.0037,
+    "car5": 0.0443,
+    "car10": -0.0125
+   },
+   {
+    "ticker": "DELL",
+    "name": "Dell",
+    "impact": -0.1944,
+    "car1": 0.0845,
+    "car5": 0.0437,
+    "car10": 0.0518
+   },
+   {
+    "ticker": "DIOD",
+    "name": "Diodes",
+    "impact": 0.0,
+    "car1": 0.0036,
+    "car5": 0.0561,
+    "car10": 0.0276
+   },
+   {
+    "ticker": "ENTG",
+    "name": "Entegris",
+    "impact": 0.0,
+    "car1": 0.014,
+    "car5": 0.005,
+    "car10": -0.0234
+   },
+   {
+    "ticker": "F",
+    "name": "Ford",
+    "impact": 0.0,
+    "car1": 0.0268,
+    "car5": 0.0187,
+    "car10": -0.0601
+   },
+   {
+    "ticker": "FCX",
+    "name": "Freeport",
+    "impact": 0.0,
+    "car1": 0.0243,
+    "car5": 0.0594,
+    "car10": 0.0538
+   },
+   {
+    "ticker": "FLEX",
+    "name": "Flex",
+    "impact": 0.0,
+    "car1": 0.0189,
+    "car5": 0.0128,
+    "car10": 0.0211
+   },
+   {
+    "ticker": "FORM",
+    "name": "FormFactor",
+    "impact": 0.0,
+    "car1": 0.0165,
+    "car5": 0.0531,
+    "car10": 0.0061
+   },
+   {
+    "ticker": "GFS",
+    "name": "GlobalFoundries",
+    "impact": 0.18,
+    "car1": 0.0012,
+    "car5": 0.0104,
+    "car10": -0.0353
+   },
+   {
+    "ticker": "GM",
+    "name": "General Motors",
+    "impact": 0.0,
+    "car1": 0.0051,
+    "car5": -0.0045,
+    "car10": -0.0202
+   },
+   {
+    "ticker": "GNTX",
+    "name": "Gentex",
+    "impact": 0.0,
+    "car1": -0.0104,
+    "car5": -0.0039,
+    "car10": -0.0416
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "impact": -0.1944,
+    "car1": 0.0012,
+    "car5": 0.0123,
+    "car10": 0.0285
+   },
+   {
+    "ticker": "GT",
+    "name": "Goodyear",
+    "impact": 0.0,
+    "car1": -0.0004,
+    "car5": 0.0021,
+    "car10": -0.0629
+   },
+   {
+    "ticker": "HMC",
+    "name": "Honda",
+    "impact": 0.0,
+    "car1": 0.0011,
+    "car5": 0.0183,
+    "car10": -0.0038
+   },
+   {
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "impact": -0.1944,
+    "car1": 0.0266,
+    "car5": 0.0172,
+    "car10": -0.0021
+   },
+   {
+    "ticker": "HPQ",
+    "name": "HP",
+    "impact": 0.0,
+    "car1": 0.0023,
+    "car5": 0.0129,
+    "car10": -0.0304
+   },
+   {
+    "ticker": "IBM",
+    "name": "International Business Machines",
+    "impact": 0.0,
+    "car1": 0.0096,
+    "car5": 0.0014,
+    "car10": 0.0023
+   },
+   {
+    "ticker": "ICHR",
+    "name": "Ichor",
+    "impact": 0.0,
+    "car1": 0.0123,
+    "car5": 0.0467,
+    "car10": 0.0635
+   },
+   {
+    "ticker": "INTC",
+    "name": "Intel",
+    "impact": 0.18,
+    "car1": -0.0833,
+    "car5": -0.1286,
+    "car10": -0.1453
+   },
+   {
+    "ticker": "JBL",
+    "name": "Jabil",
+    "impact": 0.0,
+    "car1": 0.0287,
+    "car5": 0.0165,
+    "car10": 0.0135
+   },
+   {
+    "ticker": "KLAC",
+    "name": "KLA",
+    "impact": 0.0,
+    "car1": 0.0041,
+    "car5": 0.0033,
+    "car10": 0.0286
+   },
+   {
+    "ticker": "KLIC",
+    "name": "Kulicke and Soffa",
+    "impact": 0.0,
+    "car1": 0.0013,
+    "car5": 0.0076,
+    "car10": -0.0062
+   },
+   {
+    "ticker": "LCID",
+    "name": "Lucid",
+    "impact": 0.0,
+    "car1": -0.0047,
+    "car5": -0.0227,
+    "car10": -0.1009
+   },
+   {
+    "ticker": "LEA",
+    "name": "Lear",
+    "impact": 0.0,
+    "car1": -0.0091,
+    "car5": -0.004,
+    "car10": -0.0556
+   },
+   {
+    "ticker": "LI",
+    "name": "Li Auto",
+    "impact": 0.0,
+    "car1": -0.0259,
+    "car5": 0.0232,
+    "car10": -0.0552
+   },
+   {
+    "ticker": "LIN",
+    "name": "Linde",
+    "impact": 0.0,
+    "car1": 0.0014,
+    "car5": -0.0083,
+    "car10": -0.0042
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "impact": 0.0,
+    "car1": 0.0063,
+    "car5": -0.0062,
+    "car10": -0.0587
+   },
+   {
+    "ticker": "LOGI",
+    "name": "Logitech",
+    "impact": 0.0,
+    "car1": 0.0178,
+    "car5": -0.0025,
+    "car10": -0.0721
+   },
+   {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "impact": 0.0,
+    "car1": 0.0103,
+    "car5": 0.0053,
+    "car10": 0.0253
+   },
+   {
+    "ticker": "LSCC",
+    "name": "Lattice",
+    "impact": 0.0,
+    "car1": 0.007,
+    "car5": 0.0401,
+    "car10": 0.037
+   },
+   {
+    "ticker": "MBLY",
+    "name": "Mobileye",
+    "impact": 0.0,
+    "car1": -0.0038,
+    "car5": -0.0217,
+    "car10": -0.0494
+   },
+   {
+    "ticker": "MCHP",
+    "name": "Microchip",
+    "impact": 0.0,
+    "car1": 0.0007,
+    "car5": 0.041,
+    "car10": 0.0062
+   },
+   {
+    "ticker": "META",
+    "name": "Meta",
+    "impact": -0.2484,
+    "car1": 0.0177,
+    "car5": 0.0383,
+    "car10": 0.0343
+   },
+   {
+    "ticker": "MGA",
+    "name": "Magna",
+    "impact": 0.0,
+    "car1": -0.0041,
+    "car5": 0.0029,
+    "car10": -0.0454
+   },
+   {
+    "ticker": "MKSI",
+    "name": "MKS Instruments",
+    "impact": 0.0,
+    "car1": 0.0188,
+    "car5": -0.0055,
+    "car10": -0.0441
+   },
+   {
+    "ticker": "MOD",
+    "name": "Modine",
+    "impact": 0.0,
+    "car1": 0.0046,
+    "car5": -0.0201,
+    "car10": -0.0015
+   },
+   {
+    "ticker": "MP",
+    "name": "MP Materials",
+    "impact": 0.0,
+    "car1": 0.0234,
+    "car5": 0.1879,
+    "car10": 0.144
+   },
+   {
+    "ticker": "MPWR",
+    "name": "Monolithic Power",
+    "impact": 0.0,
+    "car1": 0.0002,
+    "car5": 0.0502,
+    "car10": 0.0396
+   },
+   {
+    "ticker": "MRVL",
+    "name": "Marvell",
+    "impact": -0.36,
+    "car1": -0.0087,
+    "car5": -0.0043,
+    "car10": -0.0419
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "impact": -0.2484,
+    "car1": -0.0034,
+    "car5": 0.0106,
+    "car10": 0.0132
+   },
+   {
+    "ticker": "MTSI",
+    "name": "MACOM",
+    "impact": 0.0,
+    "car1": 0.0226,
+    "car5": 0.0364,
+    "car10": 0.0373
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron",
+    "impact": 0.0,
+    "car1": 0.0418,
+    "car5": -0.0019,
+    "car10": 0.0215
+   },
+   {
+    "ticker": "MXL",
+    "name": "MaxLinear",
+    "impact": 0.0,
+    "car1": 0.0628,
+    "car5": 0.1475,
+    "car10": 0.0821
+   },
+   {
+    "ticker": "NIO",
+    "name": "NIO Inc",
+    "impact": 0.0,
+    "car1": -0.0121,
+    "car5": 0.0365,
+    "car10": -0.1313
+   },
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "impact": -0.648,
+    "car1": -0.0066,
+    "car5": -0.0467,
+    "car10": 0.0067
+   },
+   {
+    "ticker": "NVMI",
+    "name": "Nova",
+    "impact": 0.0,
+    "car1": 0.0077,
+    "car5": -0.0146,
+    "car10": 0.0217
+   },
+   {
+    "ticker": "NVTS",
+    "name": "Navitas",
+    "impact": 0.0,
+    "car1": -0.0076,
+    "car5": 0.0098,
+    "car10": -0.0952
+   },
+   {
+    "ticker": "NXPI",
+    "name": "NXP",
+    "impact": 0.0,
+    "car1": 0.0118,
+    "car5": 0.045,
+    "car10": -0.0124
+   },
+   {
+    "ticker": "ON",
+    "name": "onsemi",
+    "impact": 0.0,
+    "car1": 0.0024,
+    "car5": 0.0056,
+    "car10": -0.0522
+   },
+   {
+    "ticker": "ONTO",
+    "name": "Onto Innovation",
+    "impact": 0.0,
+    "car1": 0.0246,
+    "car5": 0.0144,
+    "car10": 0.0552
+   },
+   {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "impact": -0.1944,
+    "car1": 0.0142,
+    "car5": -0.0067,
+    "car10": 0.0027
+   },
+   {
+    "ticker": "PLAB",
+    "name": "Photronics",
+    "impact": 0.0,
+    "car1": 0.0186,
+    "car5": 0.0388,
+    "car10": 0.0009
+   },
+   {
+    "ticker": "QCOM",
+    "name": "Qualcomm",
+    "impact": -0.36,
+    "car1": 0.0157,
+    "car5": 0.0256,
+    "car10": 0.0151
+   },
+   {
+    "ticker": "QS",
+    "name": "QuantumScape",
+    "impact": 0.0,
+    "car1": 0.0328,
+    "car5": 0.0618,
+    "car10": -0.0468
+   },
+   {
+    "ticker": "RACE",
+    "name": "Ferrari",
+    "impact": 0.0,
+    "car1": -0.0013,
+    "car5": 0.0012,
+    "car10": 0.0098
+   },
+   {
+    "ticker": "RIVN",
+    "name": "Rivian",
+    "impact": 0.0,
+    "car1": 0.0018,
+    "car5": 0.0105,
+    "car10": -0.1418
+   },
+   {
+    "ticker": "RMBS",
+    "name": "Rambus",
+    "impact": 0.0,
+    "car1": 0.0129,
+    "car5": 0.0329,
+    "car10": 0.0167
+   },
+   {
+    "ticker": "SANM",
+    "name": "Sanmina",
+    "impact": 0.0,
+    "car1": 0.002,
+    "car5": -0.0261,
+    "car10": -0.0182
+   },
+   {
+    "ticker": "SITM",
+    "name": "SiTime",
+    "impact": 0.0,
+    "car1": -0.0165,
+    "car5": -0.0472,
+    "car10": -0.0981
+   },
+   {
+    "ticker": "SLAB",
+    "name": "Silicon Labs",
+    "impact": 0.0,
+    "car1": -0.0046,
+    "car5": 0.0021,
+    "car10": -0.0488
+   },
+   {
+    "ticker": "SMCI",
+    "name": "Supermicro",
+    "impact": -0.2916,
+    "car1": 0.0045,
+    "car5": -0.1056,
+    "car10": -0.0038
+   },
+   {
+    "ticker": "SMTC",
+    "name": "Semtech",
+    "impact": 0.0,
+    "car1": 0.1156,
+    "car5": 0.2321,
+    "car10": 0.198
+   },
+   {
+    "ticker": "SONY",
+    "name": "Sony",
+    "impact": 0.0,
+    "car1": 0.0041,
+    "car5": -0.009,
+    "car10": 0.0019
+   },
+   {
+    "ticker": "SQM",
+    "name": "Sociedad Quimica y Minera",
+    "impact": 0.0,
+    "car1": 0.0311,
+    "car5": 0.0708,
+    "car10": -0.0243
+   },
+   {
+    "ticker": "STLA",
+    "name": "Stellantis",
+    "impact": 0.0,
+    "car1": -0.0178,
+    "car5": -0.0104,
+    "car10": -0.0327
+   },
+   {
+    "ticker": "STM",
+    "name": "STMicroelectronics",
+    "impact": 0.0,
+    "car1": 0.013,
+    "car5": 0.0351,
+    "car10": -0.0091
+   },
+   {
+    "ticker": "STX",
+    "name": "Seagate",
+    "impact": 0.0,
+    "car1": 0.0144,
+    "car5": -0.0087,
+    "car10": -0.0431
+   },
+   {
+    "ticker": "SWKS",
+    "name": "Skyworks",
+    "impact": 0.0,
+    "car1": 0.0018,
+    "car5": 0.0016,
+    "car10": -0.042
+   },
+   {
+    "ticker": "SYNA",
+    "name": "Synaptics",
+    "impact": 0.0,
+    "car1": -0.0038,
+    "car5": 0.0095,
+    "car10": -0.0551
+   },
+   {
+    "ticker": "TER",
+    "name": "Teradyne",
+    "impact": 0.0,
+    "car1": -0.0128,
+    "car5": 0.0086,
+    "car10": -0.0178
+   },
+   {
+    "ticker": "TM",
+    "name": "Toyota",
+    "impact": 0.0,
+    "car1": 0.0068,
+    "car5": 0.0284,
+    "car10": 0.0155
+   },
+   {
+    "ticker": "TSEM",
+    "name": "Tower Semiconductor",
+    "impact": 0.0,
+    "car1": -0.0069,
+    "car5": 0.0439,
+    "car10": -0.0069
+   },
+   {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "impact": 0.0,
+    "car1": 0.0094,
+    "car5": 0.0606,
+    "car10": -0.0276
+   },
+   {
+    "ticker": "TXN",
+    "name": "Texas Instruments",
+    "impact": 0.0,
+    "car1": -0.0012,
+    "car5": 0.0173,
+    "car10": 0.0132
+   },
+   {
+    "ticker": "UCTT",
+    "name": "Ultra Clean",
+    "impact": 0.0,
+    "car1": 0.0101,
+    "car5": 0.0332,
+    "car10": -0.0196
+   },
+   {
+    "ticker": "UMC",
+    "name": "United Microelectronics",
+    "impact": -0.18,
+    "car1": 0.0038,
+    "car5": 0.0188,
+    "car10": -0.026
+   },
+   {
+    "ticker": "VC",
+    "name": "Visteon",
+    "impact": 0.0,
+    "car1": -0.0052,
+    "car5": -0.0099,
+    "car10": -0.0365
+   },
+   {
+    "ticker": "VECO",
+    "name": "Veeco",
+    "impact": 0.0,
+    "car1": 0.0159,
+    "car5": 0.0645,
+    "car10": 0.0785
+   },
+   {
+    "ticker": "VSH",
+    "name": "Vishay",
+    "impact": 0.0,
+    "car1": 0.0085,
+    "car5": 0.0236,
+    "car10": -0.0001
+   },
+   {
+    "ticker": "WDC",
+    "name": "Western Digital",
+    "impact": 0.0,
+    "car1": 0.0394,
+    "car5": 0.0546,
+    "car10": 0.0619
+   },
+   {
+    "ticker": "XPEV",
+    "name": "XPeng",
+    "impact": 0.0,
+    "car1": -0.0222,
+    "car5": 0.0623,
+    "car10": -0.0285
+   }
+  ],
+  "horizon": "car5"
+ }
+]

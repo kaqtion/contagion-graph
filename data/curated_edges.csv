@@ -1,0 +1,141 @@
+src,dst,rel,tier,as_of,note
+TSM,AAPL,supplies_to,sole,2025-12-31,Widely reported: TSMC manufactures Apple-designed A- and M-series processors.
+TSM,NVDA,supplies_to,sole,2025-12-31,Widely reported: TSMC fabricates Nvidia's data-center GPUs.
+TSM,AMD,supplies_to,major,2025-12-31,Widely reported: TSMC is AMD's main foundry.
+TSM,QCOM,supplies_to,major,2025-12-31,Widely reported: TSMC fabricates many Snapdragon chips.
+TSM,AVGO,supplies_to,major,2025-12-31,Widely reported: TSMC is a key foundry for Broadcom.
+TSM,MRVL,supplies_to,major,2025-12-31,Widely reported: TSMC is Marvell's main foundry.
+TSM,MEDIATEK,supplies_to,major,2025-12-31,Widely reported: TSMC is MediaTek's main foundry.
+TSM,INTC,supplies_to,minor,2025-12-31,Widely reported: Intel outsources some compute tiles to TSMC.
+FOXCONN,AAPL,supplies_to,major,2025-12-31,Widely reported: Foxconn is Apple's largest final-assembly partner.
+PEGATRON,AAPL,supplies_to,minor,2025-12-31,Widely reported: Pegatron has assembled iPhones for Apple.
+LUXSHARE,AAPL,supplies_to,minor,2025-12-31,Widely reported: Luxshare assembles AirPods and some iPhones.
+FOXCONN,NVDA,supplies_to,minor,2025-12-31,Widely reported: Foxconn builds Nvidia AI server systems.
+QUANTA,NVDA,supplies_to,minor,2025-12-31,Widely reported: Quanta builds Nvidia AI server systems.
+WISTRON,NVDA,supplies_to,minor,2025-12-31,Widely reported: Wistron makes Nvidia GPU baseboards.
+NVDA,MSFT,supplies_to,major,2025-12-31,Widely reported: Microsoft is among the largest buyers of Nvidia data-center GPUs.
+NVDA,META,supplies_to,major,2025-12-31,Widely reported: Meta is a major buyer of Nvidia data-center GPUs.
+NVDA,GOOGL,supplies_to,major,2025-12-31,Widely reported: Google Cloud buys Nvidia data-center GPUs.
+NVDA,AMZN,supplies_to,major,2025-12-31,Widely reported: AWS buys Nvidia data-center GPUs.
+NVDA,ORCL,supplies_to,major,2025-12-31,Widely reported: Oracle Cloud buys Nvidia data-center GPUs.
+NVDA,DELL,supplies_to,major,2025-12-31,Widely reported: Dell builds servers around Nvidia GPUs.
+NVDA,SMCI,supplies_to,sole,2025-12-31,Widely reported: Supermicro's AI servers depend on Nvidia GPUs.
+NVDA,HPE,supplies_to,major,2025-12-31,Widely reported: HPE builds servers around Nvidia GPUs.
+AMD,MSFT,supplies_to,minor,2025-12-31,Widely reported: Microsoft deploys AMD Instinct accelerators.
+AMD,META,supplies_to,minor,2025-12-31,Widely reported: Meta deploys AMD Instinct accelerators.
+SKHYNIX,NVDA,supplies_to,major,2025-12-31,Widely reported: SK hynix is Nvidia's lead HBM supplier.
+MU,NVDA,supplies_to,minor,2025-12-31,Widely reported: Micron supplies HBM to Nvidia.
+SAMSUNG,NVDA,supplies_to,minor,2025-12-31,Widely reported: Samsung supplies memory to Nvidia.
+SAMSUNG,AAPL,supplies_to,minor,2025-12-31,Widely reported: Samsung supplies displays and memory to Apple.
+ASML,TSM,supplies_to,sole,2025-12-31,Widely reported: ASML is the only supplier of EUV lithography tools.
+ASML,SAMSUNG,supplies_to,sole,2025-12-31,Widely reported: ASML is the only supplier of EUV lithography tools.
+ASML,INTC,supplies_to,sole,2025-12-31,Widely reported: ASML is the only supplier of EUV lithography tools.
+ASML,SKHYNIX,supplies_to,major,2025-12-31,Widely reported: SK hynix uses ASML lithography tools.
+AMAT,TSM,supplies_to,major,2025-12-31,Widely reported: TSMC is a major customer of Applied Materials.
+LRCX,TSM,supplies_to,major,2025-12-31,Widely reported: TSMC is a major customer of Lam Research.
+KLAC,TSM,supplies_to,major,2025-12-31,Widely reported: TSMC is a major customer of KLA.
+TEL,TSM,supplies_to,major,2025-12-31,Widely reported: TSMC is a major customer of Tokyo Electron.
+AMAT,SAMSUNG,supplies_to,major,2025-12-31,Widely reported: Samsung is a major customer of Applied Materials.
+LRCX,SAMSUNG,supplies_to,major,2025-12-31,Widely reported: Samsung is a major customer of Lam Research.
+SHINETSU,TSM,supplies_to,major,2025-12-31,Widely reported: Shin-Etsu supplies silicon wafers to leading foundries.
+SUMCO,TSM,supplies_to,major,2025-12-31,Widely reported: SUMCO supplies silicon wafers to leading foundries.
+RENESAS,TM,supplies_to,major,2025-12-31,Widely reported: Renesas is a key microcontroller supplier to Toyota.
+RENESAS,NISSAN,supplies_to,major,2025-12-31,Widely reported: Renesas supplies automotive microcontrollers to Nissan.
+RENESAS,HMC,supplies_to,minor,2025-12-31,Widely reported: Renesas supplies automotive microcontrollers to Honda.
+RENESAS,DENSO,supplies_to,major,2025-12-31,Widely reported: Denso buys Renesas automotive microcontrollers.
+RENESAS,BOSCH,supplies_to,minor,2025-12-31,Widely reported: Bosch buys Renesas automotive chips.
+INFINEON,BOSCH,supplies_to,major,2025-12-31,Widely reported: Bosch buys Infineon automotive chips.
+INFINEON,CONTINENTAL,supplies_to,major,2025-12-31,Widely reported: Continental buys Infineon automotive chips.
+INFINEON,TSLA,supplies_to,minor,2025-12-31,Widely reported: Tesla uses Infineon power semiconductors.
+NXPI,CONTINENTAL,supplies_to,major,2025-12-31,Widely reported: Continental buys NXP automotive chips.
+NXPI,BOSCH,supplies_to,major,2025-12-31,Widely reported: Bosch buys NXP automotive chips.
+DENSO,TM,supplies_to,major,2025-12-31,Widely reported: Denso is Toyota's largest parts supplier.
+DENSO,HMC,supplies_to,minor,2025-12-31,Widely reported: Denso supplies parts to Honda.
+BOSCH,VW,supplies_to,major,2025-12-31,Widely reported: Bosch is a major Volkswagen supplier.
+BOSCH,MERCEDES,supplies_to,major,2025-12-31,Widely reported: Bosch is a major Mercedes-Benz supplier.
+BOSCH,BMW,supplies_to,major,2025-12-31,Widely reported: Bosch is a major BMW supplier.
+BOSCH,STLA,supplies_to,minor,2025-12-31,Widely reported: Bosch supplies Stellantis.
+BOSCH,F,supplies_to,minor,2025-12-31,Widely reported: Bosch supplies Ford.
+BOSCH,GM,supplies_to,minor,2025-12-31,Widely reported: Bosch supplies General Motors.
+CONTINENTAL,VW,supplies_to,major,2025-12-31,Widely reported: Continental is a major Volkswagen supplier.
+CONTINENTAL,BMW,supplies_to,minor,2025-12-31,Widely reported: Continental supplies BMW.
+CONTINENTAL,MERCEDES,supplies_to,minor,2025-12-31,Widely reported: Continental supplies Mercedes-Benz.
+ZF,BMW,supplies_to,major,2025-12-31,Widely reported: ZF supplies transmissions to BMW.
+ZF,VW,supplies_to,minor,2025-12-31,Widely reported: ZF supplies Volkswagen.
+ZF,STLA,supplies_to,minor,2025-12-31,Widely reported: ZF supplies Stellantis.
+CATL,TSLA,supplies_to,major,2025-12-31,Widely reported: CATL supplies battery cells to Tesla.
+CATL,BMW,supplies_to,major,2025-12-31,Widely reported: CATL supplies battery cells to BMW.
+CATL,MERCEDES,supplies_to,minor,2025-12-31,Widely reported: CATL supplies battery cells to Mercedes-Benz.
+CATL,VW,supplies_to,minor,2025-12-31,Widely reported: CATL supplies battery cells to Volkswagen.
+PANASONIC,TSLA,supplies_to,major,2025-12-31,Widely reported: Panasonic supplies battery cells to Tesla.
+LGES,GM,supplies_to,major,2025-12-31,Widely reported: LG Energy Solution makes GM's Ultium cells.
+LGES,TSLA,supplies_to,minor,2025-12-31,Widely reported: LG Energy Solution supplies cells to Tesla.
+LGES,HYUNDAI,supplies_to,major,2025-12-31,Widely reported: LG Energy Solution supplies cells to Hyundai.
+SAMSUNGSDI,BMW,supplies_to,major,2025-12-31,Widely reported: Samsung SDI supplies battery cells to BMW.
+SAMSUNGSDI,STLA,supplies_to,minor,2025-12-31,Widely reported: Samsung SDI has a battery joint venture with Stellantis.
+ALB,commodity:lithium,produces,major,2025-12-31,Albemarle is a leading lithium producer.
+SQM,commodity:lithium,produces,major,2025-12-31,SQM is a leading lithium producer.
+MP,commodity:rare-earths,produces,major,2025-12-31,MP Materials operates the Mountain Pass rare earth mine.
+FCX,commodity:copper,produces,major,2025-12-31,Freeport-McMoRan is a leading copper producer.
+CATL,commodity:lithium,depends_on,major,2025-12-31,Lithium is a core battery cathode input.
+PANASONIC,commodity:lithium,depends_on,major,2025-12-31,Lithium is a core battery cathode input.
+LGES,commodity:lithium,depends_on,major,2025-12-31,Lithium is a core battery cathode input.
+SAMSUNGSDI,commodity:lithium,depends_on,major,2025-12-31,Lithium is a core battery cathode input.
+TSM,commodity:neon,depends_on,minor,2025-12-31,Neon is used in excimer lasers for DUV lithography.
+SAMSUNG,commodity:neon,depends_on,minor,2025-12-31,Neon is used in excimer lasers for DUV lithography.
+SKHYNIX,commodity:neon,depends_on,minor,2025-12-31,Neon is used in excimer lasers for DUV lithography.
+TSM,Taiwan,operates_in,sole,2025-12-31,Most of TSMC's fabs are in Taiwan.
+UMC,Taiwan,operates_in,major,2025-12-31,UMC's main fabs are in Taiwan.
+ASX,Taiwan,operates_in,major,2025-12-31,ASE's main packaging and test sites are in Taiwan.
+MEDIATEK,Taiwan,operates_in,major,2025-12-31,MediaTek is headquartered in Taiwan.
+GLOBALWAFERS,Taiwan,operates_in,major,2025-12-31,GlobalWafers is headquartered in Taiwan.
+WISTRON,Taiwan,operates_in,major,2025-12-31,Wistron is headquartered in Taiwan.
+QUANTA,Taiwan,operates_in,major,2025-12-31,Quanta is headquartered in Taiwan.
+FOXCONN,China,operates_in,major,2025-12-31,Foxconn's largest assembly campuses are in mainland China.
+PEGATRON,China,operates_in,major,2025-12-31,Pegatron assembles largely in mainland China.
+LUXSHARE,China,operates_in,major,2025-12-31,Luxshare manufactures mainly in mainland China.
+SMIC,China,operates_in,sole,2025-12-31,SMIC's fabs are in mainland China.
+CATL,China,operates_in,major,2025-12-31,CATL manufactures mainly in mainland China.
+BYD,China,operates_in,major,2025-12-31,BYD manufactures mainly in mainland China.
+SAMSUNG,South Korea,operates_in,major,2025-12-31,Samsung's main memory and foundry fabs are in South Korea.
+SKHYNIX,South Korea,operates_in,major,2025-12-31,SK hynix's main fabs are in South Korea.
+HYUNDAI,South Korea,operates_in,major,2025-12-31,Hyundai's main plants are in South Korea.
+LGES,South Korea,operates_in,minor,2025-12-31,LG Energy Solution is headquartered in South Korea.
+SAMSUNGSDI,South Korea,operates_in,minor,2025-12-31,Samsung SDI is headquartered in South Korea.
+RENESAS,Japan,operates_in,major,2025-12-31,Renesas' fabs are mainly in Japan.
+KIOXIA,Japan,operates_in,major,2025-12-31,Kioxia's fabs are in Japan.
+TEL,Japan,operates_in,major,2025-12-31,Tokyo Electron manufactures in Japan.
+SHINETSU,Japan,operates_in,major,2025-12-31,Shin-Etsu's wafer plants are mainly in Japan.
+SUMCO,Japan,operates_in,major,2025-12-31,SUMCO's wafer plants are mainly in Japan.
+DENSO,Japan,operates_in,major,2025-12-31,Denso manufactures mainly in Japan.
+PANASONIC,Japan,operates_in,minor,2025-12-31,Panasonic is headquartered in Japan.
+NISSAN,Japan,operates_in,major,2025-12-31,Nissan's main plants are in Japan.
+INFINEON,Germany,operates_in,major,2025-12-31,Infineon has major fabs in Germany.
+INFINEON,Malaysia,operates_in,major,2025-12-31,Infineon has major fabs in Malaysia.
+BOSCH,Germany,operates_in,major,2025-12-31,Bosch is headquartered and manufactures in Germany.
+CONTINENTAL,Germany,operates_in,major,2025-12-31,Continental is headquartered in Germany.
+ZF,Germany,operates_in,major,2025-12-31,ZF is headquartered in Germany.
+VW,Germany,operates_in,major,2025-12-31,Volkswagen's main plants are in Germany.
+BMW,Germany,operates_in,major,2025-12-31,BMW's main plants are in Germany.
+MERCEDES,Germany,operates_in,major,2025-12-31,Mercedes-Benz's main plants are in Germany.
+TSM,SAMSUNG,competes_with,major,2025-12-31,Both are leading-edge contract foundries.
+TSM,INTC,competes_with,major,2025-12-31,Intel Foundry competes for leading-edge foundry business.
+TSM,GFS,competes_with,minor,2025-12-31,Both are contract foundries.
+TSM,UMC,competes_with,minor,2025-12-31,Both are contract foundries.
+TSM,SMIC,competes_with,minor,2025-12-31,Both are contract foundries.
+RENESAS,INFINEON,competes_with,major,2025-12-31,Both are leading automotive microcontroller suppliers.
+RENESAS,NXPI,competes_with,major,2025-12-31,Both are leading automotive microcontroller suppliers.
+RENESAS,STM,competes_with,major,2025-12-31,Both are leading automotive microcontroller suppliers.
+RENESAS,MCHP,competes_with,minor,2025-12-31,Both sell microcontrollers.
+RENESAS,TXN,competes_with,minor,2025-12-31,Both sell microcontrollers and analog chips.
+SAMSUNG,SKHYNIX,competes_with,major,2025-12-31,Both are leading memory makers.
+SAMSUNG,MU,competes_with,major,2025-12-31,Both are leading memory makers.
+SKHYNIX,MU,competes_with,major,2025-12-31,Both are leading memory makers.
+CATL,LGES,competes_with,major,2025-12-31,Both are leading EV battery makers.
+CATL,PANASONIC,competes_with,minor,2025-12-31,Both make EV battery cells.
+CATL,SAMSUNGSDI,competes_with,minor,2025-12-31,Both make EV battery cells.
+TM,HMC,competes_with,major,2025-12-31,Both are major Japanese automakers.
+TM,HYUNDAI,competes_with,minor,2025-12-31,Both are global mass-market automakers.
+TSLA,BYD,competes_with,major,2025-12-31,Both are leading EV makers.
+FOXCONN,PEGATRON,competes_with,minor,2025-12-31,Both are electronics assemblers.
+FOXCONN,LUXSHARE,competes_with,minor,2025-12-31,Both are electronics assemblers.

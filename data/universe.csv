@@ -1,0 +1,147 @@
+id,name,sector,country,aliases
+NVDA,,semis,United States,Nvidia
+AMD,,semis,United States,Advanced Micro Devices|AMD
+INTC,,semis,United States,Intel|Intel Foundry
+QCOM,,semis,United States,Qualcomm
+AVGO,,semis,United States,Broadcom
+TXN,,semis,United States,Texas Instruments|TI
+ADI,,semis,United States,Analog Devices
+MCHP,,semis,United States,Microchip|Microchip Technology
+NXPI,,semis,Netherlands,NXP|NXP Semiconductors
+ON,,semis,United States,onsemi|ON Semiconductor
+MU,,semis,United States,Micron|Micron Technology
+MRVL,,semis,United States,Marvell|Marvell Technology
+SWKS,,semis,United States,Skyworks|Skyworks Solutions
+MPWR,,semis,United States,Monolithic Power|Monolithic Power Systems
+LSCC,,semis,United States,Lattice|Lattice Semiconductor
+WOLF,,semis,United States,Wolfspeed|Cree
+SLAB,,semis,United States,Silicon Labs|Silicon Laboratories
+SYNA,,semis,United States,Synaptics
+CRUS,,semis,United States,Cirrus Logic
+POWI,,semis,United States,Power Integrations
+AMBA,,semis,United States,Ambarella
+RMBS,,semis,United States,Rambus
+SITM,,semis,United States,SiTime
+DIOD,,semis,United States,Diodes|Diodes Incorporated
+VSH,,semis,United States,Vishay|Vishay Intertechnology
+ALGM,,semis,United States,Allegro|Allegro MicroSystems
+SMTC,,semis,United States,Semtech
+MTSI,,semis,United States,MACOM
+AOSL,,semis,United States,Alpha and Omega Semiconductor
+NVTS,,semis,United States,Navitas
+MXL,,semis,United States,MaxLinear
+ARM,,semis,United Kingdom,Arm|Arm Holdings|ARM Limited
+TSM,,foundry,Taiwan,TSMC|Taiwan Semiconductor|Taiwan Semiconductor Manufacturing|Taiwan Semiconductor Manufacturing Company|Taiwan Semiconductor Manufacturing Company Limited|Taiwan Semi|2330.TW
+STM,,semis,Switzerland,STMicroelectronics|STMicro|ST Microelectronics
+ASX,,osat,Taiwan,ASE|ASE Technology|ASE Group|Advanced Semiconductor Engineering|Siliconware|SPIL
+UMC,,foundry,Taiwan,United Microelectronics|United Microelectronics Corporation
+GFS,,foundry,United States,GlobalFoundries|Global Foundries|GF
+TSEM,,foundry,Israel,Tower Semiconductor|Tower
+WDC,,memory,United States,Western Digital
+STX,,memory,United States,Seagate|Seagate Technology
+CRDO,,semis,United States,Credo|Credo Technology
+ALAB,,semis,United States,Astera Labs
+MBLY,,semis,Israel,Mobileye
+LITE,,semis,United States,Lumentum
+COHR,,semis,United States,Coherent
+AMKR,,osat,United States,Amkor|Amkor Technology
+ASML,,equipment,Netherlands,ASML Holding
+AMAT,,equipment,United States,Applied Materials
+LRCX,,equipment,United States,Lam Research|Lam
+KLAC,,equipment,United States,KLA|KLA Corporation|KLA-Tencor
+TER,,equipment,United States,Teradyne
+ENTG,,equipment,United States,Entegris
+MKSI,,equipment,United States,MKS Instruments|MKS
+ONTO,,equipment,United States,Onto Innovation
+FORM,,equipment,United States,FormFactor
+ACLS,,equipment,United States,Axcelis
+UCTT,,equipment,United States,Ultra Clean|Ultra Clean Holdings
+ICHR,,equipment,United States,Ichor
+COHU,,equipment,United States,Cohu
+KLIC,,equipment,Singapore,Kulicke and Soffa|Kulicke & Soffa
+AEHR,,equipment,United States,Aehr Test Systems
+CAMT,,equipment,Israel,Camtek
+NVMI,,equipment,Israel,Nova|Nova Ltd
+PLAB,,equipment,United States,Photronics
+VECO,,equipment,United States,Veeco
+ACMR,,equipment,United States,ACM Research
+LIN,,materials,United Kingdom,Linde
+APD,,materials,United States,Air Products|Air Products and Chemicals
+AAPL,,hardware,United States,Apple
+MSFT,,cloud,United States,Microsoft|Microsoft Azure|Azure
+GOOGL,,cloud,United States,Alphabet|Google|Google Cloud
+AMZN,,cloud,United States,Amazon|Amazon Web Services|AWS
+META,,cloud,United States,Meta|Meta Platforms|Facebook
+ORCL,,cloud,United States,Oracle
+IBM,,hardware,United States,International Business Machines
+DELL,,hardware,United States,Dell|Dell Technologies
+HPQ,,hardware,United States,HP|HP Inc
+HPE,,hardware,United States,Hewlett Packard Enterprise
+SMCI,,hardware,United States,Supermicro|Super Micro Computer|Super Micro
+CSCO,,hardware,United States,Cisco|Cisco Systems
+ANET,,hardware,United States,Arista|Arista Networks
+SONY,,hardware,Japan,Sony|Sony Group
+LOGI,,hardware,Switzerland,Logitech
+JBL,,ems,United States,Jabil
+FLEX,,ems,Singapore,Flex|Flextronics
+CLS,,ems,Canada,Celestica
+SANM,,ems,United States,Sanmina
+TSLA,,autos,United States,Tesla
+GM,,autos,United States,General Motors|GM
+F,,autos,United States,Ford|Ford Motor|Ford Motor Company
+STLA,,autos,Netherlands,Stellantis|Chrysler|FCA
+TM,,autos,Japan,Toyota|Toyota Motor
+HMC,,autos,Japan,Honda|Honda Motor
+RIVN,,autos,United States,Rivian
+LCID,,autos,United States,Lucid|Lucid Motors|Lucid Group
+RACE,,autos,Italy,Ferrari
+NIO,,autos,China,NIO Inc
+LI,,autos,China,Li Auto
+XPEV,,autos,China,XPeng
+APTV,,auto_parts,Ireland,Aptiv
+BWA,,auto_parts,United States,BorgWarner
+LEA,,auto_parts,United States,Lear|Lear Corporation
+ALV,,auto_parts,Sweden,Autoliv
+ADNT,,auto_parts,Ireland,Adient
+GNTX,,auto_parts,United States,Gentex
+VC,,auto_parts,United States,Visteon
+DAN,,auto_parts,United States,Dana|Dana Incorporated
+MGA,,auto_parts,Canada,Magna|Magna International
+GT,,auto_parts,United States,Goodyear|Goodyear Tire
+MOD,,auto_parts,United States,Modine
+ALSN,,auto_parts,United States,Allison Transmission
+QS,,auto_parts,United States,QuantumScape
+ALB,,materials,United States,Albemarle
+SQM,,materials,Chile,Sociedad Quimica y Minera|SQM
+MP,,materials,United States,MP Materials
+FCX,,materials,United States,Freeport|Freeport-McMoRan
+SAMSUNG,Samsung Electronics,memory,South Korea,Samsung|Samsung Electronics|Samsung Foundry|Samsung Semiconductor|005930.KS
+SKHYNIX,SK hynix,memory,South Korea,SK hynix|SK Hynix|Hynix|000660.KS
+KIOXIA,Kioxia,memory,Japan,Kioxia|Toshiba Memory
+RENESAS,Renesas Electronics,semis,Japan,Renesas|Renesas Electronics|6723.T
+INFINEON,Infineon Technologies,semis,Germany,Infineon|Infineon Technologies|IFX.DE
+MEDIATEK,MediaTek,semis,Taiwan,MediaTek|2454.TW
+SMIC,Semiconductor Manufacturing International,foundry,China,SMIC|Semiconductor Manufacturing International Corporation
+TEL,Tokyo Electron,equipment,Japan,Tokyo Electron|TEL|8035.T
+SHINETSU,Shin-Etsu Chemical,materials,Japan,Shin-Etsu|Shin-Etsu Chemical
+SUMCO,SUMCO,materials,Japan,SUMCO|Sumco Corporation
+GLOBALWAFERS,GlobalWafers,materials,Taiwan,GlobalWafers
+FOXCONN,Hon Hai Precision (Foxconn),ems,Taiwan,Foxconn|Hon Hai|Hon Hai Precision|Hon Hai Precision Industry|2317.TW
+PEGATRON,Pegatron,ems,Taiwan,Pegatron
+QUANTA,Quanta Computer,ems,Taiwan,Quanta|Quanta Computer
+WISTRON,Wistron,ems,Taiwan,Wistron
+LUXSHARE,Luxshare Precision,ems,China,Luxshare
+BOSCH,Robert Bosch,auto_parts,Germany,Bosch|Robert Bosch
+DENSO,Denso,auto_parts,Japan,Denso|Denso Corporation
+CONTINENTAL,Continental AG,auto_parts,Germany,Continental|Continental AG
+ZF,ZF Friedrichshafen,auto_parts,Germany,ZF|ZF Friedrichshafen
+CATL,Contemporary Amperex Technology,auto_parts,China,CATL|Contemporary Amperex|Contemporary Amperex Technology
+LGES,LG Energy Solution,auto_parts,South Korea,LG Energy Solution|LG Chem|LGES
+PANASONIC,Panasonic,auto_parts,Japan,Panasonic|Panasonic Energy
+SAMSUNGSDI,Samsung SDI,auto_parts,South Korea,Samsung SDI
+BYD,BYD Company,autos,China,BYD
+VW,Volkswagen Group,autos,Germany,Volkswagen|VW|Volkswagen Group|Audi|Porsche
+BMW,BMW Group,autos,Germany,BMW|Bayerische Motoren Werke
+MERCEDES,Mercedes-Benz Group,autos,Germany,Mercedes-Benz|Mercedes|Daimler
+HYUNDAI,Hyundai Motor,autos,South Korea,Hyundai|Hyundai Motor|Kia
+NISSAN,Nissan Motor,autos,Japan,Nissan

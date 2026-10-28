@@ -1,0 +1,6 @@
+.venv
+data/filings
+data/fetch_log.txt
+data/extract_batch.json
+tests
+.env*

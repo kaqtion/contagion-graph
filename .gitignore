@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# large / re-downloadable source data (re-create with scripts.fetch_filings)
+data/filings/
+data/fetch_log.txt
+data/sec_company_tickers.json
+.neon
