@@ -2,17 +2,16 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { api, ApiError, post, type Health, type RunData, type RunSummary } from "@/lib/api";
-import { EVENT_LABELS, timeAgo } from "@/lib/format";
+import { api, ApiError, post, type RunData } from "@/lib/api";
 import { loadHoldings } from "@/lib/holdings";
 import ContagionGraph from "@/components/ContagionGraph";
 import EventCard from "@/components/console/EventCard";
 import ExposureTable from "@/components/console/ExposureTable";
 import HeadlineBar from "@/components/console/HeadlineBar";
+import Landing from "@/components/console/Landing";
 import PathDrawer from "@/components/console/PathDrawer";
 import StageChips, { type StageKey, type StageState } from "@/components/console/StageChips";
-import { Logo } from "@/components/Nav";
-import { Panel, SectionTitle } from "@/components/ui";
+import { SectionTitle } from "@/components/ui";
 
 const IDLE: Record<StageKey, StageState> = { parse: "idle", locate: "idle", trace: "idle", score: "idle", explain: "idle", critic: "idle" };
 
@@ -104,9 +103,55 @@ export default function Console({ runId }: { runId?: string }) {
   const selectedEx = run?.result.exposures.find((e) => e.id === selected) ?? null;
   const critic = run?.explanation?.critic;
 
+  const notices = (
+    <>
+      {error && (
+        <p role="alert" className="text-[13px] text-hurt border border-hurt/30 bg-hurt-soft rounded-lg px-3 py-2">
+          {error}
+        </p>
+      )}
+      {needPasscode && (
+        <form
+          className="flex flex-wrap items-center gap-2 text-[13px]"
+          onSubmit={(e) => {
+            e.preventDefault();
+            void submit(needPasscode, passcode);
+          }}
+        >
+          <span className="text-muted">New headlines need the demo passcode. Worked examples are open to everyone.</span>
+          <input
+            type="password"
+            value={passcode}
+            onChange={(e) => setPasscode(e.target.value)}
+            aria-label="Demo passcode"
+            className="bg-panel border border-line-strong rounded-lg px-2.5 py-1.5 outline-none focus:border-origin/60"
+            autoFocus
+          />
+          <button className="btn-quiet px-3 py-1.5">Unlock</button>
+        </form>
+      )}
+    </>
+  );
+
+  if (!run && !runId) {
+    if (busy)
+      return (
+        <div className="flex-1 grid place-items-center px-4">
+          <div className="w-full max-w-xl space-y-6 text-center fade-up">
+            <p className="eyebrow">tracing</p>
+            <p className="display text-[34px] sm:text-[44px]">Following the shock through the graph…</p>
+            <div className="flex justify-center">
+              <StageChips state={stages} />
+            </div>
+          </div>
+        </div>
+      );
+    return <Landing busy={busy} onSubmit={(h) => submit(h)} header={notices} />;
+  }
+
   return (
-    <div className="flex-1 lg:flex-none flex flex-col min-h-0 lg:h-[calc(100dvh_-_5.75rem)]">
-      <div className="px-4 sm:px-6 pt-4 pb-3 space-y-3 border-b border-line">
+    <div className="flex-1 lg:flex-none flex flex-col min-h-0 lg:h-[calc(100dvh_-_6rem)]">
+      <div className="px-4 sm:px-6 pt-3.5 pb-3 space-y-3 border-b border-line bg-panel/30">
         <HeadlineBar initial={run?.headline} busy={busy} onSubmit={(h) => submit(h)} />
         <div className="flex flex-wrap items-center justify-between gap-2">
           <StageChips
@@ -116,44 +161,35 @@ export default function Console({ runId }: { runId?: string }) {
               critic: critic ? `${critic.supported}/${critic.claims}` : undefined,
             }}
           />
-          {run && <span className="text-[11px] text-faint num">run {run.id} · ${run.cost_usd.toFixed(4)} AI cost</span>}
+          {run && (
+            <span className="text-[11px] text-faint num">
+              run {run.id} · ${run.cost_usd.toFixed(4)} AI cost
+            </span>
+          )}
         </div>
-        {error && <p className="text-[13px] text-hurt">{error}</p>}
-        {needPasscode && (
-          <form
-            className="flex flex-wrap items-center gap-2 text-[13px]"
-            onSubmit={(e) => {
-              e.preventDefault();
-              void submit(needPasscode, passcode);
-            }}
-          >
-            <span className="text-muted">New headlines need the demo passcode (examples are open to everyone):</span>
-            <input
-              type="password"
-              value={passcode}
-              onChange={(e) => setPasscode(e.target.value)}
-              className="bg-panel border border-line-strong rounded px-2 py-1 outline-none focus:border-origin/60"
-              autoFocus
-            />
-            <button className="px-3 py-1 rounded bg-raise hover:bg-line-strong">Unlock</button>
-          </form>
-        )}
+        {notices}
       </div>
 
       {run ? (
         <div className="flex-1 min-h-0 grid grid-cols-1 lg:grid-cols-[minmax(380px,460px)_1fr] lg:grid-rows-[minmax(0,1fr)]">
-          <div className="flex flex-col min-h-0 border-r border-line">
+          <div className="flex flex-col min-h-0 border-r border-line bg-panel/40">
             <div className="border-b border-line">
-              <SectionTitle>Event</SectionTitle>
+              <SectionTitle>event</SectionTitle>
               <EventCard run={run} />
             </div>
-            <SectionTitle right={<span className="text-[11px] text-faint">ranked by |impact|</span>}>Exposure</SectionTitle>
+            <SectionTitle right={<span className="text-[11px] text-faint num">ranked by |impact|</span>}>exposure</SectionTitle>
             <div className="flex-1 min-h-[300px] lg:min-h-0 flex flex-col">
               <ExposureTable rows={run.result.exposures} selected={selected} onSelect={setSelected} onHover={setHovered} holdings={holdings} />
             </div>
           </div>
 
           <div className="relative min-h-[460px] lg:min-h-0 overflow-hidden">
+            <div className="absolute inset-0 dot-grid pointer-events-none [mask-image:radial-gradient(circle_at_50%_50%,black_20%,transparent_75%)]" aria-hidden />
+            <div
+              className="absolute inset-0 pointer-events-none"
+              style={{ background: "radial-gradient(circle at 50% 50%, rgba(242,181,68,0.07), transparent 45%)" }}
+              aria-hidden
+            />
             <ContagionGraph
               exposures={run.result.exposures}
               origins={run.result.origins}
@@ -164,17 +200,19 @@ export default function Console({ runId }: { runId?: string }) {
               hovered={hovered}
               onSelect={setSelected}
             />
-            <div className="absolute top-3 left-3 max-w-[min(460px,calc(100%-24px))] pointer-events-none">
+            <div className="absolute top-4 left-4 max-w-[min(480px,calc(100%-32px))] pointer-events-none">
               {run.explanation ? (
-                <p
-                  onClick={(e) => e.currentTarget.classList.toggle("line-clamp-3")}
+                <div
+                  onClick={(e) => e.currentTarget.querySelector("p")?.classList.toggle("line-clamp-3")}
                   title="Click to expand or collapse"
-                  className="line-clamp-3 cursor-pointer pointer-events-auto text-[12.5px] leading-5 text-muted bg-bg/80 backdrop-blur border border-line rounded-md px-3 py-2 fade-up"
+                  className="glass rounded-xl px-4 py-3 cursor-pointer pointer-events-auto fade-up"
                 >
-                  {run.explanation.summary}
-                </p>
+                  <p className="eyebrow mb-1.5">the short version</p>
+                  <p className="line-clamp-3 text-[13px] leading-[1.6] text-text/85">{run.explanation.summary}</p>
+                </div>
               ) : explaining ? (
-                <div className="bg-bg/80 border border-line rounded-md px-3 py-2.5 w-[320px] space-y-1.5">
+                <div className="glass rounded-xl px-4 py-3 w-[340px] space-y-2">
+                  <p className="eyebrow">writing the explanation</p>
                   <div className="skeleton h-3" />
                   <div className="skeleton h-3 w-2/3" />
                 </div>
@@ -197,7 +235,27 @@ export default function Console({ runId }: { runId?: string }) {
           </div>
         </div>
       ) : (
-        <EmptyState loading={!!runId && !error} onPick={(h) => submit(h)} />
+        <div className="flex-1 grid place-items-center px-4 py-16">
+          {error ? (
+            <div className="text-center space-y-4">
+              <p className="display text-[34px]">This trace couldn’t be loaded.</p>
+              <Link href="/" className="btn-quiet px-4 py-2 text-[13px]">
+                ← Back to the console
+              </Link>
+            </div>
+          ) : (
+            <div className="relative w-44 h-44" aria-label="Loading trace">
+              {[0, 1, 2].map((i) => (
+                <span
+                  key={i}
+                  className="absolute inset-0 rounded-full border border-origin/40"
+                  style={{ animation: `pulse-ring 2.4s ${i * 0.8}s ease-out infinite` }}
+                />
+              ))}
+              <span className="absolute inset-[42%] rounded-full bg-origin" />
+            </div>
+          )}
+        </div>
       )}
     </div>
   );
@@ -205,119 +263,18 @@ export default function Console({ runId }: { runId?: string }) {
 
 function Legend() {
   return (
-    <div className="absolute bottom-3 left-3 text-[11px] text-muted bg-bg/80 backdrop-blur border border-line rounded-md px-3 py-2 space-y-1 pointer-events-none">
+    <div className="absolute bottom-4 left-4 text-[11px] text-muted glass rounded-xl px-3.5 py-2.5 space-y-1.5 pointer-events-none">
       <div className="flex items-center gap-3">
         <span className="flex items-center gap-1.5"><i className="w-2.5 h-2.5 rounded-full bg-origin inline-block" />origin</span>
         <span className="flex items-center gap-1.5"><i className="w-2.5 h-2.5 rounded-full bg-hurt inline-block" />hurt</span>
         <span className="flex items-center gap-1.5"><i className="w-2.5 h-2.5 rounded-full bg-help inline-block" />helped</span>
       </div>
       <div className="flex items-center gap-3">
-        <span className="flex items-center gap-1.5"><svg width="18" height="4"><line x1="0" y1="2" x2="18" y2="2" stroke="#6b7484" strokeWidth="2" /></svg>quoted</span>
-        <span className="flex items-center gap-1.5"><svg width="18" height="4"><line x1="0" y1="2" x2="18" y2="2" stroke="#6b7484" strokeWidth="2" strokeDasharray="1 3" strokeLinecap="round" /></svg>curated</span>
-        <span className="flex items-center gap-1.5"><svg width="18" height="4"><line x1="0" y1="2" x2="18" y2="2" stroke="#6b7484" strokeWidth="2" strokeDasharray="5 3" /></svg>stale</span>
+        <span className="flex items-center gap-1.5"><svg width="18" height="4"><line x1="0" y1="2" x2="18" y2="2" stroke="#7d828b" strokeWidth="2" /></svg>quoted</span>
+        <span className="flex items-center gap-1.5"><svg width="18" height="4"><line x1="0" y1="2" x2="18" y2="2" stroke="#7d828b" strokeWidth="2" strokeDasharray="1 3" strokeLinecap="round" /></svg>curated</span>
+        <span className="flex items-center gap-1.5"><svg width="18" height="4"><line x1="0" y1="2" x2="18" y2="2" stroke="#7d828b" strokeWidth="2" strokeDasharray="5 3" /></svg>stale</span>
       </div>
       <div className="text-faint">size = |impact| · ring = hop</div>
-    </div>
-  );
-}
-
-function EmptyState({ loading, onPick }: { loading: boolean; onPick: (h: string) => void }) {
-  const [runs, setRuns] = useState<RunSummary[] | null>(null);
-  const [health, setHealth] = useState<Health | null>(null);
-  const [apiDown, setApiDown] = useState(false);
-  useEffect(() => {
-    api<RunSummary[]>("/runs").then(setRuns).catch(() => {
-      setRuns([]);
-      setApiDown(true);
-    });
-    api<Health>("/health").then(setHealth).catch(() => setApiDown(true));
-  }, []);
-
-  if (loading)
-    return (
-      <div className="flex-1 grid place-items-center">
-        <div className="skeleton w-40 h-40 rounded-full" />
-      </div>
-    );
-
-  const examples = (runs ?? []).filter((r) => r.is_demo);
-  const recent = (runs ?? []).filter((r) => !r.is_demo).slice(0, 6);
-  return (
-    <div className="flex-1 px-4 sm:px-6 py-8 grid gap-8 lg:grid-cols-[1.1fr_1fr] max-w-6xl w-full mx-auto">
-      <div className="space-y-6">
-        <div className="space-y-3">
-          <Logo size={40} />
-          <h1 className="text-[28px] sm:text-[34px] leading-tight font-semibold tracking-tight">
-            Which companies does this headline actually hit?
-          </h1>
-          <p className="text-muted text-[15px] leading-6 max-w-[56ch]">
-            Contagion Graph traces a news event through supplier, customer, competitor, region and commodity links up to three
-            hops out. It scores each company and shows the filing sentence behind every link. Vector search finds documents that
-            mention the headline; this finds the consequences.
-          </p>
-        </div>
-        {apiDown && (
-          <p className="text-[13px] text-warn border border-warn/30 bg-warn/5 rounded-md px-3 py-2">
-            The API isn’t reachable. Locally, start it with <code className="num">npm run dev:api</code>.
-          </p>
-        )}
-        {health && (
-          <dl className="grid grid-cols-3 gap-3 max-w-md">
-            {[
-              ["companies", health.graph.companies + health.graph.external_companies],
-              ["links", health.graph.edges],
-              ["filing quotes", health.graph.evidence_quotes],
-            ].map(([k, v]) => (
-              <div key={k} className="border border-line rounded-md px-3 py-2">
-                <dd className="num text-[20px] font-semibold">{v}</dd>
-                <dt className="text-[11px] text-faint">{k}</dt>
-              </div>
-            ))}
-          </dl>
-        )}
-      </div>
-      <div className="space-y-5">
-        <Panel>
-          <SectionTitle>Worked examples · free to open</SectionTitle>
-          <ul className="pb-2">
-            {runs === null && [0, 1, 2].map((i) => <li key={i} className="mx-3 my-2 skeleton h-10" />)}
-            {examples.map((r) => (
-              <li key={r.id}>
-                <Link href={`/run/${r.id}`} className="block px-3 py-2.5 hover:bg-panel-2 border-t border-line/60">
-                  <span className="text-[13.5px] leading-5">{r.headline}</span>
-                  <span className="block text-[11px] text-faint mt-0.5">
-                    {EVENT_LABELS[r.event_type] ?? r.event_type} · severity {r.severity} · {r.reached} companies reached
-                  </span>
-                </Link>
-              </li>
-            ))}
-            {runs !== null && !examples.length && (
-              <li className="px-3 py-2 text-[12.5px] text-muted">
-                No examples yet. Try{" "}
-                <button className="text-help hover:underline" onClick={() => onPick("Earthquake halts TSMC fabs in Taiwan for several weeks")}>
-                  an earthquake at TSMC
-                </button>
-                .
-              </li>
-            )}
-          </ul>
-        </Panel>
-        {recent.length > 0 && (
-          <Panel>
-            <SectionTitle>Recently traced</SectionTitle>
-            <ul className="pb-2">
-              {recent.map((r) => (
-                <li key={r.id}>
-                  <Link href={`/run/${r.id}`} className="flex justify-between gap-3 px-3 py-2 hover:bg-panel-2 border-t border-line/60 text-[13px]">
-                    <span className="truncate">{r.headline}</span>
-                    <span className="text-[11px] text-faint shrink-0">{timeAgo(r.created_at)}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </Panel>
-        )}
-      </div>
     </div>
   );
 }

@@ -44,7 +44,7 @@ export default function CompanyPage({ params }: { params: Promise<{ id: string }
   if (err) return <p className="p-6 text-hurt">{err}</p>;
   if (!data)
     return (
-      <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 py-6 space-y-3">
+      <div className="max-w-[1320px] w-full mx-auto px-4 sm:px-8 py-8 space-y-3">
         <div className="skeleton h-8 w-64" />
         <div className="skeleton h-[380px]" />
       </div>
@@ -52,13 +52,13 @@ export default function CompanyPage({ params }: { params: Promise<{ id: string }
 
   const n = data.node;
   return (
-    <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 py-6 space-y-5">
-      <Link href="/explorer" className="text-[12px] text-muted hover:text-text">← All companies</Link>
-      <header className="flex flex-wrap items-end justify-between gap-3">
+    <div className="max-w-[1320px] w-full mx-auto px-4 sm:px-8 py-8 sm:py-10 space-y-8">
+      <Link href="/explorer" className="inline-flex items-center gap-1.5 text-[12.5px] text-muted hover:text-text transition-colors">← All companies</Link>
+      <header className="flex flex-wrap items-end justify-between gap-6 pt-2 fade-up">
         <div>
           <div className="flex items-center gap-3">
-            <h1 className="text-[24px] font-semibold tracking-tight">{n.name}</h1>
-            {n.ticker && <span className="num text-muted">{n.ticker}</span>}
+            <h1 className="display text-[44px] sm:text-[60px]">{n.name}</h1>
+            {n.ticker && <span className="num text-muted text-[15px] border border-line-strong rounded-md px-2 py-0.5">{n.ticker}</span>}
           </div>
           <p className="text-[13px] text-muted">
             {SECTOR_LABELS[n.sector ?? ""] ?? n.sector} · {n.country}

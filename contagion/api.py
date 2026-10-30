@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import time
+import xml.etree.ElementTree as ET
 
 import httpx
 from fastapi import APIRouter, FastAPI, HTTPException, Request
@@ -217,29 +218,59 @@ def backtests() -> list[dict]:
 _news_cache: tuple[float, list] | None = None
 
 
+_NEWS_TERMS = ["semiconductor", "chipmaker", "foundry", "automaker", '"supply chain"', '"chip shortage"']
+
+
+def _gdelt_news() -> list[dict]:
+    query = f"({' OR '.join(_NEWS_TERMS)}) sourcelang:english"
+    resp = httpx.get("https://api.gdeltproject.org/api/v2/doc/doc",
+                     params={"query": query, "mode": "artlist", "maxrecords": 40, "format": "json",
+                             "sort": "datedesc", "timespan": "2d"}, timeout=15)
+    resp.raise_for_status()  # GDELT answers 429 with a plain-text body when rate limited
+    return [{"title": a.get("title", ""), "url": a.get("url"), "domain": a.get("domain"), "seen": a.get("seendate")}
+            for a in resp.json().get("articles", [])]
+
+
+def _google_news() -> list[dict]:
+    """Fallback: Google News RSS search (free, no key)."""
+    resp = httpx.get("https://news.google.com/rss/search",
+                     params={"q": " OR ".join(_NEWS_TERMS) + " when:2d", "hl": "en-US", "gl": "US", "ceid": "US:en"},
+                     timeout=10, follow_redirects=True)
+    resp.raise_for_status()
+    items = []
+    for it in ET.fromstring(resp.content).iter("item"):
+        source = it.findtext("source") or ""
+        title = it.findtext("title") or ""
+        if source and title.endswith(" - " + source):  # Google appends " - Publisher" to every title
+            title = title[: -len(source) - 3]
+        items.append({"title": title, "url": it.findtext("link"), "domain": source, "seen": it.findtext("pubDate")})
+    return items
+
+
 @router.get("/news")
 def news() -> list[dict]:
-    """Recent supply-chain headlines from GDELT (free, no key), cached for 15 minutes."""
+    """Recent supply-chain headlines from GDELT, falling back to Google News; cached for 15 minutes."""
     global _news_cache
     if _news_cache and time.time() - _news_cache[0] < 900:
         return _news_cache[1]
-    query = ('(semiconductor OR chipmaker OR foundry OR automaker OR "supply chain" OR "chip shortage") '
-             "sourcelang:english")
-    try:
-        resp = httpx.get("https://api.gdeltproject.org/api/v2/doc/doc",
-                         params={"query": query, "mode": "artlist", "maxrecords": 40, "format": "json",
-                                 "sort": "datedesc", "timespan": "2d"}, timeout=8)
-        arts = resp.json().get("articles", [])
-    except Exception:
+    arts: list[dict] = []
+    for source in (_gdelt_news, _google_news):
+        try:
+            arts = source()
+        except Exception:
+            continue
+        if arts:
+            break
+    if not arts:
         return _news_cache[1] if _news_cache else []
     seen, items = set(), []
     for a in arts:
-        title = " ".join(a.get("title", "").split())
+        title = " ".join(a["title"].split())
         key = title.lower()[:60]
         if len(title) < 25 or key in seen:
             continue
         seen.add(key)
-        items.append({"title": title, "url": a.get("url"), "domain": a.get("domain"), "seen": a.get("seendate")})
+        items.append({**a, "title": title})
     _news_cache = (time.time(), items[:20])
     return _news_cache[1]
 

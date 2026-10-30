@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { api, type NodeInfo } from "@/lib/api";
 import { SECTOR_LABELS } from "@/lib/format";
-import { CoverageDot } from "@/components/ui";
+import { CoverageDot, PageHeader } from "@/components/ui";
 
 type Row = NodeInfo & { degree: number };
 
@@ -33,17 +33,16 @@ export default function ExplorerPage() {
   }, [rows]);
 
   return (
-    <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 py-6 space-y-5">
-      <header className="space-y-1">
-        <h1 className="text-[22px] font-semibold tracking-tight">Explorer</h1>
-        <p className="text-muted text-[14px]">Every company in the graph, its suppliers, customers and competitors, and the filing quote behind each link.</p>
-      </header>
+    <div className="max-w-[1320px] w-full mx-auto px-4 sm:px-8 py-8 sm:py-10 space-y-8">
+      <PageHeader eyebrow="the graph, company by company" title="Explorer." accent="Every link, with its receipt.">
+        Every company in the graph, its suppliers, customers and competitors, and the filing quote behind each link.
+      </PageHeader>
       <div className="flex flex-col sm:flex-row gap-3">
         <input
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Search by name or ticker"
-          className="bg-panel border border-line-strong rounded-lg px-3 py-2 text-[14px] outline-none focus:border-origin/60 sm:w-80"
+          className="h-10 self-start bg-panel border border-line-strong rounded-xl px-3.5 text-[14px] outline-none focus:border-origin/60 transition-colors sm:w-80 shrink-0"
         />
         <div className="flex flex-wrap gap-1.5">
           <Chip on={!sector} onClick={() => setSector(null)}>All</Chip>

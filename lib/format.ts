@@ -80,3 +80,10 @@ export function timeAgo(iso: string): string {
   if (s < 86400) return `${Math.floor(s / 3600)}h ago`;
   return `${Math.floor(s / 86400)}d ago`;
 }
+
+/** The page's Geist Mono stack, for canvas/SVG text that can't use a CSS class. */
+export function monoFont(): string {
+  if (typeof window === "undefined") return "ui-monospace, monospace";
+  const v = getComputedStyle(document.documentElement).getPropertyValue("--font-geist-mono").trim();
+  return v ? `${v}, ui-monospace, monospace` : "ui-monospace, monospace";
+}

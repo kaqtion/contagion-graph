@@ -3,17 +3,17 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Core, ElementDefinition } from "cytoscape";
 import type { EdgeInfo, Exposure, NodeInfo } from "@/lib/api";
-import { label } from "@/lib/format";
+import { label, monoFont } from "@/lib/format";
 
 const RADII = [0, 165, 295, 415];
 const C = {
   hurt: "#e85a38",
   help: "#3a88ee",
   origin: "#f2b544",
-  neutral: "#5d6676",
+  neutral: "#60656d",
   edge: "#343c4a",
   text: "#c9ced8",
-  bg: "#0a0c10",
+  bg: "#0b0c0e",
 };
 
 type Props = {
@@ -161,6 +161,11 @@ export default function ContagionGraph({
       cy.zoom(1.3);
       cy.center();
     }
+    // leave room for the summary card (top-left) and legend (bottom-left) overlays
+    const w = box.current.clientWidth;
+    const h = box.current.clientHeight;
+    cy.zoom({ level: cy.zoom() * 0.86, renderedPosition: { x: w / 2, y: h / 2 } });
+    cy.panBy({ x: w > 900 ? 60 : 0, y: 28 });
     setView({ x: cy.pan().x, y: cy.pan().y, z: cy.zoom() });
   };
 
@@ -186,7 +191,7 @@ export default function ContagionGraph({
               width: "data(size)", height: "data(size)", shape: "data(shape)" as never,
               "background-color": "data(color)", "background-opacity": 0.9,
               "border-width": 1.5, "border-color": C.bg,
-              label: "data(label)", color: C.text, "font-size": 10, "font-family": "JetBrains Mono, monospace",
+              label: "data(label)", color: C.text, "font-size": 10, "font-family": monoFont(),
               "text-valign": "bottom", "text-margin-y": 4, "text-outline-color": C.bg, "text-outline-width": 2.5,
               "transition-property": "opacity, border-width, border-color", "transition-duration": 180,
             },
@@ -287,7 +292,7 @@ export default function ContagionGraph({
             <g key={r}>
               <circle r={r} fill="none" stroke="#1d232d" strokeWidth={1 / view.z} strokeDasharray={`${3 / view.z} ${5 / view.z}`} />
               <text x={0} y={-r - 6 / view.z} textAnchor="middle" fill="#4a5361" fontSize={10 / view.z}
-                fontFamily="JetBrains Mono, monospace" letterSpacing={1 / view.z}>
+                fontFamily={monoFont()} letterSpacing={1 / view.z}>
                 HOP {i + 1}
               </text>
             </g>

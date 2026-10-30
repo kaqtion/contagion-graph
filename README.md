@@ -24,7 +24,7 @@ online:   headline ─► Event parser ─► origins ─► Navigator (template
 | API | FastAPI, served as a Vercel Python function at `/api/py/*` |
 | Graph + evidence | Postgres on Neon (SQLite locally); traversal in Python, in memory |
 | LLM | Claude Haiku 5.5 for extraction (Batch API), event parsing, explanation and critic |
-| Data | SEC EDGAR, GDELT (live headlines), Yahoo Finance (back-tests) |
+| Data | SEC EDGAR, GDELT + Google News (live headlines), Yahoo Finance (back-tests) |
 
 ## Run locally
 

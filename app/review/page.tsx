@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { api, post, type EdgeInfo } from "@/lib/api";
 import { strengthText } from "@/lib/format";
-import { Badge, Panel, SectionTitle } from "@/components/ui";
+import { Badge, PageHeader, Panel, SectionTitle } from "@/components/ui";
 
 type Queue = {
   flagged: EdgeInfo[];
@@ -51,14 +51,11 @@ export default function ReviewPage() {
   const name = (id: string) => queue?.nodes[id] ?? id;
 
   return (
-    <div className="max-w-5xl w-full mx-auto px-4 sm:px-6 py-6 space-y-5">
-      <header className="space-y-1">
-        <h1 className="text-[22px] font-semibold tracking-tight">Review queue</h1>
-        <p className="text-muted text-[14px]">
-          Edges the critic marks speculative (no quote, stale or weak) and names the resolver could not match. Rejected edges drop out of every trace
+    <div className="max-w-[1100px] w-full mx-auto px-4 sm:px-8 py-8 sm:py-10 space-y-8">
+      <PageHeader eyebrow="human in the loop" title="Review queue.">
+        Edges the critic marks speculative (no quote, stale or weak) and names the resolver could not match. Rejected edges drop out of every trace
           and stay rejected when the graph is rebuilt.
-        </p>
-      </header>
+      </PageHeader>
       {!queue && (
         <form
           className="flex gap-2 max-w-md"

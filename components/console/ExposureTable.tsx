@@ -27,15 +27,15 @@ export default function ExposureTable({
 
   return (
     <div className="flex-1 flex flex-col min-h-0">
-      <div className="flex items-center gap-1 px-3 pb-2" role="tablist">
+      <div className="mx-4 mb-2.5 inline-flex self-start items-center gap-0.5 p-0.5 rounded-lg bg-white/[0.03] border border-line" role="tablist">
         {(["all", "hurt", "helped", "mine"] as Filter[]).map((f) => (
           <button
             key={f}
             role="tab"
             aria-selected={filter === f}
             onClick={() => setFilter(f)}
-            className={`px-2 py-0.5 rounded text-[12px] capitalize transition-colors ${
-              filter === f ? "bg-raise text-text" : "text-muted hover:text-text"
+            className={`px-2.5 py-1 rounded-md text-[12px] capitalize transition-all duration-200 ${
+              filter === f ? "bg-raise text-text shadow-[inset_0_1px_0_rgba(255,255,255,0.05)]" : "text-muted hover:text-text"
             }`}
           >
             {f === "mine" ? `My holdings${holdings.size ? ` (${holdings.size})` : ""}` : f}
@@ -44,13 +44,13 @@ export default function ExposureTable({
       </div>
       <div className="overflow-auto min-h-0 flex-1">
         <table className="w-full text-[12.5px]">
-          <thead className="sticky top-0 bg-panel z-10">
-            <tr className="text-faint text-[10.5px] uppercase tracking-wider">
-              <th className="text-left font-medium pl-3 pr-1 py-1.5 w-9">#</th>
-              <th className="text-left font-medium py-1.5">Company</th>
-              <th className="text-left font-medium py-1.5 px-1 w-10">Hop</th>
-              <th className="text-left font-medium py-1.5">Impact</th>
-              <th className="text-left font-medium py-1.5 pr-3 hidden sm:table-cell w-[92px]">Evidence</th>
+          <thead className="sticky top-0 bg-[#0e1013]/95 backdrop-blur z-10">
+            <tr className="text-faint text-[11px] num">
+              <th className="text-left font-normal pl-4 pr-1 py-2 w-10">#</th>
+              <th className="text-left font-normal py-2">company</th>
+              <th className="text-left font-normal py-2 px-1 w-10">hop</th>
+              <th className="text-left font-normal py-2">impact</th>
+              <th className="text-left font-normal py-2 pr-4 hidden sm:table-cell w-[96px]">evidence</th>
             </tr>
           </thead>
           <tbody>
@@ -60,12 +60,12 @@ export default function ExposureTable({
                 onClick={() => onSelect(r.id)}
                 onMouseEnter={() => onHover(r.id)}
                 onMouseLeave={() => onHover(null)}
-                className={`cursor-pointer border-t border-line/60 transition-colors ${
-                  selected === r.id ? "bg-raise" : "hover:bg-panel-2"
+                className={`cursor-pointer border-t border-line/60 transition-colors duration-150 ${
+                  selected === r.id ? "bg-origin-soft shadow-[inset_2px_0_0_var(--origin)]" : "hover:bg-white/[0.03]"
                 }`}
               >
-                <td className="pl-3 pr-1 py-1.5 num text-faint">{i + 1}</td>
-                <td className="py-1.5 pr-2">
+                <td className="pl-4 pr-1 py-2 num text-faint">{i + 1}</td>
+                <td className="py-2 pr-2">
                   <div className="flex items-center gap-2 min-w-0">
                     {r.ticker ? (
                       <>
@@ -81,11 +81,11 @@ export default function ExposureTable({
                     {!r.in_universe && <span className="text-[10px] text-faint" title="Named in a filing; not in the curated universe">ext</span>}
                   </div>
                 </td>
-                <td className="py-1.5 px-1 num text-muted">{r.hop}</td>
-                <td className="py-1.5 pr-2">
+                <td className="py-2 px-1 num text-muted">{r.hop}</td>
+                <td className="py-2 pr-2">
                   <ImpactBar v={r.impact} max={max} />
                 </td>
-                <td className="py-1.5 pr-3 hidden sm:table-cell">
+                <td className="py-2 pr-4 hidden sm:table-cell">
                   <div className="flex items-center gap-2">
                     <QualityBadge q={r.quality} compact />
                     <CoverageDot c={r.coverage} />
@@ -96,7 +96,7 @@ export default function ExposureTable({
           </tbody>
         </table>
         {!list.length && (
-          <p className="px-3 py-6 text-[12.5px] text-muted">
+          <p className="px-4 py-8 text-[13px] leading-6 text-muted">
             {filter === "mine"
               ? holdings.size
                 ? "None of your holdings are on a known path from this event. That means no link we know of, not proof of no exposure."

@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { api } from "@/lib/api";
-import { Panel, SectionTitle } from "@/components/ui";
+import { PageHeader, Panel, SectionTitle } from "@/components/ui";
 
 type Method = { method: string; n: number; mean_car: number | null; hit_rate: number | null };
 type Point = { ticker: string; name: string; impact: number; car1: number | null; car5: number | null; car10: number | null };
@@ -52,14 +52,11 @@ export default function BacktestPage() {
   }, [data]);
 
   return (
-    <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 py-6 space-y-5">
-      <header className="space-y-1">
-        <h1 className="text-[22px] font-semibold tracking-tight">Backtest</h1>
-        <p className="text-muted text-[14px] max-w-[75ch]">
-          Do the companies the graph flags actually fall? For each historical shock we compare predicted exposure with 5-day market-adjusted returns
+    <div className="max-w-[1320px] w-full mx-auto px-4 sm:px-8 py-8 sm:py-10 space-y-8">
+      <PageHeader eyebrow="does it work?" title="Backtest." accent="Did it call it?">
+        Do the companies the graph flags actually fall? For each historical shock we compare predicted exposure with 5-day market-adjusted returns
           (stock minus SPY, from the close before day 0), against simpler baselines.
-        </p>
-      </header>
+      </PageHeader>
 
       {data === null && <div className="skeleton h-64" />}
       {data?.length === 0 && <Panel className="p-4 text-muted text-[14px]">No backtests yet. Run <code className="num">python -m scripts.backtest</code>.</Panel>}
@@ -191,7 +188,7 @@ function Scatter({ points }: { points: Point[] }) {
         {yTicks.map((t) => (
           <g key={`y${t}`}>
             <line x1={m.l} x2={W - m.r} y1={y(t)} y2={y(t)} stroke={t === 0 ? "#3a4250" : "#1a1f27"} strokeWidth={1} />
-            <text x={m.l - 8} y={y(t) + 3.5} textAnchor="end" fontSize={10.5} fill="#5d6676" fontFamily="JetBrains Mono, monospace">
+            <text x={m.l - 8} y={y(t) + 3.5} textAnchor="end" fontSize={10.5} fill="#60656d" fontFamily="var(--font-geist-mono), monospace">
               {pct(t, 0)}
             </text>
           </g>
@@ -199,7 +196,7 @@ function Scatter({ points }: { points: Point[] }) {
         {xTicks.map((t) => (
           <g key={`x${t}`}>
             <line x1={x(t)} x2={x(t)} y1={m.t} y2={H - m.b} stroke={t === 0 ? "#3a4250" : "#1a1f27"} strokeWidth={1} />
-            <text x={x(t)} y={H - m.b + 15} textAnchor="middle" fontSize={10.5} fill="#5d6676" fontFamily="JetBrains Mono, monospace">
+            <text x={x(t)} y={H - m.b + 15} textAnchor="middle" fontSize={10.5} fill="#60656d" fontFamily="var(--font-geist-mono), monospace">
               {t.toFixed(2)}
             </text>
           </g>
@@ -219,7 +216,7 @@ function Scatter({ points }: { points: Point[] }) {
               <circle cx={cx} cy={cy} r={11} fill="transparent" />
               <circle cx={cx} cy={cy} r={p.impact === 0 ? 3.5 : 5} fill={c} stroke="#0f1217" strokeWidth={2} opacity={p.impact === 0 ? 0.55 : 1} />
               {labelled.has(p.ticker) && (
-                <text x={cx + 8} y={cy + 3.5} fontSize={10.5} fill="#c9ced8" fontFamily="JetBrains Mono, monospace">
+                <text x={cx + 8} y={cy + 3.5} fontSize={10.5} fill="#c9ced8" fontFamily="var(--font-geist-mono), monospace">
                   {p.ticker}
                 </text>
               )}
@@ -260,7 +257,7 @@ function PointsTable({ points }: { points: Point[] }) {
     <div className="max-h-[400px] overflow-auto">
       <table className="w-full text-[12.5px]">
         <thead className="sticky top-0 bg-panel">
-          <tr className="text-faint text-[10.5px] uppercase tracking-wider">
+          <tr className="text-faint text-[11px] num">
             <th className="text-left font-medium px-3 py-1.5">Ticker</th>
             <th className="text-right font-medium py-1.5">Impact</th>
             <th className="text-right font-medium py-1.5">CAR1</th>

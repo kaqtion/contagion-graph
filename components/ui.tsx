@@ -14,7 +14,7 @@ export function Badge({ children, tone = "neutral", title }: {
     origin: "border-origin/40 text-origin bg-origin-soft",
   };
   return (
-    <span title={title} className={`inline-flex items-center gap-1 rounded border px-1.5 py-px text-[10.5px] leading-4 whitespace-nowrap ${tones[tone]}`}>
+    <span title={title} className={`inline-flex items-center gap-1 rounded-[5px] border px-1.5 py-px text-[10.5px] leading-4 whitespace-nowrap ${tones[tone]}`}>
       {children}
     </span>
   );
@@ -64,14 +64,31 @@ export function ImpactBar({ v, max }: { v: number; max: number }) {
 }
 
 export function Panel({ children, className = "" }: { children: ReactNode; className?: string }) {
-  return <section className={`bg-panel border border-line rounded-lg ${className}`}>{children}</section>;
+  return <section className={`surface rounded-xl ${className}`}>{children}</section>;
 }
 
 export function SectionTitle({ children, right }: { children: ReactNode; right?: ReactNode }) {
   return (
-    <div className="flex items-center justify-between gap-2 px-3 pt-3 pb-2">
-      <h2 className="text-[11px] uppercase tracking-[0.08em] text-faint font-medium">{children}</h2>
+    <div className="flex items-center justify-between gap-2 px-4 pt-3.5 pb-2.5">
+      <h2 className="eyebrow">{children}</h2>
       {right}
     </div>
+  );
+}
+
+export function PageHeader({ eyebrow, title, accent, children, right }: {
+  eyebrow: string; title: string; accent?: string; children?: ReactNode; right?: ReactNode;
+}) {
+  return (
+    <header className="stagger flex flex-wrap items-end justify-between gap-x-10 gap-y-4 pt-6 pb-2">
+      <div className="space-y-4 max-w-3xl">
+        <p className="eyebrow">{eyebrow}</p>
+        <h1 className="display text-[44px] sm:text-[60px] text-text">
+          {title} {accent && <em className="text-muted">{accent}</em>}
+        </h1>
+        {children && <div className="text-muted text-[15px] leading-7 max-w-[64ch]">{children}</div>}
+      </div>
+      {right}
+    </header>
   );
 }

@@ -23,9 +23,12 @@ const SYMBOLS = [
 
 export default function MethodPage() {
   return (
-    <article className="max-w-3xl w-full mx-auto px-4 sm:px-6 py-8 space-y-10 text-[14.5px] leading-7 text-muted">
-      <header className="space-y-3">
-        <h1 className="text-[28px] font-semibold tracking-tight text-text">How Contagion Graph works</h1>
+    <article className="max-w-[860px] w-full mx-auto px-4 sm:px-8 py-10 sm:py-14 space-y-14 text-[15px] leading-7 text-muted">
+      <header className="stagger space-y-5">
+        <p className="eyebrow">method</p>
+        <h1 className="display text-[48px] sm:text-[68px] text-text">
+          How Contagion Graph <em className="text-origin">works.</em>
+        </h1>
         <p>
           Plain RAG retrieves documents; this retrieves consequences. An offline loop turns SEC filings into a graph of evidence-backed links. An online
           loop takes a headline, finds where it lands in the graph, traces exposure up to three hops out, scores it, and explains every path with the
@@ -34,7 +37,7 @@ export default function MethodPage() {
       </header>
 
       <Section title="The seven agents">
-        <div className="border border-line rounded-lg overflow-hidden">
+        <div className="surface rounded-xl overflow-hidden">
           {AGENTS.map(([name, when, what]) => (
             <div key={name} className="grid sm:grid-cols-[160px_1fr] gap-x-4 px-4 py-3 border-b border-line last:border-0 bg-panel">
               <div>
@@ -54,6 +57,7 @@ export default function MethodPage() {
             Impact(c) = Sₑ · polarity · Σ<sub>p ∈ paths(o→c)</sub> ( Π<sub>(u,v) ∈ p</sub> w<sub>uv</sub> · s<sub>uv</sub> ) · λ<sup>|p|−1</sup> · f<sub>fresh</sub>(p)
           </p>
         </div>
+        <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0">
         <table className="w-full text-[13px]">
           <tbody>
             {SYMBOLS.map(([s, m, how]) => (
@@ -65,6 +69,7 @@ export default function MethodPage() {
             ))}
           </tbody>
         </table>
+        </div>
         <p className="text-[13px]">
           Paths are pruned with a beam (the 40 strongest partial paths per hop, at most 3 per company) and a minimum path weight of 0.02, so hubs like
           Apple don’t explode into thousands of nodes. A company named as the origin is scored directly, and other paths don’t route through it, so it
@@ -108,8 +113,8 @@ export default function MethodPage() {
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
-    <section className="space-y-3">
-      <h2 className="text-[18px] font-semibold text-text tracking-tight">{title}</h2>
+    <section className="space-y-5">
+      <h2 className="display text-[34px] sm:text-[40px] text-text">{title}</h2>
       {children}
     </section>
   );

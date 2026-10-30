@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import { api, post, type RunSummary } from "@/lib/api";
 import { fmtImpact, impactColor } from "@/lib/format";
 import { loadHoldings, saveHoldings, type HoldingRow } from "@/lib/holdings";
-import { Badge, Panel, SectionTitle } from "@/components/ui";
+import { Badge, PageHeader, Panel, SectionTitle } from "@/components/ui";
 
 type Row = {
   ticker: string;
@@ -95,14 +95,11 @@ export default function PortfolioPage() {
   }, [result]);
 
   return (
-    <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 py-6 space-y-5">
-      <header className="space-y-1">
-        <h1 className="text-[22px] font-semibold tracking-tight">Portfolio lens</h1>
-        <p className="text-muted text-[14px] max-w-[70ch]">
-          Turns a market-wide exposure ranking into “what this means for you”. Exposure = Σ position weight × company impact. ETFs are split into
+    <div className="max-w-[1320px] w-full mx-auto px-4 sm:px-8 py-8 sm:py-10 space-y-8">
+      <PageHeader eyebrow="what it means for you" title="Portfolio lens." accent="Your book, through the graph.">
+        Turns a market-wide exposure ranking into “what this means for you”. Exposure = Σ position weight × company impact. ETFs are split into
           their holdings first. Holdings stay in this browser.
-        </p>
-      </header>
+      </PageHeader>
 
       <div className="grid gap-5 lg:grid-cols-[360px_1fr]">
         <Panel>
@@ -187,7 +184,7 @@ export default function PortfolioPage() {
               <Panel className="overflow-x-auto">
                 <table className="w-full text-[13px] min-w-[560px]">
                   <thead>
-                    <tr className="text-faint text-[10.5px] uppercase tracking-wider">
+                    <tr className="text-faint text-[11px] num">
                       <th className="text-left font-medium px-3 py-2">Holding</th>
                       <th className="text-right font-medium py-2">Weight</th>
                       <th className="text-left font-medium py-2 pl-4">Status</th>

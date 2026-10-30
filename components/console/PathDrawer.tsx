@@ -30,34 +30,36 @@ export default function PathDrawer({ ex, nodes, edges, explanation, explaining, 
   const expl = explanation?.companies.find((c) => c.id === ex.id);
 
   return (
-    <div className="h-full flex flex-col bg-panel border-l border-line fade-up">
-      <div className="flex items-start justify-between gap-3 px-4 pt-4 pb-3 border-b border-line">
+    <div className="h-full flex flex-col bg-[#0e1013]/95 backdrop-blur-xl border-l border-line shadow-[-30px_0_60px_-30px_rgba(0,0,0,0.8)] fade-up">
+      <div className="flex items-start justify-between gap-3 px-5 pt-5 pb-4 border-b border-line">
         <div className="min-w-0">
           <div className="flex items-center gap-2">
-            <span className="num text-[18px] font-semibold">{ex.ticker ?? ex.name}</span>
+            <span className="display text-[30px] leading-none">{ex.name}</span>
             <CoverageDot c={ex.coverage} />
           </div>
-          <div className="text-[12.5px] text-muted truncate">
-            {ex.name}
+          <div className="text-[12px] text-muted truncate mt-1.5 num">
+            {ex.ticker ?? "private / non-US"}
             {ex.sector ? ` · ${SECTOR_LABELS[ex.sector] ?? ex.sector}` : ""}
           </div>
         </div>
         <div className="text-right shrink-0">
-          <div className="num text-[22px] leading-6 font-semibold" style={{ color: impactColor(ex.impact) }}>
+          <div className="num text-[26px] leading-7 font-medium tracking-tight" style={{ color: impactColor(ex.impact) }}>
             {fmtImpact(ex.impact)}
           </div>
           <div className="text-[11px] text-faint">
             {ex.impact < 0 ? "hurt" : "helped"} · hop {ex.hop} · {ex.path_count} path{ex.path_count === 1 ? "" : "s"}
           </div>
         </div>
-        <button onClick={onClose} aria-label="Close" className="text-faint hover:text-text -mr-1 -mt-1 px-1 text-lg leading-none">
-          ×
+        <button onClick={onClose} aria-label="Close" className="w-8 h-8 -mr-1.5 -mt-1 grid place-items-center rounded-full text-faint hover:text-text hover:bg-white/[0.06] transition-colors">
+          <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden>
+            <path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+          </svg>
         </button>
       </div>
 
-      <div className="overflow-y-auto flex-1 px-4 py-3 space-y-5">
+      <div className="overflow-y-auto flex-1 px-5 py-4 space-y-6">
         <section>
-          <h3 className="text-[11px] uppercase tracking-[0.08em] text-faint mb-2">Why</h3>
+          <h3 className="eyebrow mb-2.5">why</h3>
           {expl ? (
             <div className="space-y-2">
               <p className="text-[13px] leading-5">{expl.rationale}</p>
@@ -94,7 +96,7 @@ export default function PathDrawer({ ex, nodes, edges, explanation, explaining, 
         </section>
 
         <section className="space-y-3">
-          <h3 className="text-[11px] uppercase tracking-[0.08em] text-faint">Paths</h3>
+          <h3 className="eyebrow">paths</h3>
           {ex.paths.length === 0 && <p className="text-[12.5px] text-muted">This is the event origin.</p>}
           {ex.paths.map((p, i) => (
             <PathCard key={i} index={i} p={p} edges={edges} name={name} />

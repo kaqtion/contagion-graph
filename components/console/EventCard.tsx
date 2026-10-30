@@ -6,19 +6,19 @@ export default function EventCard({ run }: { run: RunData }) {
   const ev = run.event;
   const r = run.result;
   return (
-    <div className="px-3 pb-3 space-y-3">
+    <div className="px-4 pb-4 space-y-3.5">
       <div className="flex flex-wrap items-center gap-1.5">
         <Badge tone={ev.polarity === "negative" ? "hurt" : "help"}>{EVENT_LABELS[ev.event_type] ?? ev.event_type}</Badge>
         <Badge>{ev.expected_duration}</Badge>
         {run.is_demo && <Badge tone="origin">example</Badge>}
       </div>
-      <p className="text-[13px] leading-5 text-text">{ev.summary}</p>
-      <dl className="grid grid-cols-[88px_1fr] gap-y-2 text-[12px]">
+      <p className="text-[14px] leading-[1.55] text-text">{ev.summary}</p>
+      <dl className="grid grid-cols-[84px_1fr] gap-y-2 text-[12px]">
         <dt className="text-faint">Severity</dt>
         <dd className="flex items-center gap-2">
           <span className="flex gap-0.5">
             {[1, 2, 3, 4, 5].map((i) => (
-              <span key={i} className={`w-3.5 h-1.5 rounded-sm ${i <= ev.severity ? (ev.polarity === "negative" ? "bg-hurt" : "bg-help") : "bg-line-strong"}`} />
+              <span key={i} className={`w-4 h-1.5 rounded-full ${i <= ev.severity ? (ev.polarity === "negative" ? "bg-hurt" : "bg-help") : "bg-line-strong"}`} />
             ))}
           </span>
           <span className="num text-muted">{ev.severity}/5</span>

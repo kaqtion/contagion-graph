@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import type { Core } from "cytoscape";
 import { useRouter } from "next/navigation";
 import type { EdgeInfo, NodeInfo } from "@/lib/api";
-import { label } from "@/lib/format";
+import { label, monoFont } from "@/lib/format";
 
 // One company's neighbourhood: suppliers on the left, customers on the right,
 // competitors below, regions and commodities above.
@@ -74,8 +74,8 @@ export default function EgoGraph({ center, nodes, edges }: { center: string; nod
             selector: "node",
             style: {
               width: "data(size)", height: "data(size)", shape: "data(shape)" as never, "background-color": "data(color)",
-              label: "data(label)", color: "#c9ced8", "font-size": 10, "font-family": "JetBrains Mono, monospace",
-              "text-valign": "bottom", "text-margin-y": 4, "text-outline-color": "#0a0c10", "text-outline-width": 2.5,
+              label: "data(label)", color: "#c9ced8", "font-size": 10, "font-family": monoFont(),
+              "text-valign": "bottom", "text-margin-y": 4, "text-outline-color": "#0b0c0e", "text-outline-width": 2.5,
             },
           },
           {
@@ -111,8 +111,8 @@ export default function EgoGraph({ center, nodes, edges }: { center: string; nod
 
   return (
     <div className="relative w-full h-full min-h-[360px]">
-      <div className="absolute top-2 left-3 text-[10.5px] uppercase tracking-wider text-faint">← suppliers</div>
-      <div className="absolute top-2 right-3 text-[10.5px] uppercase tracking-wider text-faint">customers →</div>
+      <div className="absolute top-3 left-4 eyebrow">← suppliers</div>
+      <div className="absolute top-3 right-4 eyebrow">customers →</div>
       <div ref={box} style={{ position: "absolute", inset: 0 }} />
     </div>
   );
