@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contagion Graph — System Specification & Architecture Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <!-- html2pdf for direct client-side PDF download without printer dialog -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <style>
+    /* Exact Contagion Graph Site Color Scheme from app/globals.css */
+    :root {
+      --bg: #0b0c0e;
+      --panel: #101215;
+      --panel-2: #15181c;
+      --raise: #1b1f24;
+      --line: #1f2329;
+      --line-strong: #2b3037;
+      --text: #ecebe6;
+      --muted: #979ba3;
+      --faint: #60656d;
+      --hurt: #e85a38;
+      --hurt-soft: rgba(232, 90, 56, 0.13);
+      --help: #3a88ee;
+      --help-soft: rgba(58, 136, 238, 0.13);
+      --origin: #f2b544;
+      --origin-soft: rgba(242, 181, 68, 0.13);
+      --ok: #4cc38a;
+      --warn: #e0a63a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Suppresses browser default headers and footers */
+    @page {
+      size: A4 portrait;
+      margin: 0 !important;
+    }
+
+    html {
+      color-scheme: dark;
+      background: #050607;
+    }
+
+    body {
+      background-color: #050607;
+      color: var(--text);
+      font-family: 'Geist', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 12px;
+      line-height: 1.48;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    #pdf-container {
+      width: 100%;
+    }
+
+    /* Page container: Fits content naturally without artificial bottom dead space */
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 20px auto;
+      padding: 13mm 16mm 12mm;
+      background: var(--bg);
+      border: 1px solid var(--line);
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.85);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      page-break-after: always;
+      page-break-inside: avoid;
+    }
+
+    .page-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media print {
+
+      html,
+      body {
+        background: var(--bg) !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      .page {
+        margin: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+        width: 210mm !important;
+        height: 297mm !important;
+        min-height: 297mm !important;
+        max-height: 297mm !important;
+        page-break-after: always !important;
+        page-break-inside: avoid !important;
+        padding: 11mm 15mm 10mm !important;
+      }
+
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    /* Top Header Bar */
+    .site-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 6px;
+      margin-bottom: 8px;
+    }
+
+    .brand-wrap {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+
+    .brand-logo {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--text);
+      letter-spacing: -0.01em;
+      text-decoration: none;
+    }
+
+    .brand-logo em {
+      font-style: italic;
+      color: var(--text);
+    }
+
+    .eyebrow {
+      font-family: 'Geist Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.02em;
+      color: var(--faint);
+    }
+
+    .eyebrow::before {
+      content: "/ ";
+      color: var(--line-strong);
+    }
+
+    /* Team Members Banner on Page 1 */
+    .team-badge-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 8px;
+      padding: 6px 12px;
+      background: var(--panel);
+      border: 1px solid var(--line-strong);
+      border-radius: 6px;
+    }
+
+    .team-label {
+      font-family: 'Geist Mono', monospace;
+      font-size: 9.5px;
+      font-weight: 600;
+      color: var(--origin);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .team-list {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .team-member {
+      font-size: 11px;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .team-member .id-code {
+      font-family: 'Geist Mono', monospace;
+      color: var(--origin);
+      font-weight: 500;
+      font-size: 10.5px;
+      margin-left: 3px;
+    }
+
+    /* Display Headlines */
+    h1.display-title {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 24px;
+      font-weight: 400;
+      color: var(--text);
+      line-height: 1.15;
+      margin-bottom: 3px;
+      letter-spacing: -0.01em;
+    }
+
+    h1.display-title em {
+      font-style: italic;
+      color: var(--origin);
+    }
+
+    h2.section-header {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 17px;
+      font-weight: 400;
+      color: var(--text);
+      margin: 8px 0 4px;
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+    }
+
+    .mono-num {
+      font-family: 'Geist Mono', monospace;
+      font-size: 11px;
+      color: var(--origin);
+      font-weight: 600;
+    }
+
+    p.lead-text {
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.45;
+      margin-bottom: 6px;
+    }
+
+    .quote-callout {
+      background: var(--panel);
+      border-left: 3px solid var(--origin);
+      padding: 5px 10px;
+      border-radius: 0 4px 4px 0;
+      margin: 4px 0 6px;
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 13.5px;
+      font-style: italic;
+      color: var(--text);
+    }
+
+    /* Cards & Grids */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7px;
+      margin-bottom: 6px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 7px;
+      margin-bottom: 6px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 6px;
+      margin-bottom: 6px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      padding: 7px 9px;
+    }
+
+    .card-title {
+      font-size: 10.5px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 2px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .card-body {
+      font-size: 10px;
+      color: var(--muted);
+      line-height: 1.38;
+    }
+
+    /* Pipeline Chips */
+    .pipeline-strip {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      padding: 5px 6px;
+      margin: 5px 0 6px;
+    }
+
+    .pipeline-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 3px;
+    }
+
+    .pipeline-chip {
+      flex: 1;
+      background: var(--panel-2);
+      border: 1px solid var(--line-strong);
+      border-radius: 4px;
+      padding: 3px 2px;
+      text-align: center;
+    }
+
+    .chip-name {
+      font-size: 9.5px;
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .chip-detail {
+      font-family: 'Geist Mono', monospace;
+      font-size: 8px;
+      color: var(--origin);
+    }
+
+    .chip-arrow {
+      color: var(--faint);
+      font-size: 9px;
+      font-weight: bold;
+    }
+
+    /* Figure Box: generously scaled to fill vertical space */
+    .figure-box {
+      border: 1px solid var(--line-strong);
+      background: var(--panel);
+      border-radius: 6px;
+      overflow: hidden;
+      margin: 6px 0 6px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .figure-box img {
+      width: 100%;
+      height: auto;
+      min-height: 330px;
+      max-height: 420px;
+      object-fit: contain;
+      display: block;
+      background: #000000;
+      flex: 1;
+    }
+
+    .figure-caption {
+      font-family: 'Geist Mono', monospace;
+      font-size: 9px;
+      color: var(--muted);
+      padding: 5px 8px;
+      background: var(--panel);
+      border-top: 1px solid var(--line);
+      line-height: 1.3;
+    }
+
+    .figure-caption strong {
+      color: var(--text);
+    }
+
+    /* Formula & Code Card */
+    .formula-box {
+      background: var(--panel);
+      border: 1px solid var(--line-strong);
+      border-radius: 5px;
+      padding: 6px 9px;
+      margin: 5px 0 6px;
+    }
+
+    .formula-math {
+      font-family: 'Geist Mono', monospace;
+      font-size: 10.5px;
+      font-weight: 600;
+      color: var(--origin);
+      margin-bottom: 2px;
+    }
+
+    .formula-desc {
+      font-family: 'Geist', sans-serif;
+      font-size: 9.5px;
+      color: var(--muted);
+      line-height: 1.3;
+    }
+
+    /* Tables */
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 10px;
+      margin: 5px 0 6px;
+    }
+
+    table.data-table th {
+      background: var(--panel-2);
+      color: var(--text);
+      font-weight: 600;
+      text-align: left;
+      padding: 4.5px 7px;
+      border-bottom: 1px solid var(--line-strong);
+      font-family: 'Geist Mono', monospace;
+      font-size: 9px;
+    }
+
+    table.data-table td {
+      padding: 4px 7px;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+    }
+
+    table.data-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .text-hurt {
+      color: var(--hurt);
+      font-weight: 600;
+    }
+
+    .text-help {
+      color: var(--help);
+      font-weight: 600;
+    }
+
+    .text-ok {
+      color: var(--ok);
+      font-weight: 600;
+    }
+
+    .text-origin {
+      color: var(--origin);
+      font-weight: 600;
+    }
+
+    /* Footer: anchored cleanly at bottom */
+    .page-footer {
+      border-top: 1px solid var(--line);
+      padding-top: 5px;
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Geist Mono', monospace;
+      font-size: 8.5px;
+      color: var(--faint);
+    }
+
+    /* Action Toolbar (Direct Download) */
+    .action-toolbar {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      display: flex;
+      gap: 10px;
+      z-index: 1000;
+    }
+
+    .btn-download {
+      background: var(--origin);
+      color: #17120a;
+      border: none;
+      font-weight: 600;
+      font-size: 12px;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: 'Geist', sans-serif;
+      box-shadow: 0 4px 18px rgba(242, 181, 68, 0.4);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+
+    .btn-download:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(242, 181, 68, 0.55);
+    }
+
+    .btn-download:disabled {
+      opacity: 0.6;
+      cursor: wait;
+      transform: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Floating Direct PDF Action Bar -->
+  <div class="action-toolbar no-print">
+    <button id="save-pdf-btn" class="btn-download" onclick="generateDirectPDF()">
+      <span>⬇️</span>
+      <span id="btn-text">Download PDF (No Printer Dialog)</span>
+    </button>
+  </div>
+
+  <div id="pdf-container">
+    <!-- ==================== PAGE 1 ==================== -->
+    <div class="page" id="page-1">
+      <div class="site-nav">
+        <div class="brand-wrap">
+          <div class="brand-logo">Contagion <em>Graph</em></div>
+          <span class="eyebrow">supply-chain contagion, traced from sec filings</span>
+        </div>
+      </div>
+
+      <!-- Team Members Identification -->
+      <div class="team-badge-row">
+        <span class="team-label">Team:</span>
+        <div class="team-list">
+          <span class="team-member">Ashmit Dhown <span class="id-code">2023A7PS0205U</span></span>
+          <span class="team-member">Rishit Kapur <span class="id-code">2023A7PS0278U</span></span>
+        </div>
+      </div>
+
+      <div class="page-content">
+        <h1 class="display-title">Every headline has <em>a blast radius.</em></h1>
+        <div class="quote-callout">
+          “Plain RAG retrieves documents; Contagion Graph retrieves consequences.”
+        </div>
+
+        <p class="lead-text">
+          Corporate risk does not stop at direct tier-1 counterparties. When a major earthquake halts semiconductor
+          foundries in Taiwan, or trade sanctions restrict lithography tooling, the decisive damage cascades through
+          <strong>2nd- and 3rd-hop dependencies</strong>: substrate suppliers, packaging subcontractors, automotive MCU
+          makers, and consumer hardware integrators across multiple jurisdictions.
+        </p>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-title"><span class="text-hurt">&bull;</span> LLMs Hallucinate Counterparties</div>
+            <div class="card-body">
+              General generative models invent plausible-sounding suppliers from training co-occurrence. They cannot
+              verify operational contracts or calculate auditable financial impact weights.
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title"><span class="text-origin">&bull;</span> SEC 10-K Filings Are Opaque</div>
+            <div class="card-body">
+              Firms bury sole-supplier risks and &gt;10% customer revenue thresholds across thousands of legal pages.
+              Standard keyword RAG retrieves isolated sentences but fails on transitive multi-hop chains.
+            </div>
+          </div>
+        </div>
+
+        <h2 class="section-header"><span class="mono-num">01</span> Offline Ingestion & Verified Knowledge Graph</h2>
+        <div class="grid-4">
+          <div class="card">
+            <div class="card-title">116 SEC Filings</div>
+            <div class="card-body">Harvested from SEC EDGAR across 146 tracked corporations.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">557 Resolved Entities</div>
+            <div class="card-body">411 external supplier nodes linked via fuzzy ticker matching.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Verbatim Quote Rule</div>
+            <div class="card-body">Extracted edges must match word-for-word against filing text.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">1,224 Active Edges</div>
+            <div class="card-body">1,150 filing quotes + 140 curated links; rebuilds cost ~$0.15.</div>
+          </div>
+        </div>
+
+        <h2 class="section-header"><span class="mono-num">02</span> Interface: Concentric Radial Shock Diffusion</h2>
+
+        <!-- FIGURE 1: Landing Hero & Radial Topology (Full natural scale) -->
+        <div class="figure-box">
+          <img src="public/screenshots/landing_hero_blast_radius.png"
+            alt="Contagion Graph Landing Hero & Radial Topology" />
+          <div class="figure-caption">
+            <strong>Figure 1: Main Platform Interface</strong> &mdash; Natural-language headline search bar, real-time
+            news feed (GDELT / Google News), and Cytoscape.js radial graph demonstrating multi-hop shock propagation
+            outward from TSMC (TSM).
+          </div>
+        </div>
+      </div>
+
+      <div class="page-footer">
+        <span>Contagion Graph &bull; Corporate Supply Chain Risk Analytics</span>
+        <span>Technical Specification &bull; Page 1 of 3</span>
+      </div>
+    </div>
+
+    <!-- ==================== PAGE 2 ==================== -->
+    <div class="page" id="page-2">
+      <div class="site-nav">
+        <div class="brand-wrap">
+          <div class="brand-logo">Contagion <em>Graph</em></div>
+          <span class="eyebrow">real-time shock propagation pipeline</span>
+        </div>
+      </div>
+
+      <div class="page-content">
+        <h1 class="display-title">6-Stage Pipeline & <em>Deterministic Scoring.</em></h1>
+        <p class="lead-text">
+          When an event headline is submitted, the online pipeline executes across six structured stages in under 900
+          milliseconds, ensuring completely reproducible mathematical scoring without generative hallucinations:
+        </p>
+
+        <div class="pipeline-strip">
+          <div class="pipeline-row">
+            <div class="pipeline-chip">
+              <div class="chip-name">1. Parse Event</div>
+              <div class="chip-detail">10 Archetypes (Haiku)</div>
+            </div>
+            <div class="chip-arrow">&rarr;</div>
+            <div class="pipeline-chip">
+              <div class="chip-name">2. Locate Origin</div>
+              <div class="chip-detail">Graph Root Map</div>
+            </div>
+            <div class="chip-arrow">&rarr;</div>
+            <div class="pipeline-chip">
+              <div class="chip-name">3. Trace Paths</div>
+              <div class="chip-detail">3 Hops (Top 40/hop)</div>
+            </div>
+            <div class="chip-arrow">&rarr;</div>
+            <div class="pipeline-chip">
+              <div class="chip-name">4. Score Impact</div>
+              <div class="chip-detail">Deterministic Math</div>
+            </div>
+            <div class="chip-arrow">&rarr;</div>
+            <div class="pipeline-chip">
+              <div class="chip-name">5. Explainer</div>
+              <div class="chip-detail">GraphRAG Citations</div>
+            </div>
+            <div class="chip-arrow">&rarr;</div>
+            <div class="pipeline-chip">
+              <div class="chip-name">6. Critic</div>
+              <div class="chip-detail">Verbatim Audit</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-title">Directed Traversal Templates</div>
+            <div class="card-body">
+              The Navigator follows strict event rules (10 archetypes: supply disruptions, regional disasters,
+              sanctions, commodity shocks). Supply halts walk downstream toward customers; demand cuts walk upstream;
+              competitor edges invert sign (-1).
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">Adversarial Critic Judge</div>
+            <div class="card-body">
+              An autonomous critic compares synthesized narrative claims against the cited statutory sentence.
+              Unsupported extrapolations or links &gt;18 months old are visibly flagged with amber warnings to eliminate
+              hallucinations.
+            </div>
+          </div>
+        </div>
+
+        <h2 class="section-header"><span class="mono-num">03</span> Mathematical Scoring Formulation</h2>
+        <div class="formula-box">
+          <div class="formula-math">Impact(c) = S_e &times; polarity &times; &sum; [ &prod; (w_uv &middot; s_uv) ]
+            &times; &lambda;^(hops - 1) &times; f_fresh(p)</div>
+          <div class="formula-desc">
+            <strong>S_e:</strong> Severity (0.2–1.0) &bull; <strong>polarity:</strong> &plusmn;1 &bull;
+            <strong>w_uv:</strong> 10-K dependency weight &bull; <strong>s_uv:</strong> +1 customer / -1 competitor
+            &bull; <strong>&lambda;:</strong> Hop decay factor (0.50) &bull; <strong>f_fresh:</strong> Evidence
+            freshness decay (&gt;12mo)
+          </div>
+        </div>
+
+        <h2 class="section-header"><span class="mono-num">04</span> Execution Trace: US Export Controls to China</h2>
+
+        <!-- FIGURE 2: Execution Trace Console (Full natural scale) -->
+        <div class="figure-box">
+          <img src="public/screenshots/trace_execution_console.png" alt="Contagion Graph Trace Execution Console" />
+          <div class="figure-caption">
+            <strong>Figure 2: Execution Trace View</strong> &mdash; Run <code>0mfEJRZl</code> on US chipmaking equipment
+            export controls ($0.0019 AI cost). Displays completed pipeline chips, event taxonomy card (Severity 4/5,
+            permanent sanctions), concentric radial network, and ranked exposure table with quoted evidence badges.
+          </div>
+        </div>
+      </div>
+
+      <div class="page-footer">
+        <span>Contagion Graph &bull; Corporate Supply Chain Risk Analytics</span>
+        <span>Technical Specification &bull; Page 2 of 3</span>
+      </div>
+    </div>
+
+    <!-- ==================== PAGE 3 ==================== -->
+    <div class="page" id="page-3">
+      <div class="site-nav">
+        <div class="brand-wrap">
+          <div class="brand-logo">Contagion <em>Graph</em></div>
+          <span class="eyebrow">infrastructure, evaluation & production</span>
+        </div>
+      </div>
+
+      <div class="page-content">
+        <h1 class="display-title">Technology Stack & <em>Empirical Validation.</em></h1>
+
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Layer</th>
+              <th>Primary Stack</th>
+              <th>Implementation Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="color:var(--text); font-weight:600;">Frontend</td>
+              <td>Next.js 15, React 19, Tailwind v4</td>
+              <td>App Router with Turbopack, Instrument Serif editorial display, Geist Mono metrics.</td>
+            </tr>
+            <tr>
+              <td style="color:var(--text); font-weight:600;">Graph Engine</td>
+              <td>Cytoscape.js 3.30</td>
+              <td>Concentric radial layout, hardware-accelerated canvas, interactive hop ring filtering.</td>
+            </tr>
+            <tr>
+              <td style="color:var(--text); font-weight:600;">API Backend</td>
+              <td>FastAPI, Uvicorn, Python 3.12</td>
+              <td>Asynchronous REST endpoints hosted as Vercel Python Functions (<code>/api/py/*</code>).</td>
+            </tr>
+            <tr>
+              <td style="color:var(--text); font-weight:600;">Database</td>
+              <td>Neon Postgres (Pooled) & SQLite</td>
+              <td>Cloud relational persistence with connection pooling (`-pooler`); local SQLite parity.</td>
+            </tr>
+            <tr>
+              <td style="color:var(--text); font-weight:600;">Inference</td>
+              <td>Claude Haiku 5.5 (Batch & Live)</td>
+              <td>Batch API for offline filing extraction ($0.15 total spend); sub-cent structured live calls.</td>
+            </tr>
+            <tr>
+              <td style="color:var(--text); font-weight:600;">News Feeds</td>
+              <td>SEC EDGAR, GDELT & Google News</td>
+              <td>Direct regulatory crawler; global news polling with 15-minute response caching.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 class="section-header"><span class="mono-num">05</span> Empirical Backtest: 5 Historical Shocks</h2>
+        <div class="grid-2">
+          <div>
+            <table class="data-table" style="margin: 0;">
+              <thead>
+                <tr>
+                  <th>Model Architecture</th>
+                  <th>5-Day Hit Rate vs SPY</th>
+                  <th>Verifiable Evidence</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="color:var(--text); font-weight:600;">Contagion Graph</td>
+                  <td class="text-ok">70.0%</td>
+                  <td class="text-ok">&check; 100% SEC Filings</td>
+                </tr>
+                <tr>
+                  <td>AI Memory Baseline</td>
+                  <td class="text-origin">75.0%*</td>
+                  <td class="text-hurt">&cross; None (Black Box)</td>
+                </tr>
+                <tr>
+                  <td>Same-Sector Peers</td>
+                  <td>66.0%</td>
+                  <td class="text-hurt">&cross; None</td>
+                </tr>
+                <tr>
+                  <td>Broad Market Universe</td>
+                  <td>60.0%</td>
+                  <td class="text-hurt">&cross; None</td>
+                </tr>
+              </tbody>
+            </table>
+            <div style="font-size: 8.5px; color: var(--faint); margin-top: 2px;">*AI Memory reflects historical training
+              data contamination.</div>
+          </div>
+
+          <div class="card" style="display: flex; flex-direction: column; justify-content: center;">
+            <div class="card-title text-origin">Production Economics</div>
+            <div class="card-body">
+              &bull; <strong>$0.0019 / Trace:</strong> 3 lightweight Haiku calls (Parse, Explain, Critic).<br />
+              &bull; <strong>$0.00 Replay Overhead:</strong> SHA-256 headline caching.<br />
+              &bull; <strong>Strict Safeguards:</strong> $0.20/day cap &amp; 8 runs/IP/hr rate limits.
+            </div>
+          </div>
+        </div>
+
+        <h2 class="section-header"><span class="mono-num">06</span> Catalog of Pre-Indexed Shocks</h2>
+
+        <!-- FIGURE 3: Worked Examples Catalog (Full natural scale) -->
+        <div class="figure-box">
+          <img src="public/screenshots/worked_examples_library.png" alt="Contagion Graph Worked Examples Library" />
+          <div class="figure-caption">
+            <strong>Figure 3: Catalog of Pre-Indexed Shocks</strong> &mdash; Stored worked examples (TSMC earthquake,
+            Renesas plant fire, lithium mining halts, Apple order cuts). Enables instant public demonstration with zero
+            incremental API spend.
+          </div>
+        </div>
+      </div>
+
+      <div class="page-footer">
+        <span>Contagion Graph &bull; Corporate Supply Chain Risk Analytics</span>
+        <span>Technical Specification &bull; Page 3 of 3</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function generateDirectPDF() {
+      const btn = document.getElementById('save-pdf-btn');
+      const btnText = document.getElementById('btn-text');
+      const originalText = btnText.innerText;
+
+      btnText.innerText = 'Generating PDF...';
+      btn.disabled = true;
+
+      // Check if html2pdf is available
+      if (typeof html2pdf !== 'undefined') {
+        const element = document.getElementById('pdf-container');
+        const opt = {
+          margin: 0,
+          filename: 'contagion_graph_executive_brief.pdf',
+          image: { type: 'jpeg', quality: 0.98 },
+          html2canvas: { scale: 2, useCORS: true, backgroundColor: '#0b0c0e', logging: false },
+          jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+          pagebreak: { mode: ['css', 'legacy'] }
+        };
+
+        try {
+          await html2pdf().set(opt).from(element).save();
+          btnText.innerText = 'Downloaded!';
+          setTimeout(() => {
+            btnText.innerText = originalText;
+            btn.disabled = false;
+          }, 2000);
+          return;
+        } catch (e) {
+          console.warn('html2pdf failed, falling back to print style with margin 0:', e);
+        }
+      }
+
+      // Fallback: window.print() with @page { margin: 0; } which strips title and timestamp automatically
+      window.print();
+      btnText.innerText = originalText;
+      btn.disabled = false;
+    }
+  </script>
+
+</body>
+
+</html>

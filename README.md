@@ -16,6 +16,20 @@ online:   headline ─► Event parser ─► origins ─► Navigator (template
           ─► Explainer (GraphRAG over edge quotes) ─► Critic ─► UI
 ```
 
+## Screenshots
+
+### 1. Radial Shock Diffusion & Landing Console
+![Contagion Graph Landing Hero](public/screenshots/landing_hero_blast_radius.png)
+*Concentric radial contagion network graph showing multi-hop shock diffusion outward from TSMC (TSM).*
+
+### 2. Multi-Hop Trace Execution Console
+![Contagion Graph Trace Execution](public/screenshots/trace_execution_console.png)
+*Live execution trace on US-China chipmaking tool export controls (`run 0mfEJRZl`): 6-stage pipeline chips, event taxonomy card, radial graph, and ranked exposure table with cited SEC 10-K quotes.*
+
+### 3. Pre-Indexed Worked Examples Library
+![Worked Examples Library](public/screenshots/worked_examples_library.png)
+*Catalog of pre-computed historical shocks (Taiwan earthquake, Renesas plant fire, lithium mining halts, Apple order cuts) for instant zero-cost review.*
+
 ## Stack
 
 | Layer | Choice |
