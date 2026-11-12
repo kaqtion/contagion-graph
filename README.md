@@ -117,4 +117,85 @@ cached per headline and per run, so opening an example or a shared link is free.
 - **Method** (`/method`): agents, formula, evidence policy and limits.
 - **Review** (`/review`, admin token): reject speculative links; decisions survive rebuilds.
 
+## MCP server
+
+`contagion/mcp_server.py` exposes the graph to any MCP client, such as Claude Desktop or the MCP Inspector, over
+stdio. It is built on the official MCP Python SDK (`mcp` 2.x) and calls the same pipeline code as the web app.
+
+| Kind | Name | What it returns |
+|---|---|---|
+| Tool | `trace_headline(headline, max_hops=3, limit=15, paths_per_company=2)` | Ranked companies with impact scores, their strongest paths, and the filing quotes behind every link |
+| Tool | `get_company_links(ticker, relation=None, limit=50)` | Suppliers, customers, competitors, regions and commodities, each with evidence. Database only, no AI call |
+| Tool | `explain_path(run_id, ticker, path_index=0, generate_if_missing=true)` | One path with its quotes, the written rationale and the critic's verdict on each claim |
+| Tool | `list_examples()` | The stored worked examples, with run ids |
+| Resource | `company://{ticker}` | A company profile as JSON: sector, coverage, link counts, strongest links and filings |
+| Prompt | `assess_headline_exposure(headline, holdings="")` | Steps for a cited exposure brief built from the tools above |
+
+Inputs are validated with Pydantic, and every tool publishes an output schema and returns JSON. Unknown tickers,
+unknown run ids and empty headlines come back as clear tool errors. An unknown ticker gets suggestions, for
+example "Did you mean: NVDA Nvidia?".
+
+**Cost and data access**
+
+- **Cached headlines are free.** A headline that was already traced is served from the cache at no cost.
+- **New headlines cost AI credit.** A new headline makes one small AI call, and `explain_path` makes two the first
+  time a run is explained.
+- **Budget limits still apply.** Both go through the same daily budget as the web app (`CG_DAILY_BUDGET_USD`). MCP
+  clients also share one hourly allowance (`CG_RUNS_PER_IP_PER_HOUR`).
+- **The demo passcode doesn't apply.** It only gates the public website.
+- **The graph is never changed.** The server's own queries use a read-only database connection. The only writes
+  are the ones the pipeline already makes: caching a new run and its explanation, and logging AI spend for the
+  budget.
+
+**Install and run**
+
+```bash
+uv pip install --python .venv/Scripts/python.exe -r requirements-dev.txt   # includes mcp[cli]
+.venv/Scripts/python.exe -m contagion.mcp_server                            # waits for a client on stdin
+```
+
+The server reads `ANTHROPIC_API_KEY` and the database settings from `.env.local`, as the web app does. That keeps
+secrets out of client configs. Without a key, `get_company_links`, `list_examples`, the resource and cached
+headlines still work.
+
+**Claude Desktop**
+
+Add the server to `claude_desktop_config.json`, then fully quit and reopen Claude Desktop.
+
+- Windows: `%APPDATA%\Claude\claude_desktop_config.json`
+- macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+
+Use absolute paths. `PYTHONPATH` lets `-m contagion.mcp_server` find the package, because Claude Desktop doesn't
+start the server in the repo folder.
+
+```json
+{
+  "mcpServers": {
+    "contagion-graph": {
+      "command": "C:\\path\\to\\contagion-graph\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "contagion.mcp_server"],
+      "env": { "PYTHONPATH": "C:\\path\\to\\contagion-graph" }
+    }
+  }
+}
+```
+
+On macOS or Linux, the command is `/path/to/contagion-graph/.venv/bin/python`.
+
+**Test with the MCP Inspector** (needs Node.js; run from the repo folder):
+
+```bash
+# interactive UI in the browser
+npx @modelcontextprotocol/inspector .venv/Scripts/python.exe -m contagion.mcp_server
+
+# or one call from the command line
+npx @modelcontextprotocol/inspector --cli .venv/Scripts/python.exe -m contagion.mcp_server --method tools/call --tool-name list_examples
+npx @modelcontextprotocol/inspector --cli .venv/Scripts/python.exe -m contagion.mcp_server --method resources/read --uri company://NVDA
+```
+
+Don't use `mcp dev contagion/mcp_server.py`. It loads the file by path, which breaks the package's relative imports.
+
+**Tests:** `tests/test_mcp.py` drives every tool, the resource and the prompt through an in-memory MCP client,
+with the AI calls replaced by a fake. Run it with the rest of the suite using `python -m pytest`.
+
 Not financial advice.
